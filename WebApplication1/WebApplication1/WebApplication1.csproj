@@ -58,28 +58,46 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\css\docs.css" />
+    <Content Include="assets\css\jquery.mobile.custom.structure.css" />
     <Content Include="assets\css\jquery.mobile.custom.structure.min.css" />
+    <Content Include="assets\css\navbar-fixed-top.css" />
     <Content Include="assets\css\pygments-manni.css" />
     <Content Include="assets\ico\apple-touch-icon-114-precomposed.png" />
     <Content Include="assets\ico\apple-touch-icon-144-precomposed.png" />
     <Content Include="assets\ico\apple-touch-icon-57-precomposed.png" />
     <Content Include="assets\ico\apple-touch-icon-72-precomposed.png" />
     <Content Include="assets\ico\favicon.png" />
+    <Content Include="assets\images\bentwood.jpg" />
+    <Content Include="assets\images\drawings.jpg" />
+    <Content Include="assets\images\IMG_0306.jpg" />
+    <Content Include="assets\images\IMG_0308.jpg" />
+    <Content Include="assets\images\IMG_0312.jpg" />
+    <Content Include="assets\images\IMG_0560.jpg" />
+    <Content Include="assets\images\IMG_0572.jpg" />
+    <Content Include="assets\images\IMG_0589.jpg" />
+    <Content Include="assets\images\professor.jpg" />
     <Content Include="assets\images\RMbanner.jpg" />
+    <Content Include="assets\images\RMbanner00.jpg" />
     <Content Include="assets\images\RMbanner01.jpg" />
     <Content Include="assets\images\RMbanner02.jpg" />
+    <Content Include="assets\images\sculpture.jpg" />
+    <Content Include="assets\images\_DSC2713.jpg" />
+    <Content Include="assets\images\_DSC2719hr.jpg" />
+    <Content Include="assets\images\_DSC2746hr.jpg" />
     <Content Include="assets\js\application.js" />
     <Content Include="assets\js\customizer.js" />
     <Content Include="assets\js\filesaver.js" />
     <Content Include="assets\js\holder.js" />
     <Content Include="assets\js\html5shiv.js" />
     <Content Include="assets\js\jquery.js" />
+    <Content Include="assets\js\jquery.mobile.custom.js" />
     <Content Include="assets\js\jquery.mobile.custom.min.js" />
     <Content Include="assets\js\jszip.js" />
     <Content Include="assets\js\less.js" />
     <Content Include="assets\js\raw-files.js" />
     <Content Include="assets\js\respond.min.js" />
     <Content Include="assets\js\uglify.js" />
+    <Content Include="bentwood.html" />
     <Content Include="dist\css\bootstrap-theme.css" />
     <Content Include="dist\css\bootstrap-theme.min.css" />
     <Content Include="dist\css\bootstrap.css" />
@@ -87,6 +105,7 @@
     <Content Include="dist\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="dist\js\bootstrap.js" />
     <Content Include="dist\js\bootstrap.min.js" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="index.html" />
     <Content Include="carousel.css" />
     <Content Include="Web.config" />
@@ -138,6 +157,9 @@
     <Content Include="less\utilities.less" />
     <Content Include="less\variables.less" />
     <Content Include="less\wells.less" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -16,18 +16,19 @@
       <script src="assets/js/html5shiv.js"></script>
       <script src="assets/js/respond.min.js"></script>
     <![endif]-->
-    <script src="assets/js/jquery.mobile.custom.min.js"></script>
+<script src="assets/js/jquery.mobile.custom.min.js"></script>
+      <link href="assets/css/navbar-fixed-top.css" rel="stylesheet">
     <link href="carousel.css" rel="stylesheet">
       <script>
           $(document).ready(function () {
               $("#myCarousel").swiperight(function () {
-                  $(this).carousel('prev');
+                  $("#myCarousel").carousel('prev');
               });
               $("#myCarousel").swipeleft(function () {
-                  $(this).carousel('next');
+                  $("#myCarousel").carousel('next');
               });
           });
-</script>
+      </script>  
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -35,7 +36,7 @@
     <div class="navbar-wrapper">
       <div class="container">
 
-        <div class="navbar navbar-inverse navbar-static-top">
+        <div class="navbar navbar-inverse navbar-fixed-top">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -48,6 +49,9 @@
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
+                  <li><a href="bentwood.html">Bent Wood</a></li>
+                  <li><a href="sculpture.html">Sculpture</a></li>
+                  <li><a href="drawings.html">Drawings</a></li>
                 <li><a href="#about">About</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact <b class="caret"></b></a>
@@ -67,19 +71,17 @@
       </div>
     </div>
 
-
     <!-- Carousel
     ================================================== -->
-    <div id="myCarousel" class="carousel slide">
+  <div id="myCarousel" class="carousel slide">
         <div class="container">
             <div class="carousel-caption">
               <h1>Rick Maxwell</h1>
               <h3>Bent Wood Sculptor</h3>
-                <p><iframe width="500" height="281" src="//player.vimeo.com/video/57910940"></iframe>
-                </p>
-            <!--  <p><a class="button green btn btn-large btn-primary" href="#">Watch my video</a>
-            </p> -->
-           </div>
+                <iframe src="//player.vimeo.com/video/57910940"></iframe> 
+          <p> <a class="button green btn btn-large btn-primary" href="bentwood.html">Browse gallery</a> 
+           </p> 
+            </div>
           </div>
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -89,26 +91,10 @@
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-         <img src="assets/images/RMbanner.jpg" alt="Bent Wood" />
-      <!--    <div class="container">
-            <div class="carousel-caption">
-              <h1>BENT WOOD: Omni Hotel</h1>
-              <p>The process of bending wood is ....</p>
-              <p><a class="button green btn btn-large btn-primary" href="#">Watch my video</a>
-         <a class="button green btn btn-large btn-primary" href="#">Browse gallery</a> 
-              </p>
-           </div>
-          </div> -->
+         <img src="assets/images/RMbanner00.jpg" alt="Bent Wood" />
         </div>
         <div class="item">
           <img src="assets/images/RMbanner01.jpg" alt="Second slide" />
-       <!--   <div class="container">
-            <div class="carousel-caption">
-              <h1>BENT WOOD: Privately Owned</h1>
-              <p>The suspended bent wood structure ...</p>
-              <p><a class="btn btn-large btn-primary" href="#">Wood </a></p>
-            </div>
-          </div>-->
         </div>
         <div class="item">
           <img src="assets/images/RMbanner02.jpg" alt="Third slide" />
@@ -116,7 +102,7 @@
       </div>
       <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-   </div><!-- /.carousel -->
+   </div><!-- /.carousel 
 
 
 
@@ -129,37 +115,40 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">
+          <img src="assets/images/bentwood.jpg" alt="Rick Maxwell Bent Wood">
           <h2>BENT WOOD</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+          <p>The Bent Wood process is...</p>
+          <p><a class="btn btn-default" href="#BentWoodCarousel">View Portfolio &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">
+          <img src="assets/images/sculpture.jpg" alt="Rick Maxwell Sculpture">
           <h2>SCULPTURE</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+          <p>My sculptures are amazing...</p>
+          <p><a class="btn btn-default" href="#">View Portfolio &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">
+          <img src="assets/images/drawings.jpg" alt="Rick Maxwell - Drawings">
           <h2>DRAWINGS</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+          <p>I like to draw!</p>
+          <p><a class="btn btn-default" href="#">View Portfolio &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
 
-      <!-- START THE FEATURETTES -->
+      <!-- ABOUT RICK MAXWELL 
+    ================================================== -->
 
+    <div class="about" id="about">
       <hr class="featurette-divider">
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">ARTIST STATEMENT <span class="text-muted"><br />I'm addicted to making art!</span></h2>
+          <p class="lead">In the past 40 years I've written many artist statements. Some were insightful, some were intellectual, some were humorous and a few were even embarrassing. Now, after all this time, what it's come down to is exactly where it started. I enjoy being an artist because I enjoy the simple task of making the art. For me the process has always had a stronger allure than standing in front of the finished piece. I love the tools I work with, the materials I work in, and the empathy I experience as I move through the process. Simply said, "I'm an artist because I'm addicted to making art."
+          </p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="data:image/png;base64," data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="assets/images/professor.jpg" alt="Dean of the School of Arts, Brookhaven College, Dallas, Tx: Graduation">
         </div>
       </div>
 
@@ -170,8 +159,53 @@
           <img class="featurette-image img-responsive" src="data:image/png;base64," data-src="holder.js/500x500/auto" alt="Generic placeholder image">
         </div>
         <div class="col-md-7">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">BIOGRAPHY <span class="text-muted">my accomplishments</span></h2>
+          <p class="lead">
+BORN
+Chicago, Illinois, 1947
+
+EDUCATION
+1971            B.A. The University of Dallas, Irving, Texas
+1975            M.F.A. Southern Methodist University, Dallas, Texas
+
+SOLO EXHIBITIONS
+2005            Faculty Projects 14, The Forum Gallery, Dallas, Texas
+2004            Rick Maxwell:  Recent Works, The Bridge Gallery, Mountainview College, Oak Cliff, Texas
+2001            50 Bad Dogs, The Studio Gallery, Brookhaven College School of the Arts, Farmers Branch, Texas
+1991            Rick Maxwell Ladders, Eastfield College, Mesquite, Texas
+1985            Rick Maxwell New Works, Rubin/Mardin Gallery, Seattle, Washington
+1982            Constructed Paintings, D.W. Gallery, Dallas, Texas
+1981            Rick Maxwell, Laguna Gloria Art Museum, Austin, Texas
+                     Rick Maxwell, The Trickster, Grahm Gallery, Houston, Texas
+1980            Rick Maxwell, The Waco Art Center, Waco, Texas
+                     Rick Maxwell Paintings and Drawings, D.W. Gallery, Dallas, Texas
+1978            Rick Maxwell Recent Work, Clifford Gallery, Dallas, Texas
+1976            Maxwell, Gallery 13, KERA-TV, Dallas, Texas
+
+              GROUP EXHIBITIONS
+2007            Lisa Ehrich, Rick Maxwell, Ceramics/Sculpture, Eastern Oklahoma University, Ada, Oklahoma
+2005            Form, Fire and Fiction, Plano Art Center, Plano, Texas
+2004            Drawn For, Barry Whistler Gallery, Dallas, Texas
+1998            Art in the Metroplex, Texas Christian University, Ft. Worth, Texas
+1987            Critic’s Choice, Dallas Visual Art Center, Dallas, Texas
+1989            AMST V, Art Museum of South Texas, Corpus Christi, Texas
+1987            Five State Art Exhibit, Gallery of Port Arthur, Port Arthur, Texas
+1982            Fire, Houston Museum of Contemporary Art, Houston, Texas
+1981            The House As Image, Lawndale Annex, Houston, Texas
+1980            Inside Texas Borders, South Texas Artmobile, Corpus Christi, Texas
+1979            12: An Invitational of Twelve Regional Artists, Dallas Museum of Art, Dallas, Texas
+1978            The Tree Show, D.W. Gallery, Dallas, Texas
+1977            The Southwest Tarrant County Annual, Ft. Worth, Modern Museum, Ft. Worth, Texas
+
+COLLECTIONS
+Atlantic Richfield Company, Los Angeles, California
+Los Angeles County Museum, Los Angeles, California
+Dallas Museum of Art, Dallas, Texas
+Museum of Fine Art, Houston, Texas
+Southwestern Bell, Dallas, Texas
+El Centro College, Dallas, Texas
+
+          </p>
         </div>
       </div>
 
@@ -179,8 +213,30 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">ESSAY <span class="text-muted">David Newman
+Gallery Director
+Forum Gallery
+Brookhaven College School of the Arts</span></h2>
+          <p class="lead"> 
+The problem of tectonic and a-tectonic has first a special application to sculpture as a problem of placing or, to put it otherwise, as a problem of the relation to architecture.
+
+Heinrich Wolffin1
+
+Rick Maxwell’s new sculpture and drawings combine an engagement with density and mass with ethereal, almost ephemeral, line.  Referencing organic, natural entities without specifically representing their referents, the words are abstract, expressively gestural deployments of shape, volume, and line in space.  As such, both the sculpture and the drawings are in the end reflexive and ultimately engage the means of their making, both with respects to their material cause and the processes of their facture.
+
+Maxwell’s sculpture is structured around a central, vertical axis, most often inflected from plumb verticality.  Still, verticality qua an implied plumb line is sensed in response to the works; one regards the deviation from the plumbness as a gestural inflection, and responds  to its expressivity.  The response is conditioned and informed by one’s lived experience of the embodiedness of one’s self, and of other selves.  To so respond to the work is to suppose that a vestigial figurative aspect obtains for closed three-dimensional form as such, even with the work has no reference to the figure and in no ostensible respect is a representation of the figure.
+
+Some sense of the role of gestural variation in similar forms in found in Three Really Excited Ladies.  The three components share a similar structure of dense block elevated from the floor on turned wooden finials (which read immediately and inevitably as shoes with high heels), with elongated necks arching upward and off-plumb, swelling at the terminal end to suggest a head.  Beyond the obvious variation of finish of the parts of each component of the work, and variation in scale, there is subtle variation in the gesture of each of the component pieces.<br />
+          </p>
+            <p>Both Carpel Tunnel and Bad Brush consist is a dense roughly sawn wooden lower section surmounted with thin myrtle stems with intact bark, closely set together and bundled by large wooden screws joining tapped sections of wood.  In Carpel Tunnel the crepe myrtle stems continue the plumb verticality of the lower wooden element; in Bad Brush the crepe myrtle stems are similarly constrained, but nevertheless are splayed like the bristles of a brush gone bad.  The difference of sustained, compacted verticality and of a verticality splaying beyond the constraint is subtle, but substantial, for the felt constraint is not merely that of the constraining elements within the works, but ultimately of gravity as a natural force.
+
+The suspended work White Spine/Black Spine depends on gravity for the insistent verticality of the orientation of the axis of the two components.  Around and extending from these axis, horizontal elements extend, less at the top, more at the bottom, blades of ceiling fans multiplying and bending.  Between the two components the negative volume of each component is implied as an inverted volume.
+
+In contrast to White Spine/Black Spine, Black Bone, Above the Thunder, and Jesse’s Steps are gestural lines bending as a sprout bends under the effect of phototropism.  Black Bone, Above the Thunder, and in somewhat more limited and vestigial manner Jessie’s Steps, consolidate the segmentation of White Spine/Black Spine to the central axis itself.
+
+In marking a position in space, Maxwell’s sculpture inevitably responds to and references the architectural space of the gallery, as framed by the white walls demarking the limits of a void against which the gesture of the work can be gauged, and as a plane on which the trace of the sculpture qua shadow is projected.2
+
+Maxwell’s drawings are materially traces of the sculpture, being drawn with charcoal made from the wood scraps produced in carving.  More saliently, the drawings continue the gestural abstraction of the sculpture in another area of practice, responding to the field of the sheet as the sculpture references the architectural space in its installation.  The marks are mainly oriented parallel to the plan of the paper, with a limited suggestion of depth developed primarily through massing of value and variation in line weight and speed of the mark.  The delicacy of mark, and confidence of touch and ecriture parallel the strength of facture of the sculpture, each the alterity of the other medium.</p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" src="data:image/png;base64," data-src="holder.js/500x500/auto" alt="Generic placeholder image">
@@ -188,24 +244,26 @@
       </div>
 
       <hr class="featurette-divider">
-
+</div>
       <!-- /END THE FEATURETTES -->
-
 
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; 2013 Rick Maxwell &middot;</p>
       </footer>
 
     </div><!-- /.container -->
 
-
-    <!-- Bootstrap core JavaScript
+    
+      <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/js/jquery.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
     <script src="assets/js/holder.js"></script>
+
+   
+
   </body>
 </html>
