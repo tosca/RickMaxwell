@@ -79,12 +79,23 @@
               <iframe id="video01" src="//player.vimeo.com/video/57910940"></iframe>
       </div>
    
-      <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+     <!-- Bootstrap core JavaScript
+    ================================================== -->  
     <script src="assets/js/jquery.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
     <script src="assets/js/holder.js"></script>
+    <script src="assets/js/jquery.mobile.custom.min.js"></script>
+      <script>
+          $(document).ready(function () {
+              $("#myCarousel02").swiperight(function () {
+                  $("#myCarousel02").carousel('prev');
+              });
+              $("#myCarousel02").swipeleft(function () {
+                  $("#myCarousel02").carousel('next');
+              });
+          });
+      </script>
 
   </body>
 </html>
