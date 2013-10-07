@@ -133,6 +133,7 @@
     <Content Include="assets\js\respond.min.js" />
     <Content Include="assets\js\uglify.js" />
     <Content Include="bentwood.html" />
+    <Content Include="videos.html" />
     <Content Include="drawings.html" />
     <Content Include="sculpture.html" />
     <Content Include="dist\css\bootstrap-theme.css" />
