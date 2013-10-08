@@ -174,8 +174,7 @@ a.button {
     .marketing {
         padding-left: 0;
         padding-right: 0;
-        margin-left:0;
-        margin-right: 0;
+       
     }
 
     /* Navbar positioning foo 
@@ -191,6 +190,7 @@ a.button {
     }
     #myCarousel .carousel-inner > .item > img {
         height: 600px;
+        width: 100%;
     }
     #myCarousel02 .carousel .item {
         height: 768px;
