@@ -3,13 +3,12 @@
 /* Padding below the footer and lighter body text */
 
 body {
-    padding-top: 0px;
-  padding-bottom: 40px;
+  padding-top: 0;
   color: #fff;
-  background: #000;
+  background-color: #000;
 }
 h1 {
-    font-size: 30px;
+  /* font-size: 30px;*/ 
 }
 
 
@@ -18,28 +17,40 @@ h1 {
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
- /* position: relative;*/
-  z-index: 15;
-}
-.navbar {
-    background: rgba(128, 128, 128, 0.70);
-    color: #fff;
+ margin-top: 0;
 }
 .navbar-inverse .navbar-brand {
-color: #fff;
+color: #c2c2c2;
 }
-.navbar-inverse .navbar-nav {
-margin: 7.5px -15px;
-margin: 0;
-color: rgba(253, 252, 252, 0.80);
+.navbar {
+    margin-bottom: 0;
 }
 .navbar-inverse .navbar-nav > li > a {
-    color: #fff;
-    font-size: 1.2em;
+color: #fff;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+color: #c2c2c2;
+background-color: #080808;
 }
 .dropdown-menu {
-background-color:rgba(128, 128, 128, 0.70);
+background-color:rgba(128, 128, 128, 0.60);
 padding: 5px 7px;
+}
+.dropdown-menu > li > a {
+    color: #fff;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+color: #ffffff;
+text-decoration: none;
+background-color: #080808;
+}
+.dropdown-header {
+    color: #c2c2c2;
+}
+
+.navbar-collapse.in {
+overflow-y: hidden;
+overflow-x: hidden;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -135,7 +146,7 @@ border-color: rgba(207, 89, 5, 0.99);
 /* myCAROUSEL02 -------------------------------- */
 #myCarousel02 .carousel {
   margin-bottom: 60px; 
-  margin-top: -40px;
+  margin-top: -90px;
 }
 
 #myCarousel02 .carousel .item {
@@ -198,12 +209,20 @@ border-color: rgba(207, 89, 5, 0.99);
 .lead {
     font-size: 17px;
 }
-
+a {
+    color: #fff;
+}
+    a:focus, a:hover {
+        color: #c2c2c2;
+    }
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 768px) {
-
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+}
+@media (min-width: 992px) {
+  /*  @grid-float-breakpoint**********************/
     /* Remove the edge padding needed for mobile */
     .marketing {
         padding-left: 0;
@@ -239,7 +258,9 @@ border-color: rgba(207, 89, 5, 0.99);
         height: 354px;    
    }
 }
-
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+}
 @media (min-width: 992px) {
   .featurette-heading {
     margin-top: 90px;
