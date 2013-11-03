@@ -52,6 +52,9 @@ background-color: #080808;
 overflow-y: hidden;
 overflow-x: hidden;
 }
+.container .works {
+    min-width: 400px;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
