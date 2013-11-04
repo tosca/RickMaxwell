@@ -3,25 +3,28 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Rick Maxwell, fine art sculptor, fine art sculpture, wood sculptor artist, sculptor, wood sculptor, bent wood, bent wood sculptor, Maxwell studios, Dallas art, Dallas sculptor, Rick Maxwell Brookhaven">
-    <meta name="description" content="Rick Maxwell is a Dallas wood sculptor and professor of art.">
-      <meta name="author" content="toscatech.net">
+    <meta name="description" content="">
+    <meta name="author" content="">
  <!--   <link rel="shortcut icon" href="assets/ico/favicon.png">-->
+
     <title>Rick Maxwell _ Fine Art Sculpture</title>
     <link href="assets/css/jquery.mobile.custom.structure.min.css" rel="stylesheet" />
-    <link href="dist/css/bootstrap.css" rel="stylesheet" />     
-    <link href="assets/css/navbar-fixed-top.css" rel="stylesheet">
+    <link href="dist/css/bootstrap.css" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+<script src="assets/js/jquery.mobile.custom.min.js"></script>
+      <link href="assets/css/navbar-fixed-top.css" rel="stylesheet">
     <link href="carousel.css" rel="stylesheet">
-     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-            <!--[if lt IE 9]>
-             <script src="assets/js/html5shiv.js"></script>
-            <script src="assets/js/respond.min.js"></script>
-        <![endif]-->
+     
   </head>
-<!-- NAVBAR
+<body>
+    <!-- NAVBAR
 ================================================== -->
-  <body id="home">
-      <div class="navbar-wrapper">
+    <div class="navbar-wrapper">
           <div class="container">
               <div class="navbar navbar-inverse" role="navigation">
                  <div class="container">
@@ -101,43 +104,23 @@
               </div>
           </div> 
           </div>
-    <!-- Carousel
+
+    <!-- Video
     ================================================== -->
-  <div id="myCarousel" class="carousel slide">
-        <div class="container">
-          </div>
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="item active">
-         <img src="assets/images/RMbanner.jpg" alt="Bent Wood Ceiling Ribbons by Rick Maxwell - 1" />
+    <div class="container">  
+    <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">ARTIST STATEMENT <span class="text-muted"><br />I'm addicted to making art!</span></h2>
+          <p class="lead">In the past 40 years I've written many artist statements. Some were insightful, some were intellectual, some were humorous and a few were even embarrassing. Now, after all this time, what it's come down to is exactly where it started. I enjoy being an artist because I enjoy the simple task of making the art. For me the process has always had a stronger allure than standing in front of the finished piece. I love the tools I work with, the materials I work in, and the empathy I experience as I move through the process. Simply said, "I'm an artist because I'm addicted to making art."
+          </p>
         </div>
-        <div class="item">
-          <img src="assets/images/RMbanner00.jpg" alt="Bent Wood Ceiling Ribbons by Rick Maxwell - 1" />
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="assets/images/IMG_0306.jpg" alt="Red Bent Wood Sculpture_2013" />
         </div>
-        <div class="item">
-          <img src="assets/images/RMbanner01.jpg" alt="Bent Wood Ceiling Ribbons by Rick Maxwell - 2" />
-        </div> 
-          <div class="item">
-          <img src="assets/images/RMbanner02.jpg" alt="Bent Wood Ceiling Ribbons by Rick Maxwell - 3" />
-        </div> 
       </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span><</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span>></span> 
-      </a>   
-  </div><!-- /.carousel 
-
-
-    
-      <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+   </div> 
+     <!-- Bootstrap core JavaScript
+    ================================================== -->  
     <script src="assets/js/jquery.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
@@ -145,11 +128,11 @@
     <script src="assets/js/jquery.mobile.custom.min.js"></script>
       <script>
           $(document).ready(function () {
-              $("#myCarousel").swiperight(function () {
-                  $("#myCarousel").carousel('prev');
+              $("#myCarousel02").swiperight(function () {
+                  $("#myCarousel02").carousel('prev');
               });
-              $("#myCarousel").swipeleft(function () {
-                  $("#myCarousel").carousel('next');
+              $("#myCarousel02").swipeleft(function () {
+                  $("#myCarousel02").carousel('next');
               });
           });
       </script>
