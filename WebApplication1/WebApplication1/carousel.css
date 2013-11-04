@@ -18,10 +18,11 @@ h1 {
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
- margin-top: 0;
- background-image:url(../images/rick-maxwell-signature-01.png);
-  background-position-x:30px;
-  background-position-y: 0;
+ margin-top: 0; 
+}
+.navbar-brand {
+background-image:url('../assets/images/rick-maxwell-signature-01.png');
+  background-position:top 3em;
   background-repeat: no-repeat;
 }
 .navbar-inverse .navbar-brand {
