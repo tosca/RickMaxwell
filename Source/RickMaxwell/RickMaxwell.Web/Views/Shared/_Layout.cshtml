@@ -1,10 +1,186 @@
 ﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
-    @Styles.Render("~/Content/css")
+<html lang="en"> 
+    
+    <head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	 <title>@ViewBag.Title</title>
+    
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- CSS
+  ================================================== --> 
+  
+  <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="~/Content/images/favicon.ico">
+	<link rel="apple-touch-icon" href="~/Content/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="~/Content/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="~/Content/images/apple-touch-icon-114x114.png">
+  	
+    <!-- Included CSS files 
+	================================================== -->
+    
+    <link rel="stylesheet" type="text/css"  href="~/Content/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"  href="~/Content/css/bootstrap-responsive.min.css">    
+	<link rel="stylesheet" type="text/css"  href="~/Content/font-awesome/css/font-awesome.min.css">    
+  	<link rel="stylesheet" type="text/css"  href="~/Content/css/main.min.css">
+	<link rel="stylesheet" type="text/css"  href="~/Content/css/base.min.css">
+    <link rel="stylesheet" type="text/css"  href="~/Content/css/color-dark.css"> 
+    <link rel="stylesheet" type="text/css"  href="~/Content/css/color-light.css">
+    <link rel="stylesheet" type="text/css"  href="~/Content/css/elastislide.css"> 
+    <link rel="stylesheet" type="text/css"  href="~/Content/css/jquery.mCustomScrollbar.css" />
+    <link rel="stylesheet" type="text/css"  href="~/Content/css/magnific-popup.css" media="screen" />
+    <link rel="stylesheet" type="text/css"  href="~/Content/css/flexslider.min.css" media="screen" />
+    <link rel="stylesheet" type="text/css"  href="~/Content/css/supersized.min.css" media="screen" />
+    <link rel="stylesheet" type="text/css"  href="~/Content/css/supersized.shutter.min.css" media="screen" />
+    <link rel="stylesheet" type="text/css"  href="~/Content/css/site.css" media="screen" />
+    <!--[if gte IE 9]>
+      <style type="text/css">
+        .gradient {
+           filter: none;
+        }
+      </style>
+    <![endif]-->
+
+    <!-- Included javascript files 
+	================================================== -->
+    
+    <script type="text/javascript" src="~/Content/js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="~/Content/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="~/Content/js/jflickrfeed.min.js"></script>	  
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script> 
+    <script type="text/javascript" src="~/Content/js/supersized.3.2.7.min.js"></script>
+    <script type="text/javascript" src="~/Content/js/supersized.shutter.min.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery.magnific-popup.min.js"></script>   
+    <script type="text/javascript" src="~/Content/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquerypp.elastislide.custom.js" ></script>     
+    <script type="text/javascript" src="~/Content/js/jquery.elastislide.js" ></script>       
+    <script type="text/javascript" src="~/Content/js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery.mixitup.min.js"></script>    
+    <script type="text/javascript" src="~/Content/js/portfolio.detail.min.js"></script>  
+    <script type="text/javascript" src="~/Content/js/jquery.flexslider.min.js"></script>     
+    <script type="text/javascript" src="~/Content/js/custom.min.js"></script>  
+    <script type="text/javascript" src="~/Content/js/main-fm.min.js"></script>
+	<script type="text/javascript" src="~/Content/js/jquery.jstwitter.js"></script> 
+    
+<!-- IMPORTANT NOTES :
+
+    Top Menu
+        - Find the below line, it goes to the comment line, just do what the comment line mention
+          Set Top Menu
+          
+    Menu Color:
+        - Dark Menu - just add the class name darkMenu to the header class div and add the class darkStyle to the menu_footer div
+        - Light Menu - just remove the class name darkMenu to the header class div and add the class lightStyle to the menu_footer div
+        
+    Page Align Center  
+        - Find and remove the class name desktop_alignLeft
+        - Find the below line, it goes to the comment line, just do what that comment line mention
+          Center Align Page
+		- If you need to use 12 grid fixed width columns, just find and replace container-fluid to container
+        
+    Style(Color):
+        lightStyle class is used to apply the light style to the div
+        darkStyle class is used to apply the dark style to the div
+     
+     Page Style:          
+        To applied light style to the Page, just add the class name white_version to the body tag 
+        
+     One page version / Separate pages version:
+        To applied one page version, set onePage : true, for separate page version set onePage : false, on mainFm plugin code. 
+        see the code near the comment line /* Site Main plug-in initilize */
+
+-->
+
+<script type="text/javascript">
+			
+		/* Twitter initilize */
+		$(function () {
+            // start jqtweet!
+            JQTWEET.loadTweets();
+        });	
+		
+		
+		/* Initialize supersized fullscreen image gallery */
+		function superGalleryInit (){			
+			
+			jQuery(function($){
+				$.supersized({
+					slideshow               :   1,			// Slideshow on/off
+					autoplay				:	1,			// Slideshow starts playing automatically
+					slide_interval          :   4000,		// Length between transitions				
+			
+					slides 	:  	[	// Slideshow Images, image_small attribute is used to load the mobile version image, main_title attribute is used to add the image tile div
+									{ image: '../Content/images/home_slider/image1.jpg', image_small: '../Content/images/home_slider/image1_s.jpg', main_title: ".home_slider_title1", slide_interval: 3200 },
+									{ image: '../Content/images/home_slider/image2.jpg', image_small: '../Content/images/home_slider/image2_s.jpg', main_title: ".home_slider_title2", slide_interval: 2400 },
+									{ image: '../Content/images/home_slider/image3.jpg', image_small: '../Content/images/home_slider/image3_s.jpg', main_title: ".home_slider_title3", slide_interval: 3000 },
+									{ image: '../Content/images/home_slider/image4.jpg', image_small: '../Content/images/home_slider/image4_s.jpg', main_title: ".home_slider_title4", slide_interval: 6500 },
+									{ image: '../Content/images/home_slider/image5.jpg', image_small: '../Content/images/home_slider/image5_s.jpg', main_title: ".home_slider_title5", slide_interval: 5800 }
+								]
+				});
+			});	
+			
+		}
+			
+		
+		
+		$(document).ready(function(){	
+					
+			
+			// Portfolio Filterable gallery project detail plug-in initialize
+			$("body").find(".portfolioPage").each(function(){
+				var mc = $(this);
+				jQuery(function($){
+					mc.detailPage({
+						filter : ".controls"
+					})
+				});	
+			});
+			
+			
+			$(function(){
+				$('.portfolio_items').mixitup();
+			});	
+					
+			
+			/* Site Main plug-in initilize */
+			jQuery(function($){
+				$("body").mainFm({
+					
+					/* Set the opening page. 
+					leave it blank value if you need to show the home page as a opening page*/
+					currentPage : "!home",
+					
+					/* set whether it's an one page or separate page file, if it's set false, the template works like a separate page version*/
+					onePage : true,
+					
+					/* FlexSlider slideshow speed */
+					slideshowSpeed : 5000,
+					
+					homeSliderThumbnail : true
+					
+				});
+			});	
+			
+
+		  				
+		});	
+
+	</script>
+   
 </head>
 <body>
 
