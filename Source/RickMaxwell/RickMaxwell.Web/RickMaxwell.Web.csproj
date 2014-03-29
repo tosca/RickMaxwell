@@ -155,6 +155,7 @@
     <Content Include="Content\css\supersized.min.css" />
     <Content Include="Content\css\supersized.shutter.css" />
     <Content Include="Content\css\supersized.shutter.min.css" />
+    <Content Include="Content\images\ePub\image1.jpg" />
     <Content Include="Content\font-awesome\css\font-awesome.css" />
     <Content Include="Content\font-awesome\css\font-awesome.min.css" />
     <Content Include="Content\font-awesome\fonts\fontawesome-webfont.svg" />
@@ -230,6 +231,8 @@
     <Content Include="Content\images\home_slider\image5_s.jpg" />
     <Content Include="Content\images\home_slider\image6.jpg" />
     <Content Include="Content\images\home_slider\image6_s.jpg" />
+    <Content Include="Content\images\info\image1.jpg" />
+    <Content Include="Content\images\info\image2.jpg" />
     <Content Include="Content\images\ipad_frame.png" />
     <Content Include="Content\images\list\icon1%402x.png" />
     <Content Include="Content\images\list\icon1.png" />
