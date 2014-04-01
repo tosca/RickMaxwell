@@ -177,6 +177,8 @@
     <Content Include="Content\images\artist\image1.jpg" />
     <Content Include="Content\images\artist\image2.jpg" />
     <Content Include="Content\images\artist\image3.jpg" />
+    <Content Include="Content\images\artist\image31.jpg" />
+    <Content Include="Content\images\artist\image32.jpg" />
     <Content Include="Content\images\artist\image4.jpg" />
     <Content Include="Content\images\artist\image5.jpg" />
     <Content Include="Content\images\background\image1.jpg" />
@@ -437,6 +439,10 @@
     <Content Include="Content\php\grabtweets.php" />
     <Content Include="Content\php\mailer.php" />
     <Content Include="Global.asax" />
+    <Content Include="images\supersized\pause%402x.png" />
+    <Content Include="images\supersized\pause.png" />
+    <Content Include="images\supersized\play%402x.png" />
+    <Content Include="images\supersized\play.png" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -500,6 +506,7 @@
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
