@@ -24,7 +24,7 @@
 	#222222 	|	background-color:#000000; 
 	#777777		|	background-color:rgba(0,0,0, .75); 
 	#d0d0d0		|	
-	#333333 	|	background-color: #ff9600;
+	#333333 	|	background-color: #bf4015;
 	#e5e5e5		|
 	#cccccc		|	background-color: rgba(255,150,0, .50);
 	#aaaaaa		|	background-color:#1a1a1a
@@ -69,10 +69,10 @@
 	.darkMenu .topNav ul li a:hover { color: #777777 !important;  background:none !important;}
 	
 	.darkMenu .leftNav ul li a.active,  .darkMenu .leftNav ul li ul li a.active_sub,
-	.darkMenu .topNav ul li a.active,  .darkMenu .topNav ul li ul li a.active_sub{ color: #ff9600 !important; background:none !important; }
+	.darkMenu .topNav ul li a.active,  .darkMenu .topNav ul li ul li a.active_sub{ color: #bf4015 !important; background:none !important; }
 	
 	.darkMenu .leftNav ul li a.active:hover, .darkMenu .leftNav ul li ul li a.active_sub:hover, 
-	.darkMenu .topNav ul li a.active:hover, .darkMenu .topNav ul li ul li a.active_sub:hover { color: #ff9600 !important;  background:none !important;}
+	.darkMenu .topNav ul li a.active:hover, .darkMenu .topNav ul li ul li a.active_sub:hover { color: #bf4015 !important;  background:none !important;}
 		
 	.darkMenu .topNav ul li ul li,
 	.darkMenu .topNav ul li ul li{ background-color:#1a1a1a; text-shadow: none !important; }
@@ -99,7 +99,7 @@
 		text-shadow: none !important;
 		}	
 	.darkMenu .closeMenu:hover{
-		color:#ff9600;
+		color:#bf4015;
 		}
 
 		
@@ -125,8 +125,8 @@
 		}
 	
 	.white_version .pgScrollUp:hover{
-		background-color : #ff9600;
-		border: #ff9600 2px solid
+		background-color : #bf4015;
+		border: #bf4015 2px solid
 		}
 	
 	.white_version .pageNavigation{
@@ -140,8 +140,8 @@
 		}
 	.white_version .previousPage.autoPosition span:hover, .white_version .nextPage.autoPosition span:hover{
 		color: #333333;
-		background-color: #ff9600;
-		border: #ff9600 2px solid;		
+		background-color: #bf4015;
+		border: #bf4015 2px solid;		
 		}
 	
 	
@@ -216,13 +216,13 @@
 	
 /* a tag Link */
 	
-	.lightStyle a, .lightStyle a:visited { color: #ff9600; }
+	.lightStyle a, .lightStyle a:visited { color: #bf4015; }
 	.lightStyle a:hover{ color: #000000; }	
 	
-	.lightStyle a:focus { color: #ff9600; }
+	.lightStyle a:focus { color: #bf4015; }
 	
 	.lightStyle a.normal { color: #000000; }
-	.lightStyle a.normal:hover { color: #ff9600; }
+	.lightStyle a.normal:hover { color: #bf4015; }
 	
 	.lightStyle a .box_hover:hover, .lightStyle a .box_hover_min:hover {
 		border-color: #000000 !important;
@@ -239,7 +239,7 @@
 /* Project  Next button, previous button and item Number  */
 	
 	.lightStyle a:hover.next_button, .lightStyle a:hover.previous_button, .lightStyle a:hover.close_button{ 
-		background-color: #ff9600;  
+		background-color: #bf4015;  
 		color: #ffffff;
 		text-shadow: none !important;
 		}
@@ -254,7 +254,7 @@
 		}
 		
 	.lightStyle a:hover.pageClose_btn{ 
-		background-color: #ff9600; 
+		background-color: #bf4015; 
 		color: #ffffff; 
 		text-shadow: none !important;
 		}
@@ -263,7 +263,7 @@
 	
 	
 	.lightStyle .process{ color:#aaaaaa; background-color:#cccccc; }
-	.lightStyle .process i{ color: #ff9600;  }
+	.lightStyle .process i{ color: #bf4015;  }
 	.lightStyle .process i.process_link { color: #aaaaaa;  }
 	
 	.lightStyle .services .description{ 
@@ -305,14 +305,14 @@
 	.lightStyle .dark_color { color: #000000 !important; text-shadow: #ffffff 0 1px 0 !important; }
 
 	.lightStyle .highlight_color,
-	.lightStyle a.highlight_color { color: #ff9600 !important; }	
+	.lightStyle a.highlight_color { color: #bf4015 !important; }	
 	.lightStyle a.highlight_color:hover { color: #000000 !important; text-shadow: #ffffff 0 1px 0 !important;}
 
 
 	
 /* Text highlight color */ 
 	.lightStyle .text_highlight{
-		background-color: #ff9600;
+		background-color: #bf4015;
 		background-color: rgba(255,150,0, .50);
 		text-shadow: none !important;
 		}
@@ -324,7 +324,7 @@
 	
 /*	.lightStyle .supersized-nav li a { color:#000000;  background-color:#ffffff; }
 	.lightStyle .supersized-nav li a:hover { background-color:#000000; color:#ffffff; }
-	.lightStyle .supersized-nav li a.active { background-color:#ff9600; color:#000000; }
+	.lightStyle .supersized-nav li a.active { background-color:#bf4015; color:#000000; }
 */
 
 
@@ -351,7 +351,7 @@
 /* Blog comment color */ 
 	
 	.lightStyle .blog_date .b_date{
-		background-color:#ff9600;
+		background-color:#bf4015;
 		background-color: rgba(255,150,0, .90);
 		color:#222222;
 		}
@@ -371,14 +371,14 @@
 		border-color:#d0d0d0;
 		}
 		
-	.lightStyle .b_heading a { color:#ff9600; }	
+	.lightStyle .b_heading a { color:#bf4015; }	
 	.lightStyle .b_heading a:hover { color:#111111; }
 	
 	.lightStyle .blog_box .button { background-color:#cccccc; }
 		
 	.lightStyle .blog_box:hover { border-color:#aaaaaa; }
 	.lightStyle .blog_element a{ color:#000000; }
-	.lightStyle .blog_element a:hover { color:#ff9600; }
+	.lightStyle .blog_element a:hover { color:#bf4015; }
 		
 	.lightStyle .blog_item.post_sidebar{ border-bottom:#d0d0d0 solid 1px; }
 	
@@ -405,7 +405,7 @@
 		
 	/* category */ 	
 	.lightStyle .controls li:hover{ color:#777777; }
-	.lightStyle .controls li.active:hover, .lightStyle .controls li.active{ color:#ff9600; }
+	.lightStyle .controls li.active:hover, .lightStyle .controls li.active{ color:#bf4015; }
 	
 
 	/*  Next button, previous button and item Number  */
@@ -414,8 +414,8 @@
 	.lightStyle a:hover.close_button, .lightStyle a:hover.pageClose_btn,
 	.lightStyle a:hover.next_button_pro, .lightStyle a:hover.previous_button_pro, 
 	.lightStyle a:hover.close_button_pro{ 
-		background-color: #ff9600; 
-		border: #ff9600 2px solid; 
+		background-color: #bf4015; 
+		border: #bf4015 2px solid; 
 		}
 			
 	.lightStyle a.next_button, .lightStyle a.previous_button, .lightStyle a.close_button, 
@@ -445,7 +445,7 @@
 /* Flex slider style */
 
 	.lightStyle .flex-direction-nav li .next:hover, .lightStyle .flex-direction-nav li .prev:hover { 
-		border:#ff9600 2px solid;
+		border:#bf4015 2px solid;
 		}
 	
 	.lightStyle .flex-direction-nav li .next, .lightStyle .flex-direction-nav li .prev { 
@@ -459,7 +459,7 @@
 
 	.lightStyle .carousel_container ul li.current-img a img,
 	.lightStyle .carousel_container ul li.current-img a img:hover {
-		border:#ff9600 2px solid !important;
+		border:#bf4015 2px solid !important;
 		}
 				
 	.lightStyle .carousel_container ul li a img:hover {
@@ -467,7 +467,7 @@
 		}
 		
 	.lightStyle .elastislide-wrapper nav span:hover {
-		background-color:#ff9600;
+		background-color:#bf4015;
 		}
 		
 	.lightStyle .elastislide-carousel ul li a img {
@@ -497,7 +497,7 @@
 
 /* Graph bar color */
 	.lightStyle .graph_container li a { 
-		background-color: #ff9600;
+		background-color: #bf4015;
 		}
 		
 /* Graph bar color */
@@ -534,7 +534,7 @@
 	.lightStyle ul.nav-tabs.plainTab > .active > a,
 	.lightStyle ul.nav-tabs.plainTab > .active > a:hover,
 	.lightStyle ul.nav-tabs.plainTab > .active > a:focus {
-		color: #ff9600 !important;
+		color: #bf4015 !important;
 		background: none !important;
 		}	
 	
