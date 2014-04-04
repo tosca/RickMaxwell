@@ -199,6 +199,7 @@
     <Content Include="Content\images\email_loading.gif" />
     <Content Include="Content\images\favicon.ico" />
     <Content Include="Content\images\gallery_type.png" />
+    <Content Include="Content\images\home_slider\Rick-signature-bg.png" />
     <Content Include="Content\images\home_slider\image1.jpg" />
     <Content Include="Content\images\home_slider\image1_s.jpg" />
     <Content Include="Content\images\home_slider\image2.jpg" />
@@ -211,6 +212,7 @@
     <Content Include="Content\images\home_slider\image5_s.jpg" />
     <Content Include="Content\images\home_slider\image6.jpg" />
     <Content Include="Content\images\home_slider\image6_s.jpg" />
+    <Content Include="Content\images\home_slider\Rick-signature-sm.png" />
     <Content Include="Content\images\home_slider\Rick-signature.png" />
     <Content Include="Content\images\info\image1.jpg" />
     <Content Include="Content\images\info\image2.jpg" />
