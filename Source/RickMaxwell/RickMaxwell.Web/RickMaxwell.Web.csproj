@@ -305,7 +305,11 @@
     <Content Include="Content\images\portfolio\image6.jpg" />
     <Content Include="Content\images\portfolio\image7.jpg" />
     <Content Include="Content\images\portfolio\image8.jpg" />
-    <Content Include="Content\images\portfolio\image9.jpg" />
+    <Content Include="Content\images\portfolio\image9_a.jpg" />
+    <Content Include="Content\images\portfolio\image9_b.jpg" />
+    <Content Include="Content\images\portfolio\image9_c.jpg" />
+    <Content Include="Content\images\portfolio\image9_d.jpg" />
+    <Content Include="Content\images\portfolio\image9_e.jpg" />
     <Content Include="Content\images\portfolio\thumb1.jpg" />
     <Content Include="Content\images\portfolio\thumb10.jpg" />
     <Content Include="Content\images\portfolio\thumb11.jpg" />
