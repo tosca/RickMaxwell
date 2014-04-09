@@ -487,10 +487,10 @@
 		
 	.tab-pane{
 		margin:15px 0px 15px 0px;
-		-webkit-backface-visibility: hidden;
+		/*-webkit-backface-visibility: hidden;
 		-webkit-perspective: 1000;
 		-webkit-transform: translateZ(0);
-		-webkit-transition: translate3d(0,0,0);
+		-webkit-transition: translate3d(0,0,0);*/
 	}
 	
 	.tab-content{ overflow:visible !important;}

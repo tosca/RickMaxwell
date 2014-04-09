@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Rick Maxwell - sculptor";
 }
 
 
@@ -42,7 +42,7 @@ Header Navigation Area
         <div class="setNavType"> 
         
             <div class="logo" >
-                <h1 class="fittext3 white_color"><a href="#!home" style="color:white">RICK MAXWELL</a></h1>
+                <h3 class="fittext3"><a href="#!home" style="color:white">RICK MAXWELL <span class="highlight_color" style="font-size:20px;"> wood sculptor</span></a></h3>
             </div>
 
         	    
@@ -50,30 +50,18 @@ Header Navigation Area
                 <!--  Add require site page navigation -->                    
                 <li><a href="#!home" class="first active">Home</a></li>
                 <li><a href="#!portfolio">Works</a></li>  
-                <li><a href="#!studio">Annual Open Studios</a>
-                        <ul>
-                            <li><a href="#!studio?tab1_1" >2013</a></li>
-                            <li><a href="#!studio?tab1_2" >2012</a></li>
-                            <li><a href="#!studio?tab1_3" >2011</a></li>
-                            <li><a href="#!studio?tab1_4" class="last" >2010-2002</a></li>
-                        </ul>
-                </li>
-                <li><a href="#!info">Information</a>
-                        <ul>
-                            <li><a href="#!info?tab2_1" >Essays</a></li>
-                            <li><a href="#!info?tab2_2" >e-Publications</a></li>
-                            <li><a href="#!info?tab2_3" >Latest Works</a></li>
-                        </ul>
-                 </li>  
-                 <li><a href="#!about">About</a>
-                     <ul>
-                            <li><a href="#!about?tab4_1" >Statement</a></li>
-                            <li><a href="#!about?tab4_2" >Biography</a></li>
-                            <li><a href="#!about?tab4_3" class="last" >Links</a></li>
+                <li><a href="#!videos">Videos</a></li>  
+                <li><a href="#!info">Info</a>
+                     <ul>   
+                            <li><a href="#!info?tab4_1" >News</a></li>
+                            <li><a href="#!info?tab4_2" >Statement</a></li>
+                            <li><a href="#!info?tab4_3" >Biography</a></li>
+                            <li><a href="#!info?tab4_4" >Links</a></li>
+                            <li><a href="#!info?tab4_5" class="last" >Contact</a></li>
                     </ul>
                  </li> 
 
-                <li><a href="#!contact" class="last">Contact</a></li>                                          
+             <!--   <li><a href="#!contact" class="last">Contact</a></li>   -->                                       
             </ul>
             
         </div>
@@ -122,8 +110,6 @@ Page navigation - Use to Scroll the page from section to section
 
 <div  data-id="!home" class="contentWrapper lightStyle homeSlider fullHeight  parallax"  >
 
-	<!-- BackGround Video -->
-	<!-- <div class="addVideo video_content backGroundVideo " data-url="http://vimeo.com/57910940"  > </div> -->
     
 	<!-- Supersized home page slider show Arrow Navigation, To position the navigation to center, just remove the centerPosition class-->
     <div id="superNav" >
@@ -137,16 +123,16 @@ Page navigation - Use to Scroll the page from section to section
     If you need to remove the slideshow just remove the below tag and superGalleryInit function completely -->
 	<div class="homepage_con" >    
                 
-        <!-- Homepage fullscreen slideshow Title text 1 -->
+        <!-- Homepage fullscreen slideshow Title text 1 
         <div class="home_slider_title1 sliderStyle1" >
             <div class="text_mask bgCaption">
                 <div class="text_hold">
                    <h1 class="large_text"> <img src="~/Content/images/home_slider/Rick-signature.png" /></h1>
                 </div>
             </div>
-        </div>
+        </div>-->
         
-         <!-- Homepage fullscreen slideshow Title text 2 -->
+         <!-- Homepage fullscreen slideshow Title text 2 
          <div class="home_slider_title2 sliderStyle1" >
             <div class="text_mask bgCaption">
                 <div class="text_hold">
@@ -154,7 +140,7 @@ Page navigation - Use to Scroll the page from section to section
                     <h2 class="highlight_color large_text" >WOOD sculptor</h2>
                 </div>
             </div>
-        </div>
+        </div>-->
         
         
          <!-- Homepage fullscreen slideshow Title text 3
@@ -168,7 +154,7 @@ Page navigation - Use to Scroll the page from section to section
         </div> -->
         
         
-         <!-- Homepage fullscreen slideshow Title text 4 -->
+         <!-- Homepage fullscreen slideshow Title text 4 
         <div class="home_slider_title4 sliderStyle1" >
             <div class="text_mask bgCaption">
                 <div class="text_hold">
@@ -176,10 +162,10 @@ Page navigation - Use to Scroll the page from section to section
                     <h2 class="highlight_color large_text" >WOOD ARTIST</h2>
                 </div>
             </div>
-        </div> 
+        </div> -->
         
         
-         <!-- Homepage fullscreen slideshow Title text 5 -->
+         <!-- Homepage fullscreen slideshow Title text 5 
         <div class="home_slider_title5 sliderStyle1" >
             <div class="text_mask bgCaptionHighlight transparent">
                 <div class="text_hold">
@@ -187,7 +173,7 @@ Page navigation - Use to Scroll the page from section to section
                     <h5><a class="inverse playPause_slideshow" href="#!portfolio"><span class="box_hover upperCase">art work</span></a></h5>
                 </div>
             </div>
-        </div>          
+        </div>   -->       
         
 	</div>
    
@@ -195,7 +181,7 @@ Page navigation - Use to Scroll the page from section to section
 
 
 
- <!-- Portfolio Page -->
+ <!-- Works Page -->
 <div data-id="!portfolio" class="contentWrapper darkStyle backGround  fullHeight removePadding portfolioPage"  >
 
 	<hr class="top_space">    
@@ -432,7 +418,7 @@ Page navigation - Use to Scroll the page from section to section
                     <div class="overlay content">
                         <div class="imageText">
                             <div class="middle_align">
-                                <h5 class="upperCase bold_weight">three tree</h5>
+                                <h5 class="upperCase bold_weight">Table Stories</h5>
                                 <a class="inverse detail_btn" ><span class="box_hover_min">Details</span></a>                                					
                             </div>
                         </div>                   
@@ -444,7 +430,8 @@ Page navigation - Use to Scroll the page from section to section
                     <div class="container max_height" >
                         <div class="row-fluid" >
                             <div class="span12" >
-                                <h4 class="title_text">Three tree</h4> 
+                                <h4 class="title_text">Table Stories - 2010</h4>
+                                <p>Dimensions - 77W" x 69H" x 23D"</p> 
                             </div>
                         </div>
                         <div class="row-fluid" >
@@ -929,16 +916,16 @@ Page navigation - Use to Scroll the page from section to section
 </div>
 
 
-<!-- Studio page -->
+<!-- Videos page -->
 
-<div data-id="!studio" class="contentWrapper fullHeight backGround darkStyle" >
+<div data-id="!videos" class="contentWrapper fullHeight backGround darkStyle" >
 
 	<hr class="top_space">    
      
     <div class="container desktop_alignLeft">     	
 		<div class="row">
             <div class="span12" > 
-                <h1 class="fittext3 white_color">Annual Open Studios</h1>
+                <h1 class="fittext3 white_color">Videos</h1>
             </div>               
 		</div>
     </div> 
@@ -950,10 +937,9 @@ Page navigation - Use to Scroll the page from section to section
             	<div class="span12" > 
                 	<!-- Tab navigations -->
                     <ul class="nav-tabs plainTab">
-                        <li class="active"><a href="#tab1_1" data-toggle="tab">2013</a></li>
-                        <li><a href="#tab1_2" data-toggle="tab">2012</a></li>
-                        <li><a href="#tab1_3" data-toggle="tab">2011</a></li> 
-                        <li><a href="#tab1_4" data-toggle="tab">2010-2002</a></li>                    
+                        <li class="active"><a href="#tab1_1" data-toggle="tab">Sculpture On Swiss</a></li>
+                        <li><a href="#tab1_2" data-toggle="tab">Rick Maxwell, 1/6/13</a></li>
+                        <li><a href="#tab1_3" data-toggle="tab">Bending</a></li> 
                     </ul>
                 </div>
             </div>
@@ -965,284 +951,65 @@ Page navigation - Use to Scroll the page from section to section
             <div class="span12" > 
             	<!-- Tab Content -->
                 <div class="tab-content">
-
-                   <!-- tab1_1 2013 -->
+                   <!-- tab1_1 Sculpture on Swiss Video -->
                    <div class="tab-pane fade in active" id="tab1_1" >
                     
                     	<div class="row-fluid">
                         	<div class="span12">
-                        		<h2>2013</h2>
+                        		<h2>Sculpture On Swiss</h2>
+                                <img src="~/Content/images/info/image2.jpg" /> 
                         		<hr>
                         	</div>
                         </div>
 
-                        <div class="row-fluid">           
-                            <div class="span8 elastic_slider"></div>
-                             <h3>CEDARS OPEN STUDIOS TOUR</h3>
 
-<p>Cedars Open Studios is an opportunity for guests to learn about the neighborhood and the numerous professional artists and craftsmen residing in the Cedars. The artist studios are open year around by appointment, but during Open Studios, they open give visitors a chance to experience a creative, evolving neighborhood all at once.
-</p>
-<p>The Cedars was the first Dallas suburb and a neighborhood where early residents both lived and worked. Department store giants like Stanley Marcus and Edward Tische built art deco style homes unsurpassed for their craftsmanship and amenities in the Cedars. If you’ve never been to the Cedars South Side area, we invite you to explore and enjoy your visit to this historic neighborhood.</h3>
-           </p>   
-                            	<!-- In each li tag, the project content link is defined in data-preview attribute, 
-                				The projects content is placed below carousel_preview class div -->
-                                
-                                <div data-link="#team_details" class="carousel_container hover_gray">
-                                    <ul class="elastislide-list carousel_thumbails thumbnail_list large">                    
-                                        <li>
-                                        	<a class="magnificPopup" data-title='<span class="upperCase bold_weight">Open Studio 2013</span>'  href="../Content/images/portfolio/image4.jpg" target="_self" > 
-                                        	<span class="overlay zoom"> </span>  </a>		
-                                            <a  class="lazyload" href="~/Content/images/portfolio/thumb4.jpg" title="image text">Image</a>
-                                        </li>                            
-                                    </ul> 
-					             </div>     
-                              </div>      
-			            </div>                                   
-                
-                    <!-- tab1_2 2012 -->
+                </div>
+                    <!-- tab1_2 Aspen video -->
                    <div class="tab-pane fade" id="tab1_2" >
                     	<div class="row-fluid">
                         	<div class="span12">
-                        		<h2>2012</h2>
+                        		<h2>Rick Maxwell, 1/6/13</h2>
                         		<hr>
                         	</div>
                         </div>                       
                       </div>   
 
-                    <!-- tab1_3 2011 -->
+                    <!-- tab1_3 Bending video -->
                     <div class="tab-pane fade" id="tab1_3" >
                     	<div class="row-fluid">
                         	<div class="span12">
-                        		<h2>2011</h2>
+                        		<h2>Bending</h2>
+                                <!-- Add video -->
+                                <div class="addVideo video_content" data-url="http://vimeo.com/57910940" title="bent wood process">
+                                    <div class="video_hover"></div>
+                                    <img class="scale-with-grid" src="~/Content/images/artist/image5.jpg" alt="image name" />
+                                </div>
+
                         		<hr>
                         	</div>
                         </div>  
                       </div>   
-
-                        <!-- tab1_4 2010 to 2002 -->
-                    <div class="tab-pane fade" id="tab1_4" >
-                    	<div class="row-fluid">
-                        	<div class="span12">
-                        		<h2>2010 to 2002</h2>
-                        		<hr>
-                        	</div>
-                        </div>   
-                      </div>   
+  
 
                 </div>
            </div>
         </div>
           <hr class="separator_max">
    </div>
-
 </div>
 
 
-<!-- info page-->
+
+<!-- Info page -->
 
 <div data-id="!info" class="contentWrapper fullHeight backGround darkStyle" >
-
-   <hr class="top_space">    
-     
-    <div class="container desktop_alignLeft">     	
-        <div class="row">
-			<div class="span12" >
-				<h1 class="fittext3 white_color">Information</h1>
-            </div>
-        </div>
-   </div>
-        
-    <!-- Tab section -->
-    <div class="bar_content">
-    	<div class="container desktop_alignLeft">     	
-        	<div class="row"> 
-                 <div class="span12" >
-                 	<!-- Tab navigations -->
-                    <ul class="nav-tabs plainTab">
-                      <li class="active"><a href="#tab2_1" data-toggle="tab">Essays</a></li>
-                      <li><a href="#tab2_2" data-toggle="tab">e-Pub</a></li>
-                      <li><a href="#tab2_3" data-toggle="tab">Latest Works</a></li>
-                    </ul>
-                 </div>
-            </div>
-		</div>
-  </div>
-    
-      <div class="container desktop_alignLeft">
-          <div class="row">       
-            <div class="span12">
-            	<!-- Tab Content -->
-                <div class="tab-content">
-                
-                	<!-- tab2_1 essay -->
-					<div class="tab-pane fade in active" id="tab2_1">                    	                        
-						<div class="row-fluid">
-                        	<div class="span12">
-                        		<h2>Essay</h2>
-                            </div>
-                        </div>
-                     
-                        <div class="row-fluid"> 
-                           <div class="span6">
-                             
-                                <h3>David Newman | Gallery Director</h3>
-                                <h4>Forum Gallery | Brookhaven College School of the Arts</h4>
-                                <p>The problem of tectonic and a-tectonic has first a special application to sculpture as a problem of placing or, to put it otherwise, as a problem of the relation to architecture. </p>
-                                 <img src="~/Content/images/info/image1.jpg" />
-                                 <hr class="separator_medium">
-                                 <img src="~/Content/images/info/image2.jpg" /> 
-                                                              
-                             </div>
-                                                       
-                             <div class="span6">    
-                                <h3>Heinrich Wolffin </h3>
-                                <p>Rick Maxwell's new sculpture and drawings combine an engagement with density and mass with ethereal, almost ephemeral, line. Referencing organic, natural entities without specifically representing their referents, the words are abstract, expressively gestural deployments of shape, volume, and line in space. As such, both the sculpture and the drawings are in the end reflexive and ultimately engage the means of their making, both with respects to their material cause and the processes of their facture. </p>
-                                <p>Maxwell's sculpture is structured around a central, vertical axis, most often inflected from plumb verticality. Still, verticality qua an implied plumb line is sensed in response to the works; one regards the deviation from the plumbness as a gestural inflection, and responds to its expressivity. The response is conditioned and informed by one's lived experience of the embodiedness of one's self, and of other selves. To so respond to the work is to suppose that a vestigial figurative aspect obtains for closed three-dimensional form as such, even with the work has no reference to the figure and in no ostensible respect is a representation of the figure.</p>
-                                <p>Some sense of the role of gestural variation in similar forms in found in Three Really Excited Ladies. The three components share a similar structure of dense block elevated from the floor on turned wooden finials (which read immediately and inevitably as shoes with high heels), with elongated necks arching upward and off-plumb, swelling at the terminal end to suggest a head. Beyond the obvious variation of finish of the parts of each component of the work, and variation in scale, there is subtle variation in the gesture of each of the component pieces. </p>
-                                <p>Both Carpel Tunnel and Bad Brush consist is a dense roughly sawn wooden lower section surmounted with thin myrtle stems with intact bark, closely set together and bundled by large wooden screws joining tapped sections of wood. In Carpel Tunnel the crepe myrtle stems continue the plumb verticality of the lower wooden element; in Bad Brush the crepe myrtle stems are similarly constrained, but nevertheless are splayed like the bristles of a brush gone bad. The difference of sustained, compacted verticality and of a verticality splaying beyond the constraint is subtle, but substantial, for the felt constraint is not merely that of the constraining elements within the works, but ultimately of gravity as a natural force.</p>
-                                <p>The suspended work White Spine/Black Spine depends on gravity for the insistent verticality of the orientation of the axis of the two components. Around and extending from these axis, horizontal elements extend, less at the top, more at the bottom, blades of ceiling fans multiplying and bending. Between the two components the negative volume of each component is implied as an inverted volume. </p>
-                                <p>In contrast to White Spine/Black Spine, Black Bone, Above the Thunder, and Jesse's Steps are gestural lines bending as a sprout bends under the effect of phototropism. Black Bone, Above the Thunder, and in somewhat more limited and vestigial manner Jessie's Steps, consolidate the segmentation of White Spine/Black Spine to the central axis itself. </p>
-                                <p>In marking a position in space, Maxwell's sculpture inevitably responds to and references the architectural space of the gallery, as framed by the white walls demarking the limits of a void against which the gesture of the work can be gauged, and as a plane on which the trace of the sculpture qua shadow is projected. </p>
-                                <p>Maxwell's drawings are materially traces of the sculpture, being drawn with charcoal made from the wood scraps produced in carving. More saliently, the drawings continue the gestural abstraction of the sculpture in another area of practice, responding to the field of the sheet as the sculpture references the architectural space in its installation. The marks are mainly oriented parallel to the plan of the paper, with a limited suggestion of depth developed primarily through massing of value and variation in line weight and speed of the mark. The delicacy of mark, and confidence of touch and ecriture parallel the strength of facture of the sculpture, each the alterity of the other medium. </p>
-                              </div> 
-                            </div>
-                        <hr class="separator_mini">
-                    </div>
-                  
-                    
-                    <!-- tab2_2 e-pub -->
-                    <div class="tab-pane fade" id="tab2_2">
-
-                        <div class="row-fluid">
-                            <div class="span12">
-                                <h2>e-Publications</h2>
-                                <hr>
-                            </div>
-                        </div>
-
-                        <div class="container-fluid">
-
-                            <!-- Blog posts, the m-Scrollbar-hor class is used to add Horizontal scrollbar to the content 
-                            <div class="scroll_holder_H m-Scrollbar-hor">-->
-
-                                <div class="hor_scroll_content">
-
-                                    <!-- Blog post
-                	                 m-Scrollbar class is used to add vertical scrollbar to the content -->
-                                    <div class="blog_box m-Scrollbar">
-                                        <div class="blog_item">
-                                            <h4 class="b_heading upperCase"><a>Omni Dallas Convention Center Hotel</a></h4>
-
-                                            <div class="thumbnail">
-                                                <span class="blog_date dark_color">
-                                                    <span class="b_date">11</span>
-                                                    <span class="b_month">nov</span>
-                                                    <span class="b_year">2011</span>
-                                                </span>
-                                            </div>
-                                            <a class="lazyload_single" href="~/Content/images/info/image3.jpg" title="Some text">IMAGE</a>
-                                            <h6><em>Bray Whaler International</em></h6>
-                                            <p>Ribbon Sculture on the lobby ceiling of the Omni Hotel</p>
-                                            <p class="b_detail">Ribbon Sculture on the lobby ceiling of the Omni Hotel, Dallas </p>
-                                            <a class="button small alignRight" href="http://braywhaler.wordpress.com/2011/12/">View website</a>
-                                            <hr class="separator_mini">
-                                        </div>
-                                    </div>
-
-                                    <div class="blog_box m-Scrollbar">
-                                        <div class="blog_item">
-                                            <h4 class="b_heading upperCase"><a>UNIVERSITY OF DALLAS</a></h4>
-
-                                            <div class="thumbnail">
-                                                <span class="blog_date dark_color">
-                                                    <span class="b_date">26</span>
-                                                    <span class="b_month">feb</span>
-                                                    <span class="b_year">2010</span>
-                                                </span>
-                                            </div>
-                                            <a class="lazyload_single" href="~/Content/images/info/image1.jpg" title="Some text">IMAGE</a>
-                                            <h6><em>Exibition by Dallas artists</em></h6>
-                                            <p class="b_detail">An exhibition of artworks by Dallas area artists Rick Maxwell, David Newman and Don Taylor. The bold use of form, color, and texture confidently utilized by these artists in the fields of sculpture, painting and printmaking creates an exciting tension and visual dialogue. </p>
-                                            <a class="button small alignRight" href="http://www.udallas.edu/offices/artgallery/archivedexhibitions/maxwellnewmantaylor/">View website</a>
-                                        </div>
-                                    </div>
-
-                                    
-                                </div>
-                            </div>
-                  <!-- </div> -->
-                        <hr class="separator_mini">
-                    </div>      
-                
-                    <!-- tab2_3 Latest works -->
-                    <div class="tab-pane fade" id="tab2_3" >
-                    
-                    	<div class="row-fluid">
-                        	<div class="span12">
-                        		<h2>Latest Works</h2>
-                        		<hr>
-                        	</div>
-                        </div>
-                        
-                        <div class="row-fluid">
-                            <div class="span12 elastic_slider">
-                            
-                            	<!-- In each li tag, the project content link is defined in data-preview attribute, 
-                				The projects content is placed below carousel_preview class div -->
-                                
-                                <div data-link="#team_details" class="carousel_container hover_gray">
-                                    <ul class="elastislide-list carousel_thumbails thumbnail_list large">                   
-                                        <li>
-                                        	<a class="magnificPopup" data-title='<span class="upperCase bold_weight">Pairs</span>'  href="~/Content/images/portfolio/image4.jpg" target="_self" > 
-                                        	<span class="overlay zoom"> </span>  </a>		
-                                            <a  class="lazyload" href="~/Content/images/portfolio/thumb4.jpg" title="image text">Image</a>
-                                            </li>
-                                        <li>
-                                        	<a class="magnificPopup" data-title='<span class="upperCase bold_weight">Pairs</span>'  href="~/Content/images/portfolio/image5.jpg" target="_self" > 
-                                        	<span class="overlay zoom"> </span>  </a>		
-                                            <a  class="lazyload" href="~/Content/images/portfolio/thumb5.jpg" title="image text">Image</a>
-                                            </li>
-                                       <li>
-                                        	<a class="magnificPopup" data-title='<span class="upperCase bold_weight">Pairs</span>'  href="~/Content/images/portfolio/image6.jpg" target="_self" > 
-                                        	<span class="overlay zoom"> </span>  </a>		
-                                            <a  class="lazyload" href="../Content/images/portfolio/thumb6.jpg" title="image text">Image</a>
-                                            </li>
-                                        <li>
-                                        	<a class="magnificPopup" data-title='<span class="upperCase bold_weight">Ribbon Wood</span>'  href="~/Content/images/portfolio/image7.jpg" target="_self" > 
-                                        	<span class="overlay zoom"> </span>  </a>		
-                                            <a  class="lazyload" href="../Content/images/portfolio/thumb7.jpg" title="image text">Image</a>
-                                            </li>
-                                        <li>
-                                        	<a class="magnificPopup" data-title='<span class="upperCase bold_weight">Ribbon Wood</span>'  href="~/Content/images/portfolio/image8.jpg" target="_self" > 
-                                        	<span class="overlay zoom"> </span>  </a>		
-                                            <a  class="lazyload" href="../Content/images/portfolio/thumb8.jpg" title="image text">Image</a>
-                                            </li>
-                                    </ul>
-                            	</div>
-                               <hr>
-                             </div> 
-                        </div>
-
-					</div>
-                </div>
-            </div>
-        </div>
-          
-    </div>                         
-     <hr class="separator_mini">                 
-</div>
-
-
-<!-- About page -->
-
-<div data-id="!about" class="contentWrapper fullHeight backGround darkStyle" >
 
 	<hr class="top_space">    
      
     <div class="container desktop_alignLeft">     	
 		<div class="row">
             <div class="span12" > 
-                <h1 class="fittext3 white_color">About <span class="highlight_color"> RICK MAXWELL</span> </h1>
+                <h1 class="fittext3 white_color">INFO <span class="highlight_color"> RICK MAXWELL</span> </h1>
             </div>               
 		</div>
     </div>    
@@ -1254,9 +1021,11 @@ Page navigation - Use to Scroll the page from section to section
             	<div class="span12" > 
                 	<!-- Tab navigations -->
                     <ul class="nav-tabs plainTab">
-                      <li class="active"><a href="#tab4_1" data-toggle="tab">Statement</a></li>
-                      <li><a href="#tab4_2" data-toggle="tab">Biography</a></li> 
-                      <li><a href="#tab4_3" data-toggle="tab">Links</a></li>                    
+                      <li><a href="#tab4_1" data-toggle="tab">News</a></li>
+                      <li class="active"><a href="#tab4_2" data-toggle="tab">Statement</a></li>
+                      <li><a href="#tab4_3" data-toggle="tab">Bio</a></li> 
+                      <li><a href="#tab4_4" data-toggle="tab">Links</a></li>
+                      <li><a href="#tab4_5" data-toggle="tab">Contact</a></li>                    
                     </ul>
                 </div>
             </div>
@@ -1269,8 +1038,71 @@ Page navigation - Use to Scroll the page from section to section
             	<!-- Tab Content -->
                 <div class="tab-content">
                 
-                	<!-- tab4_1 Statement -->
+                    <!-- tab4_1 News -->
                     <div class="tab-pane  fade in active" id="tab4_1">
+
+                        <div class="row-fluid">
+                            <div class="span12">
+                                <h2>News * These are holding spaces for News images</h2>
+                                <hr />
+                            </div>
+                        </div>
+
+
+                        <div class="row-fluid four_column text-center">
+
+                            <div class="span12">
+
+                                <a class="part feature">
+                                    <div class="thumbnail">
+                                        <img src="~/Content/images/artist/image1.jpg" />
+                                    </div>
+                                    <div class="bg_hover_change img-rounded-mini">
+                                        <i class="fa fa-caret-up fa-2x"></i>
+                                        <h4>Allure of the Process</h4>
+                                        <h6><em>Fallen wood. Sculpted.</em></h6>
+                                    </div>
+                                </a>
+
+                                <a class="part feature">
+                                    <div class="thumbnail">
+                                        <img src="~/Content/images/artist/image2.jpg" />
+                                    </div>
+                                    <div class="bg_hover_change img-rounded-mini">
+                                        <i class="fa fa-caret-up fa-2x"></i>
+                                        <h4>Bending new Life</h4>
+                                        <h6><em>New Process of Cold Compression</em></h6>
+                                    </div>
+                                </a>
+
+                                <a class="part feature">
+                                    <div class="thumbnail">
+                                        <img src="~/Content/images/artist/image3.jpg" />
+                                    </div>
+                                    <div class="bg_hover_change img-rounded-mini">
+                                        <i class="fa fa-caret-up fa-2x"></i>
+                                        <h4>Another Turn</h4>
+                                        <h6><em>Straight wood. Twisted.</em></h6>
+                                    </div>
+                                </a>
+
+                                <a class="part feature">
+                                    <div class="thumbnail">
+                                        <img src="~/Content/images/artist/image4.jpg" />
+                                    </div>
+                                    <div class="bg_hover_change img-rounded-mini">
+                                        <i class="fa fa-caret-up fa-2x"></i>
+                                        <h4>Love the Process</h4>
+                                        <h6><em>Look up. At every angle.</em></h6>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                	<!-- tab4_2 Statement -->
+                    <div class="tab-pane  fade in active" id="tab4_2">
 
                         <div class="row-fluid">
                             <div class="span12">
@@ -1355,8 +1187,8 @@ Page navigation - Use to Scroll the page from section to section
                         </div>
                     </div>
                     
-                    <!-- tab4_2 Biography -->
-                    <div class="tab-pane fade" id="tab4_2">
+                    <!-- tab4_3 Biography -->
+                    <div class="tab-pane fade" id="tab4_3">
 						
                         <div class="row-fluid">
                         	<div class="span12">
@@ -1552,8 +1384,8 @@ Page navigation - Use to Scroll the page from section to section
                       </div>            
                      
                     
-                    <!-- tab4_3 Links -->
-                    <div class="tab-pane fade" id="tab4_3" >
+                    <!-- tab4_4 Links -->
+                    <div class="tab-pane fade" id="tab4_4" >
                     	<div class="row-fluid">
                         	<div class="span12">
                         		<h2>Links</h2>
@@ -1575,7 +1407,7 @@ Page navigation - Use to Scroll the page from section to section
 					         </div>
                               <div class="team">
                                          <div class="thumbnail-mini">
-                                             <img src="~/Content/images/artist/image32.jpg" class="img-rounded-mini" alt="Jim Bowman - Glass Sculptor"> </li>
+                                             <img src="~/Content/images/artist/image32.jpg" class="img-rounded-mini" alt="Jim Bowman - Glass Sculptor"> 
                                           </div>
                                                <h4>Jim Bowman</h4>
                                                <h5 class="tiny_font">Glass Sculptor </h5> 
@@ -1586,6 +1418,30 @@ Page navigation - Use to Scroll the page from section to section
 					         </div>
 
                               <div class="team">
+                                         <div class="thumbnail-mini">
+                                             <img src="#" class="img-rounded-mini" alt="Evan Morris website"> 
+                                          </div> 
+                                               <h4>Evan Morris</h4>
+                                               <h5 class="tiny_font">Evan Morris</h5> 
+                                               <h6 class="highlight_color"><em>
+                                                  <a href="http://www.evanmorris.me/" target="_blank" title="Evan Morris website">evanmorris.me</a></em></h6>
+                                           <br /> 
+                                <hr class="separator_mini">                                                      
+					         </div>
+
+                           <div class="team">
+                                         <div class="thumbnail-mini">
+                                             <img src="#" class="img-rounded-mini" alt="Fluted Beams website"> 
+                                          </div> 
+                                               <h4>Chris Mortz</h4>
+                                               <h5 class="tiny_font">Flutedbeams</h5> 
+                                               <h6 class="highlight_color"><em>
+                                                  <a href="http://www.puretimber.com/" target="_blank" title="Fluted Beams website">flutedbeams.com</a></em></h6>
+                                           <br /> 
+                                <hr class="separator_mini">                                                      
+					         </div>
+
+                           <div class="team">
                                          <div class="thumbnail-mini">
                                              <img src="~/Content/images/artist/image33.jpg" class="img-rounded-mini" alt="The Extreme Wood Bending Company"> 
                                           </div> 
@@ -1598,46 +1454,41 @@ Page navigation - Use to Scroll the page from section to section
 					         </div>
                         </div>
                     </div>   
-			     </div>            
-              </div>
-          </div>
-       
-       </div>
-  
+			     
 
-
-</div>
-
-
-
-
-
-<!-- Contact -->
-       
-<div data-id="!contact" class="contentWrapper contactPage darkStyle fullHeight parallax removePadding"   
-    data-src="../Content/images/artist/image3.jpg" data-src-small="../Content/images/artist/image3.jpg" > <!--  data-src="../Content/images/background/image2.jpg" data-src-small="images/background/image2_s.jpg" >-->
+                    <!-- tab4_5 Contact -->
+                    <div class="tab-pane fade" id="tab4_5" >
+                    	<div class="row-fluid">
+                        	<div class="span12">
+                        		<h2>Contact</h2>
+                            	<hr>
+                        	</div>
+                        </div>
+                        <div class="contentWrapper darkStyle fullHeight parallax removePadding"   
+                                data-src="../Content/images/artist/image3.jpg" data-src-small="../Content/images/artist/image3.jpg" > 
 
     <hr class="top_space">    
     
-    <div class="container desktop_alignLeft">     	
-        <div class="row"> 
+   <!--   <div class="container desktop_alignLeft">     	
+           <div class="row"> 
             <div class="span12" >
 				<h1 class="fittext3 white_color">Contact</h1>
             </div>
-        </div>
-    </div>
+        </div>-->
+   
     
     
 	<div class="bar_content transparent bottomSpace_mini"> 
         <div class="container desktop_alignLeft">
             <div class="row">
 				<div class="span5">
-					<h2 >Let's talk about art</h2>
+					<h2 >Rick Maxwell</h2>
 				</div>
                 <div class="span7">
                     <ul class="font_awesome topSpace_mini" >            	               
                         <li ><a ><i class="fa fa-facebook"></i></a></li>
                         <li ><a ><i class="fa fa-google-plus"></i></a></li>
+                        <li ><a ><i class="fa fa-linkedin"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -1645,17 +1496,7 @@ Page navigation - Use to Scroll the page from section to section
 	</div>
     
     <hr class="separator_mini">
-    
-   <!-- <div class="fullWidth" >     	
-         <div id="map_canvas" > 
-             Google map load error message 
-            <div class="pad left_spacing"> <h6><a><em>!Google Map is not Loaded, click here to see the map </em></a></h6> </div>
-        </div>  
-    </div>-->
-    
-    
 
-   <hr class="separator_mini">
          
     <div class="container darkStyle desktop_alignLeft" >       	 
         
@@ -1722,10 +1563,15 @@ Page navigation - Use to Scroll the page from section to section
         
         <hr class="separator_max">
                     
-    </div>           
-	
+    </div>           	
 </div>
 
+               </div>
+                </div>
+            </div>            
+          </div>
+      </div>       
+</div>
 
 
 
@@ -1738,18 +1584,13 @@ Page navigation - Use to Scroll the page from section to section
         <div class="row-fluid">       
             <div class="span3">            	
                 <h5 class="bold_weight">Quick link</h5>
-                <p> <a class="normal" href="#!home">Home</a>
+                <p> <a class="normal" href="#!home">Home</a><br>
                     <a class="normal" href="#!portfolio">Works</a><br>
-                    <a class="normal" href="#!studio">Studio</a><br>
-                    <a class="normal" href="#!info">Info</a><br>
-                    <a class="normal" href="#!about">About</a><br>
-                    
-                </p>
-                <hr>                
+                    <a class="normal" href="#!videos">Videos</a><br>
+                    <a class="normal" href="#!info">Info</a><br>   
+                </p>              
             </div>         
         </div>
-        
-        <hr>
         
         <div class="row-fluid"> 
         	<div class="span6 tiny_font">
@@ -1760,11 +1601,10 @@ Page navigation - Use to Scroll the page from section to section
             	<ul class="font_awesome">
                     <li ><a ><i class="fa fa-facebook"></i></a></li>
                     <li ><a ><i class="fa fa-google-plus"></i></a></li>
+                    <li ><a ><i class="fa fa-linkedin"></i></a></li>
                 </ul> 
             </div>
         </div>
-        
-        <hr>
         <div class="separator_mini"></div>
         <hr>
     </div>  
