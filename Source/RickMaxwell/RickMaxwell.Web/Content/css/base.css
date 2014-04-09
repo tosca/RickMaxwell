@@ -1883,9 +1883,10 @@
 		}
 	
 	.portfolioFluid_items .item {
-		width: 33%;
+		width: 32%;
 		float: left;
-		margin-bottom:1px;
+		margin-bottom:2px;
+        margin-right:2px;
 		overflow:hidden;
 		-webkit-backface-visibility: hidden;
 		-webkit-perspective: 1000;
@@ -1904,7 +1905,8 @@
 	/* images cover up the gap */
 	.portfolioFluid_items .item img {
 		display: block;
-		width: 100.5%;
+		/*width: 100.5%;*/
+        width: 99%;
 		}
 		
 	.portfolio_items:after{
