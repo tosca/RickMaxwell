@@ -185,17 +185,10 @@
     <Content Include="Content\images\artist\rick-maxwell-profile.jpg" />
     <Content Include="Content\images\background\image1.jpg" />
     <Content Include="Content\images\background\image1_s.jpg" />
-    <Content Include="Content\images\background\image2.jpg" />
-    <Content Include="Content\images\background\image2_s.jpg" />
-    <Content Include="Content\images\background\image3.jpg" />
-    <Content Include="Content\images\background\image3_s.jpg" />
     <Content Include="Content\images\background_overlay.png" />
     <Content Include="Content\images\bigvideo%402x.png" />
     <Content Include="Content\images\bigvideo.png" />
     <Content Include="Content\images\client1.png" />
-    <Content Include="Content\images\client2.png" />
-    <Content Include="Content\images\client3.png" />
-    <Content Include="Content\images\client4.png" />
     <Content Include="Content\images\email_loading.gif" />
     <Content Include="Content\images\favicon.ico" />
     <Content Include="Content\images\gallery_type.png" />
