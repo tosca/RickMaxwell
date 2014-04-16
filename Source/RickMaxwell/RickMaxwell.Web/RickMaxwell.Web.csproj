@@ -193,6 +193,7 @@
     <Content Include="Content\images\client1.png" />
     <Content Include="Content\images\email_loading.gif" />
     <Content Include="Content\images\favicon.ico" />
+    <Content Include="Content\images\favicon.png" />
     <Content Include="Content\images\gallery_type.png" />
     <Content Include="Content\images\home_slider\Rick-signature-bg.png" />
     <Content Include="Content\images\home_slider\image1.jpg" />
