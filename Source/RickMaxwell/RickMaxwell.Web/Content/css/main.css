@@ -726,8 +726,8 @@
 
 
 
-/* Team */
-.team{ 
+/* big-work */
+.big-work{ 
 	position:relative;   
 	width:15%; 
 	margin-right:5%; 
@@ -735,13 +735,29 @@
 	}
 	
 @media only screen and (max-width: 979px) {
-	.team{ width:15%; }	
+	.big-work{ width:15%; }	
 	}
 	
 @media only screen and (max-width: 479px) {
-	.team{ width:15% !important; }
+	.big-work{ width:15% !important; }
 	}	
+
+/* Team */
+.team{ 
+	position:relative;  
+	min-width:150px; 
+	width:23%; 
+	margin-right:2%; 
+	float:left;
+	}
 	
+@media only screen and (max-width: 979px) {
+	.team{ width:48%; }	
+	}
+	
+@media only screen and (max-width: 479px) {
+	.team{ width:98% !important; }
+	}	
 	
 .process{
 	padding:20px 20px 30px 20px;

@@ -1,4 +1,27 @@
-﻿/*.mfp-with-zoom.mfp-ready.mfp-bg {
+﻿/* big-work */
+.big-work{ 
+	position:relative;   
+	width:15%; 
+	margin-right:5%; 
+	float:left;
+	}
+	
+@media only screen and (max-width: 979px) {
+	.big-work{ width:15%; }	
+	}
+	
+@media only screen and (max-width: 479px) {
+	.big-work{ width:15% !important; }
+	}	
+
+/* .big-work active*/
+.controls .big-work .filter.active:hover h4, .controls .big-work .filter.active h4 {
+    color: rgb(255, 150, 0);
+}
+.controls .big-work .filter {
+    cursor: pointer;
+}
+/*.mfp-with-zoom.mfp-ready.mfp-bg {
 opacity: 0.95;
 }
 @media (min-width: 1200px){
