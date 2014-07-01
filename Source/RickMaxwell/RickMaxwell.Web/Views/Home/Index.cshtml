@@ -49,7 +49,16 @@ Header Navigation Area
              <ul class="nav">
                 <!--  Add require site page navigation -->                    
                 <li><a href="#!home" class="first active">Home</a></li>
-                <li><a href="#!portfolio">Work</a></li>  
+                <li><a href="#!portfolio">Work</a>
+                    <ul>   
+                            <li><a href="#!portfolio?tab2_1" >Bent Wood</a></li>
+                            <li><a href="#!portfolio?tab2_2" >Wall Reliefs</a></li>
+                            <li><a href="#!portfolio?tab2_3" >Sculpture 2010-2005</a></li>
+                            <li><a href="#!portfolio?tab2_4" >Sculpture 2004-1999</a></li>
+                            <li><a href="#!portfolio?tab2_5" >Drawings Present to 2010</a></li>
+                            <li><a href="#!portfolio?tab2_6"class="last" >Drawings 2009 to 1999</a></li>
+                    </ul>
+                </li>  
                 <li><a href="#!videos">Videos</a></li>  
                 <li><a href="#!info">Info</a>
                      <ul>   
@@ -104,12 +113,30 @@ Page navigation - Use to Scroll the page from section to section
 <!-- Complete web site content is placed inside the bodyContainer class div-->
 
 <div class="bodyContainer">
-
+  
 
 <!-- Homepage  -->
 
 <div  data-id="!home" class="contentWrapper lightStyle homeSlider fullHeight parallax" >
-
+    <!-- scrollable carousel        
+                                     <div id="carousel">hello world
+                                       
+                                        <ul>
+                                            <li class="pane1">
+                                                <h2>
+                                                    <img src="http://rickmaxwell.apphb.com/Content/images/portfolio/image6.jpg"><br>
+                                                    <small>Wall Relief - 8'x 5' Oak</small></h2>
+                                            </li>
+                                            <li class="pane2">
+                                                <h2>
+                                                    <img src="http://rickmaxwell.apphb.com/Content/images/portfolio/image7.jpg"></h2>
+                                            </li>
+                                            <li class="pane3">
+                                                <h2>
+                                                    <img src="~/Content/images/portfolio/image8.jpg"></h2>
+                                            </li>
+                                        </ul>
+                                    </div>-->
     
 	<!-- Supersized home page slider show Arrow Navigation, To position the navigation to center, just remove the centerPosition class-->
     <div id="superNav" >
@@ -129,749 +156,241 @@ Page navigation - Use to Scroll the page from section to section
 
 
 
- <!-- Works Page -->
-<div data-id="!portfolio" class="contentWrapper darkStyle backGround fullHeight removePadding portfolioPage"  >
+ <!-- Work Portfolio Page -->
+    <div data-id="!portfolio" class="contentWrapper darkStyle backGround fullHeight removePadding portfolioPage">
 
-	<hr class="top_space">    
-     
-    <div class="container desktop_alignLeft">     	
-        <div class="row"> 
-			<div class="span12" >
-				<h1 class="fittext3 white_color">Work</h1>
-			</div>
-        </div>
-    </div>
+   <!--     <hr class="top_space">-->
+
+  <div class="container desktop_alignLeft">
+            <div class="row">
+                <div class="span12">
  
-    
-    <div class="bar_content bottomSpace_mini">
-        <div class="container desktop_alignLeft">     	
-            <div class="row-fluid">                          
-                <div class="controls span12">
-                  <div class="filter active" data-filter="all"> 
-                   </div>
-                    <div class="big-work col-xs-1 col-sm-2 text-center">
-                        <div class="filter" data-filter="new">
-                            <img src="~/Content/images/portfolio/filter-img1.jpg" alt="Bent Wood Sculpture" />
-                           <h5> Bent Wood</h5> 
-                        </div>
-                    </div>
-                    <div class="big-work col-xs-1 col-sm-2 text-center">
-                        <div class="filter" data-filter="wall">
-                            <img src="~/Content/images/portfolio/filter-img2.jpg" alt="Wall Sculpture" />
-                       <h5> Wall sculpture</h5>
-                        </div>
-                    </div>
-                    <div class="big-work col-xs-1 col-sm-2 text-center">
-                        <div class="filter" data-filter="sculpt">
-                            <img src="~/Content/images/portfolio/filter-img3.jpg" alt="Floor Sculpture" />
-                        <h5>Floor sculpture</h5>
-                        </div>                        
-                    </div>
-                    <div class="big-work col-xs-1 col-sm-2 text-center" >
-                        <div class="filter" data-filter="draw">
-                            <img src="~/Content/images/portfolio/filter-img4.jpg" alt="Drawings - new" />
-                        <h5>Drawings 1</h5>
-                       </div>
-                    </div>
-                    <div class="big-work col-xs-1 col-sm-2 text-center">
-                        <div class="filter" data-filter="draw2">
-                            <img src="~/Content/images/portfolio/filter-img5.jpg" alt="Drawings - archive" /> 
-                        <h5>Drawings 2</h5>
-                        </div>
-                    </div>
                 </div>
+            </div>
         </div>
-      </div>    
-    </div>      
-    
-    <hr class="separator_mini">
 
-    
-    <!-- Portfolio Detail content load inside the below projDetailLoad class div-->
-	    <div class="projDetailLoad darkStyle" >    	
-    	<!-- Center Align Page
-        To make the navigation align center, just add the class name container to the below itemNav div --> 
-    	<div class="container itemNav"></div>
-        
-    </div>
-    
-    
-    <!-- Portfolio thumbnails -->    
-    <div class="portfolioFluid_items portfolio_items ">	
-     
-     	<!-- Center Align Page
-        To make the thumbnails center, just add the class name container to the below div --> 
-        
-		<div class="container">
-        
-            <div class="item mix new" >
-                <!-- Thumbnail 1-->
-                <div class="porImgOver" >
-                    <a class="lazyload_portfolioFluid" href="../Content/images/portfolio/thumb2.jpg" title="Omni Bent Wood Installation">Bent Wood</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Omin Installation</h5>
-                                <a class="inverse detail_btn" ><span class="box_hover_min">Project Details</span></a>                                					
-                            </div>
-                        </div>                   
+        <!-- Tab section -->
+        <div class="bar_content bottomSpace_mini">
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+                       
+                        <!-- Tab navigations -->
+                        <ul class="nav-tabs plainTab">
+                            <li class="active"><a href="#tab2_1" data-toggle="tab">Bent Wood</a></li>
+                            <li><a href="#tab2_2" data-toggle="tab">Wall Relief</a></li>
+                            <li><a href="#tab2_3" data-toggle="tab">Sculpture 2010-2005</a></li>
+                            <li><a href="#tab2_4" data-toggle="tab">Sculpture 2004-1999</a></li>
+                            <li><a href="#tab2_5" data-toggle="tab">Drawings - present to 2010</a></li>
+                            <li><a href="#tab2_6" data-toggle="tab">Drawings - archive</a></li>
+                        </ul>
                     </div>
+
                 </div>
-               
-                <!-- Project detail 1-->
-                <div  class="fullDetails" >
-                    <div class="container max_height" >
-                        <div class="row-fluid" >
-                            <div class="span12" >
-                                <h4 class="title_text">Omni Installation</h4> 
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <!-- Tab Content -->
+                    <div class="tab-content">
+
+                        <!-- tab2_1 Bent Wood -->
+                        <div class="tab-pane  fade in active" id="tab2_1">
+
+                            <div class="row-fluid">
+                                <div class="span12 elastic_slider">
+
+                                    <!-- In each li tag, the project content link is defined in data-preview attribute, 
+                				The projects content is placed below carousel_preview class div -->
+
+                                    <div class="carousel_container hover_gray" data-link="#bent_details">
+                                        <ul class="elastislide-list carousel_thumbails thumbnail_list">
+                                            <li class="" data-preview="#bent1">
+                                                <a href="#"><span class="overlay detail"></span></a>
+                                                <a class="lazyload item mix wall" href="~/Content/images/portfolio/thumb1.jpg" title="image text">Image</a>
+                                            </li>
+                                            <li class="" data-preview="#bent2">
+                                                <a href="#"><span class="overlay detail"></span></a>
+                                                <a class="lazyload item mix wall" href="~/Content/images/portfolio/thumb2.jpg" title="image text">Image</a>
+                                            </li>
+                                            <li class="item mix wall" data-preview="#bent3">
+                                                <a href="#"><span class="overlay detail"></span></a>
+                                                <a class="lazyload" href="~/Content/images/portfolio/thumb4.jpg" title="image text">Image</a>
+                                            </li>
+                                            <li class="item mix new" data-preview="#bent4">
+                                                <a href="#"><span class="overlay detail"></span></a>
+                                                <a class="lazyload" href="~/Content/images/portfolio/thumb2.jpg" title="image text">Image</a>
+                                            </li>
+                                            <li class="item mix new" data-preview="#bent5">
+                                                <a href="#"><span class="overlay detail"></span></a>
+                                                <a class="lazyload" href="~/Content/images/portfolio/thumb3.jpg" title="image text">Image</a>
+                                            </li>
+                                            <li class="item mix new" data-preview="#bent1">
+                                                <a href="#"><span class="overlay detail"></span></a>
+                                                <a class="lazyload" href="~/Content/images/portfolio/thumb4.jpg" title="image text">Image</a>
+                                            </li>
+                                            <li class="item mix new" data-preview="#bent2">
+                                                <a href="#"><span class="overlay detail"></span></a>
+                                                <a class="lazyload" href="~/Content/images/portfolio/thumb1.jpg" title="image text">Image</a>
+                                            </li>
+                                            <li class="item mix new" data-preview="#bent3">
+                                                <a href="#"><span class="overlay detail"></span></a>
+                                                <a class="lazyload" href="~/Content/images/portfolio/thumb2.jpg" title="image text">Image</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <hr>
+                                </div>
                             </div>
+
+
+                            <div class="row-fluid">
+                                <div class="span12">
+                                    <div id="bent_details" class="carousel_preview mini">
+
+                                        <!-- bent1 -->
+                                        <div id="bent1" class="carousel_item">
+                                            <div class="row-fluid">
+                                                <div class="span7">
+                                                    <a class="lazyload alignCenter scale-with-grid" href="~/Content/images/portfolio/image2.jpg" title="image text">Image</a>
+                                                    <hr class="separator_mini">
+                                                </div>
+                                                <div class="span5">
+                                                    <h2>Bent Wood Sculture</h2>
+                                                    <strong>Date:</strong> August 2013
+                            <br>
+                                                    <strong>Client:</strong> tosca
+                                                <div class="separator_mini"></div>
+                                                    <p class="tiny_font"></p>
+                                                    <p><strong>Client:</strong>  <a class="underLine"><em>Omni Hotel</em></a> </p>
+                                                    <br>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- bent2 -->
+                                        <div id="bent2" class="carousel_item">
+                                            <div class="row-fluid">
+                                                <div class="span7">
+                                                    <a class="lazyload alignCenter scale-with-grid" href="~/Content/images/portfolio/image1.jpg" title="image text">Image</a>
+                                                    <hr class="separator_mini">
+                                                </div>
+                                                <div class="span5">
+                                                    <h2>Bent Wood Sculpture </h2>
+                                                    <strong>Date:</strong> August 2013
+                            <br>
+                                                    <strong>Client:</strong> tosca
+                                                <div class="separator_mini"></div>
+                                                    <p class="tiny_font"></p>
+                                                    <p><strong>Client:</strong>  <a class="underLine"><em>Park</em></a> </p>
+                                                    <br>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <!-- bent3 -->
+                                        <div id="bent3" class="carousel_item">
+                                            <div class="row-fluid">
+                                                <div class="span7">
+                                                    <a class="lazyload alignCenter scale-with-grid" href="~/Content/images/portfolio/image3.jpg" title="image text">Image</a>
+                                                    <hr class="separator_mini">
+                                                </div>
+                                                <div class="span5">
+                                                    <h2>Bent Wood Sculpture</h2>
+                                                    <strong>Date:</strong> August 2013
+                            <br>
+                                                    <strong>Client:</strong> tosca
+                                                <div class="separator_mini"></div>
+                                                    <p class="tiny_font"></p>
+                                                    <p><strong>Client:</strong>  <a class="underLine"><em>Park</em></a> </p>
+                                                    <br>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <!-- bent4 -->
+                                        <div id="bentt4" class="carousel_item">
+                                            <div class="row-fluid">
+                                                <div class="span7">
+                                                    <a class="lazyload alignCenter scale-with-grid" href="~/Content/images/portfolio/image4.jpg" title="image text">Image</a>
+                                                    <hr class="separator_mini">
+                                                </div>
+                                                <div class="span5">
+                                                    <h2>Solidaire HTML Template</h2>
+                                                    <strong>Date:</strong> May 2013
+                            <br>
+                                                    <strong>Client:</strong> Jurkis Company
+                                                <div class="separator_mini"></div>
+                                                    <h5>hello world </h5>
+                                                    <p class="tiny_font">hello world.</p>
+                                                    <a><span class="box_hover_min">Visit Site</span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="separator_mini">
                         </div>
-                        <div class="row-fluid" >
-                           <div class="span7" >
-                                  <div class="pad">
-                                      <!-- project image slide show -->
-                                      <div class="flexSlideshow" >
-                                          <ul class="slides"> 
-                                              <li><a  class="lazyload" href="~/Content/images/portfolio/image1_a.jpg" title="Some text">IMAGE</a></li> 
-                                              <li><a  class="lazyload" href="~/Content/images/portfolio/image1_b.jpg" title="Some text">IMAGE</a></li>
-                                              <li><a  class="lazyload" href="~/Content/images/portfolio/image1_c.jpg" title="Some text">IMAGE</a></li>
-                                              <li><a  class="lazyload" href="~/Content/images/portfolio/image1_d.jpg" title="Some text">IMAGE</a></li>
-                                          </ul>
-                                      </div>
-                                  </div>
-                                  <hr class="slide_bottomSpace">
-                              </div>                       
-                           <div class="span5">
-                               <h4 class="upperCase noMargin">Omni Hotel Project</h4>                                
-                                <p> The Omni Hotel in Dallas, Texas, USA wanted to fill their lobby with large scale art created by established artists in the area.</p>                            
-                                <p>There are two 45 ft. 'bent wood' sculptors made of hard wood suspended from the ceiling of the Omni Hotel lobby.</p> 
-                                <hr>                                                            
-                            </div>                  
-                        </div>            		
-                    </div>
-                </div>             
-               <!-- End Project 1 detail -->         
-            </div>
 
-            <div class="item mix new" >
-                <!-- Thumbnail 2 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb3.jpg" title="Some text">IMAGE</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                               <h5 class="upperCase bold_weight">Bent Wood Process</h5>
-                                <a class="inverse detail_btn" href="http://vimeo.com/57910940" data-title='<span class="upperCase bold_weight">Bent Wood Process</span>' >
-                                    <span class="box_hover_min">View Video</span>
-                                </a>							
-                            </div>
-                        </div>
-                        </div>                   
-                    </div>
-                   
-            </div>
-            
-              
-            <div class="item mix new" >
-                <!-- Thumbnail 3 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb5.jpg" title="Some text">IMAGE</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Colorado Home</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image5.jpg" data-title='<span class="upperCase bold_weight">Ribbon Wood Sculpture</span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>
-            
-            
-            <div class="item mix new" >
-                <!-- Thumbnail 4-->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb4.jpg" title="Some text">IMAGE</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Shady Oaks Country Club</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image4.jpg" data-title='<span class="upperCase bold_weight">Wood Ribbon Sculpture</span>' >
-                                            <span class="box_hover_min">Details</span>
-                                 </a>                                              							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>            
-    
-            </div>
-            
-            
-            <div class="item mix wall" >
-                <!-- Thumbnail 5-->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb6.jpg" title="Some text">IMAGE</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Bent Wood Wall Sculpture</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image6.jpg" data-title='<span class="upperCase bold_weight">Ribbon Wood Sculpture</span>' >
-                                            <span class="box_hover_min">Details</span>
-                                 </a>                                              							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>            
-    
-            </div>
-            
-                
-            <div class="item mix mix_all wall" >
-                <!-- Thumbnail 6-->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb7.jpg" title="Some text">IMAGE</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Bent Wood Wall Sculpture</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image7.jpg" data-title='<span class="upperCase bold_weight"></span>' >
-                                            <span class="box_hover_min">Details</span>
-                                 </a>                                              							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>            
-    
-            </div>
-         
-                
-            <div class="item mix mix_all wall" >
-                <!-- Thumbnail 7-->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb8.jpg" title="Some text">IMAGE</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Bent Wood Wall Sculpture</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image8.jpg" data-title='<span class="upperCase bold_weight"></span>' >
-                                            <span class="box_hover_min">details</span>
-                                 </a>                                              							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>            
-    
-            </div>
-           
-            
- <div class="item mix mix_all sculpt" >
-                <!-- Thumbnail 9-->
-                <div class="porImgOver" >
-                    <a class="lazyload_portfolioFluid" href="../Content/images/portfolio/thumb9.jpg" title="Table Stories">Table Stories</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Table Stories</h5>
-                                <a class="inverse detail_btn" ><span class="box_hover_min">Details</span></a>                                					
-                            </div>
-                        </div>                   
-                    </div>
-                </div>
-               
-                <!-- Project detail 2-->
-                <div  class="fullDetails" >
-                    <div class="container max_height" >
-                        <div class="row-fluid" >
-                            <div class="span12" >
-                                <h4 class="title_text">Table Stories</h4>
-                                <p>2010 |77" 69" 23"|</p>
-                                <p>Cedar | Oak | Pecan</p> 
-                            </div>
-                        </div>
-                        <div class="row-fluid" >
-                           <div class="span7" >
-                                  <div class="pad">
-                                      <!-- project image slide show -->
-                                      <div class="flexSlideshow" >
-                                          <ul class="slides"> 
-                                              <li><a  class="lazyload" href="~/Content/images/portfolio/image9_a.jpg" title="Some text">IMAGE</a></li> 
-                                              <li><a  class="lazyload" href="~/Content/images/portfolio/image9_b.jpg" title="Some text">IMAGE</a></li>
-                                              <li><a  class="lazyload" href="~/Content/images/portfolio/image9_c.jpg" title="Some text">IMAGE</a></li>
-                                              <li><a  class="lazyload" href="~/Content/images/portfolio/image9_d.jpg" title="Some text">IMAGE</a></li>
-                                              <li><a  class="lazyload" href="~/Content/images/portfolio/image9_e.jpg" title="Some text">IMAGE</a></li>
-                                          </ul>
-                                      </div>
-                                  </div>
-                                  <hr class="slide_bottomSpace">
-                              </div>                       
-                           <div class="span5">
-                               <h4 class="upperCase noMargin">Table Stories</h4>                                
-                                
-                                <p>2010 | 77"x69"x23"</p>
-                                <p>Cedar | Oak | Pecan</p> 
-                                <hr>                                                            
-                            </div>                  
-                        </div>            		
-                    </div>
-                </div>             
-               <!-- End Project 2 detail -->         
-            </div>   
-            
- <div class="item mix mix_all sculpt" >
-                <!-- Thumbnail 10 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb10.jpg" title="Urban Jester">Urban Jester</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Urban Jester</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image10.jpg" data-title='<span class="upperCase bold_weight">Urban Jester<br>2009 | 76" 24" 18" | Oak | Cedar | Pecan</span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>           
-            
-                    
- <div class="item mix mix_all sculpt" >
-                <!-- Thumbnail 11 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb11.jpg" title="Feather Man">Feather Man</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Feather Man</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image11.jpg" data-title='<span class="upperCase bold_weight">Feather Man<br>2009 | 92" 29" 18" | Oak | Cedar </span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>
-            
-            
-<div class="item mix mix_all sculpt" >
-                <!-- Thumbnail 12 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb12.jpg" title="Layered Connections">Layered Connections</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Layered Connections</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image12.jpg" data-title='<span class="upperCase bold_weight">Layered Connections<br>2010 | 87" 21" 18" | Cedar | Oak | Pine</span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>           
-            
-<div class="item mix mix_all sculpt" >
-                <!-- Thumbnail 13 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb13.jpg" title="Some text">IMAGE</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Sculpture</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image13.jpg" data-title='<span class="upperCase bold_weight">Sculpture</span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div> 
 
-<div class="item mix mix_all sculpt" >
-                <!-- Thumbnail 14 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb14.jpg" title="Vertabra">Vertabra</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Vertabrae</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image14.jpg" data-title='<span class="upperCase bold_weight">Vertabra<br>2005 | 83" 13" 14" | Oak | Crepe Myrtle</span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>
-
-<div class="item mix mix_all sculpt" >
-                <!-- Thumbnail 15 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb15.jpg" title="Some text">IMAGE</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Sculpture</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image15.jpg" data-title='<span class="upperCase bold_weight">Sculpture</span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>
-
-<div class="item mix mix_all sculpt" >
-                <!-- Thumbnail 16 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb16.jpg" title="Some text">IMAGE</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Sculpture</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image16.jpg" data-title='<span class="upperCase bold_weight">Sculpture</span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>
-
-<div class="item mix mix_all sculpt" >
-                <!-- Thumbnail 17 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb17.jpg" title="Snatch">Snatch</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Snatch</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image17.jpg" data-title='<span class="upperCase bold_weight">Snatch<br>2005 | 27" 5" 6" | Oak | Crepe Myrtle</span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>
-
-<div class="item mix mix_all sculpt" >
-                <!-- Thumbnail 18 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb18.jpg" title="Some text">IMAGE</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Sculpture</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image18.jpg" data-title='<span class="upperCase bold_weight">Sculpture</span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>
-
-<div class="item mix mix_all sculpt" >
-                <!-- Thumbnail 19 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb19.jpg" title="Blade">Blade</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Sculpture</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image19.jpg" data-title='<span class="upperCase bold_weight">Blade<br>2005 | 61" 14" 7" | Oak</span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>
-
-<div class="item mix mix_all sculpt" >
-                <!-- Thumbnail 20 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb20.jpg" title="Black Flowert">Black Flower</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Black Flower</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image20.jpg" data-title='<span class="upperCase bold_weight">Black Flower<br>2005 | 68" 42" 6" | Pecan | Oak </span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>
-
-<div class="item mix mix_all sculpt" >
-                <!-- Thumbnail 21 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb21.jpg" title="Bad Brush">Bad Brush</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Bad Brush</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image21.jpg" data-title='<span class="upperCase bold_weight">Bad Brush<br>2005 | 82" 16" 8" | Oak | Crepe Myrtle</span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>
-
-<div class="item mix mix_all sculpt" >
-                <!-- Thumbnail 22 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb22.jpg" title="Poindexter">Poindexter</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Poindexter</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image22.jpg" data-title='<span class="upperCase bold_weight">Poindexter<br>2005 | 35" 8" 3" | Oak | Crepe Myrtle</span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>
-
-<div class="item mix mix_all draw2" >
-                <!-- Thumbnail 30 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb30.jpg" title="Some text">IMAGE</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Wood Drawing</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image30.jpg" data-title='<span class="upperCase bold_weight">Wood Drawing</span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>
-
-<div class="item mix mix_all draw2" >
-                <!-- Thumbnail 31 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb31.jpg" title="Some text">IMAGE</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Wood Drawing</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image31.jpg" data-title='<span class="upperCase bold_weight">Wood Drawing</span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>
-
-<div class="item mix mix_all draw2" >
-                <!-- Thumbnail 32 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb32.jpg" title="Some text">IMAGE</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Wood Drawing</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image32.jpg" data-title='<span class="upperCase bold_weight">Wood Drawing</span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>
-
-<div class="item mix mix_all draw2" >
-                <!-- Thumbnail 33 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb33.jpg" title="Crossings">Crossings</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight"><br>2007 | 40" 30" 6" | Charcoal</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image33.jpg" data-title='<span class="upperCase bold_weight">Crossings<br>2007 | 40" 30" | Charcoal</span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>
-
-<div class="item mix mix_all draw" >
-                <!-- Thumbnail 34 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb34.jpg" title="Electric Swizzle">Electric Swizzle</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Electric Swizzle</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image34.jpg" data-title='<span class="upperCase bold_weight">Electric Swizzle<br>2007 | 40" 30" | Charcoal</span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>
-
-<div class="item mix mix_all draw" >
-                <!-- Thumbnail 35 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb35.jpg" title="Grand Pattern">Grand Pattern</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Grand Pattern</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image35.jpg" data-title='<span class="upperCase bold_weight">Grand Pattern<br>2007 | 40" 30" | Charcoal</span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>
-
-<div class="item mix mix_all draw" >
-                <!-- Thumbnail 36 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb36.jpg" title="Some text">IMAGE</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Wood Drawing</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image36.jpg" data-title='<span class="upperCase bold_weight">Wood Drawing</span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>
-
-<div class="item mix mix_all draw" >
-                <!-- Thumbnail 37 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb37.jpg" title="Kitchen Dancer ||">Kitchen Dancer ||</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Kitchen Dancer ||</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image37.jpg" data-title='<span class="upperCase bold_weight">Kitchen Dancer ||<br>2007 | 40" 30" | Charcoal</span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>
-
-<div class="item mix mix_all draw" >
-                <!-- Thumbnail 38 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb38.jpg" title="Kitchen Dancer">Kitchen Dancer</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Kitchen Dancer</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image38.jpg" data-title='<span class="upperCase bold_weight">Kitchen Dancer<br>2007 | 40" 30" | Charcoal</span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>
-
-<div class="item mix mix_all draw2" >
-                <!-- Thumbnail 39 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb39.jpg" title="Some text">IMAGE</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Wood Drawing</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image39.jpg" data-title='<span class="upperCase bold_weight">Wood Drawing</span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>
-
-<div class="item mix mix_all draw2" >
-                <!-- Thumbnail 40 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb40.jpg" title="Minnie">Minnie</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Minnie</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image40.jpg" data-title='<span class="upperCase bold_weight">Minnie<br>2007 | 40" 30" | Charcoal</span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>
-
-<div class="item mix mix_all draw2" >
-                <!-- Thumbnail 41 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb41.jpg" title="Mickey">Mickey</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Mickey</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image41.jpg" data-title='<span class="upperCase bold_weight">Mickey<br>2007 | 40" 30" | Charcoal</span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>
-
-<div class="item mix mix_all draw2" >
-                <!-- Thumbnail 42 -->
-                <div class="porImgOver" >
-                    <a  class="lazyload_portfolioFluid" href="~/Content/images/portfolio/thumb42.jpg" title="Some text">IMAGE</a>
-                    <div class="overlay content">
-                        <div class="imageText">
-                            <div class="middle_align">
-                                <h5 class="upperCase bold_weight">Wood Drawing</h5>
-                                <a class="inverse detail_btn" href="~/Content/images/portfolio/image42.jpg" data-title='<span class="upperCase bold_weight">Wood Drawing</span>' >
-                                    <span class="box_hover_min">Details</span>
-                                </a>							
-                            </div>
-                        </div>                   
-                    </div>
-                </div>    
-            </div>
-    
-    </div>   
-    
-    <hr>
-    <hr class="separator_max">
+                        <!-- tab2_2 Wall Relief -->
+                        <div class="tab-pane  fade in active" id="tab2_2">
  
-</div>
+                            <div class="row">
+                                <div class="span12">
+                                   
+                                    <!-- scrollable carousel -->
+                                    <div id="carousel">                                  
+                                       
+                                        <ul>
+                                            <li class="pane1">
+                                                <h2>
+                                                    <img src="~/Content/images/wall/wall1.jpg" /><br>
+                                                    <small>Wall Relief 2, Studio Study - 10'x 5' Oak</small></h2>
+                                            </li>
+                                            <li class="pane2">
+                                                <h2>
+                                                    <img src="~/Content/images/wall/wall2.jpg" /><br>
+                                                    <small>Wall Relief, Studio Study - 8'x 5' Oak</small> </h2>
+                                            </li>
+                                            <li class="pane3">
+                                                <h2>
+                                                    <img src="~/Content/images/wall/wall3.jpg" /><br>
+                                                    <small>Wall Relief - 8'x 5' Oak</small> </h2>
+                                            </li>
+                                            <li class="pane4">
+                                                <h2>
+                                                    <img src="~/Content/images/wall/wall4.jpg" /><br>
+                                                    <small>3Lines 2Balls Studio Study - 6'x 3' Oak</small>  </h2>
+                                            <li class="pane5">
+                                                <h2>
+                                                    <img src="~/Content/images/wall/wall5.jpg" /><br>
+                                                    <small>3Rings 4Balls - 39" x 19" Oak</small>  </h2>
+                                            </li>
+                                             <li class="pane6">
+                                                <h2>
+                                                    <img src="~/Content/images/wall/wall6.jpg" /><br>
+                                                    <small>Wall Rings - 39" x 19" Oak</small> </h2>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
 
 </div>
-
 
 <!-- Videos page -->
 
@@ -972,13 +491,13 @@ Page navigation - Use to Scroll the page from section to section
     </div>    
     
     <!-- Tab section -->
-    <div class="bar_content">
+    <div class="bar_content bottomSpace_mini">
     	<div class="container">
         	<div class="row">
             	<div class="span12" > 
                 	<!-- Tab navigations -->
                     <ul class="nav-tabs plainTab">
-                      <li class="active"><a href="#tab4_1" data-toggle="tab">Statement</a></li>
+                   <li class="active"><a href="#tab4_1" data-toggle="tab">Statement</a></li>
                       <li><a href="#tab4_2" data-toggle="tab">News</a></li>
                       <li><a href="#tab4_3" data-toggle="tab">Bio</a></li> 
                       <li><a href="#tab4_4" data-toggle="tab">Links</a></li>
@@ -989,445 +508,432 @@ Page navigation - Use to Scroll the page from section to section
 		</div>   
     </div>
        
-       <div class="container" > 
-       <div>   
-          <div class="row"> 
-            <div class="span12"> 
-            	<!-- Tab Content -->
-                <div class="tab-content">
-                
-                    <!-- tab4_1 Statement -->
-                    <div class="tab-pane  fade in active" id="tab4_1">
+    <div class="container">
+          <div class="row">
+                <div class="span12">
+                    <!-- Tab Content -->
+                    <div class="tab-content">
 
-                        <div class="row-fluid">
-                            <div class="span12">
-                                <h2>Statement </h2>
-                                <hr />
-                            </div>
-                        </div>
+                        <!-- tab4_1 Statement -->
+                        <div class="tab-pane  fade in active" id="tab4_1">
 
-                        <div class="row-fluid">
-                            <div class="span10">
-                                <div class="thumbnail-mini">
-                                    <img class="img-rounded-mini" style="float: left; margin-right: 40px;" src="~/Content/images/artist/rick-maxwell-profile.jpg" title="Rick Maxwell - wood sculptor" />
-                                     <br /><br />In the past 40 years, I've written many 'Artist Statements'. Some were insightful, some were intellectual, some were humorous and a few were even embarrassing. Now, after all this time, what it's come down to is exactly where it started. I enjoy being an artist because I enjoy the simple task of making the art. For me the process has always had a stronger allure than standing in front of the finished piece. I love the tools I work with, the materials I work in, and the empathy I experience as I move through the process. Simply said, "I'm an artist because I'm addicted to making art."                             
-                                                <img style="float: right" src="~/Content/images/home_slider/Rick-signature-sm.png" />     
-                                </div>
-                            </div>
-
-                            <div class="span4">                               
-                            </div>
-                            <hr class="separator_medium">
-                        </div>
-
-                    </div>
-
-
-                    <!-- tab4_2 News -->
-                    <div class="tab-pane  fade in active" id="tab4_2">
-
-                        <div class="row-fluid">
-                            <div class="span12">
-                                <h2>News * These are holding spaces for News images</h2>
-                                <hr />
-                            </div>
-                        </div>
-
-
-                        <div class="row-fluid four_column text-center">
-
-                            <div class="span12">
-
-                                <a class="part feature">
-                                    <div class="thumbnail">
-                                        <img src="~/Content/images/artist/image1.jpg" />
-                                    </div>
-                                    <div class="bg_hover_change img-rounded-mini">
-                                        <i class="fa fa-caret-up fa-2x"></i>
-                                        <h4>Allure of the Process</h4>
-                                        <h6><em>Fallen wood. Sculpted.</em></h6>
-                                    </div>
-                                </a>
-
-                                <a class="part feature">
-                                    <div class="thumbnail">
-                                        <img src="~/Content/images/artist/image2.jpg" />
-                                    </div>
-                                    <div class="bg_hover_change img-rounded-mini">
-                                        <i class="fa fa-caret-up fa-2x"></i>
-                                        <h4>Bending new Life</h4>
-                                        <h6><em>New Process of Cold Compression</em></h6>
-                                    </div>
-                                </a>
-
-                                <a class="part feature">
-                                    <div class="thumbnail">
-                                        <img src="~/Content/images/artist/image3.jpg" />
-                                    </div>
-                                    <div class="bg_hover_change img-rounded-mini">
-                                        <i class="fa fa-caret-up fa-2x"></i>
-                                        <h4>Another Turn</h4>
-                                        <h6><em>Straight wood. Twisted.</em></h6>
-                                    </div>
-                                </a>
-
-                                <a class="part feature">
-                                    <div class="thumbnail">
-                                        <img src="~/Content/images/artist/image4.jpg" />
-                                    </div>
-                                    <div class="bg_hover_change img-rounded-mini">
-                                        <i class="fa fa-caret-up fa-2x"></i>
-                                        <h4>Love the Process</h4>
-                                        <h6><em>Look up. At every angle.</em></h6>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <hr class="separator_max"> 
-                        </div>
-                    </div>
-
-                	
-                    
-                    <!-- tab4_3 Biography -->
-                    <div class="tab-pane fade" id="tab4_3">
-						
-                        <div class="row-fluid">
-                        	<div class="span12">
-                        		<h2>Biography</h2>
-                            	<hr>
-                        	</div>
-                        </div>
-  
-                        
-                        <div class="contentWrapper darkStyle fullHeight parallax removePadding"   
-                                data-src="../Content/images/background/image1.jpg" data-src-small="../Content/images/background/image1_s.jpg" > 
-
-                             <hr class="top_space"> 
-                                        
-                           <div class="row-fluid">
-
-                            <div class="span6 container">
-                            <div class="bar_content transparent bottomSpace_mini" style="padding-left:40px">
-                                    <div class="row">
-                                      <div class="span12"><h3>Born</h3> </div>
-                                    </div>
-                                    <div class="row">
-                                      <div class="span12">Chicago, Illinois, 1947</div>
-                                    </div>
-                                    <div class="row">
-                                    <div class="span1"><h3>EDUCATION</h3></div>
-                                    <div class="span11"></div>
-                                </div>
-                                    <div class="row">
-                                        <div class="span1">1971</div>
-                                        <div class="span11">B.A. The University of Dallas, Irving, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">1975</div>
-                                        <div class="span11">M.F.A. Southern Methodist University, Dallas, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span11"><h3>SOLO EXHIBITIONS</h3></div>
-                                        <div class="span1"></div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">2005</div>
-                                        <div class="span11">Faculty Projects 14, The Forum Gallery, Dallas, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">2004</div>
-                                        <div class="span11">Rick Maxwell:  Recent Works, The Bridge Gallery, Mountainview College, Oak Cliff, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">2001</div>
-                                        <div class="span11">50 Bad Dogs, The Studio Gallery, Brookhaven College School of the Arts, Farmers Branch, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">1991</div>
-                                        <div class="span11">Rick Maxwell Ladders, Eastfield College, Mesquite, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">1985</div>
-                                        <div class="span11">Rick Maxwell New Works, Rubin/Mardin Gallery, Seattle, Washington</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">1982</div>
-                                        <div class="span11">Constructed Paintings, D.W. Gallery, Dallas, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">1981</div>
-                                        <div class="span11">Rick Maxwell, Laguna Gloria Art Museum, Austin, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">1981</div>
-                                        <div class="span11">Rick Maxwell, The Trickster, Grahm Gallery, Houston, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">1980</div>
-                                        <div class="span11">Rick Maxwell, The Waco Art Center, Waco, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">1980</div>
-                                        <div class="span11">Rick Maxwell Paintings and Drawings, D.W. Gallery, Dallas, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">1978</div>
-                                        <div class="span11">Rick Maxwell Recent Work, Clifford Gallery, Dallas, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">1976</div>
-                                        <div class="span11">Maxwell, Gallery 13, KERA-TV, Dallas, Texas</div>
-                                    </div>
-                                </div>
-                        </div>         
-                           
-                             <div class="span6 container"><br />
-                                    <div class="row">
-                                        <div class="span11"><h3>GROUP EXHIBITIONS</h3></div>
-                                        <div class="span1"></div>
-                                   </div>
-                                 <div class="row">
-                                        <div class="span1">2014</div>
-                                        <div class="span11">Art Couples, Bathhouse cultural Art Center, Dallas Texas</div>
-                                    </div>
-                                 <div class="row">
-                                        <div class="span1">2013</div>
-                                        <div class="span11">Dallas Morning News Lamar Street Arts and Music Festival, Dallas Texas</div>
-                                    </div>
-                                 <div class="row">
-                                        <div class="span1">2010</div>
-                                        <div class="span11">Maxwell, Newman, and Taylor Sculpture Photography and Painting Haggerty Gallery, The University of Dallas, Irving Texas</div>
-                                    </div>
-                                 <div class="row">
-                                        <div class="span1">2009</div>
-                                        <div class="span11">Brock/Maxwell Painting and Sculpture, Brock Galleries Dallas, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">2007</div>
-                                        <div class="span11">Lisa Ehrich, Rick Maxwell, Ceramics/Sculpture, Eastern Oklahoma University, Ada, Oklahoma</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">2005</div>
-                                        <div class="span11">Form, Fire and Fiction, Plano Art Center, Plano, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">2004</div>
-                                        <div class="span11">Drawn For, Barry Whistler Gallery, Dallas, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">1998</div>
-                                        <div class="span11">Art in the Metroplex, Texas Christian University, Ft. Worth, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">1989</div>
-                                        <div class="span11">AMST V, Art Museum of South Texas, Corpus Christi, Texas </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">1987</div>
-                                        <div class="span11">Critic's Choice, Dallas Visual Art Center, Dallas, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">1987</div>
-                                        <div class="span11">Five State Art Exhibit, Gallery of Port Arthur, Port Arthur, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">1982</div>
-                                        <div class="span11">Fire, Houston Museum of Contemporary Art, Houston, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">1981</div>
-                                        <div class="span11">The House As Image, Lawndale Annex, Houston, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">1980</div>
-                                        <div class="span11">Inside Texas Borders, South Texas Artmobile, Corpus Christi, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">1979</div>
-                                        <div class="span11">12: An Invitational of Twelve Regional Artists, Dallas Museum of Art, Dallas, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">1978</div>
-                                        <div class="span11">The Tree Show, D.W. Gallery, Dallas, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1">1977</div>
-                                        <div class="span11">The Southwest Tarrant County Annual, Ft. Worth, Modern Museum, Ft. Worth, Texas</div>
-                                    </div>
-                                     <div class="row">
-                                         <br />
-                                        <div class="span11"><h3>COLLECTIONS/COMMISSIONS</h3></div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1"></div><div class="span11">Omni Corporation</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1"></div><div class="span11">Marriott Corporation</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1"></div><div class="span11">Shady Oaks Country Club</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1"></div><div class="span11">Atlantic Richfield Company, Los Angeles, California</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1"></div><div class="span11">Los Angeles County Museum, Los Angeles, California</div> 
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1"></div><div class="span11">Dallas Museum of Art, Dallas, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1"></div><div class="span11">Museum of Fine Art, Houston, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1"></div><div class="span11">Southwestern Bell, Dallas, Texas</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="span1"></div><div class="span11">El Centro College, Dallas, Texas</div>
-                                    </div>
-                                   
-                                </div>
-                           
-                         </div>
-                         <hr class="separator_medium">   
-                      </div>            
- </div>                    
-                    
-                    <!-- tab4_4 Links -->
-                    <div class="tab-pane fade" id="tab4_4" >
-                    	<div class="row-fluid">
-                        	<div class="span12">
-                        		<h2>Links</h2>
-                            	<hr>
-                        	</div>
-                        </div>
-                        
-                       <div class="row-fluid">
-                            <div class="team">
-                                 <div class="thumbnail-mini">
-                                     <img src="~/Content/images/artist/image31.jpg" class="img-rounded-mini" alt="Lisa Ehrich - Sculptor"> 
-                                   </div>     
-                                       <h4 >Lisa Ehrich</h4>
-                                       <h5 class="tiny_font">Fine Arts Clay Sculptor </h5> 
-                                       <h6 class="highlight_color"><em>
-                                          <a href="http://lisaehrich.com" target="_blank" title="Lise Ehrich website">lisaehrich.com</a></em></h6>
-                                <br /> 
-                                <hr class="separator_mini">                                                      
-					         </div>
-                              <div class="team">
-                                         <div class="thumbnail-mini">
-                                             <img src="~/Content/images/artist/image32.jpg" class="img-rounded-mini" alt="Jim Bowman - Glass Sculptor"> 
-                                          </div>
-                                               <h4>Jim Bowman</h4>
-                                               <h5 class="tiny_font">Glass Sculptor </h5> 
-                                               <h6 class="highlight_color"><em>
-                                                  <a href="http://www.bowmanglass.com/" target="_blank" title="Jim Bowman website">bowmanglass.com</a></em></h6>
-                                           <br />
-                                        <hr class="separator_mini">                                                      
-					         </div>
-
-                              <div class="team">
-                                         <div class="thumbnail-mini">
-                                             <img src="~/Content/images/artist/image34.jpg" class="img-rounded-mini" alt="Evan Morris website"> 
-                                          </div> 
-                                               <h4>Evan Morris</h4>
-                                               <h5 class="tiny_font">Evan Morris</h5> 
-                                               <h6 class="highlight_color"><em>
-                                                  <a href="http://www.evanmorris.me/" target="_blank" title="Evan Morris website">evanmorris.me</a></em></h6>
-                                           <br /> 
-                                <hr class="separator_mini">                                                      
-					         </div>
-
-
-                           <div class="team">
-                                         <div class="thumbnail-mini">
-                                             <img src="~/Content/images/artist/image33.jpg" class="img-rounded-mini" alt="The Extreme Wood Bending Company"> 
-                                          </div> 
-                                               <h4>Chris Mortz</h4>
-                                               <h5 class="tiny_font">Extreme Wood Bending Company</h5> 
-                                               <h6 class="highlight_color"><em>
-                                                  <a href="http://www.puretimber.com/" target="_blank" title="Extreme wood Bending website">puretimber.com</a></em></h6>
-                                           <br /> 
-                                <hr class="separator_mini">                                                      
-					         </div>
-                        </div>
-                    </div>   
-			     
-
-                    <!-- tab4_5 Contact -->
-                    <div class="tab-pane fade" id="tab4_5" >
-                    	<div class="row-fluid">
-                        	<div class="span12">
-                        		<h2>Contact</h2>
-                            	<hr>
-                        	</div>
-                        </div>
-                <div class="contentWrapper darkStyle fullHeight parallax removePadding"   
-                                data-src="../Content/images/artist/image3.jpg" data-src-small="../Content/images/artist/image3.jpg" > 
-
-                <hr class="top_space"> 
-                    <div class="container desktop_alignLeft">     	
-      <div class="row"> 
-            <div class="span12" >
-				<h1 class="fittext3 white_color">Rick Maxwell</h1>
-            </div>
-        </div>
-       <div class="bar_content transparent bottomSpace_mini">          	 
-      <div class="container desktop_alignLeft">  
-        <div class="row">
-        
-            <div class="span4" >
-                <h3 class="upperCase bold_weight"> Maxwell Studios</h3>
-                <h4><em> 
-                1419A Griffin Street East<br/>
-                Dallas, Texas 75215
-                </em></h4> 
-            </div> 
-            
-            <div class="span4" >                 
-               <br/> <h4><em>
-                Phone: 214.232.7524<br/>
-                </em></h4>
                             
-                <h4><em> 
-                    Email: <a>maxwell2472@sbcglobal.net</a> 
-                </em></h4><br/>
-            </div> 
-        </div>
 
-        </div>  
-          <!--   <hr class="separator_mini">  -->              	
+                            <div class="row-fluid">
+                                <div class="span10">
+                                    <div class="thumbnail-mini">
+                                        <img class="img-rounded-mini" style="float: left; margin-right: 40px;" src="~/Content/images/artist/rick-maxwell-profile.jpg" title="Rick Maxwell - wood sculptor" />
+                                        <br />
+                                        <br />
+                                        In the past 40 years, I've written many 'Artist Statements'. Some were insightful, some were intellectual, some were humorous and a few were even embarrassing. Now, after all this time, what it's come down to is exactly where it started. I enjoy being an artist because I enjoy the simple task of making the art. For me the process has always had a stronger allure than standing in front of the finished piece. I love the tools I work with, the materials I work in, and the empathy I experience as I move through the process. Simply said, "I'm an artist because I'm addicted to making art."                             
+                                                <img style="float: right" src="~/Content/images/home_slider/Rick-signature-sm.png" />
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="span2">
+                                </div>
+                                <hr class="separator_max">
+                            </div>
+
+                        </div>
+
+
+                        <!-- tab4_2 News -->
+                        <div class="tab-pane  fade in active" id="tab4_2">
+
+
+                            <div class="row-fluid four_column text-center">
+
+                                <div class="span12">
+
+                                    <a class="part feature">
+                                        <div class="thumbnail">
+                                            <img src="~/Content/images/artist/image1.jpg" />
+                                        </div>
+                                        <div class="bg_hover_change img-rounded-mini">
+                                            <i class="fa fa-caret-up fa-2x"></i>
+                                            <h4>Allure of the Process</h4>
+                                            <h6><em>Fallen wood. Sculpted.</em></h6>
+                                        </div>
+                                    </a>
+
+                                    <a class="part feature">
+                                        <div class="thumbnail">
+                                            <img src="~/Content/images/artist/image2.jpg" />
+                                        </div>
+                                        <div class="bg_hover_change img-rounded-mini">
+                                            <i class="fa fa-caret-up fa-2x"></i>
+                                            <h4>Bending new Life</h4>
+                                            <h6><em>New Process of Cold Compression</em></h6>
+                                        </div>
+                                    </a>
+
+                                    <a class="part feature">
+                                        <div class="thumbnail">
+                                            <img src="~/Content/images/artist/image3.jpg" />
+                                        </div>
+                                        <div class="bg_hover_change img-rounded-mini">
+                                            <i class="fa fa-caret-up fa-2x"></i>
+                                            <h4>Another Turn</h4>
+                                            <h6><em>Straight wood. Twisted.</em></h6>
+                                        </div>
+                                    </a>
+
+                                    <a class="part feature">
+                                        <div class="thumbnail">
+                                            <img src="~/Content/images/artist/image4.jpg" />
+                                        </div>
+                                        <div class="bg_hover_change img-rounded-mini">
+                                            <i class="fa fa-caret-up fa-2x"></i>
+                                            <h4>Love the Process</h4>
+                                            <h6><em>Look up. At every angle.</em></h6>
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <hr class="separator_max">
+                            </div>
+                        </div>
+
+
+
+                        <!-- tab4_3 Biography -->
+                        <div class="tab-pane fade" id="tab4_3">
+
+                            <div class="contentWrapper darkStyle fullHeight parallax removePadding"
+                                data-src="../Content/images/background/image1.jpg" data-src-small="../Content/images/background/image1_s.jpg">
+
+                                <hr class="top_space">
+
+                                <div class="row-fluid">
+
+                                    <div class="span6 container">
+                                        <div class="bar_content transparent bottomSpace_mini" style="padding-left: 40px">
+                                            <div class="row">
+                                                <div class="span12">
+                                                    <h3>Born</h3>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="span12">Chicago, Illinois, 1947</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="span1">
+                                                    <h3>EDUCATION</h3>
+                                                </div>
+                                                <div class="span11"></div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="span1">1971</div>
+                                                <div class="span11">B.A. The University of Dallas, Irving, Texas</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="span1">1975</div>
+                                                <div class="span11">M.F.A. Southern Methodist University, Dallas, Texas</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="span11">
+                                                    <h3>SOLO EXHIBITIONS</h3>
+                                                </div>
+                                                <div class="span1"></div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="span1">2005</div>
+                                                <div class="span11">Faculty Projects 14, The Forum Gallery, Dallas, Texas</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="span1">2004</div>
+                                                <div class="span11">Rick Maxwell:  Recent Works, The Bridge Gallery, Mountainview College, Oak Cliff, Texas</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="span1">2001</div>
+                                                <div class="span11">50 Bad Dogs, The Studio Gallery, Brookhaven College School of the Arts, Farmers Branch, Texas</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="span1">1991</div>
+                                                <div class="span11">Rick Maxwell Ladders, Eastfield College, Mesquite, Texas</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="span1">1985</div>
+                                                <div class="span11">Rick Maxwell New Works, Rubin/Mardin Gallery, Seattle, Washington</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="span1">1982</div>
+                                                <div class="span11">Constructed Paintings, D.W. Gallery, Dallas, Texas</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="span1">1981</div>
+                                                <div class="span11">Rick Maxwell, Laguna Gloria Art Museum, Austin, Texas</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="span1">1981</div>
+                                                <div class="span11">Rick Maxwell, The Trickster, Grahm Gallery, Houston, Texas</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="span1">1980</div>
+                                                <div class="span11">Rick Maxwell, The Waco Art Center, Waco, Texas</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="span1">1980</div>
+                                                <div class="span11">Rick Maxwell Paintings and Drawings, D.W. Gallery, Dallas, Texas</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="span1">1978</div>
+                                                <div class="span11">Rick Maxwell Recent Work, Clifford Gallery, Dallas, Texas</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="span1">1976</div>
+                                                <div class="span11">Maxwell, Gallery 13, KERA-TV, Dallas, Texas</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="span6 container">
+                                        <br />
+                                        <div class="row">
+                                            <div class="span11">
+                                                <h3>GROUP EXHIBITIONS</h3>
+                                            </div>
+                                            <div class="span1"></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1">2014</div>
+                                            <div class="span11">Art Couples, Bathhouse cultural Art Center, Dallas Texas</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1">2013</div>
+                                            <div class="span11">Dallas Morning News Lamar Street Arts and Music Festival, Dallas Texas</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1">2010</div>
+                                            <div class="span11">Maxwell, Newman, and Taylor Sculpture Photography and Painting Haggerty Gallery, The University of Dallas, Irving Texas</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1">2009</div>
+                                            <div class="span11">Brock/Maxwell Painting and Sculpture, Brock Galleries Dallas, Texas</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1">2007</div>
+                                            <div class="span11">Lisa Ehrich, Rick Maxwell, Ceramics/Sculpture, Eastern Oklahoma University, Ada, Oklahoma</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1">2005</div>
+                                            <div class="span11">Form, Fire and Fiction, Plano Art Center, Plano, Texas</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1">2004</div>
+                                            <div class="span11">Drawn For, Barry Whistler Gallery, Dallas, Texas</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1">1998</div>
+                                            <div class="span11">Art in the Metroplex, Texas Christian University, Ft. Worth, Texas</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1">1989</div>
+                                            <div class="span11">AMST V, Art Museum of South Texas, Corpus Christi, Texas </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1">1987</div>
+                                            <div class="span11">Critic's Choice, Dallas Visual Art Center, Dallas, Texas</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1">1987</div>
+                                            <div class="span11">Five State Art Exhibit, Gallery of Port Arthur, Port Arthur, Texas</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1">1982</div>
+                                            <div class="span11">Fire, Houston Museum of Contemporary Art, Houston, Texas</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1">1981</div>
+                                            <div class="span11">The House As Image, Lawndale Annex, Houston, Texas</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1">1980</div>
+                                            <div class="span11">Inside Texas Borders, South Texas Artmobile, Corpus Christi, Texas</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1">1979</div>
+                                            <div class="span11">12: An Invitational of Twelve Regional Artists, Dallas Museum of Art, Dallas, Texas</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1">1978</div>
+                                            <div class="span11">The Tree Show, D.W. Gallery, Dallas, Texas</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1">1977</div>
+                                            <div class="span11">The Southwest Tarrant County Annual, Ft. Worth, Modern Museum, Ft. Worth, Texas</div>
+                                        </div>
+                                        <div class="row">
+                                            <br />
+                                            <div class="span11">
+                                                <h3>COLLECTIONS/COMMISSIONS</h3>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1"></div>
+                                            <div class="span11">Omni Corporation</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1"></div>
+                                            <div class="span11">Marriott Corporation</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1"></div>
+                                            <div class="span11">Shady Oaks Country Club</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1"></div>
+                                            <div class="span11">Atlantic Richfield Company, Los Angeles, California</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1"></div>
+                                            <div class="span11">Los Angeles County Museum, Los Angeles, California</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1"></div>
+                                            <div class="span11">Dallas Museum of Art, Dallas, Texas</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1"></div>
+                                            <div class="span11">Museum of Fine Art, Houston, Texas</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1"></div>
+                                            <div class="span11">Southwestern Bell, Dallas, Texas</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span1"></div>
+                                            <div class="span11">El Centro College, Dallas, Texas</div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <hr class="separator_medium">
+                            </div>
+                        </div>
+
+                        <!-- tab4_4 Links -->
+                        <div class="tab-pane fade" id="tab4_4">
+                       
+                            <div class="row-fluid">
+                                <div class="team">
+                                    <div class="thumbnail-mini">
+                                        <img src="~/Content/images/artist/image31.jpg" class="img-rounded-mini" alt="Lisa Ehrich - Sculptor">
+                                    </div>
+                                    <h4>Lisa Ehrich</h4>
+                                    <h5 class="tiny_font">Fine Arts Clay Sculptor </h5>
+                                    <h6 class="highlight_color"><em>
+                                        <a href="http://lisaehrich.com" target="_blank" title="Lise Ehrich website">lisaehrich.com</a></em></h6>
+                                    <br />
+                                    <hr class="separator_mini">
+                                </div>
+                                <div class="team">
+                                    <div class="thumbnail-mini">
+                                        <img src="~/Content/images/artist/image32.jpg" class="img-rounded-mini" alt="Jim Bowman - Glass Sculptor">
+                                    </div>
+                                    <h4>Jim Bowman</h4>
+                                    <h5 class="tiny_font">Glass Sculptor </h5>
+                                    <h6 class="highlight_color"><em>
+                                        <a href="http://www.bowmanglass.com/" target="_blank" title="Jim Bowman website">bowmanglass.com</a></em></h6>
+                                    <br />
+                                    <hr class="separator_mini">
+                                </div>
+
+                                <div class="team">
+                                    <div class="thumbnail-mini">
+                                        <img src="~/Content/images/artist/image34.jpg" class="img-rounded-mini" alt="Evan Morris website">
+                                    </div>
+                                    <h4>Evan Morris</h4>
+                                    <h5 class="tiny_font">Evan Morris</h5>
+                                    <h6 class="highlight_color"><em>
+                                        <a href="http://www.evanmorris.me/" target="_blank" title="Evan Morris website">evanmorris.me</a></em></h6>
+                                    <br />
+                                    <hr class="separator_mini">
+                                </div>
+
+
+                                <div class="team">
+                                    <div class="thumbnail-mini">
+                                        <img src="~/Content/images/artist/image33.jpg" class="img-rounded-mini" alt="The Extreme Wood Bending Company">
+                                    </div>
+                                    <h4>Chris Mortz</h4>
+                                    <h5 class="tiny_font">Extreme Wood Bending Company</h5>
+                                    <h6 class="highlight_color"><em>
+                                        <a href="http://www.puretimber.com/" target="_blank" title="Extreme wood Bending website">puretimber.com</a></em></h6>
+                                    <br />
+                                    <hr class="separator_mini">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- tab4_5 Contact -->
+                        <div class="tab-pane fade" id="tab4_5">
+                           
+                            <div class="contentWrapper darkStyle fullHeight parallax removePadding"
+                                data-src="../Content/images/artist/image3.jpg" data-src-small="../Content/images/artist/image3.jpg">
+
+                                <hr class="top_space">
+                                <div class="container desktop_alignLeft">
+                                    <div class="row">
+                                        <div class="span12">
+                                            <h1 class="fittext3 white_color">Rick Maxwell</h1>
+                                        </div>
+                                    </div>
+                                    <div class="bar_content transparent bottomSpace_mini">
+                                        <div class="container desktop_alignLeft">
+                                            <div class="row">
+
+                                                <div class="span4">
+                                                    <h3 class="upperCase bold_weight">Maxwell Studios</h3>
+                                                    <h4><em>1419A Griffin Street East<br />
+                                                        Dallas, Texas 75215
+                                                    </em></h4>
+                                                </div>
+
+                                                <div class="span4">
+                                                    <br />
+                                                    <h4><em>Phone: 214.232.7524<br />
+                                                    </em></h4>
+
+                                                    <h4><em>Email: <a>maxwell2472@sbcglobal.net</a>
+                                                    </em></h4>
+                                                    <br />
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!--   <hr class="separator_mini">  -->
+                                    </div>
+
+
+                                    <hr class="separator_mini">
+                                    <div class="bar_content transparent bottomSpace_mini">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="span5">
+                                                    <h2>Network Links</h2>
+                                                </div>
+                                                <div class="span7">
+                                                    <ul class="font_awesome topSpace_mini">
+                                                        <li><a><i class="fa fa-facebook"></i></a></li>
+                                                        <li><a><i class="fa fa-google-plus"></i></a></li>
+                                                        <li><a><i class="fa fa-linkedin"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
     </div>
-	
-    
-    <hr class="separator_mini">
-<div class="bar_content transparent bottomSpace_mini"> 
-        <div class="container">
-            <div class="row">
-				<div class="span5">
-					<h2 >Network Links</h2>
-				</div>
-                <div class="span7">
-                    <ul class="font_awesome topSpace_mini" >            	               
-                        <li ><a ><i class="fa fa-facebook"></i></a></li>
-                        <li ><a ><i class="fa fa-google-plus"></i></a></li>
-                        <li ><a ><i class="fa fa-linkedin"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-	</div>
-    
-   </div>
-                </div>
-            </div>            
-          </div>
-      </div>       
-</div>
-           
-     </div>
-</div>
 
 <div data-id="!bottomArea" class="contentWrapper darkStyle backGround removePadding top_border" >
 	<hr>  
@@ -1463,9 +969,6 @@ Page navigation - Use to Scroll the page from section to section
         <hr>
     </div>  
 </div>
-
-
-
 
 </div>
 
