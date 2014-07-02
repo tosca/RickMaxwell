@@ -63,8 +63,24 @@
             text-shadow: -1px -1px 0 rgba(0,0,0,.2);
         }
             #carousel li img {
-                height: 730px;
+                height: 350px;
             }
+@media only screen and (max-width: 479px) {
+    #carousel li img {
+        height: 400px;
+    }
+}@media only screen and (min-width: 767px) {
+    #carousel li img {
+        height: 600px;
+    }
+}
+@media only screen and (min-width: 979px) {
+    #carousel li img {
+        height: 720px;
+    }
+}
+
+
 /* big-work */
 
 .big-work{ 
@@ -80,13 +96,13 @@
 @media only screen and (max-width: 979px) {
 	.big-work{ width:20%; }	   
 }
-	}
+
 	
 @media only screen and (max-width: 479px) {
 	.big-work{ width:20% !important; }
 	}	
 
-/* .big-work active*/
+/* .big-work active for portfolio filter - not using this*/
 .controls .big-work .filter.active:hover h5, .controls .big-work .filter.active h5 {
     color: rgb(255, 150, 0);
 }
