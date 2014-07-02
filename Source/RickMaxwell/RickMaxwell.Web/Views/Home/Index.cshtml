@@ -28,16 +28,6 @@ Header Navigation Area
     
     <div class="header_content" >
 		
-        <!-- Set Top Menu 
-        	Just add the class name topNav to the below setNavType class div 
-            OR
-            Remove the 55th line on custom.min.js file. It will applied to the all pages
-        -->
-        
-        <!-- Center Align Page
-        To make the Menu align center, just add the class name container to the below setNavType div 
-        Note: Add only for top menu
-        -->
         
         <div class="setNavType"> 
         
@@ -56,27 +46,25 @@ Header Navigation Area
                             <li><a href="#!portfolio?tab2_3" >Sculpture 2010-2005</a></li>
                             <li><a href="#!portfolio?tab2_4" >Sculpture 2004-1999</a></li>
                             <li><a href="#!portfolio?tab2_5" >Drawings Present to 2010</a></li>
-                            <li><a href="#!portfolio?tab2_6"class="last" >Drawings 2009 to 1999</a></li>
+                            <li><a href="#!portfolio?tab2_6" class="last">Drawings 2009 to 1999</a></li>
                     </ul>
                 </li>  
                 <li><a href="#!videos">Videos</a></li>  
-                <li><a href="#!info">Info</a>
+                <li><a href="#!info" class="last">Info</a>
                      <ul>   
                             <li><a href="#!info?tab4_1" >Statement</a></li>
-                            <li><a href="#!info?tab4_2" >News</a></li>
+                            <li><a href="#!info?tab4_2" >Studio</a></li>
                             <li><a href="#!info?tab4_3" >Biography</a></li>
                             <li><a href="#!info?tab4_4" >Links</a></li>
-                            <li><a href="#!info?tab4_5" class="last" >Contact</a></li>
+                            <li><a href="#!info?tab4_5" class="last">Contact</a></li>
                     </ul>
                  </li> 
-
-             <!--   <li><a href="#!contact" class="last">Contact</a></li>   -->                                       
+                                      
             </ul>
             
         </div>
         
-        
-        
+              
         
         <div class="menu_footer darkStyle">                       
             <ul class="font_awesome">
@@ -157,11 +145,11 @@ Page navigation - Use to Scroll the page from section to section
 
 
  <!-- Work Portfolio Page -->
-    <div data-id="!portfolio" class="contentWrapper darkStyle backGround fullHeight removePadding portfolioPage">
+<div data-id="!portfolio" class="contentWrapper darkStyle backGround removePadding portfolioPage">
 
    <!--     <hr class="top_space">-->
 
-  <div class="container desktop_alignLeft">
+  <div class="container">
             <div class="row">
                 <div class="span12">
  
@@ -182,7 +170,7 @@ Page navigation - Use to Scroll the page from section to section
                             <li><a href="#tab2_3" data-toggle="tab">Sculpture 2010-2005</a></li>
                             <li><a href="#tab2_4" data-toggle="tab">Sculpture 2004-1999</a></li>
                             <li><a href="#tab2_5" data-toggle="tab">Drawings - present to 2010</a></li>
-                            <li><a href="#tab2_6" data-toggle="tab">Drawings - archive</a></li>
+                            <li><a href="#tab2_6" data-toggle="tab" class="last">Drawings - archive</a></li>
                         </ul>
                     </div>
 
@@ -197,64 +185,66 @@ Page navigation - Use to Scroll the page from section to section
                     <div class="tab-content">
 
                         <!-- tab2_1 Bent Wood -->
-                        <div class="tab-pane  fade in active" id="tab2_1">
+                    <div class="tab-pane  fade in" id="tab2_1">
 
                             <div class="row-fluid">
-                                <div class="span12 elastic_slider">
+                                </div>
+                       
+                             <!--   <div class="span12 elastic_slider">
 
                                     <!-- In each li tag, the project content link is defined in data-preview attribute, 
                 				The projects content is placed below carousel_preview class div -->
 
-                                    <div class="carousel_container hover_gray" data-link="#bent_details">
+                               <!--     <div class="carousel_container hover_gray" data-link="#bent_details">
                                         <ul class="elastislide-list carousel_thumbails thumbnail_list">
-                                            <li class="" data-preview="#bent1">
-                                                <a href="#"><span class="overlay detail"></span></a>
-                                                <a class="lazyload item mix wall" href="~/Content/images/portfolio/thumb1.jpg" title="image text">Image</a>
-                                            </li>
-                                            <li class="" data-preview="#bent2">
-                                                <a href="#"><span class="overlay detail"></span></a>
-                                                <a class="lazyload item mix wall" href="~/Content/images/portfolio/thumb2.jpg" title="image text">Image</a>
-                                            </li>
-                                            <li class="item mix wall" data-preview="#bent3">
-                                                <a href="#"><span class="overlay detail"></span></a>
-                                                <a class="lazyload" href="~/Content/images/portfolio/thumb4.jpg" title="image text">Image</a>
-                                            </li>
-                                            <li class="item mix new" data-preview="#bent4">
-                                                <a href="#"><span class="overlay detail"></span></a>
-                                                <a class="lazyload" href="~/Content/images/portfolio/thumb2.jpg" title="image text">Image</a>
-                                            </li>
-                                            <li class="item mix new" data-preview="#bent5">
-                                                <a href="#"><span class="overlay detail"></span></a>
+                                             <li class="item mix new" data-preview="#bent1">
+                                                <a href="#"><span class="overlay"></span></a>
                                                 <a class="lazyload" href="~/Content/images/portfolio/thumb3.jpg" title="image text">Image</a>
                                             </li>
-                                            <li class="item mix new" data-preview="#bent1">
-                                                <a href="#"><span class="overlay detail"></span></a>
+                                            <li class="" data-preview="#bent2">
+                                                <a href="#"><span class="overlay"></span></a>
+                                                <a class="lazyload item mix wall" href="~/Content/images/portfolio/thumb1.jpg" title="image text">Image</a>
+                                            </li>
+                                            <li class="" data-preview="#bent3">
+                                                <a href="#"><span class="overlay"></span></a>
+                                                <a class="lazyload item mix wall" href="~/Content/images/portfolio/thumb2.jpg" title="image text">Image</a>
+                                            </li>
+                                            <li class="item mix wall" data-preview="#bent4">
+                                                <a href="#"><span class="overlay"></span></a>
                                                 <a class="lazyload" href="~/Content/images/portfolio/thumb4.jpg" title="image text">Image</a>
                                             </li>
-                                            <li class="item mix new" data-preview="#bent2">
-                                                <a href="#"><span class="overlay detail"></span></a>
-                                                <a class="lazyload" href="~/Content/images/portfolio/thumb1.jpg" title="image text">Image</a>
+                                             <li class="item mix new" data-preview="#bent1">
+                                                <a href="#"><span class="overlay"></span></a>
+                                                <a class="lazyload" href="~/Content/images/portfolio/thumb3.jpg" title="image text">Image</a>
                                             </li>
-                                            <li class="item mix new" data-preview="#bent3">
-                                                <a href="#"><span class="overlay detail"></span></a>
-                                                <a class="lazyload" href="~/Content/images/portfolio/thumb2.jpg" title="image text">Image</a>
+                                            <li class="" data-preview="#bent2">
+                                                <a href="#"><span class="overlay"></span></a>
+                                                <a class="lazyload item mix wall" href="~/Content/images/portfolio/thumb1.jpg" title="image text">Image</a>
                                             </li>
+                                            <li class="" data-preview="#bent3">
+                                                <a href="#"><span class="overlay"></span></a>
+                                                <a class="lazyload item mix wall" href="~/Content/images/portfolio/thumb2.jpg" title="image text">Image</a>
+                                            </li>
+                                            <li class="item mix wall" data-preview="#bent4">
+                                                <a href="#"><span class="overlay"></span></a>
+                                                <a class="lazyload" href="~/Content/images/portfolio/thumb4.jpg" title="image text">Image</a>
+                                            </li>
+                                           
                                         </ul>
                                     </div>
-                                    <hr>
+                                    <hr class="separator-max">
                                 </div>
                             </div>
 
-
-                            <div class="row-fluid">
+                       <!--     <div class="row-fluid">
                                 <div class="span12">
                                     <div id="bent_details" class="carousel_preview mini">
 
-                                        <!-- bent1 -->
+                                        <!-- bent1 
                                         <div id="bent1" class="carousel_item">
                                             <div class="row-fluid">
                                                 <div class="span7">
-                                                    <a class="lazyload alignCenter scale-with-grid" href="~/Content/images/portfolio/image2.jpg" title="image text">Image</a>
+                                                    <a class="lazyload alignCenter scale-with-grid" href="~/Content/images/portfolio/image3.jpg" title="image text">Image</a>
                                                     <hr class="separator_mini">
                                                 </div>
                                                 <div class="span5">
@@ -268,9 +258,9 @@ Page navigation - Use to Scroll the page from section to section
                                                     <br>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div>-->
 
-                                        <!-- bent2 -->
+                                        <!-- bent2 
                                         <div id="bent2" class="carousel_item">
                                             <div class="row-fluid">
                                                 <div class="span7">
@@ -288,14 +278,14 @@ Page navigation - Use to Scroll the page from section to section
                                                     <br>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div>-->
 
 
-                                        <!-- bent3 -->
+                                        <!-- bent3 
                                         <div id="bent3" class="carousel_item">
                                             <div class="row-fluid">
                                                 <div class="span7">
-                                                    <a class="lazyload alignCenter scale-with-grid" href="~/Content/images/portfolio/image3.jpg" title="image text">Image</a>
+                                                    <a class="lazyload alignCenter scale-with-grid" href="~/Content/images/portfolio/image2.jpg" title="image text">Image</a>
                                                     <hr class="separator_mini">
                                                 </div>
                                                 <div class="span5">
@@ -305,25 +295,25 @@ Page navigation - Use to Scroll the page from section to section
                                                     <strong>Client:</strong> tosca
                                                 <div class="separator_mini"></div>
                                                     <p class="tiny_font"></p>
-                                                    <p><strong>Client:</strong>  <a class="underLine"><em>Park</em></a> </p>
+                                                    <p><strong>Client:</strong>  <a class="underLine"><em>Omni</em></a> </p>
                                                     <br>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div>-->
 
 
-                                        <!-- bent4 -->
-                                        <div id="bentt4" class="carousel_item">
+                                        <!-- bent4 
+                                        <div id="bent4" class="carousel_item">
                                             <div class="row-fluid">
                                                 <div class="span7">
                                                     <a class="lazyload alignCenter scale-with-grid" href="~/Content/images/portfolio/image4.jpg" title="image text">Image</a>
                                                     <hr class="separator_mini">
                                                 </div>
                                                 <div class="span5">
-                                                    <h2>Solidaire HTML Template</h2>
+                                                    <h2>hello world</h2>
                                                     <strong>Date:</strong> May 2013
                             <br>
-                                                    <strong>Client:</strong> Jurkis Company
+                                                    <strong>Client:</strong> hello world
                                                 <div class="separator_mini"></div>
                                                     <h5>hello world </h5>
                                                     <p class="tiny_font">hello world.</p>
@@ -332,22 +322,22 @@ Page navigation - Use to Scroll the page from section to section
                                             </div>
                                         </div>
 
-                                    </div>
-                                </div>
-                            </div>
+                                  </div>-->
+                              <!--    </div>
+                            </div>-->
                             <hr class="separator_mini">
-                        </div>
-
+                        </div> 
+ </div>
 
                         <!-- tab2_2 Wall Relief -->
                         <div class="tab-pane  fade in active" id="tab2_2">
  
-                            <div class="row">
+                            <div class="row-fluid">
                                 <div class="span12">
                                    
                                     <!-- scrollable carousel -->
-                                    <div id="carousel">                                  
-                                       
+                                                                     
+                                       <div id="carousel">
                                         <ul>
                                             <li class="pane1">
                                                 <h2>
@@ -379,10 +369,9 @@ Page navigation - Use to Scroll the page from section to section
                                                     <small>Wall Rings - 39" x 19" Oak</small> </h2>
                                             </li>
                                         </ul>
-                                    </div>
-                                </div>
+                                   </div>
+                               </div>
                             </div>
-
                         </div>
 
                     </div>
@@ -398,7 +387,7 @@ Page navigation - Use to Scroll the page from section to section
 
 	<hr class="top_space">    
      
-    <div class="container desktop_alignLeft">     	
+    <div class="container">     	
 		<div class="row">
             <div class="span12" > 
                 <h1 class="fittext3 white_color">Videos</h1>
@@ -415,7 +404,7 @@ Page navigation - Use to Scroll the page from section to section
                     <ul class="nav-tabs plainTab">
                         <li class="active"><a href="#tab1_1" data-toggle="tab">Sculpture On Swiss</a></li>
                         <li><a href="#tab1_2" data-toggle="tab">Rick Maxwell, 1/6/13</a></li>
-                        <li><a href="#tab1_3" data-toggle="tab">Bending</a></li> 
+                        <li><a href="#tab1_3" data-toggle="tab" class="last">Bending</a></li> 
                     </ul>
                 </div>
             </div>
@@ -428,8 +417,7 @@ Page navigation - Use to Scroll the page from section to section
             	<!-- Tab Content -->
                 <div class="tab-content">
                    <!-- tab1_1 Sculpture on Swiss Video -->
-                   <div class="tab-pane fade in active" id="tab1_1" >
-                    
+                   <div class="tab-pane fade in active" id="tab1_1" >                    
                     	<div class="row-fluid">
                         	<div class="span12">
                         		<h2>Sculpture On Swiss</h2>
@@ -437,8 +425,6 @@ Page navigation - Use to Scroll the page from section to section
                         		<hr>
                         	</div>
                         </div>
-
-
                 </div>
                     <!-- tab1_2 Aspen video -->
                    <div class="tab-pane fade" id="tab1_2" >
@@ -478,16 +464,16 @@ Page navigation - Use to Scroll the page from section to section
 
 <!-- Info page -->
 
-<div data-id="!info" class="contentWrapper fullHeight backGround darkStyle" >
+<div data-id="!info" class="contentWrapper backGround darkStyle" >
 
 	<hr class="top_space">    
      
-    <div class="container desktop_alignLeft">     	
-		<div class="row">
-            <div class="span12" > 
-                <h1 class="fittext3 white_color">INFO <span class="highlight_color"> RICK MAXWELL</span> </h1>
-            </div>               
-		</div>
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <h1 class="fittext3 white_color">INFO <span class="highlight_color">RICK MAXWELL</span> </h1>
+            </div>
+        </div>
     </div>    
     
     <!-- Tab section -->
@@ -497,11 +483,11 @@ Page navigation - Use to Scroll the page from section to section
             	<div class="span12" > 
                 	<!-- Tab navigations -->
                     <ul class="nav-tabs plainTab">
-                   <li class="active"><a href="#tab4_1" data-toggle="tab">Statement</a></li>
-                      <li><a href="#tab4_2" data-toggle="tab">News</a></li>
+                      <li class="active"><a href="#tab4_1" data-toggle="tab">Statement</a></li>
+                      <li><a href="#tab4_2" data-toggle="tab">Studio</a></li>
                       <li><a href="#tab4_3" data-toggle="tab">Bio</a></li> 
                       <li><a href="#tab4_4" data-toggle="tab">Links</a></li>
-                      <li><a href="#tab4_5" data-toggle="tab">Contact</a></li>                    
+                      <li><a href="#tab4_5" data-toggle="tab" class="last">Contact</a></li>                    
                     </ul>
                 </div>
             </div>
@@ -516,9 +502,6 @@ Page navigation - Use to Scroll the page from section to section
 
                         <!-- tab4_1 Statement -->
                         <div class="tab-pane  fade in active" id="tab4_1">
-
-                            
-
                             <div class="row-fluid">
                                 <div class="span10">
                                     <div class="thumbnail-mini">
@@ -528,21 +511,141 @@ Page navigation - Use to Scroll the page from section to section
                                         In the past 40 years, I've written many 'Artist Statements'. Some were insightful, some were intellectual, some were humorous and a few were even embarrassing. Now, after all this time, what it's come down to is exactly where it started. I enjoy being an artist because I enjoy the simple task of making the art. For me the process has always had a stronger allure than standing in front of the finished piece. I love the tools I work with, the materials I work in, and the empathy I experience as I move through the process. Simply said, "I'm an artist because I'm addicted to making art."                             
                                                 <img style="float: right" src="~/Content/images/home_slider/Rick-signature-sm.png" />
                                     </div>
+                                </div>                                               
+                                <hr class="separator_max">
+                            </div>
+                        </div>
+
+
+                        <!-- tab4_2 Studio -->
+                        <div class="tab-pane  fade in" id="tab4_2">
+                            
+                            <div class="row-fluid four_column text-center">
+
+                                <div class="span12">
+
+                                    <a class="part feature">
+                                        <div class="thumbnail">
+                                            <img src="~/Content/images/studio/studio1.jpg" />
+                                        </div>
+                                        <div class="bg_hover_change img-rounded-mini">
+                                            <i class="fa fa-caret-up fa-2x"></i>  
+                                            <h4>New Process of Cold Compression</h4>
+                                        </div>
+                                    </a>
+
+                                    <a class="part feature">
+                                        <div class="thumbnail">
+                                            <img src="~/Content/images/studio/studio2.jpg" />
+                                        </div>
+                                        <div class="bg_hover_change img-rounded-mini">
+                                            <i class="fa fa-caret-up fa-2x"></i>                                          
+                                            <h4>//</h4>
+                                        </div>
+                                    </a>
+
+                                    <a class="part feature">
+                                        <div class="thumbnail">
+                                            <img src="~/Content/images/studio/studio3.jpg" />
+                                        </div>
+                                        <div class="bg_hover_change img-rounded-mini">
+                                            <i class="fa fa-caret-up fa-2x"></i>                                            
+                                            <h4>//</h4>
+                                        </div>
+                                    </a>
+                                 <a class="part feature">
+                                        <div class="thumbnail">
+                                            <img src="~/Content/images/studio/studio5.jpg" />
+                                        </div>
+                                        <div class="bg_hover_change img-rounded-mini">
+                                            <i class="fa fa-caret-up fa-2x"></i>  
+                                            <h4>//</h4>
+                                        </div>
+                                    </a>
                                 </div>
-                                <hr />
-                                <div class="span2">
+                                <hr class="separator_max">
+                            </div>
+                            <div class="row-fluid four_column text-center">
+
+                                <div class="span12">
+                                    <a class="part feature">
+                                        <div class="thumbnail">
+                                            <img src="~/Content/images/studio/studio6.jpg" />
+                                        </div>
+                                        <div class="bg_hover_change img-rounded-mini">
+                                            <i class="fa fa-caret-up fa-2x"></i>                                          
+                                            <h4>//</h4>
+                                        </div>
+                                    </a>
+
+                                    <a class="part feature">
+                                        <div class="thumbnail">
+                                            <img src="~/Content/images/studio/studio7.jpg" />
+                                        </div>
+                                        <div class="bg_hover_change img-rounded-mini">
+                                            <i class="fa fa-caret-up fa-2x"></i>                                            
+                                            <h4>//</h4>
+                                        </div>
+                                    </a>
+
+                                    <a class="part feature">
+                                        <div class="thumbnail">
+                                            <img src="~/Content/images/studio/studio8.jpg" />
+                                        </div>
+                                        <div class="bg_hover_change img-rounded-mini">
+                                            <i class="fa fa-caret-up fa-2x"></i>
+                                            <h4>//</h4>
+                                        </div>
+                                    </a>
+                                    <a class="part feature">
+                                        <div class="thumbnail">
+                                            <img src="~/Content/images/studio/studio9.jpg" />
+                                        </div>
+                                        <div class="bg_hover_change img-rounded-mini">
+                                            <i class="fa fa-caret-up fa-2x"></i>  
+                                            <h4>//</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <hr class="separator_max">
+                            </div>
+                            <div class="row-fluid four_column text-center">
+
+                                <div class="span12">
+                                    <a class="part feature">
+                                        <div class="thumbnail">
+                                            <img src="~/Content/images/studio/studio-tall1.jpg" />
+                                        </div>
+                                        <div class="bg_hover_change img-rounded-mini">
+                                            <i class="fa fa-caret-up fa-2x"></i>                                          
+                                            <h4>//</h4>
+                                        </div>
+                                    </a>
+                                    <a class="part feature">
+                                        <div class="thumbnail">
+                                            <img src="~/Content/images/studio/studio-tall2.jpg" />
+                                        </div>
+                                        <div class="bg_hover_change img-rounded-mini">
+                                            <i class="fa fa-caret-up fa-2x"></i>                                            
+                                            <h4>//</h4>
+                                        </div>
+                                    </a>
+
+                                    <a class="part feature">
+                                        <div class="thumbnail">
+                                            <img src="~/Content/images/studio/studio-tall3.jpg" />
+                                        </div>
+                                        <div class="bg_hover_change img-rounded-mini">
+                                            <i class="fa fa-caret-up fa-2x"></i>
+                                            <h4>//</h4>
+                                        </div>
+                                    </a>
+
                                 </div>
                                 <hr class="separator_max">
                             </div>
 
-                        </div>
-
-
-                        <!-- tab4_2 News -->
-                        <div class="tab-pane  fade in active" id="tab4_2">
-
-
-                            <div class="row-fluid four_column text-center">
+                             <div class="row-fluid four_column text-center">
 
                                 <div class="span12">
 
@@ -551,9 +654,8 @@ Page navigation - Use to Scroll the page from section to section
                                             <img src="~/Content/images/artist/image1.jpg" />
                                         </div>
                                         <div class="bg_hover_change img-rounded-mini">
-                                            <i class="fa fa-caret-up fa-2x"></i>
-                                            <h4>Allure of the Process</h4>
-                                            <h6><em>Fallen wood. Sculpted.</em></h6>
+                                            <i class="fa fa-caret-up fa-2x"></i>  
+                                            <h4>Fallen wood. Sculpted.</h4>
                                         </div>
                                     </a>
 
@@ -562,9 +664,8 @@ Page navigation - Use to Scroll the page from section to section
                                             <img src="~/Content/images/artist/image2.jpg" />
                                         </div>
                                         <div class="bg_hover_change img-rounded-mini">
-                                            <i class="fa fa-caret-up fa-2x"></i>
-                                            <h4>Bending new Life</h4>
-                                            <h6><em>New Process of Cold Compression</em></h6>
+                                            <i class="fa fa-caret-up fa-2x"></i>                                          
+                                            <h4>New Process of Cold Compression</h4>
                                         </div>
                                     </a>
 
@@ -573,9 +674,8 @@ Page navigation - Use to Scroll the page from section to section
                                             <img src="~/Content/images/artist/image3.jpg" />
                                         </div>
                                         <div class="bg_hover_change img-rounded-mini">
-                                            <i class="fa fa-caret-up fa-2x"></i>
-                                            <h4>Another Turn</h4>
-                                            <h6><em>Straight wood. Twisted.</em></h6>
+                                            <i class="fa fa-caret-up fa-2x"></i>                                            
+                                            <h4>Straight wood. Twisted.</h4>
                                         </div>
                                     </a>
 
@@ -585,8 +685,7 @@ Page navigation - Use to Scroll the page from section to section
                                         </div>
                                         <div class="bg_hover_change img-rounded-mini">
                                             <i class="fa fa-caret-up fa-2x"></i>
-                                            <h4>Love the Process</h4>
-                                            <h6><em>Look up. At every angle.</em></h6>
+                                            <h4>Look up. At every turn.</h4>
                                         </div>
                                     </a>
 
@@ -594,7 +693,6 @@ Page navigation - Use to Scroll the page from section to section
                                 <hr class="separator_max">
                             </div>
                         </div>
-
 
 
                         <!-- tab4_3 Biography -->
@@ -940,7 +1038,7 @@ Page navigation - Use to Scroll the page from section to section
     
     <!-- Center Align Page
     To make the  bottom Area align center, just add the class name container and remove the class name container-fluid to the below div -->
-    <div class="container-fluid desktop_alignLeft">
+    <div class="container-fluid">
         <div class="row-fluid">       
             <div class="span3">            	
                 <h5 class="bold_weight">Quick link</h5>
@@ -970,7 +1068,6 @@ Page navigation - Use to Scroll the page from section to section
     </div>  
 </div>
 
-</div>
 
 </div>
 
