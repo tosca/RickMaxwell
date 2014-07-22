@@ -41,7 +41,7 @@ Header Navigation Area
                 <li><a href="#!home" class="first active">Home</a></li>
                 <li><a href="#!portfolio">Work</a>
                     <ul>   
-                            <li><a href="#!portfolio?tab2_1" >Bent Wood</a></li>
+                            <li><a href="#!portfolio?tab2_1" class="active">Bent Wood</a></li>
                             <li><a href="#!portfolio?tab2_2" >Wall Reliefs</a></li>
                             <li><a href="#!portfolio?tab2_3" >Sculpture 2010-2005</a></li>
                             <li><a href="#!portfolio?tab2_4" >Sculpture 2004-1999</a></li>
@@ -52,7 +52,7 @@ Header Navigation Area
                 <li><a href="#!videos">Videos</a></li>  
                 <li><a href="#!info" class="last">Info</a>
                      <ul>   
-                            <li><a href="#!info?tab4_1" >Statement</a></li>
+                            <li><a href="#!info?tab4_1" class="active" >Statement</a></li>
                             <li><a href="#!info?tab4_2" >Studio</a></li>
                             <li><a href="#!info?tab4_3" >Biography</a></li>
                             <li><a href="#!info?tab4_4" >Links</a></li>
@@ -105,26 +105,8 @@ Page navigation - Use to Scroll the page from section to section
 
 <!-- Homepage  -->
 
-<div  data-id="!home" class="contentWrapper lightStyle homeSlider fullHeight parallax" >
-    <!-- scrollable carousel        
-                                     <div id="carousel">hello world
-                                       
-                                        <ul>
-                                            <li class="pane1">
-                                                <h2>
-                                                    <img src="http://rickmaxwell.apphb.com/Content/images/portfolio/image6.jpg"><br>
-                                                    <small>Wall Relief - 8'x 5' Oak</small></h2>
-                                            </li>
-                                            <li class="pane2">
-                                                <h2>
-                                                    <img src="http://rickmaxwell.apphb.com/Content/images/portfolio/image7.jpg"></h2>
-                                            </li>
-                                            <li class="pane3">
-                                                <h2>
-                                                    <img src="~/Content/images/portfolio/image8.jpg"></h2>
-                                            </li>
-                                        </ul>
-                                    </div>-->
+<div  data-id="!home" class="contentWrapper darkStyle homeSlider fullHeight parallax" >
+    
     
 	<!-- Supersized home page slider show Arrow Navigation, To position the navigation to center, just remove the centerPosition class-->
     <div id="superNav" >
@@ -145,7 +127,7 @@ Page navigation - Use to Scroll the page from section to section
 
 
  <!-- Work Portfolio Page -->
-<div data-id="!portfolio" class="contentWrapper darkStyle backGround removePadding portfolioPage">
+<div data-id="!portfolio" class="contentWrapper darkStyle backGround fullHeight removePadding portfolioPage">
 
    <!--     <hr class="top_space">-->
 
@@ -237,7 +219,7 @@ Page navigation - Use to Scroll the page from section to section
                 </div>
             </div>
         </div>
-
+<hr class="separator-max" />
 </div>
 
 <!-- Videos page -->
@@ -360,19 +342,20 @@ Page navigation - Use to Scroll the page from section to section
                     <div class="tab-content">
 
                         <!-- tab4_1 Statement -->
-                        <div class="tab-pane  fade in active" id="tab4_1">
-                            <div class="row-fluid">
-                                <div class="col-sm-4">
-                                    <div class="thumbnail-mini">
-                                        <img class="img-rounded-mini" src="~/Content/images/artist/rick-maxwell-profile.jpg" title="Rick Maxwell - wood sculptor" />                      
-                                   </div>
-                                    <div class="col-sm-4"> In the past 40 years, I've written many 'Artist Statements'. Some were insightful, some were intellectual, some were humorous and a few were even embarrassing. Now, after all this time, what it's come down to is exactly where it started. I enjoy being an artist because I enjoy the simple task of making the art. For me the process has always had a stronger allure than standing in front of the finished piece. I love the tools I work with, the materials I work in, and the empathy I experience as I move through the process. Simply said, "I'm an artist because I'm addicted to making art."                             
-                                                <img style="float: right" src="~/Content/images/home_slider/Rick-signature-sm.png" />
+                        <div class="tab-pane fade in active" id="tab4_1">
+                           <hr class="separator_max">
+                                <div class="row-fluid">
+                                    <div class="span4 container">
+                                        <img class="img-rounded-mini" src="~/Content/images/artist/rick-maxwell-profile.jpg" title="Rick Maxwell - wood sculptor" />
                                     </div>
-                                </div>                                               
-                                <hr class="separator_max">
+                                    <div class="span8 container">
+                                        In the past 40 years, I've written many 'Artist Statements'. Some were insightful, some were intellectual, some were humorous and a few were even embarrassing. Now, after all this time, what it's come down to is exactly where it started. I enjoy being an artist because I enjoy the simple task of making the art. For me the process has always had a stronger allure than standing in front of the finished piece. I love the tools I work with, the materials I work in, and the empathy I experience as I move through the process. Simply said, "I'm an artist because I'm addicted to making art."                             
+                                      <img style="float: right" src="~/Content/images/home_slider/Rick-signature-sm.png" />
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                                            
+                       <hr class="separator_max">
 
 
                         <!-- tab4_2 Studio -->
@@ -499,8 +482,7 @@ Page navigation - Use to Scroll the page from section to section
                                 </div>
                                 <hr class="separator_max">
                             </div>
-
-                             <div class="row-fluid four_column text-center">
+                            <div class="row-fluid four_column text-center">
 
                                 <div class="span12">
 
@@ -548,7 +530,6 @@ Page navigation - Use to Scroll the page from section to section
                                 <hr class="separator_max">
                             </div>
                         </div>
-
 
                         <!-- tab4_3 Biography -->
                         <div class="tab-pane fade" id="tab4_3">
@@ -772,55 +753,55 @@ Page navigation - Use to Scroll the page from section to section
                        
                             <div class="row-fluid four_column">
                                 <div class="span 12">
-                                <div>
+                                <div class="part">
                                     <div class="thumbnail-mini">
                                         <img src="~/Content/images/artist/image31.jpg" class="img-rounded-mini" alt="Lisa Ehrich - Sculptor">
                                     </div>
                                     <h4>Lisa Ehrich</h4>
                                     <h5 class="tiny_font">Fine Arts Clay Sculptor </h5>
-                                    <h6 class="highlight_color"><em>
-                                        <a href="http://lisaehrich.com" target="_blank" title="Lise Ehrich website">lisaehrich.com</a></em></h6>
+                                    <h5 class="highlight_color"><em>
+                                        <a href="http://lisaehrich.com" target="_blank" title="Lise Ehrich website">lisaehrich.com</a></em></h5>
                                     <br />
                                     <hr class="separator_mini">
                                 </div>
-                                <div>
+                                <div class="part">
                                     <div class="thumbnail-mini">
                                         <img src="~/Content/images/artist/image32.jpg" class="img-rounded-mini" alt="Jim Bowman - Glass Sculptor">
                                     </div>
                                     <h4>Jim Bowman</h4>
                                     <h5 class="tiny_font">Glass Sculptor </h5>
-                                    <h6 class="highlight_color"><em>
-                                        <a href="http://www.bowmanglass.com/" target="_blank" title="Jim Bowman website">bowmanglass.com</a></em></h6>
+                                    <h5 class="highlight_color"><em>
+                                        <a href="http://www.bowmanglass.com/" target="_blank" title="Jim Bowman website">bowmanglass.com</a></em></h5>
                                     <br />
                                     <hr class="separator_mini">
                                 </div>
 
-                                <div>
+                                <div class="part">
                                     <div class="thumbnail-mini">
                                         <img src="~/Content/images/artist/image34.jpg" class="img-rounded-mini" alt="Evan Morris website">
                                     </div>
                                     <h4>Evan Morris</h4>
                                     <h5 class="tiny_font">Evan Morris</h5>
-                                    <h6 class="highlight_color"><em>
-                                        <a href="http://www.evanmorris.me/" target="_blank" title="Evan Morris website">evanmorris.me</a></em></h6>
+                                    <h5 class="highlight_color"><em>
+                                        <a href="http://www.evanmorris.me/" target="_blank" title="Evan Morris website">evanmorris.me</a></em></h5>
                                     <br />
                                     <hr class="separator_mini">
                                 </div>
-                                <div>
+                                <div class="part">
                                     <div class="thumbnail-mini">
                                         <img src="~/Content/images/artist/image33.jpg" class="img-rounded-mini" alt="The Extreme Wood Bending Company">
                                     </div>
                                     <h4>Chris Mortz</h4>
                                     <h5 class="tiny_font">Extreme Wood Bending Company</h5>
-                                    <h6 class="highlight_color"><em>
-                                        <a href="http://www.puretimber.com/" target="_blank" title="Extreme wood Bending website">puretimber.com</a></em></h6>
+                                    <h5 class="highlight_color"><em>
+                                        <a href="http://www.puretimber.com/" target="_blank" title="Extreme wood Bending website">puretimber.com</a></em></h5>
                                     <br />
                                     <hr class="separator_mini">
                                 </div>
-     
+                                <hr class="separator_max">
+                            </div>
                             </div>
                         </div>
-
 
                         <!-- tab4_5 Contact -->
                         <div class="tab-pane fade" id="tab4_5">
@@ -884,9 +865,10 @@ Page navigation - Use to Scroll the page from section to section
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>  
-    </div>
+                
+          </div>  
+
+</div>
 
 <div data-id="!bottomArea" class="contentWrapper darkStyle backGround removePadding top_border" >
 	<hr>  
