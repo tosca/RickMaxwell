@@ -4,6 +4,10 @@
 .homepage_con image{
     height:100%;
 }
+.bottom_bar {
+    height: 30px;
+    padding-top: 50px;
+}
 #carousel, #carousel ul, #carousel li {
             min-height: 100%;
             height: 100%;
@@ -67,55 +71,60 @@
             #carousel li img {
                 height: 350px;
             }
-
 .vcenter {
-    margin-top: 25px;
-}
-.vcenter h5{
-    line-height: 30px;
+    margin-top: 25px;line-height: 30px;
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  #homepage_con image{
-    height: 400px;  
-  }
-
-@media only screen and (max-width: 479px) {
-    #carousel li img {
+    #homepage_con image {
         height: 400px;
     }
-}@media only screen and (min-width: 767px) {
-    #carousel li img {
-        height: 600px;
-    }
 }
-@media only screen and (min-width: 979px) {
-    #carousel li img {
-        height: 720px;
+    @media only screen and (max-width: 479px) {
+        #carousel li img {
+            height: 400px;
+        }
     }
-}
 
-
-/* big-work */
-
-.big-work{ 
-	position:relative;   
-	width:16%;  
-	float:left;
-	}
-@media only screen and (min-width: 767px) {
-    ul.nav-tabs.plainTab > li > a {
-        font-size: 16px;
+    @media only screen and (min-width: 767px) {
+        #carousel li img {
+            height: 600px;
+        }
     }
-}	
-@media only screen and (max-width: 979px) {
-	.big-work{ width:20%; }	   
-}
 
-	
-@media only screen and (max-width: 479px) {
-	.big-work{ width:20% !important; }
-	}	
+    @media only screen and (min-width: 979px) {
+        #carousel li img {
+            height: 720px;
+        }
+    }
+
+
+    /* big-work */
+
+    .big-work {
+        position: relative;
+        width: 16%;
+        float: left;
+    }
+
+    @media only screen and (min-width: 767px) {
+        ul.nav-tabs.plainTab > li > a {
+            font-size: 16px;
+        }
+    }
+
+    @media only screen and (max-width: 979px) {
+        .big-work {
+            width: 20%;
+        }
+    }
+
+
+    @media only screen and (max-width: 479px) {
+        .big-work {
+            width: 20% !important;
+        }
+    }
 
 /* .big-work active for portfolio filter - not using this*/
 .controls .big-work .filter.active:hover h5, .controls .big-work .filter.active h5 {
@@ -149,5 +158,6 @@ opacity: 0.95;
   position: fixed;
   background: #000000;
   opacity: 0.8;
-  filter: alpha(opacity=80); }
+  filter: alpha(opacity=80); 
+    }
 }*/

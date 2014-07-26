@@ -183,8 +183,10 @@
     <Content Include="Content\images\artist\image34.jpg" />
     <Content Include="Content\images\artist\image4.jpg" />
     <Content Include="Content\images\artist\image5.jpg" />
-    <Content Include="Content\images\artist\rick-maxwell-profile%402x.jpg" />
-    <Content Include="Content\images\artist\rick-maxwell-profile.jpg" />
+    <Content Include="Content\images\artist\Rick-signature%402x.jpg" />
+    <Content Include="Content\images\artist\Rick-signature.jpg" />
+    <Content Include="Content\images\artist\RMportrait%402x.jpg" />
+    <Content Include="Content\images\artist\RMportrait.jpg" />
     <Content Include="Content\images\background\image1-a_s.jpg" />
     <Content Include="Content\images\background\image1.jpg" />
     <Content Include="Content\images\background\image1_s.jpg" />

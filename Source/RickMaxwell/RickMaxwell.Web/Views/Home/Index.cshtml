@@ -36,13 +36,12 @@ Header Navigation Area
             </div>
 
         	    
-             <ul class="nav">
-                <!--  Add require site page navigation -->                    
-                <li><a href="#!home" class="first active">Home</a></li>
+             <ul class="nav">                   
+                <li><a href="#!home" class="first">Home</a></li>
                 <li><a href="#!portfolio">Work</a>
                     <ul>   
-                            <li><a href="#!portfolio?tab2_1" class="active">Bent Wood</a></li>
-                            <li><a href="#!portfolio?tab2_2" >Wall Reliefs</a></li>
+                            <li><a href="#!portfolio?tab2_1" >Bent Wood</a></li>
+                            <li><a href="#!portfolio?tab2_2" class="active">Wall Reliefs</a></li>
                             <li><a href="#!portfolio?tab2_3" >Sculpture 2010-2005</a></li>
                             <li><a href="#!portfolio?tab2_4" >Sculpture 2004-1999</a></li>
                             <li><a href="#!portfolio?tab2_5" >Drawings Present to 2010</a></li>
@@ -50,16 +49,16 @@ Header Navigation Area
                     </ul>
                 </li>  
                 <li><a href="#!videos">Videos</a></li>  
-                <li><a href="#!info" class="last">Info</a>
+                <li><a href="#!info">Info</a>
                      <ul>   
-                            <li><a href="#!info?tab4_1" class="active" >Statement</a></li>
+                            <li><a href="#!info?tab4_1" class="active">Statement</a></li>
                             <li><a href="#!info?tab4_2" >Studio</a></li>
                             <li><a href="#!info?tab4_3" >Biography</a></li>
-                            <li><a href="#!info?tab4_4" >Links</a></li>
-                            <li><a href="#!info?tab4_5" class="last">Contact</a></li>
+                            <li><a href="#!info?tab4_4" class="last">Links</a></li>
                     </ul>
-                 </li> 
-                                      
+                </li> 
+                 <li><a href="#!Contact" class="last">Contact</a></li>
+                                                      
             </ul>
             
         </div>
@@ -88,17 +87,12 @@ Page navigation - Use to Scroll the page from section to section
 	<div class="previousPage"><span>   </span></div>
 	<div class="nextPage autoPosition"> <span>   </span></div>
 </div>
-
-    
                 
 
 <!-- pgScrollUp navigation used to scroll the page to top position -->
 
 <div class="pgScrollUp"></div>
 
-
-
-<!-- Complete web site content is placed inside the bodyContainer class div-->
 
 <div class="bodyContainer">
   
@@ -151,7 +145,7 @@ Page navigation - Use to Scroll the page from section to section
                             <li><a href="#tab2_3" data-toggle="tab">Sculpture 2010-2005</a></li>
                             <li><a href="#tab2_4" data-toggle="tab">Sculpture 2004-1999</a></li>
                             <li><a href="#tab2_5" data-toggle="tab">Drawings - present to 2010</a></li>
-                            <li><a href="#tab2_6" data-toggle="tab" class="last">Drawings - archive</a></li>
+                            <li><a href="#tab2_6" data-toggle="tab">Drawings - archive</a></li>
                         </ul>
                     </div>
 
@@ -165,13 +159,13 @@ Page navigation - Use to Scroll the page from section to section
                     <!-- Tab Content -->
                     <div class="tab-content">
                         <!-- tab2_1 Bent Wood -->
-                        <div class="tab-pane  fade in" id="tab2_1">
+                        <div class="tab-pane fade in" id="tab2_1">
                             <hr class="separator_mini">
                         </div>
                    
 
                         <!-- tab2_2 Wall Relief -->
-                        <div class="tab-pane  fade in active" id="tab2_2">
+                        <div class="tab-pane fade in active" id="tab2_2">
  
                             <div class="row-fluid">
                                 <div class="span12">
@@ -245,7 +239,7 @@ Page navigation - Use to Scroll the page from section to section
                     <ul class="nav-tabs plainTab">
                         <li class="active"><a href="#tab1_1" data-toggle="tab">Sculpture On Swiss</a></li>
                         <li><a href="#tab1_2" data-toggle="tab">Rick Maxwell, 1/6/13</a></li>
-                        <li><a href="#tab1_3" data-toggle="tab" class="last">Bending</a></li> 
+                        <li><a href="#tab1_3" data-toggle="tab">Bending</a></li> 
                     </ul>
                 </div>
             </div>
@@ -305,62 +299,60 @@ Page navigation - Use to Scroll the page from section to section
 
 <!-- Info page -->
 
-<div data-id="!info" class="contentWrapper backGround darkStyle" >
+    <div data-id="!info" class="contentWrapper backGround darkStyle">
 
-	<hr class="top_space">    
-     
-    <div class="container">
-        <div class="row">
-            <div class="span12">
-                <h1 class="fittext3 white_color">INFO</h1>
-            </div>
-        </div>
-    </div>    
-    
-    <!-- Tab section -->
-    <div class="bar_content bottomSpace_mini">
-    	<div class="container">
-        	<div class="row">
-            	<div class="span12" > 
-                	<!-- Tab navigations -->
-                    <ul class="nav-tabs plainTab">
-                      <li class="active"><a href="#tab4_1" data-toggle="tab">Statement</a></li>
-                      <li><a href="#tab4_2" data-toggle="tab">Studio</a></li>
-                      <li><a href="#tab4_3" data-toggle="tab">Bio</a></li> 
-                      <li><a href="#tab4_4" data-toggle="tab">Links</a></li>
-                      <li><a href="#tab4_5" data-toggle="tab" class="last">Contact</a></li>                    
-                    </ul>
+        <hr class="top_space">
+
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <h1 class="fittext3 white_color">INFO</h1>
                 </div>
             </div>
-		</div>   
-    </div>
-       
-    <div class="container">
-          <div class="row">
+        </div>
+
+        <!-- Tab section -->
+        <div class="bar_content bottomSpace_mini">
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+
+                        <ul class="nav-tabs plainTab">
+                            <li class="active"><a href="#tab4_1" data-toggle="tab">Statement</a></li>
+                            <li><a href="#tab4_2" data-toggle="tab">Studio</a></li>
+                            <li><a href="#tab4_3" data-toggle="tab">Bio</a></li>
+                            <li><a href="#tab4_4" data-toggle="tab">Links</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
                 <div class="span12">
                     <!-- Tab Content -->
                     <div class="tab-content">
 
                         <!-- tab4_1 Statement -->
                         <div class="tab-pane fade in active" id="tab4_1">
-                           <hr class="separator_max">
-                                <div class="row-fluid ">
-                                    <div class="span4 container ">
-                                        <img class="img-rounded-mini" src="~/Content/images/artist/rick-maxwell-profile.jpg" title="Rick Maxwell - wood sculptor" />
-                                    </div>
-                                    <div class="span8 container vcenter ">
-                                       <h5> In the past 40 years, I've written many 'Artist Statements'. Some were insightful, some were intellectual, some were humorous and a few were even embarrassing. Now, after all this time, what it's come down to is exactly where it started. I enjoy being an artist because I enjoy the simple task of making the art. For me the process has always had a stronger allure than standing in front of the finished piece. I love the tools I work with, the materials I work in, and the empathy I experience as I move through the process. Simply said, "I'm an artist because I'm addicted to making art."                             
-                                     </h5> <img style="float:right;margin: 10px;" src="~/Content/images/logo.png" />
-                                    </div>
+                            <hr class="separator_max">
+                            <div class="row-fluid ">
+                                <div class="span4 container ">
+                                    <img class="img-rounded-mini" src="~/Content/images/artist/RMportrait.jpg" title="Rick Maxwell - wood sculptor" />
+                                </div>
+                                <div class="span8 container vcenter ">
+                                    In the past 40 years, I've written many 'Artist Statements'. Some were insightful, some were intellectual, some were humorous and a few were even embarrassing. Now, after all this time, what it's come down to is exactly where it started. I enjoy being an artist because I enjoy the simple task of making the art. For me the process has always had a stronger allure than standing in front of the finished piece. I love the tools I work with, the materials I work in, and the empathy I experience as I move through the process. Simply said, "I'm an artist because I'm addicted to making art."                             
+                                     <img style="float: right; margin: 10px;" src="~/Content/images/artist/Rick-signature.jpg" />
                                 </div>
                             </div>
-                                            
-                       <hr class="separator_max">
+                        </div>
 
+                        <hr class="separator_max">
 
                         <!-- tab4_2 Studio -->
                         <div class="tab-pane  fade in" id="tab4_2">
-                            
+
                             <div class="row-fluid four_column text-center">
                                 <div class="span12">
                                     <div class="part feature">
@@ -368,7 +360,7 @@ Page navigation - Use to Scroll the page from section to section
                                             <img src="~/Content/images/studio/studio1.jpg" />
                                         </div>
                                         <div class="bg_hover_change img-rounded-mini">
-                                            <i class="fa fa-caret-up fa-2x"></i>  
+                                            <i class="fa fa-caret-up fa-2x"></i>
                                             <h4>description</h4>
                                         </div>
                                     </div>
@@ -378,7 +370,7 @@ Page navigation - Use to Scroll the page from section to section
                                             <img src="~/Content/images/studio/studio2.jpg" />
                                         </div>
                                         <div class="bg_hover_change img-rounded-mini">
-                                            <i class="fa fa-caret-up fa-2x"></i>                                          
+                                            <i class="fa fa-caret-up fa-2x"></i>
                                             <h4>//</h4>
                                         </div>
                                     </div>
@@ -388,7 +380,7 @@ Page navigation - Use to Scroll the page from section to section
                                             <img src="~/Content/images/studio/studio3.jpg" />
                                         </div>
                                         <div class="bg_hover_change img-rounded-mini">
-                                            <i class="fa fa-caret-up fa-2x"></i>                                            
+                                            <i class="fa fa-caret-up fa-2x"></i>
                                             <h4>//</h4>
                                         </div>
                                     </div>
@@ -397,7 +389,7 @@ Page navigation - Use to Scroll the page from section to section
                                             <img src="~/Content/images/studio/studio5.jpg" />
                                         </div>
                                         <div class="bg_hover_change img-rounded-mini">
-                                            <i class="fa fa-caret-up fa-2x"></i>  
+                                            <i class="fa fa-caret-up fa-2x"></i>
                                             <h4>//</h4>
                                         </div>
                                     </div>
@@ -411,7 +403,7 @@ Page navigation - Use to Scroll the page from section to section
                                             <img src="~/Content/images/studio/studio6.jpg" />
                                         </div>
                                         <div class="bg_hover_change img-rounded-mini">
-                                            <i class="fa fa-caret-up fa-2x"></i>                                          
+                                            <i class="fa fa-caret-up fa-2x"></i>
                                             <h4>//</h4>
                                         </div>
                                     </a>
@@ -421,7 +413,7 @@ Page navigation - Use to Scroll the page from section to section
                                             <img src="~/Content/images/studio/studio7.jpg" />
                                         </div>
                                         <div class="bg_hover_change img-rounded-mini">
-                                            <i class="fa fa-caret-up fa-2x"></i>                                            
+                                            <i class="fa fa-caret-up fa-2x"></i>
                                             <h4>//</h4>
                                         </div>
                                     </a>
@@ -440,7 +432,7 @@ Page navigation - Use to Scroll the page from section to section
                                             <img src="~/Content/images/studio/studio9.jpg" />
                                         </div>
                                         <div class="bg_hover_change img-rounded-mini">
-                                            <i class="fa fa-caret-up fa-2x"></i>  
+                                            <i class="fa fa-caret-up fa-2x"></i>
                                             <h4>//</h4>
                                         </div>
                                     </a>
@@ -455,7 +447,7 @@ Page navigation - Use to Scroll the page from section to section
                                             <img src="~/Content/images/studio/studio-tall1.jpg" />
                                         </div>
                                         <div class="bg_hover_change img-rounded-mini">
-                                            <i class="fa fa-caret-up fa-2x"></i>                                          
+                                            <i class="fa fa-caret-up fa-2x"></i>
                                             <h4>//</h4>
                                         </div>
                                     </div>
@@ -464,7 +456,7 @@ Page navigation - Use to Scroll the page from section to section
                                             <img src="~/Content/images/studio/studio-tall2.jpg" />
                                         </div>
                                         <div class="bg_hover_change img-rounded-mini">
-                                            <i class="fa fa-caret-up fa-2x"></i>                                            
+                                            <i class="fa fa-caret-up fa-2x"></i>
                                             <h4>//</h4>
                                         </div>
                                     </div>
@@ -491,7 +483,7 @@ Page navigation - Use to Scroll the page from section to section
                                             <img src="~/Content/images/artist/image1.jpg" />
                                         </div>
                                         <div class="bg_hover_change img-rounded-mini">
-                                            <i class="fa fa-caret-up fa-2x"></i>  
+                                            <i class="fa fa-caret-up fa-2x"></i>
                                             <h4>//</h4>
                                         </div>
                                     </div>
@@ -501,7 +493,7 @@ Page navigation - Use to Scroll the page from section to section
                                             <img src="~/Content/images/artist/image2.jpg" />
                                         </div>
                                         <div class="bg_hover_change img-rounded-mini">
-                                            <i class="fa fa-caret-up fa-2x"></i>                                          
+                                            <i class="fa fa-caret-up fa-2x"></i>
                                             <h4>//</h4>
                                         </div>
                                     </div>
@@ -511,7 +503,7 @@ Page navigation - Use to Scroll the page from section to section
                                             <img src="~/Content/images/artist/image3.jpg" />
                                         </div>
                                         <div class="bg_hover_change img-rounded-mini">
-                                            <i class="fa fa-caret-up fa-2x"></i>                                            
+                                            <i class="fa fa-caret-up fa-2x"></i>
                                             <h4>//</h4>
                                         </div>
                                     </div>
@@ -750,64 +742,66 @@ Page navigation - Use to Scroll the page from section to section
 
                         <!-- tab4_4 Links -->
                         <div class="tab-pane fade" id="tab4_4">
-                       
+
                             <div class="row-fluid four_column">
                                 <div class="span 12">
-                                <div class="part">
-                                    <div class="thumbnail-mini">
-                                        <img src="~/Content/images/artist/image31.jpg" class="img-rounded-mini" alt="Lisa Ehrich - Sculptor">
+                                    <div class="part">
+                                        <div class="thumbnail-mini">
+                                            <img src="~/Content/images/artist/image31.jpg" class="img-rounded-mini" alt="Lisa Ehrich - Sculptor">
+                                        </div>
+                                        <h4>Lisa Ehrich</h4>
+                                        <h5 class="tiny_font">Fine Arts Clay Sculptor </h5>
+                                        <h5 class="highlight_color"><em>
+                                            <a href="http://lisaehrich.com" target="_blank" title="Lise Ehrich website">lisaehrich.com</a></em></h5>
+                                        <br />
+                                        <hr class="separator_mini">
                                     </div>
-                                    <h4>Lisa Ehrich</h4>
-                                    <h5 class="tiny_font">Fine Arts Clay Sculptor </h5>
-                                    <h5 class="highlight_color"><em>
-                                        <a href="http://lisaehrich.com" target="_blank" title="Lise Ehrich website">lisaehrich.com</a></em></h5>
-                                    <br />
-                                    <hr class="separator_mini">
-                                </div>
-                                <div class="part">
-                                    <div class="thumbnail-mini">
-                                        <img src="~/Content/images/artist/image32.jpg" class="img-rounded-mini" alt="Jim Bowman - Glass Sculptor">
+                                    <div class="part">
+                                        <div class="thumbnail-mini">
+                                            <img src="~/Content/images/artist/image32.jpg" class="img-rounded-mini" alt="Jim Bowman - Glass Sculptor">
+                                        </div>
+                                        <h4>Jim Bowman</h4>
+                                        <h5 class="tiny_font">Glass Sculptor </h5>
+                                        <h5 class="highlight_color"><em>
+                                            <a href="http://www.bowmanglass.com/" target="_blank" title="Jim Bowman website">bowmanglass.com</a></em></h5>
+                                        <br />
+                                        <hr class="separator_mini">
                                     </div>
-                                    <h4>Jim Bowman</h4>
-                                    <h5 class="tiny_font">Glass Sculptor </h5>
-                                    <h5 class="highlight_color"><em>
-                                        <a href="http://www.bowmanglass.com/" target="_blank" title="Jim Bowman website">bowmanglass.com</a></em></h5>
-                                    <br />
-                                    <hr class="separator_mini">
-                                </div>
 
-                                <div class="part">
-                                    <div class="thumbnail-mini">
-                                        <img src="~/Content/images/artist/image34.jpg" class="img-rounded-mini" alt="Evan Morris website">
+                                    <div class="part">
+                                        <div class="thumbnail-mini">
+                                            <img src="~/Content/images/artist/image34.jpg" class="img-rounded-mini" alt="Evan Morris website">
+                                        </div>
+                                        <h4>Evan Morris</h4>
+                                        <h5 class="tiny_font">Evan Morris</h5>
+                                        <h5 class="highlight_color"><em>
+                                            <a href="http://www.evanmorris.me/" target="_blank" title="Evan Morris website">evanmorris.me</a></em></h5>
+                                        <br />
+                                        <hr class="separator_mini">
                                     </div>
-                                    <h4>Evan Morris</h4>
-                                    <h5 class="tiny_font">Evan Morris</h5>
-                                    <h5 class="highlight_color"><em>
-                                        <a href="http://www.evanmorris.me/" target="_blank" title="Evan Morris website">evanmorris.me</a></em></h5>
-                                    <br />
-                                    <hr class="separator_mini">
-                                </div>
-                                <div class="part">
-                                    <div class="thumbnail-mini">
-                                        <img src="~/Content/images/artist/image33.jpg" class="img-rounded-mini" alt="The Extreme Wood Bending Company">
+                                    <div class="part">
+                                        <div class="thumbnail-mini">
+                                            <img src="~/Content/images/artist/image33.jpg" class="img-rounded-mini" alt="The Extreme Wood Bending Company">
+                                        </div>
+                                        <h4>Chris Mortz</h4>
+                                        <h5 class="tiny_font">Extreme Wood Bending Company</h5>
+                                        <h5 class="highlight_color"><em>
+                                            <a href="http://www.puretimber.com/" target="_blank" title="Extreme wood Bending website">puretimber.com</a></em></h5>
+                                        <br />
+                                        <hr class="separator_mini">
                                     </div>
-                                    <h4>Chris Mortz</h4>
-                                    <h5 class="tiny_font">Extreme Wood Bending Company</h5>
-                                    <h5 class="highlight_color"><em>
-                                        <a href="http://www.puretimber.com/" target="_blank" title="Extreme wood Bending website">puretimber.com</a></em></h5>
-                                    <br />
-                                    <hr class="separator_mini">
+                                    <hr class="separator_max">
                                 </div>
-                                <hr class="separator_max">
-                            </div>
                             </div>
                         </div>
-
-                        <!-- tab4_5 Contact -->
-                        <div class="tab-pane fade" id="tab4_5">
-                           
-                            <div class="contentWrapper darkStyle fullHeight parallax removePadding"
-                                data-src="../Content/images/artist/image3.jpg" data-src-small="../Content/images/artist/image3.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="separator_max">
+    </div>
+                            
+<div data-id="!Contact" class="contentWrapper darkStyle fullHeight parallax removePadding" data-src="../Content/images/artist/image3.jpg" data-src-small="../Content/images/artist/image3.jpg">
 
                                 <hr class="top_space">
                                 <div class="container desktop_alignLeft">
@@ -839,7 +833,7 @@ Page navigation - Use to Scroll the page from section to section
                                             </div>
 
                                         </div>
-                                        <!--   <hr class="separator_mini">  -->
+                                        
                                     </div>
 
 
@@ -860,53 +854,31 @@ Page navigation - Use to Scroll the page from section to section
                                             </div>
                                         </div>
                                     </div>
-
+<div class="bar_content transparent bottomSpace_max bottom_bar" >
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                
-          </div>  
-
-</div>
+  </div>
 
 <div data-id="!bottomArea" class="contentWrapper darkStyle backGround removePadding top_border" >
 	<hr>  
     
     <!-- Center Align Page
-    To make the  bottom Area align center, just add the class name container and remove the class name container-fluid to the below div -->
+    To make the  bottom Area align center, just add the class name container and remove the class name container-fluid to the below div 
     <div class="container">
         <div class="row-fluid">       
-            <div class="span3">            	
+            <div class="span12">            	
                 <h5 class="bold_weight">Quick link</h5>
                 <p> <a class="normal" href="#!home">Home</a><br>
                     <a class="normal" href="#!portfolio">Works</a><br>
                     <a class="normal" href="#!videos">Videos</a><br>
-                    <a class="normal" href="#!info">Info</a><br>   
+                    <a class="normal" href="#!info">Info</a><br>
+                    <a class="normal" href="#!contact">Contact</a><br>   
                 </p>              
             </div>         
         </div>
         
-        <div class="row-fluid"> 
-        	<div class="span6">
-            </div>
-            <div class="span3">
-            </div>
-            <div class="span3">
-            	<ul class="font_awesome">
-                    <li ><a ><i class="fa fa-facebook"></i></a></li>
-                    <li ><a ><i class="fa fa-google-plus"></i></a></li>
-                    <li ><a ><i class="fa fa-linkedin"></i></a></li>
-                </ul> 
-            </div>
-        </div>
         <div class="separator_mini"></div>
         <hr>
     </div>  
+</div>-->
 </div>
-
-
-</div>
-</div>
-
-    </div>
