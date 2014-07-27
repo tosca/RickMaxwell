@@ -68,9 +68,9 @@
             width: 100%;
             text-shadow: -1px -1px 0 rgba(0,0,0,.2);
         }
-            #carousel li img {
+        /*   #carousel li img {
                 height: 350px;
-            }
+            }*/ 
 .vcenter {
     margin-top: 25px;line-height: 30px;
 }
@@ -80,7 +80,7 @@
         height: 400px;
     }
 }
-    @media only screen and (max-width: 479px) {
+/*    @media only screen and (max-width: 479px) {
         #carousel li img {
             height: 400px;
         }
@@ -96,7 +96,7 @@
         #carousel li img {
             height: 720px;
         }
-    }
+    }*/
 
 
     /* big-work */

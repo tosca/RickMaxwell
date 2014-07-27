@@ -200,7 +200,6 @@
     <Content Include="Content\images\gallery_type.png" />
     <Content Include="Content\images\home_slider\imgtall1%402x.jpg" />
     <Content Include="Content\images\home_slider\imgtall1.jpg" />
-    <Content Include="Content\images\home_slider\Rick-signature-bg.png" />
     <Content Include="Content\images\home_slider\image1.jpg" />
     <Content Include="Content\images\home_slider\image1_s.jpg" />
     <Content Include="Content\images\home_slider\image2.jpg" />
@@ -213,8 +212,6 @@
     <Content Include="Content\images\home_slider\image5_s.jpg" />
     <Content Include="Content\images\home_slider\image6.jpg" />
     <Content Include="Content\images\home_slider\image6_s.jpg" />
-    <Content Include="Content\images\home_slider\Rick-signature-sm.png" />
-    <Content Include="Content\images\home_slider\Rick-signature.png" />
     <Content Include="Content\images\home_slider\wall6%402x.jpg" />
     <Content Include="Content\images\home_slider\wall6.jpg" />
     <Content Include="Content\images\info\image1.jpg" />
@@ -378,15 +375,8 @@
     <Content Include="Content\images\portfolio\thumb7.jpg" />
     <Content Include="Content\images\portfolio\thumb8.jpg" />
     <Content Include="Content\images\portfolio\thumb9.jpg" />
-    <Content Include="Content\images\post_aut_1.jpg" />
-    <Content Include="Content\images\post_aut_2.jpg" />
-    <Content Include="Content\images\Rick-bent-wood.png" />
     <Content Include="Content\images\scrollup%402x.png" />
     <Content Include="Content\images\scrollup.png" />
-    <Content Include="Content\images\service_img1.png" />
-    <Content Include="Content\images\service_img2.png" />
-    <Content Include="Content\images\service_img3.png" />
-    <Content Include="Content\images\service_img4.png" />
     <Content Include="Content\images\slider_bg_control_nav%402x.png" />
     <Content Include="Content\images\slider_bg_control_nav.png" />
     <Content Include="Content\images\slider_bg_control_nav_white%402x.png" />
