@@ -8,6 +8,10 @@
     height: 30px;
     padding-top: 50px;
 }
+.text-center {
+    text-align:center;
+    color:#bf4015;
+}
 .carousel, .carousel ul, .carousel li {
            min-height: 100%;
            height: 100%;
