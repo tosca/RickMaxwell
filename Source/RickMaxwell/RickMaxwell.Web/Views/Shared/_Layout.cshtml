@@ -32,15 +32,15 @@
     <!-- Included CSS files 
 	================================================== -->
      <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css"  href="~/Content/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css"  href="~/Content/css/bootstrap-responsive.min.css">    
+<!--    <link rel="stylesheet" type="text/css"  href="~/Content/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"  href="~/Content/css/bootstrap-responsive.min.css"> -->
 	<link rel="stylesheet" type="text/css"  href="~/Content/font-awesome/css/font-awesome.min.css">    
   	<link rel="stylesheet" type="text/css"  href="~/Content/css/main.min.css">
 	<link rel="stylesheet" type="text/css"  href="~/Content/css/base.min.css">
     <link rel="stylesheet" type="text/css" href="~/Content/css/Site.css">
     <link rel="stylesheet" type="text/css"  href="~/Content/css/color-dark.css"> 
-    <link rel="stylesheet" type="text/css"  href="~/Content/css/color-light.css">
-    <link rel="stylesheet" type="text/css"  href="~/Content/css/elastislide.css"> 
+   <link rel="stylesheet" type="text/css"  href="~/Content/css/color-light.css">
+  <link rel="stylesheet" type="text/css"  href="~/Content/css/elastislide.css"> 
     <link rel="stylesheet" type="text/css"  href="~/Content/css/jquery.mCustomScrollbar.css" />
     <link rel="stylesheet" type="text/css"  href="~/Content/css/magnific-popup.css" media="screen" />
     <link rel="stylesheet" type="text/css"  href="~/Content/css/flexslider.min.css" media="screen" />
@@ -63,13 +63,13 @@
     <script type="text/javascript" src="~/Content/js/jquery-1.8.2.min.js"></script>
     <script type="text/javascript" src="~/Content/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="~/Content/js/jquery.fitvids.js"></script>	  
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script> 
+  <!--  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script> -->
     <script type="text/javascript" src="~/Content/js/supersized.3.2.7.min.js"></script>
     <script type="text/javascript" src="~/Content/js/supersized.shutter.min.js"></script>
     <script type="text/javascript" src="~/Content/js/jquery.magnific-popup.min.js"></script>   
     <script type="text/javascript" src="~/Content/js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script type="text/javascript" src="~/Content/js/jquerypp.elastislide.custom.js" ></script>     
-    <script type="text/javascript" src="~/Content/js/jquery.elastislide.js" ></script>       
+    <script type="text/javascript" src="~/Content/js/jquery.elastislide.js" ></script>      
     <script type="text/javascript" src="~/Content/js/jquery.nicescroll.min.js"></script>
     <script type="text/javascript" src="~/Content/js/jquery.mixitup.min.js"></script>    
     <script type="text/javascript" src="~/Content/js/portfolio.detail.min.js"></script>  
@@ -139,19 +139,19 @@
 					
 			
 			// Portfolio Filterable gallery project detail plug-in initialize
-			$("body").find(".portfolioPage").each(function(){
-				var mc = $(this);
-				jQuery(function($){
-					mc.detailPage({
-						filter : ".controls"
-					})
-				});	
-			});
+		//	$("body").find(".portfolioPage").each(function(){
+		//		var mc = $(this);
+		//		jQuery(function($){
+			//		mc.detailPage({
+			//			filter : ".controls"
+			//		})
+			//	});	
+		//	});
 			
 			
-			$(function(){
-				$('.portfolio_items').mixitup();
-			});	
+		//	$(function(){
+		//		$('.portfolio_items').mixitup();
+		//	});	
 					
 			
 			/* Site Main plug-in initilize */
@@ -332,8 +332,16 @@
     var carousel = new Carousel("#carousel");
     carousel.init();
 
-  //  $('#carousel').elastislide();
-    </script>
+    var carousel2 = new Carousel("#carousel2");
+    carousel2.init();
+
+   var carousel3 = new Carousel("#carousel3");
+   carousel3.init();
+
+   var carousel4 = new Carousel("#carousel4");
+   carousel4.init();
+
+</script>
 
     <script type="text/javascript" src="~/Content/js/retina.js"></script>
     
