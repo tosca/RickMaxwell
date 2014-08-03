@@ -11,10 +11,10 @@
 	<meta name="author" content="">
 
 	<!-- Mobile Specific Metas
-  ================================================== 
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">-->
-<meta name="viewport" content="width=device-width, user-scalable=no">
-	<!-- CSS
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<!--<meta name="viewport" content="width=device-width, user-scalable=no">
+	 CSS
   ================================================== --> 
   
   <!--[if lt IE 9]>
@@ -31,9 +31,10 @@
   	
     <!-- Included CSS files 
 	================================================== -->
+        
      <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">
-<!--    <link rel="stylesheet" type="text/css"  href="~/Content/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css"  href="~/Content/css/bootstrap-responsive.min.css">--> 
+  <!--  <link rel="stylesheet" type="text/css"  href="~/Content/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"  href="~/Content/css/bootstrap-responsive.min.css">-->
 	<link rel="stylesheet" type="text/css"  href="~/Content/font-awesome/css/font-awesome.min.css">    
   	<link rel="stylesheet" type="text/css"  href="~/Content/css/main.min.css">
 	<link rel="stylesheet" type="text/css"  href="~/Content/css/base.min.css">
@@ -61,6 +62,7 @@
 	================================================== -->
     
     <script type="text/javascript" src="~/Content/js/jquery-1.8.2.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="~/Content/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="~/Content/js/jquery.fitvids.js"></script>	  
   <!--  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script> -->
@@ -133,11 +135,15 @@
 			
 		}
 			
-		
-		
+</script>
+        		
+<!--<script>		
 		$(document).ready(function(){	
-					
-			
+		    $('#carousel01, #carousel02, #carousel03, #carousel4, #carousel5, #carousel6');
+		});
+</script>-->
+        
+   <script>			
 			// Portfolio Filterable gallery project detail plug-in initialize
 		//	$("body").find(".portfolioPage").each(function(){
 		//		var mc = $(this);
@@ -152,9 +158,9 @@
 		//	$(function(){
 		//		$('.portfolio_items').mixitup();
 		//	});	
-					
-			
-			/* Site Main plug-in initilize */
+								
+       /* Site Main plug-in initilize */
+
 			jQuery(function($){
 				$("body").mainFm({
 					
@@ -168,20 +174,14 @@
 					/* FlexSlider slideshow speed */
 					slideshowSpeed : 5000,
 					
-					homeSliderThumbnail : true
-					
+					homeSliderThumbnail : true	
 				});
 			});	
-			
-
-		  				
-		});	
-
+		  					
 	</script>
    
 </head>
 <body>
-
 
 
     @RenderBody()
@@ -191,23 +191,23 @@
      @RenderSection("scripts", required: false)
 
 
-
-
  <!-- jQuery is just for the demo! Hammer.js works without jQuery :-) -->
-  <!--  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>-->
+
+ <!--   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>-->
     
     <script  src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.js"></script>
     
-    <script data-required="~/Content/js/hammer.js@2" data-semver="1.0.5" src="~/Content/js/hammer.js"></script>
-  
+    <script data-require="hammer.js" data-semver="1.0.5" src="~/Content/js/hammer.js"></script>
 
-<script>
+
+    <script>
 
     /**
     * super simple carousel
     * animation between panes happens with css transitions
     */
-    function Carousel(element) {
+    function Carousel(element)
+    {
         var self = this;
         element = $(element);
 
@@ -223,10 +223,10 @@
         /**
          * initial
          */
-        this.init = function () {
+        this.init = function() {
             setPaneDimensions();
 
-            $(window).on("load resize orientationchange", function () {
+            $(window).on("load resize orientationchange", function() {
                 setPaneDimensions();
             })
         };
@@ -237,22 +237,22 @@
          */
         function setPaneDimensions() {
             pane_width = element.width();
-            panes.each(function () {
+            panes.each(function() {
                 $(this).width(pane_width);
             });
-            container.width(pane_width * pane_count);
+            container.width(pane_width*pane_count);
         };
 
 
         /**
          * show pane by index
          */
-        this.showPane = function (index, animate) {
+        this.showPane = function(index, animate) {
             // between the bounds
-            index = Math.max(0, Math.min(index, pane_count - 1));
+            index = Math.max(0, Math.min(index, pane_count-1));
             current_pane = index;
 
-            var offset = -((100 / pane_count) * current_pane);
+            var offset = -((100/pane_count)*current_pane);
             setContainerOffset(offset, animate);
         };
 
@@ -260,40 +260,40 @@
         function setContainerOffset(percent, animate) {
             container.removeClass("animate");
 
-            if (animate) {
+            if(animate) {
                 container.addClass("animate");
             }
 
-            if (Modernizr.csstransforms3d) {
-                container.css("transform", "translate3d(" + percent + "%,0,0) scale3d(1,1,1)");
+            if(Modernizr.csstransforms3d) {
+                container.css("transform", "translate3d("+ percent +"%,0,0) scale3d(1,1,1)");
             }
-            else if (Modernizr.csstransforms) {
-                container.css("transform", "translate(" + percent + "%,0)");
+            else if(Modernizr.csstransforms) {
+                container.css("transform", "translate("+ percent +"%,0)");
             }
             else {
-                var px = ((pane_width * pane_count) / 100) * percent;
-                container.css("left", px + "px");
+                var px = ((pane_width*pane_count) / 100) * percent;
+                container.css("left", px+"px");
             }
         }
 
-        this.next = function () { return this.showPane(current_pane + 1, true); };
-        this.prev = function () { return this.showPane(current_pane - 1, true); };
+        this.next = function() { return this.showPane(current_pane+1, true); };
+        this.prev = function() { return this.showPane(current_pane-1, true); };
 
 
         function handleHammer(ev) {
             // disable browser scrolling
             ev.gesture.preventDefault();
 
-            switch (ev.type) {
+            switch(ev.type) {
                 case 'dragright':
                 case 'dragleft':
                     // stick to the finger
-                    var pane_offset = -(100 / pane_count) * current_pane;
-                    var drag_offset = ((100 / pane_width) * ev.gesture.deltaX) / pane_count;
+                    var pane_offset = -(100/pane_count)*current_pane;
+                    var drag_offset = ((100/pane_width)*ev.gesture.deltaX) / pane_count;
 
                     // slow down at the first and last pane
-                    if ((current_pane == 0 && ev.gesture.direction == "right") ||
-                        (current_pane == pane_count - 1 && ev.gesture.direction == "left")) {
+                    if((current_pane == 0 && ev.gesture.direction == "right") ||
+                        (current_pane == pane_count-1 && ev.gesture.direction == "left")) {
                         drag_offset *= .4;
                     }
 
@@ -312,8 +312,8 @@
 
                 case 'release':
                     // more then 50% moved, navigate
-                    if (Math.abs(ev.gesture.deltaX) > pane_width / 2) {
-                        if (ev.gesture.direction == 'right') {
+                    if(Math.abs(ev.gesture.deltaX) > pane_width/2) {
+                        if(ev.gesture.direction == 'right') {
                             self.prev();
                         } else {
                             self.next();
@@ -328,28 +328,26 @@
 
         new Hammer(element[0], { dragLockToAxis: true }).on("release dragleft dragright swipeleft swiperight", handleHammer);
     }
+    var carousel01 = new Carousel("#carousel01");
+    carousel01.init();
 
-    var carousel = new Carousel("#carousel");
-    carousel.init();
+    var carousel02 = new Carousel("#carousel02");
+    carousel02.init();
 
-    var carousel2 = new Carousel("#carousel2");
-    carousel2.init();
+    var carousel03 = new Carousel("#carousel03");
+    carousel03.init();
 
-   var carousel3 = new Carousel("#carousel3");
-   carousel3.init();
+    var carousel04 = new Carousel("#carousel04");
+    carousel04.init();
 
-   var carousel4 = new Carousel("#carousel4");
-   carousel4.init();
+    var carousel05 = new Carousel("#carousel05");
+    carousel05.init();
 
-   var carousel5 = new Carousel("#carousel5");
-   carousel5.init();
-
-   var carousel6 = new Carousel("#carousel6");
-   carousel6.init();
+    var carousel06 = new Carousel("#carousel06");
+    carousel06.init();
 
 </script>
 
-    <script type="text/javascript" src="~/Content/js/retina.js"></script>
-    
+ <script type="text/javascript" src="~/Content/js/retina.js"></script>   
 </body>
 </html>
