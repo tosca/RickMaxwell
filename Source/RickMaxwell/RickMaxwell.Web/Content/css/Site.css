@@ -1,6 +1,10 @@
 ﻿.tab-pane {
- margin: 0 0 15px 0;
+    margin: 0 0 15px 0;
 }
+ nicescroll-rails {
+    background-color: rgb(191,64,21);
+}
+
 .homepage_con image{
     height:100%;
 }
@@ -13,13 +17,6 @@
     color:#bf4015;
 }
 
-.tab-pane {
-            min-height: 100%;
-            height: 100%;
-            padding: 0;
-            margin: 0;
-            overflow: hidden;
-        }
   /*.workswrapper {
  overflow: hidden !important;
      display:block;        
@@ -28,17 +25,26 @@
             padding: 0;
             margin: 0;
             position: relative;     
-}*/ 
-
-   /*   .carousel, .carousel ul, .carousel li {
-          height: 800px;*/ 
-        /* width: 100%; 
+}*/
+  
+  /****** studio images @2x to display */
+.tab-content .tab-pane .thumbnail {
+    height: 0;
+    height:auto;
+    overflow: hidden;
+}
+     .carousel, .carousel ul{
+         height: 800px; 
+         min-height: 100%;
+         width: 100%;
+         padding:0;
+         margin: 0 auto; 
         }
-
+       
         .carousel {
             background: silver;
             overflow: hidden;
-            width: 100%;
+           
             -webkit-backface-visibility: hidden;
             -webkit-transform: translate3d(0,0,0) scale3d(1,1,1);
             -webkit-transform-style: preserve-3d;
@@ -58,8 +64,6 @@
             -o-transform: translate3d(0%,0,0) scale3d(1,1,1);
             transform: translate3d(0%,0,0) scale3d(1,1,1);
             overflow: hidden;
-            padding: 0;
-            margin: 0;
             -webkit-backface-visibility: hidden;
             -webkit-transform-style: preserve-3d;
         }
@@ -82,13 +86,13 @@
             color: #fff;
             font-size: 30px;
             text-align: center;
-            position: absolute;
+            position: relative;
             top: 0;
             left: 0;
             width: 100%;
             text-shadow: -1px -1px 0 rgba(0,0,0,.2);
-        }*/
-.workswrapper {
+        }
+/*.workswrapper {
      min-height: 100%;
             width: 100%;
             padding: 0;
@@ -168,7 +172,7 @@
     #homepage_con image {
         height: 400px;
     }
-}
+}*/
 /*    @media only screen and (max-width: 479px) {
         #carousel li img {
             height: 400px;
