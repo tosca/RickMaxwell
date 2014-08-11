@@ -4,7 +4,6 @@
  nicescroll-rails {
     background-color: rgb(191,64,21);
 }
-
 .homepage_con image{
     height:100%;
 }
@@ -17,34 +16,52 @@
     color:#bf4015;
 }
 
-  /*.workswrapper {
- overflow: hidden !important;
-     display:block;        
-            min-height: 100%;
-           
-            padding: 0;
-            margin: 0;
-            position: relative;     
-}*/
-  
   /****** studio images @2x to display */
-.tab-content .tab-pane .thumbnail {
-    height: 0;
-    height:auto;
+.tab-content.tab-pane .thumbnail {
+    height: 0;   
     overflow: hidden;
 }
-     .carousel, .carousel ul{
-         height: 800px; 
+.tab-content.tab-pane .thumbnail {   
+    height:100%; 
+}
+.feature .thumbnail {
+margin-bottom: 0;
+width: 100%;
+height: 200px;
+display: block;
+ 
+}
+
+ /****** carousel images @2x to display */
+.tab-content.tab-pane .carousel ul li {
+    height: 0;   
+    overflow: hidden;
+
+}
+.tab.content.tab-pane .carousel ul li {   
+    height:100%;  
+}
+.works-wrapper .carousel ul li{
+width: 100%;
+height: 800px;
+display: inline-block;
+overflow: hidden;
+position: relative;
+}
+
+     .carousel, .carousel ul, .carousel ul li{
+         height: 100%;
+         height: 100%; 
          min-height: 100%;
          width: 100%;
          padding:0;
          margin: 0 auto; 
-        }
-       
+        }   
         .carousel {
+            height: 800px; 
             background: silver;
             overflow: hidden;
-           
+            width: 100%;
             -webkit-backface-visibility: hidden;
             -webkit-transform: translate3d(0,0,0) scale3d(1,1,1);
             -webkit-transform-style: preserve-3d;
@@ -55,6 +72,7 @@
             -moz-transition: all .3s;
             -o-transition: all .3s;
             transition: all .3s;
+
         }
 
         .carousel ul {
@@ -62,8 +80,9 @@
             -moz-transform: translate3d(0%,0,0) scale3d(1,1,1);
             -ms-transform: translate3d(0%,0,0) scale3d(1,1,1);
             -o-transform: translate3d(0%,0,0) scale3d(1,1,1);
-            transform: translate3d(0%,0,0) scale3d(1,1,1);
+            transform: translate3d(0%,0,0) scale3d(1,1,1);            
             overflow: hidden;
+            display: block;   
             -webkit-backface-visibility: hidden;
             -webkit-transform-style: preserve-3d;
         }
@@ -72,6 +91,7 @@
             -webkit-box-shadow: 0 0 20px rgba(0,0,0,.2);
             box-shadow: 0 0 20px rgba(0,0,0,.2);
             position: relative;
+           
         }
 
         .carousel li {
@@ -79,7 +99,7 @@
             overflow: hidden;
             -webkit-transform-style: preserve-3d;
             -webkit-transform: translate3d(0,0,0);
-            background: #000000;
+            background: #111111;
         }
 
         .carousel li h2 {
@@ -92,105 +112,6 @@
             width: 100%;
             text-shadow: -1px -1px 0 rgba(0,0,0,.2);
         }
-/*.workswrapper {
-     min-height: 100%;
-            width: 100%;
-            padding: 0;
-            margin: 0;
-          position: relative;
-}      
-
-#carousel01, #carousel02, #carousel03, #carousel04, #carousel05, #carousel06,
-#carousel01 ul, #carousel02 ul, #carousel03 ul, #carousel04 ul, #carousel05 ul, #carousel06 ul,
-#carousel01 li, #carousel02 li, #carousel03 li, #carousel04 li, #carousel05 li, #carousel06 li{
-            height: 800px;
-         min-height: 100%;
-            width: 100%;
-            padding: 0;
-            margin: 0;
-           
-        }
- #carousel01, #carousel02, #carousel03, #carousel04, #carousel05, #carousel06  {
-            background: silver;
-             overflow: hidden;    
-          
-            -webkit-backface-visibility: hidden;
-            -webkit-transform: translate3d(0,0,0) scale3d(1,1,1);
-            -webkit-transform-style: preserve-3d;
-        }
- #carousel01 ul.animate, #carousel02 ul.animate, #carousel03 ul.animate, #carousel04 ul.animate, #carousel05 ul.animate, #carousel06 ul.animate{
-            -webkit-transition: all .3s;
-            -moz-transition: all .3s;
-            -o-transition: all .3s;
-            transition: all .3s;
-        }
-
-#carousel01 ul, #carousel02 ul, #carousel03 ul, #carousel04 ul, #carousel05 ul, #carousel06 ul {         
-            -webkit-transform: translate3d(0%,0,0) scale3d(1,1,1);
-            -moz-transform: translate3d(0%,0,0) scale3d(1,1,1);
-            -ms-transform: translate3d(0%,0,0) scale3d(1,1,1);
-            -o-transform: translate3d(0%,0,0) scale3d(1,1,1);
-            transform: translate3d(0%,0,0) scale3d(1,1,1);
-            overflow: hidden;
-            -webkit-backface-visibility: hidden;
-            -webkit-transform-style: preserve-3d;
-        }
- #carousel01 ul, #carousel02 ul, #carousel03 ul, #carousel04 ul, #carousel05 ul, #carousel06 ul{
-            -webkit-box-shadow: 0 0 20px rgba(0,0,0,.2);
-            box-shadow: 0 0 20px rgba(0,0,0,.2);
-            position: relative;
-        } 
- #carousel01 li, #carousel02 li, #carousel03 li, #carousel04 li, #carousel05 li, #carousel06 li {
-            float: left;
-            overflow: hidden;
-            width: 100%;
-            -webkit-transform-style: preserve-3d;
-            -webkit-transform: translate3d(0,0,0);
-            background: #111111;
-        }
-    #carousel01 li pane h2, #carousel02 li pane h2, #carousel03 li h2, #carousel04 li h2, #carousel05 li h2, #carousel06 li h2 {
-        width:100% !important;
-    }
- 
-#carousel01 li h2, #carousel02 li h2, #carousel03 li h2, #carousel04 li h2, #carousel05 li h2, #carousel06 li h2 {
-            color: #fff;
-            font-size: 30px;
-            text-align: center;
-            position: relative;
-            top: 0;
-            left: 0;
-            width: 100%;
-            line-height: 0.7em;
-            text-shadow: -1px -1px 0 rgba(0,0,0,.2);
-        }
-
-.vcenter {
-    margin-top: 25px;line-height: 30px;
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-    #homepage_con image {
-        height: 400px;
-    }
-}*/
-/*    @media only screen and (max-width: 479px) {
-        #carousel li img {
-            height: 400px;
-        }
-    }
-
-    @media only screen and (min-width: 767px) {
-        #carousel li img {
-            height: 600px;
-        }
-    }
-
-    @media only screen and (min-width: 979px) {
-        #carousel li img {
-            height: 720px;
-        }
-    }*/
-
 
     /* big-work */
 
