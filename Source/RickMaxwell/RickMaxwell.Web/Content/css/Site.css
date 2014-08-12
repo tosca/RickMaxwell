@@ -17,18 +17,18 @@
 }
 
   /****** studio images @2x to display */
-.tab-content.tab-pane .thumbnail {
+.tab-content.tab-pane .feature {
     height: 0;   
     overflow: hidden;
 }
-.tab-content.tab-pane .thumbnail {   
+.tab-content.tab-pane .feature {   
     height:100%; 
 }
-.feature .thumbnail {
+.feature  {
 margin-bottom: 0;
 width: 100%;
-height: 200px;
-display: block;
+/*height: 200px;
+display: block;*/
  
 }
 
