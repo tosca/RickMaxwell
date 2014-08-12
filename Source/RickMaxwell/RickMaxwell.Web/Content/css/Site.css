@@ -121,12 +121,15 @@ position: relative;
         float: left;
     }
 
-    @media only screen and (min-width: 767px) {
-        ul.nav-tabs.plainTab > li > a {
-            font-size: 14px;
-        }
+@media only screen and (min-width: 767px) {
+    ul.nav-tabs.plainTab > li > a {
+        font-size: 14px;
     }
 
+    .carousel {
+        height: 600px;
+    }
+}
     @media only screen and (max-width: 979px) {
         .big-work {
             width: 20%;
@@ -134,14 +137,15 @@ position: relative;
     }
 
 
-    @media only screen and (max-width: 479px) {
-        .big-work {
-            width: 20% !important;
+        @media only screen and (max-width: 479px) {
+            .big-work {
+                width: 20% !important;
+            }
+
+            ul.nav-tabs.plainTab > li > a {
+                font-size: 12px;
+            }
         }
-        ul.nav-tabs.plainTab > li > a {
-            font-size: 12px;
-        }
-    }
 
 /* .big-work active for portfolio filter - not using this*/
 .controls .big-work .filter.active:hover h5, .controls .big-work .filter.active h5 {
