@@ -2184,6 +2184,7 @@
 	.pageNavigation{
 		width:45px;
 		padding:10px 5px 10px 0px;
+        margin-right:10px;
 		position:fixed;
 		display:block;	
 		top:50%;

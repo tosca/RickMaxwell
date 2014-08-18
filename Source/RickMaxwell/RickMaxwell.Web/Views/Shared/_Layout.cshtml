@@ -13,9 +13,7 @@
 	<!-- Mobile Specific Metas
   ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<!--<meta name="viewport" content="width=device-width, user-scalable=no">
-	 CSS
-  ================================================== --> 
+
   
   <!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -38,17 +36,22 @@
 	<link rel="stylesheet" type="text/css"  href="~/Content/font-awesome/css/font-awesome.min.css">    
   	<link rel="stylesheet" type="text/css"  href="~/Content/css/main.min.css">
 	<link rel="stylesheet" type="text/css"  href="~/Content/css/base.min.css">
-    <link rel="stylesheet" type="text/css" href="~/Content/css/Site.css">
+    
     <link rel="stylesheet" type="text/css"  href="~/Content/css/color-dark.css"> 
-   <link rel="stylesheet" type="text/css"  href="~/Content/css/color-light.css">
-  <link rel="stylesheet" type="text/css"  href="~/Content/css/elastislide.css"> 
+    <link rel="stylesheet" type="text/css"  href="~/Content/css/color-light.css">
+    <link rel="stylesheet" type="text/css"  href="~/Content/css/elastislide.css"> 
     <link rel="stylesheet" type="text/css"  href="~/Content/css/jquery.mCustomScrollbar.css" />
     <link rel="stylesheet" type="text/css"  href="~/Content/css/magnific-popup.css" media="screen" />
-  <!--  <link rel="stylesheet" type="text/css"  href="~/Content/css/flexslider.min.css" media="screen" />-->
+    <link rel="stylesheet" type="text/css"  href="~/Content/css/flexslider.min.css" media="screen" />
     <link rel="stylesheet" type="text/css"  href="~/Content/css/supersized.min.css" media="screen" />
     <link rel="stylesheet" type="text/css"  href="~/Content/css/supersized.shutter.min.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="~/Content/css/Site.css">
+ </head>
+<body>
 
-        
+ @RenderBody()
+
+ @RenderSection("scripts", required: false)         
         
     <!--[if gte IE 9]>
       <style type="text/css">
@@ -75,13 +78,11 @@
     <script type="text/javascript" src="~/Content/js/jquery.nicescroll.min.js"></script>
     <script type="text/javascript" src="~/Content/js/jquery.mixitup.min.js"></script>    
     <script type="text/javascript" src="~/Content/js/portfolio.detail.min.js"></script>  
- <!--   <script type="text/javascript" src="~/Content/js/jquery.flexslider.min.js"></script>   -->  
+    <script type="text/javascript" src="~/Content/js/jquery.flexslider.min.js"></script>    
     <script type="text/javascript" src="~/Content/js/custom.min.js"></script>  
     <script type="text/javascript" src="~/Content/js/main-fm.min.js"></script>
 
-
-
-     
+  
     
 <!-- IMPORTANT NOTES :
 
@@ -174,15 +175,7 @@
          document.getElementById('.carousel').style.display = "block";
      }
 </script>-->  
-</head>
-<body>
 
-
-    @RenderBody()
-    
-    
-    
-     @RenderSection("scripts", required: false)
 
 
  <!-- jQuery is just for the demo! Hammer.js works without jQuery :-) -->
@@ -228,14 +221,23 @@
 
         /**
          * set the pane dimensions and scale the container
-         */
+        */ 
         function setPaneDimensions() {
+            pane_width = element.width();
+            panes.each(function () {
+                $(this).width(pane_width);
+            });
+            container.width(pane_width * pane_count);
+        };
+
+
+       /* function setPaneDimensions() {
             pane_width = element.width();
             panes.each(function() {
                 $(this).width(pane_width);
             });
             container.width(pane_width*pane_count);
-        };
+        };*/
 
 
         /**
@@ -322,14 +324,15 @@
 
         new Hammer(element[0], { dragLockToAxis: true }).on("release dragleft dragright swipeleft swiperight", handleHammer);
     }
+
     var carousel01 = new Carousel("#carousel01");
-    carousel01.init();
+   carousel01.init();
 
     var carousel02 = new Carousel("#carousel02");
     carousel02.init();
 
     var carousel03 = new Carousel("#carousel03");
-    carousel03.init();
+   carousel03.init();
 
     var carousel04 = new Carousel("#carousel04");
     carousel04.init();
@@ -339,7 +342,8 @@
 
     var carousel06 = new Carousel("#carousel06");
     carousel06.init();
-
+// $('#carousel01, #carousel02, #carousel03, #carousel04, #carousel05, #carousel06').carousel(); 
+   
 </script>
 <!--<script>
    //   document.getElementById('.tab-content').style.display = "block";
