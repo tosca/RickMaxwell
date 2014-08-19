@@ -179,6 +179,8 @@
 
 
  <!-- jQuery is just for the demo! Hammer.js works without jQuery :-) -->
+    
+    
 
  <!--   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>-->
     
@@ -323,16 +325,20 @@
         }
 
         new Hammer(element[0], { dragLockToAxis: true }).on("release dragleft dragright swipeleft swiperight", handleHammer);
+        
+
     }
+
+   
 
     var carousel01 = new Carousel("#carousel01");
    carousel01.init();
 
-    var carousel02 = new Carousel("#carousel02");
+   var carousel02 = new Carousel("#carousel02");
     carousel02.init();
 
     var carousel03 = new Carousel("#carousel03");
-   carousel03.init();
+   carousel03.init({ width: '1000px' });
 
     var carousel04 = new Carousel("#carousel04");
     carousel04.init();
@@ -342,11 +348,16 @@
 
     var carousel06 = new Carousel("#carousel06");
     carousel06.init();
-// $('#carousel01, #carousel02, #carousel03, #carousel04, #carousel05, #carousel06').carousel(); 
-   
 </script>
-<!--<script>
-   //   document.getElementById('.tab-content').style.display = "block";
+   
+
+<script>
+  //  $('.element').carousel_item({ offsetwidth: '1000px' });
+    // document.getElementById('.tab-content').style.display = "block";
+   // newTab.addEventListener("load", function () {
+    //    var NavW = document.getElementById("wrap").offsetwidth;
+    //    // .carousel.width = 1000px;
+  //  }, false);
 </script>-->
 
  <script type="text/javascript" src="~/Content/js/retina.js"></script>   
