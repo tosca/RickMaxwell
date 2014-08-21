@@ -15,6 +15,14 @@ namespace RickMaxwell.Web.Controllers
         {
             return View();
         }
+        public ActionResult BentWood()
+        {
+            return View();
+        }
+        public ActionResult WallReliefs()
+        {
+            return View();
+        }
 
     }
 }

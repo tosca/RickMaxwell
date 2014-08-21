@@ -47,9 +47,73 @@
     <link rel="stylesheet" type="text/css"  href="~/Content/css/supersized.shutter.min.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="~/Content/css/Site.css">
  </head>
+
 <body>
 
- @RenderBody()
+
+<!--  site loading -->
+<div class="pageFade" > </div>
+
+
+<!--
+Header Navigation Area
+-->
+
+
+<div class="showHideMenu">
+	<i class="fa fa-bars"></i>
+</div>
+
+    
+<div class="header darkMenu" >   
+      
+
+	<div class="closeMenu">
+		<i class="fa  fa-arrow-circle-o-left fa-2x" ></i>
+	</div>
+    
+    <div class="header_content" >
+		
+        
+        <div class="setNavType darkStyle"> 
+        
+            <div class="logo" >
+                <h1 class="fittext3"><a href="~/Index#!home" style="color:white">RICK MAXWELL<span class="highlight_color" style="font-size:26px;"> wood sculptor</span></a></h1>
+            </div>
+
+        	    
+             <ul class="nav"> 
+                 <li><a href="~/Sculptor" class="first">Home</a></li>
+                 <li><a href="~/BentWood" >Bent Wood</a></li>
+                 <li><a href="~/Wall-Reliefs" >Wall Reliefs</a></li>                  
+                
+                <li><a href="#!work">Work</a>
+                    <ul>
+                            <li><a href="#!work?tab2_3" >Sculpture 2010-2005</a></li>
+                            <li><a href="#!work?tab2_4" >Sculpture 2004-1999</a></li>
+                            <li><a href="#!work?tab2_5" >Drawings Present to 2010</a></li>
+                            <li><a href="#!work?tab2_6" class="last">Drawings 2009 to 1999</a></li>
+                    </ul>
+                </li>  
+                <li><a href="~/Sculptor#!videos">Videos</a></li>  
+                <li><a href="~/Sculptor#!info">Info</a>
+                     <ul>   
+                            <li><a href="~/Sculptor#!info?tab4_1" class="active">Statement</a></li>
+                            <li><a href="~/Sculptor#!info?tab4_2" >Studio</a></li>
+                            <li><a href="~/Sculptor#!info?tab4_3" >Biography</a></li>
+                            <li><a href="~/Sculptor#!info?tab4_4" class="last">Links</a></li>
+                    </ul>
+                </li> 
+                 <li><a href="~/Sculptor#!Contact" class="last">Contact</a></li>
+                                                      
+            </ul>
+            
+        </div>
+    </div>
+
+    </div>
+
+    @RenderBody()
 
  @RenderSection("scripts", required: false)         
         
@@ -137,14 +201,7 @@
 		}
 			
 </script>
-        		
-<script>		
-	//	$(document).ready(function(){	
-	//	    $('.carousel');
-	//	});
-</script>
- 
-        
+        		        
                
    <script>			
 
@@ -156,10 +213,10 @@
 					
 					/* Set the opening page. 
 					leave it blank value if you need to show the home page as a opening page*/
-					currentPage : "!home",
+				    currentPage: "~Index/html#!home",
 					
 					/* set whether it's an one page or separate page file, if it's set false, the template works like a separate page version*/
-					onePage : true,
+					onePage : false,
 					
 					/* FlexSlider slideshow speed */
 					slideshowSpeed : 5000,
@@ -170,26 +227,19 @@
 		  					
 	</script>
 
- <!--<script>
-     function showmydiv() {
-         document.getElementById('.carousel').style.display = "block";
-     }
-</script>-->  
-
-
 
  <!-- jQuery is just for the demo! Hammer.js works without jQuery :-) -->
     
     
 
- <!--   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>-->
+ <!--   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     
-    <script  src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.js"></script>
+  <script  src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.js"></script>
     
     <script data-require="hammer.js" data-semver="1.0.5" src="~/Content/js/hammer.js"></script>
 
 
-    <script>
+   <script>
 
     /**
     * super simple carousel
@@ -324,42 +374,31 @@
             }
         }
 
-        new Hammer(element[0], { dragLockToAxis: true }).on("release dragleft dragright swipeleft swiperight", handleHammer);
-        
+        new Hammer(element[0], { dragLockToAxis: true }).on("release dragleft dragright swipeleft swiperight", handleHammer);       
 
     }
 
+    var carousel = new Carousel("#carousel");
+   carousel.init();
+
+
+//  var carousel02 = new Carousel("#carousel02");
+ //   carousel02.init();
+//
+//    var carousel03 = new Carousel("#carousel03");
+ //  carousel03.init({ width: '1000px' });
+
+ //   var carousel04 = new Carousel("#carousel04");
+ //   carousel04.init();
+
+ //   var carousel05 = new Carousel("#carousel05");
+ //   carousel05.init();
+
+ //   var carousel06 = new Carousel("#carousel06");
+//    carousel06.init();
+</script> -->
    
-
-    var carousel01 = new Carousel("#carousel01");
-   carousel01.init();
-
-   var carousel02 = new Carousel("#carousel02");
-    carousel02.init();
-
-    var carousel03 = new Carousel("#carousel03");
-   carousel03.init({ width: '1000px' });
-
-    var carousel04 = new Carousel("#carousel04");
-    carousel04.init();
-
-    var carousel05 = new Carousel("#carousel05");
-    carousel05.init();
-
-    var carousel06 = new Carousel("#carousel06");
-    carousel06.init();
-</script>
-   
-
-<script>
-  //  $('.element').carousel_item({ offsetwidth: '1000px' });
-    // document.getElementById('.tab-content').style.display = "block";
-   // newTab.addEventListener("load", function () {
-    //    var NavW = document.getElementById("wrap").offsetwidth;
-    //    // .carousel.width = 1000px;
-  //  }, false);
-</script>-->
-
  <script type="text/javascript" src="~/Content/js/retina.js"></script>   
+
 </body>
 </html>
