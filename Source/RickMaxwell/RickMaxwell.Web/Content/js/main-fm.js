@@ -793,7 +793,8 @@
 					  if($(this).data('added')){	
 						  $(this).mCustomScrollbar("update");							
 					  }
-			});	
+				  });
+			
 			
 			self.videoRest(ele);
 
@@ -2102,8 +2103,8 @@
 				
 				setTimeout(function(){
 					$(window).trigger("resize");
-				},750);
-								
+				//},750);
+				}, 1000);
 			});
 			
 			var pageAlign = $(".desktop_alignLeft");

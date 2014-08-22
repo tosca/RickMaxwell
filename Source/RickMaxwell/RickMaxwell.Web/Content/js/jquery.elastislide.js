@@ -197,7 +197,7 @@
 		// the minimum number of items to show. 
 		// when we resize the window, this will make sure minItems are always shown 
 		// (unless of course minItems is higher than the total number of elements)
-		minItems : 3,
+		minItems : 1,
 		// index of the current item (left most item of the carousel)
 		start : 0,
 		// click item callback
@@ -551,7 +551,7 @@
 			
 			if( tvalue === undefined ) {
 				
-				var amount = this.fitCount * itemSpace;
+				var amount = 1 * itemSpace;
 
 				if( amount < 0 ) {
 

@@ -478,8 +478,10 @@
 		$preview = $( mc.attr("data-link") ),
 		$carouselItems = $carouselEl.children(),
 		carousel = $carouselEl.elastislide( {
-			current : current,
-			minItems : 1,
+		    current: current,
+            imageW : 700,
+            minItems: 1,
+            maxItems: 1,
 			onClick : function( el, pos, evt ) {
 				changeImage( el, pos, isFullScreen );
 				if(el.find("a").attr("target") === undefined || el.find("a").attr("target") === ""){

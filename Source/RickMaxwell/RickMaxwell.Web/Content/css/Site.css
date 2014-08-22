@@ -1,8 +1,8 @@
-﻿.img-responsive {  
+﻿/*.img-responsive {  
   display: block;  
   height: auto;  
   max-width: 100%;  
-} 
+} */
 .bio-background {
     background-image: url(../images/background/image1.jpg);
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@
   /* border: #ffffff 2px solid;*/ 
 }
 .homepage_con image{
-    height:100%;
+  /*  height:100%;*/
 }
 .bottom_bar {
     height: 30px;
@@ -38,25 +38,27 @@ height: auto;
 display: block;       
 }
  /****** carousel images **** */
-.bodyContainer {
-    position: relative;
-    float: right;
-    top: 0px;
+.works-wrapper{
+    height: 0;
     overflow: hidden;
-    /*added height: 100%*/
-    min-height: 100%;
-    height: 100%;
-
+     min-height: 100%;
+     height: 100%;
+    padding:0;
+    margin: 0 auto;
+    position: relative;
 }
-.works-wrapper, #carousel, #carousel ul, #carousel li {
+/*#carousel, #carousel ul, #carousel ul li {
             min-height: 100%;
             height: 100%;
             padding: 0;
             margin: 0;
             position: relative;
-        }
-        #carousel {
-          /*  background: silver;*/
+        }*/
+
+    #carousel ul li{
+        height: 700px;
+    }
+        #carousel, #carousel02, #carousel03  {
             overflow: hidden;
             width: 100%;
             -webkit-backface-visibility: hidden;
@@ -64,14 +66,15 @@ display: block;
             -webkit-transform-style: preserve-3d;
         }
 
-        #carousel ul.animate {
+        #carousel ul.animate, #carousel02 ul.animate,
+        #carousel03 ul.animate{
             -webkit-transition: all .3s;
             -moz-transition: all .3s;
             -o-transition: all .3s;
             transition: all .3s;
         }
 
-        #carousel ul {
+       #carousel ul, #carousel02 ul, #carousel03 ul{
             -webkit-transform: translate3d(0%,0,0) scale3d(1,1,1);
             -moz-transform: translate3d(0%,0,0) scale3d(1,1,1);
             -ms-transform: translate3d(0%,0,0) scale3d(1,1,1);
@@ -82,20 +85,24 @@ display: block;
             -webkit-transform-style: preserve-3d;
         }
 
-        #carousel ul {
+        #carousel ul, #carousel02 ul, #carousel03 ul{
             -webkit-box-shadow: 0 0 20px rgba(0,0,0,.2);
             box-shadow: 0 0 20px rgba(0,0,0,.2);
             position: relative;
         }
 
-        #carousel li {
+        #carousel li, #carousel02 li, #carousel02{
             float: left;
             overflow: hidden;
             -webkit-transform-style: preserve-3d;
             -webkit-transform: translate3d(0,0,0);
         }
-
-        #carousel li h4 {
+            #carousel img, #carousel02 img, #carousel03 img{
+                height: 0;
+                height: auto;
+                max-width: 100%;
+            }
+        #carousel li h4,  #carousel02 li h4, #carousel03 li h4{
             color: #fff;
             font-size: 14px;
             text-align: center;
@@ -105,10 +112,14 @@ display: block;
             text-shadow: -1px -1px 0 rgba(0,0,0,.2);
         }
 
-         #carousel li.pane1 { background: #42d692; }
-        #carousel li.pane2 { background: #4986e7; }
-       
-
+.carousel-caption {
+position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+padding: 15px;
+background: #333;
+background: rgba(0,0,0,0.60);
 
 @media only screen and (min-width: 767px) {
     ul.nav-tabs.plainTab > li > a {
