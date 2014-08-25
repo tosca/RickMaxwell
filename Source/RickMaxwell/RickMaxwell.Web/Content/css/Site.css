@@ -37,7 +37,7 @@
 height: auto;
 display: block;       
 }
- /****** carousel images **** */
+ /****** carousel images **** 
 .works-wrapper{
     height: 0;
     overflow: hidden;
@@ -46,14 +46,14 @@ display: block;
     padding:0;
     margin: 0 auto;
     position: relative;
-}
+}*/
 /*#carousel, #carousel ul, #carousel ul li {
             min-height: 100%;
             height: 100%;
             padding: 0;
             margin: 0;
             position: relative;
-        }*/
+        }
 
     #carousel ul li{
         height: 700px;
@@ -111,15 +111,36 @@ display: block;
             width: 100%;
             text-shadow: -1px -1px 0 rgba(0,0,0,.2);
         }
-
+*/
 .carousel-caption {
-position: absolute;
-right: 0;
-bottom: 0;
-left: 0;
-padding: 15px;
-background: #333;
-background: rgba(0,0,0,0.60);
+    position: absolute;
+    margin: 0 auto;
+  right: 0; 
+     bottom: 0;
+    left: auto;
+    padding: 3px;
+    background: #333;
+    background: rgba(0,0,0,0.60);
+}
+
+.elastislide-list ul {
+    position: relative;
+    margin: auto;
+}
+.elastislide-list ul li { 
+     position: absolute;   
+    height: 700px;
+    width: 100%;
+    min-width: 100%;
+}
+
+/*.elastislide-list ul li h5 {
+    position:absolute;
+    text-align: center;
+    margin: 0 auto;
+    bottom: 0;
+    background: rgba(0,0,0,0.60);
+}*/
 
 @media only screen and (min-width: 767px) {
     ul.nav-tabs.plainTab > li > a {

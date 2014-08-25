@@ -93,7 +93,7 @@
 }
 
 .elastislide-carousel ul li {
-	min-width: 20px; /* tosca changed from 20px to 500px minimum width of the image (min width + border) */
+	min-width: 20px;
 }
 
 .elastislide-wrapper {
@@ -155,7 +155,7 @@
 }
 
 .elastislide-horizontal ul li {
-	height: 700px;
+	height: 100%;
 	display: inline-block;
 }
 
@@ -168,13 +168,19 @@
 	width: 100%;
 }
 
+.elastislide-carousel ul li{
+	display: inline-block;
+	width: 100%;
+}
+
 .elastislide-carousel ul li a img {
 	display: block;
 	max-width: 100%;
 }
 .elastislide-carousel ul li img {
-	max-height: 100% !important;
-	max-width: 100% !important;
+	display: block;
+	max-width: 100%;
+    height: auto;
 }
 
 	
@@ -260,9 +266,11 @@
 	
 }
 
-.elastic_slider .elastislide-horizontal ul li a img {
+.elastic_slider .elastislide-horizontal ul li a img,
+.elastic_slider .elastislide-horizontal ul li img {
 	display:inline-block;
-	max-height:100% !important;
+    display:block; /*tosca*/
+	min-height:100% !important;
 	width:auto !important;
 	margin: 0 auto;
 }
@@ -276,7 +284,9 @@
 	bottom: 15px;
 	left:  20px;
 	width: 50%;
+    width: 100%; /*tosca*/
 	height: 20%;
+    height: 100%; /*tosca*/
 	border-radius: 10px/90px;
 }
 
@@ -375,6 +385,14 @@
 .demo-4 .elastislide-carousel ul li.current-img a img {
 	box-shadow: 0 0 3px 2px rgba(62,235,255,0.8);
 }
+
+/*tosca added
+
+.elastic_slider img {
+    width: 100%;
+    height: auto;
+    display:inline-block;
+}*/
 
 
 

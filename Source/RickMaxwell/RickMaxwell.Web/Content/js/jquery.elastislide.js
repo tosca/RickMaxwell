@@ -199,7 +199,8 @@
 		// (unless of course minItems is higher than the total number of elements)
 		minItems : 1,
 		// index of the current item (left most item of the carousel)
-		start : 0,
+		start: 0,
+        imageW : 1000,
 		// click item callback
 		onClick : function( el, position, evt ) { return false; },
 		onReady : function() { return false; },
@@ -551,7 +552,7 @@
 			
 			if( tvalue === undefined ) {
 				
-				var amount = 1 * itemSpace;
+			    var amount = this.fitCount * itemSpace; // tosca changed this.fitCount to 1
 
 				if( amount < 0 ) {
 
@@ -669,21 +670,7 @@
 			this._slide( '', -amount );
 			
 		},
-		// public method: adds new items to the carousel
-		/*
-		
-		how to use:
-		var carouselEl = $( '#carousel' ),
-			carousel = carouselEl.elastislide();
-		...
-		
-		// append or prepend new items:
-		carouselEl.prepend('<li><a href="#"><img src="images/large/2.jpg" alt="image02" /></a></li>');
-
-		// call the add method:
-		es.add();
-		
-		*/
+	
 		add : function( callback ) {
 			
 			var self = this,
