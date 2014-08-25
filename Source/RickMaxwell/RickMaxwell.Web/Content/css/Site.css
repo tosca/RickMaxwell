@@ -112,16 +112,6 @@ display: block;
             text-shadow: -1px -1px 0 rgba(0,0,0,.2);
         }
 */
-.carousel-caption {
-    position: absolute;
-    margin: 0 auto;
-  right: 0; 
-     bottom: 0;
-    left: auto;
-    padding: 3px;
-    background: #333;
-    background: rgba(0,0,0,0.60);
-}
 
 .elastislide-list ul {
     position: relative;
@@ -133,6 +123,17 @@ display: block;
     width: 100%;
     min-width: 100%;
 }
+.desc {
+    position: absolute;
+    margin: 0 auto;
+     bottom: 0; 
+     vertical-align:middle; 
+    text-align: center;
+    padding: 3px;
+    background: #333;
+    background: rgba(0,0,0,0.50);
+}
+
 
 /*.elastislide-list ul li h5 {
     position:absolute;
