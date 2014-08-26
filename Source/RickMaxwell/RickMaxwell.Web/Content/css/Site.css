@@ -4,23 +4,32 @@
   max-width: 100%;  
 } */
 .bio-background {
-    background-image: url(../images/background/image1.jpg);
+    background-image: url("../images/background/image1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    display: inline-block;
-    
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;   
 }
+.bio-background bar_content {
+    margin: 17px;
+    padding: 10px;    
+}
+
  #ascrail2000 {
  background-color: rgb(220, 220, 220);
  opacity: 1;
  width: 20px;
  border-radius: 3px;
 }
-.pgScrollUp {
-  /* border: #ffffff 2px solid;*/ 
-}
+
 .homepage_con image{
   /*  height:100%;*/
+}
+.home_slider_title4 {
+    background-image: url("../images/bentwood/image10.jpg");
+    background-repeat: no-repeat;
+    display:block;
 }
 .bottom_bar {
     height: 30px;
@@ -126,33 +135,29 @@ display: block;
 .desc {
     position: absolute;
     margin: 0 auto;
-     bottom: 0; 
-     vertical-align:middle; 
+     bottom: 0;
+     left:inherit; 
+    font-size: 14px; 
     text-align: center;
     padding: 3px;
     background: #333;
-    background: rgba(0,0,0,0.50);
+    background: rgba(0,0,0,0.40);
 }
-
-
-/*.elastislide-list ul li h5 {
-    position:absolute;
-    text-align: center;
-    margin: 0 auto;
-    bottom: 0;
-    background: rgba(0,0,0,0.60);
-}*/
-
+ @media only screen and (max-width: 479px) {
+            ul.nav-tabs.plainTab > li > a {
+                font-size: 10px;                
+            }
 @media only screen and (min-width: 767px) {
     ul.nav-tabs.plainTab > li > a {
-    font-size: 14px;
-    }
+            font-size: 14px;
+    } 
+    .bio-background .bar_content {
+            padding-left: 40px;
+        }
 }
     @media only screen and (min-width: 979px) {
      
     }
-      @media only screen and (max-width: 479px) {
-            ul.nav-tabs.plainTab > li > a {
-                font-size: 12px;
-            }
+     
+       
         }
