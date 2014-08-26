@@ -144,9 +144,20 @@ display: block;
     background: rgba(0,0,0,0.40);
 }
  @media only screen and (max-width: 479px) {
-            ul.nav-tabs.plainTab > li > a {
-                font-size: 10px;                
-            }
+     ul.nav-tabs.plainTab > li > a {
+         font-size: 10px;                
+     }
+    .tab-pane {
+        margin: 0;
+    } 
+    .bar_content {
+        margin-bottom: 0!important; 
+        padding-bottom: 0!important;
+    }
+    .carousel ul {
+        max-height: 300px;
+    }
+}
 @media only screen and (min-width: 767px) {
     ul.nav-tabs.plainTab > li > a {
             font-size: 14px;
