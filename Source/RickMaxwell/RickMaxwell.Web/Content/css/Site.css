@@ -23,14 +23,11 @@
  border-radius: 3px;
 }
 
-.homepage_con image{
-  /*  height:100%;*/
-}
-.home_slider_title4 {
+/*.home_slider_title4 {
     background-image: url("../images/bentwood/image10.jpg");
     background-repeat: no-repeat;
     display:block;
-}
+}*/
 .bottom_bar {
     height: 30px;
     padding-top: 50px;
@@ -169,6 +166,4 @@ display: block;
     @media only screen and (min-width: 979px) {
      
     }
-     
-       
-        }
+      
