@@ -23,11 +23,11 @@
  border-radius: 3px;
 }
 
-/*.home_slider_title4 {
+.home_slider_title4 {
     background-image: url("../images/bentwood/image10.jpg");
     background-repeat: no-repeat;
     display:block;
-}*/
+}
 .bottom_bar {
     height: 30px;
     padding-top: 50px;
@@ -53,7 +53,7 @@ display: block;
     margin: 0 auto;
     position: relative;
 }*/
-/*#carousel, #carousel ul, #carousel ul li {
+#carousel, #carousel ul, #carousel ul li {
             min-height: 100%;
             height: 100%;
             padding: 0;
@@ -61,9 +61,6 @@ display: block;
             position: relative;
         }
 
-    #carousel ul li{
-        height: 700px;
-    }
         #carousel, #carousel02, #carousel03  {
             overflow: hidden;
             width: 100%;
@@ -103,11 +100,7 @@ display: block;
             -webkit-transform-style: preserve-3d;
             -webkit-transform: translate3d(0,0,0);
         }
-            #carousel img, #carousel02 img, #carousel03 img{
-                height: 0;
-                height: auto;
-                max-width: 100%;
-            }
+        
         #carousel li h4,  #carousel02 li h4, #carousel03 li h4{
             color: #fff;
             font-size: 14px;
@@ -117,7 +110,7 @@ display: block;
             width: 100%;
             text-shadow: -1px -1px 0 rgba(0,0,0,.2);
         }
-*/
+
 
 .elastislide-list ul {
     position: relative;
@@ -125,21 +118,47 @@ display: block;
 }
 .elastislide-list ul li { 
      position: absolute;   
-    height: 700px;
+   /* height: 700px;*/
     width: 100%;
     min-width: 100%;
 }
-.desc {
+li .desc {
     position: absolute;
-    margin: 0 auto;
      bottom: 0;
-     left:inherit; 
-    font-size: 14px; 
+     display: inline-block;
+     margin: 0 auto;
     text-align: center;
     padding: 3px;
     background: #333;
     background: rgba(0,0,0,0.40);
 }
+
+/* Navigation Arrows */
+
+.carousel-wrapper nav span {
+	position: absolute;
+	background: #000 url(../images/nav.png) no-repeat 4px 3px;
+	width: 23px;
+	height: 23px;
+	border-radius: 50%;
+	text-indent: -9000px;
+	cursor: pointer;
+	opacity: 0.8;
+	visibility:visible;
+}
+
+.carousel-horizontal nav span {
+	top: 50%;
+	left: 2px;
+	margin-top: -11px;
+}
+
+.carousel-horizontal nav span.carousel-next {
+	right: 2px;
+	left: auto;
+	background-position: 4px -17px;
+}
+
  @media only screen and (max-width: 479px) {
      ul.nav-tabs.plainTab > li > a {
          font-size: 10px;                
@@ -151,13 +170,13 @@ display: block;
         margin-bottom: 0!important; 
         padding-bottom: 0!important;
     }
-    .carousel ul {
-        max-height: 300px;
+     #bentwood .carousel ul li{
+       /* height: 300px;*/
     }
 }
 @media only screen and (min-width: 767px) {
     ul.nav-tabs.plainTab > li > a {
-            font-size: 14px;
+          /*  font-size: 14px;*/
     } 
     .bio-background .bar_content {
             padding-left: 40px;
