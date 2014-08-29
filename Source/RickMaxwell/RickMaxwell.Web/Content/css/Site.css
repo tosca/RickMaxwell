@@ -127,6 +127,7 @@ li .desc {
      bottom: 0;
      display: inline-block;
      margin: 0 auto;
+
     text-align: center;
     padding: 3px;
     background: #333;
@@ -176,11 +177,17 @@ li .desc {
 }
 @media only screen and (min-width: 767px) {
     ul.nav-tabs.plainTab > li > a {
-          /*  font-size: 14px;*/
-    } 
+        font-size: 16px;
+    }
+
     .bio-background .bar_content {
-            padding-left: 40px;
-        }
+        padding-left: 40px;
+    }
+
+    li .desc {
+        margin: 2px auto;
+        margin-left: 33%;
+    }
 }
     @media only screen and (min-width: 979px) {
      
