@@ -114,20 +114,26 @@ display: block;
 
 .elastislide-list ul {
     position: relative;
+    display: block;
     margin: auto;
 }
 .elastislide-list ul li { 
-     position: absolute;   
-   /* height: 700px;*/
+     position: absolute;
+     display: block;   
+    
+    min-width: 100%;width: 100%;
+    top: 0;
+    left: 0;
+}
+.elastic_slider .carousel li{
     width: 100%;
-    min-width: 100%;
 }
 li .desc {
     position: absolute;
      bottom: 0;
      display: inline-block;
      margin: 0 auto;
-
+     margin-left: 20%;
     text-align: center;
     padding: 3px;
     background: #333;
@@ -170,9 +176,6 @@ li .desc {
     .bar_content {
         margin-bottom: 0!important; 
         padding-bottom: 0!important;
-    }
-     #bentwood .carousel ul li{
-       /* height: 300px;*/
     }
 }
 @media only screen and (min-width: 767px) {
