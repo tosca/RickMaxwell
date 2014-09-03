@@ -68,7 +68,7 @@
 		}
 
 		
-		var iimg = !retinaDevice ? "images/supersized/pause.png" : "images/supersized/pause@2x.png";
+		var iimg = !retinaDevice ? "images/supersized/pause.png" : "images/supersized/pause.png";
 		$("#pauseplay").attr("src",iimg);
 		
 		if(isTouch){

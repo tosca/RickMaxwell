@@ -1,15 +1,17 @@
-﻿/*.img-responsive {  
-  display: block;  
-  height: auto;  
-  max-width: 100%;  
-} */
+﻿
 .bio-background {
     background-image: url("../images/background/image1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 10px;
-    padding: 10px;
-    display: inline-block;   
+    padding: 20px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.5em;   
+}
+.bio-background .row{
+    padding: 0 0 10px;
+    
 }
 .bio-background bar_content {
     margin: 17px;
@@ -39,20 +41,12 @@
 
   /****** studio images @2x to display */
 .feature img{   
-  width: 100%;
-height: auto;
-display: block;       
+    width: 100%;
+    height: auto;
+    display: block;       
 }
- /****** carousel images **** 
-.works-wrapper{
-    height: 0;
-    overflow: hidden;
-     min-height: 100%;
-     height: 100%;
-    padding:0;
-    margin: 0 auto;
-    position: relative;
-}*/
+ /****** carousel images for hammer.js swipe **** 
+
 #carousel, #carousel ul, #carousel ul li {
             min-height: 100%;
             height: 100%;
@@ -168,7 +162,8 @@ li .desc {
 
  @media only screen and (max-width: 479px) {
      ul.nav-tabs.plainTab > li > a {
-         font-size: 14px;                
+         font-size: 12px;
+         margin-right: 10px;                
      }
     .tab-pane {
         margin: 0;
@@ -179,11 +174,19 @@ li .desc {
     }
     li h4 .desc {
         font-size: 12px;
+        font-weight: bold;
+    }
+    .fullHeight {
+        min-height: 570px;
     }
 }
 @media only screen and (min-width: 767px) {
     ul.nav-tabs.plainTab > li > a {
-        font-size: 16px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .fullHeight {
+        min-height: 570px;
     }
 
     .bio-background .bar_content {
@@ -195,7 +198,9 @@ li .desc {
         margin-left: 33%;
     }
 }
-    @media only screen and (min-width: 979px) {
-     
+ @media only screen and (min-width: 979px) {
+      ul.nav-tabs.plainTab > li > a {
+        font-size: 18px;
     }
+}
       
