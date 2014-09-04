@@ -237,11 +237,12 @@
     }
 .elastic_slider .elastislide-horizontal ul li a img,
 .elastic_slider .elastislide-horizontal ul li img {
-	display:inline-block;
-  /*  display:block;tosca*/
+	/*display:inline-block;*/
+    display:block;
     min-height:100% !important;
 	width:auto !important;
 	margin: 0 auto;
+    height: 100%; /*tosca*/
 }
 
 
