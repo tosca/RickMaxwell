@@ -174,21 +174,15 @@ li .desc {
         margin-bottom: 0!important; 
         padding-bottom: 0!important;
     }
-    li h4 .desc {
-        font-size: 12px;
-        font-weight: bold;
-    }
-    .fullHeight {
-        min-height: 570px;
+    li h4.desc {
+        font-size: 10px;
+        font-weight: 500;
     }
 }
 @media only screen and (min-width: 767px) {
     ul.nav-tabs.plainTab > li > a {
         font-size: 14px;
         font-weight: bold;
-    }
-    .fullHeight {
-        min-height: 570px;
     }
 
     .bio-background .bar_content {
