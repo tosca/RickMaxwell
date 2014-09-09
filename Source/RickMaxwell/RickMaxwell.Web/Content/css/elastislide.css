@@ -144,6 +144,7 @@
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
+    margin-bottom: 100px;
     /*max-height: 700px; tosca*/
 	-webkit-backface-visibility: hidden;
 	-webkit-transform: translateX(0px);
@@ -232,8 +233,13 @@
 	border-radius: 10px/90px;
 	
 }
+
+ .elastic_slider .elastislide-horizontal ul li {
+        max-height: 730px;
+    }
     .elastic_slider .elastislide-horizontal ul li {
         display: inline-block;
+        vertical-align: middle;
     }
 .elastic_slider .elastislide-horizontal ul li a img,
 .elastic_slider .elastislide-horizontal ul li img {
