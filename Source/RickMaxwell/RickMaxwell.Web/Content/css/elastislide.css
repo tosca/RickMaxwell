@@ -123,7 +123,7 @@
 	}
 
 .elastislide-horizontal {
-	padding: 10px 40px;
+	padding: 0px 40px;
 	margin-bottom:5px;
 }
 
@@ -228,7 +228,7 @@
 /* Custom Elastislide Styling */
 
 .elastic_slider .elastislide-horizontal {
-	padding: 10px 37px;
+	padding: 0px 37px 20px;
 	border-radius: 10px/90px;
 	
 }
