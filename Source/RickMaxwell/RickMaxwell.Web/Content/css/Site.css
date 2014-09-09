@@ -127,6 +127,7 @@
 li .desc {
     position: absolute;
      bottom: 0;
+     right: 0;
      display: inline-block;
      margin: 0 auto;
      margin-left: 2px;
@@ -188,10 +189,14 @@ li .desc {
     .bio-background .bar_content {
         padding-left: 40px;
     }
+    elastic_slider li {
+        max-height: 600px;
+    }
 
-    li .desc {
-        margin: 2px auto;
-        margin-left: 33%;
+    li .desc h4{
+      /*  margin: 2px auto;
+        margin-left: 33%;*/
+        float: right;
     }
 }
  @media only screen and (min-width: 979px) {

@@ -242,7 +242,7 @@
 	display:block;
     width:auto !important;
 	margin: 0 auto;
-    height: auto; /*tosca*/
+    max-height: 700px; /*tosca*/
 }
 
 
