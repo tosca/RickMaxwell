@@ -163,14 +163,6 @@
     <Content Include="Content\fonts\droidsans-webfont.svg" />
     <Content Include="Content\fonts\volkhov-italic-webfont.svg" />
     <Content Include="Content\fonts\volkhov-regular-webfont.svg" />
-    <Content Include="Content\images\accordion_blog_icon%402x.png" />
-    <Content Include="Content\images\accordion_blog_icon.png" />
-    <Content Include="Content\images\accordion_blog_white_icon%402x.png" />
-    <Content Include="Content\images\accordion_blog_white_icon.png" />
-    <Content Include="Content\images\accordion_icon%402x.png" />
-    <Content Include="Content\images\accordion_icon.png" />
-    <Content Include="Content\images\accordion_white_icon%402x.png" />
-    <Content Include="Content\images\accordion_white_icon.png" />
     <Content Include="Content\images\apple-touch-icon-114x114.png" />
     <Content Include="Content\images\apple-touch-icon-72x72.png" />
     <Content Include="Content\images\apple-touch-icon.png" />
@@ -224,7 +216,6 @@
     <Content Include="Content\images\bentwood\image9.jpg" />
     <Content Include="Content\images\bigvideo%402x.png" />
     <Content Include="Content\images\bigvideo.png" />
-    <Content Include="Content\images\client1.png" />
     <Content Include="Content\images\drawing2009\image1%402x.jpg" />
     <Content Include="Content\images\drawing2009\image1.jpg" />
     <Content Include="Content\images\drawing2009\image2%402x.jpg" />
@@ -289,20 +280,6 @@
     <Content Include="Content\images\home_slider\hyatt-s%402x.jpg" />
     <Content Include="Content\images\home_slider\hyatt-s.jpg" />
     <Content Include="Content\images\home_slider\hyatt.jpg" />
-    <Content Include="Content\images\home_slider\imgtall1%402x.jpg" />
-    <Content Include="Content\images\home_slider\imgtall1.jpg" />
-    <Content Include="Content\images\home_slider\image1.jpg" />
-    <Content Include="Content\images\home_slider\image1_s.jpg" />
-    <Content Include="Content\images\home_slider\image2.jpg" />
-    <Content Include="Content\images\home_slider\image2_s.jpg" />
-    <Content Include="Content\images\home_slider\image3.jpg" />
-    <Content Include="Content\images\home_slider\image3_s.jpg" />
-    <Content Include="Content\images\home_slider\image4.jpg" />
-    <Content Include="Content\images\home_slider\image4_s.jpg" />
-    <Content Include="Content\images\home_slider\image5.jpg" />
-    <Content Include="Content\images\home_slider\image5_s.jpg" />
-    <Content Include="Content\images\home_slider\image6.jpg" />
-    <Content Include="Content\images\home_slider\image6_s.jpg" />
     <Content Include="Content\images\home_slider\shadyoak%402x.jpg" />
     <Content Include="Content\images\home_slider\shadyoak-s%402x.jpg" />
     <Content Include="Content\images\home_slider\shadyoak-s.jpg" />
@@ -322,7 +299,6 @@
     <Content Include="Content\images\home_slider\wallrings-s.jpg" />
     <Content Include="Content\images\home_slider\wallrings.jpg" />
     <Content Include="Content\images\info\image2.jpg" />
-    <Content Include="Content\images\info\videos.jpg" />
     <Content Include="Content\images\ipad_frame.png" />
     <Content Include="Content\images\list\icon1%402x.png" />
     <Content Include="Content\images\list\icon1.png" />
@@ -375,12 +351,6 @@
     <Content Include="Content\images\loading_white.gif" />
     <Content Include="Content\images\logo%402x.png" />
     <Content Include="Content\images\logo.png" />
-    <Content Include="Content\images\map\logo.png" />
-    <Content Include="Content\images\map\logo_shadow.png" />
-    <Content Include="Content\images\map\parking.png" />
-    <Content Include="Content\images\map\parking_shadow.png" />
-    <Content Include="Content\images\map\train.png" />
-    <Content Include="Content\images\map\train_shadow.png" />
     <Content Include="Content\images\mCSB_buttons.png" />
     <Content Include="Content\images\nav.png" />
     <Content Include="Content\images\next_previous_button%402x.png" />
@@ -397,84 +367,6 @@
     <Content Include="Content\images\overlay_video.png" />
     <Content Include="Content\images\overlay_zoom.png" />
     <Content Include="Content\images\parallax_overlay.png" />
-    <Content Include="Content\images\portfolio\image1.jpg" />
-    <Content Include="Content\images\portfolio\image10.jpg" />
-    <Content Include="Content\images\portfolio\image11.jpg" />
-    <Content Include="Content\images\portfolio\image12.jpg" />
-    <Content Include="Content\images\portfolio\image13.jpg" />
-    <Content Include="Content\images\portfolio\image14.jpg" />
-    <Content Include="Content\images\portfolio\image15.jpg" />
-    <Content Include="Content\images\portfolio\image16.jpg" />
-    <Content Include="Content\images\portfolio\image17.jpg" />
-    <Content Include="Content\images\portfolio\image18.jpg" />
-    <Content Include="Content\images\portfolio\image19.jpg" />
-    <Content Include="Content\images\portfolio\image1_a.jpg" />
-    <Content Include="Content\images\portfolio\image1_b.jpg" />
-    <Content Include="Content\images\portfolio\image1_c.jpg" />
-    <Content Include="Content\images\portfolio\image1_d.jpg" />
-    <Content Include="Content\images\portfolio\image2.jpg" />
-    <Content Include="Content\images\portfolio\image20.jpg" />
-    <Content Include="Content\images\portfolio\image21.jpg" />
-    <Content Include="Content\images\portfolio\image22.jpg" />
-    <Content Include="Content\images\portfolio\image3.jpg" />
-    <Content Include="Content\images\portfolio\image30.jpg" />
-    <Content Include="Content\images\portfolio\image31.jpg" />
-    <Content Include="Content\images\portfolio\image32.jpg" />
-    <Content Include="Content\images\portfolio\image33.jpg" />
-    <Content Include="Content\images\portfolio\image34.jpg" />
-    <Content Include="Content\images\portfolio\image35.jpg" />
-    <Content Include="Content\images\portfolio\image36.jpg" />
-    <Content Include="Content\images\portfolio\image37.jpg" />
-    <Content Include="Content\images\portfolio\image38.jpg" />
-    <Content Include="Content\images\portfolio\image39.jpg" />
-    <Content Include="Content\images\portfolio\image4.jpg" />
-    <Content Include="Content\images\portfolio\image40.jpg" />
-    <Content Include="Content\images\portfolio\image41.jpg" />
-    <Content Include="Content\images\portfolio\image42.jpg" />
-    <Content Include="Content\images\portfolio\image5.jpg" />
-    <Content Include="Content\images\portfolio\image6.jpg" />
-    <Content Include="Content\images\portfolio\image7.jpg" />
-    <Content Include="Content\images\portfolio\image8.jpg" />
-    <Content Include="Content\images\portfolio\image9_a.jpg" />
-    <Content Include="Content\images\portfolio\image9_b.jpg" />
-    <Content Include="Content\images\portfolio\image9_c.jpg" />
-    <Content Include="Content\images\portfolio\image9_d.jpg" />
-    <Content Include="Content\images\portfolio\image9_e.jpg" />
-    <Content Include="Content\images\portfolio\thumb1.jpg" />
-    <Content Include="Content\images\portfolio\thumb10.jpg" />
-    <Content Include="Content\images\portfolio\thumb11.jpg" />
-    <Content Include="Content\images\portfolio\thumb12.jpg" />
-    <Content Include="Content\images\portfolio\thumb13.jpg" />
-    <Content Include="Content\images\portfolio\thumb14.jpg" />
-    <Content Include="Content\images\portfolio\thumb15.jpg" />
-    <Content Include="Content\images\portfolio\thumb16.jpg" />
-    <Content Include="Content\images\portfolio\thumb17.jpg" />
-    <Content Include="Content\images\portfolio\thumb18.jpg" />
-    <Content Include="Content\images\portfolio\thumb19.jpg" />
-    <Content Include="Content\images\portfolio\thumb2.jpg" />
-    <Content Include="Content\images\portfolio\thumb20.jpg" />
-    <Content Include="Content\images\portfolio\thumb21.jpg" />
-    <Content Include="Content\images\portfolio\thumb22.jpg" />
-    <Content Include="Content\images\portfolio\thumb3.jpg" />
-    <Content Include="Content\images\portfolio\thumb30.jpg" />
-    <Content Include="Content\images\portfolio\thumb31.jpg" />
-    <Content Include="Content\images\portfolio\thumb32.jpg" />
-    <Content Include="Content\images\portfolio\thumb33.jpg" />
-    <Content Include="Content\images\portfolio\thumb34.jpg" />
-    <Content Include="Content\images\portfolio\thumb35.jpg" />
-    <Content Include="Content\images\portfolio\thumb36.jpg" />
-    <Content Include="Content\images\portfolio\thumb37.jpg" />
-    <Content Include="Content\images\portfolio\thumb38.jpg" />
-    <Content Include="Content\images\portfolio\thumb39.jpg" />
-    <Content Include="Content\images\portfolio\thumb4.jpg" />
-    <Content Include="Content\images\portfolio\thumb40.jpg" />
-    <Content Include="Content\images\portfolio\thumb41.jpg" />
-    <Content Include="Content\images\portfolio\thumb42.jpg" />
-    <Content Include="Content\images\portfolio\thumb5.jpg" />
-    <Content Include="Content\images\portfolio\thumb6.jpg" />
-    <Content Include="Content\images\portfolio\thumb7.jpg" />
-    <Content Include="Content\images\portfolio\thumb8.jpg" />
-    <Content Include="Content\images\portfolio\thumb9.jpg" />
     <Content Include="Content\images\scrollup%402x.png" />
     <Content Include="Content\images\scrollup.png" />
     <Content Include="Content\images\sculpture2004\image1%402x.jpg" />
@@ -517,16 +409,6 @@
     <Content Include="Content\images\slider_bg_direction_nav.png" />
     <Content Include="Content\images\slider_bg_direction_nav_white%402x.png" />
     <Content Include="Content\images\slider_bg_direction_nav_white.png" />
-    <Content Include="Content\images\slideshow\image1.jpg" />
-    <Content Include="Content\images\slideshow\image1_s.jpg" />
-    <Content Include="Content\images\slideshow\image2.jpg" />
-    <Content Include="Content\images\slideshow\image2_s.jpg" />
-    <Content Include="Content\images\slideshow\image3.jpg" />
-    <Content Include="Content\images\slideshow\image3_s.jpg" />
-    <Content Include="Content\images\slideshow\image4.jpg" />
-    <Content Include="Content\images\slideshow\image4_s.jpg" />
-    <Content Include="Content\images\slideshow\image5.jpg" />
-    <Content Include="Content\images\slideshow\image5_s.jpg" />
     <Content Include="Content\images\social\black\facebook%402x.png" />
     <Content Include="Content\images\social\black\facebook.png" />
     <Content Include="Content\images\social\black\gplus%402x.png" />
@@ -729,27 +611,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Home\BentWood.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Home\WallReliefs.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Home\Sculpture-2010.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Home\Sculpture-2004.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Home\Drawings-2014.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Home\Drawings-2009.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Home\Copy of Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
