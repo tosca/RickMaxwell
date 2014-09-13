@@ -349,8 +349,6 @@
     <Content Include="Content\images\loading_dark.gif" />
     <Content Include="Content\images\loading_white%402x.gif" />
     <Content Include="Content\images\loading_white.gif" />
-    <Content Include="Content\images\logo%402x.png" />
-    <Content Include="Content\images\logo.png" />
     <Content Include="Content\images\mCSB_buttons.png" />
     <Content Include="Content\images\nav.png" />
     <Content Include="Content\images\next_previous_button%402x.png" />
