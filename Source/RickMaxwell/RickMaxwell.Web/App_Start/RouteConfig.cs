@@ -13,23 +13,12 @@ namespace RickMaxwell.Web
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.MapRoute(
+          /*  routes.MapRoute(
                 "Sculptor",
                 "Sculptor",
                 new { controller = "Home", action = "Index" }
                 );
-
-            routes.MapRoute(
-                "BentWood",
-                "BentWood",
-                new { controller = "Home", action = "BentWood" }
-                );
-
-            routes.MapRoute(
-               "Wall-Reliefs",
-               "Wall-Reliefs",
-               new { controller = "Home", action = "WallReliefs" }
-               );
+            */
 
             routes.MapRoute(
                 name: "Default",

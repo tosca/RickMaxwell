@@ -199,7 +199,7 @@
         max-height: 600px;
     }
 
-    li .desc h4{
+    li .desc h5{
       /*  margin: 2px auto;
         margin-left: 33%;*/
         float: right;
@@ -208,6 +208,17 @@
  @media only screen and (min-width: 979px) {
       ul.nav-tabs.plainTab > li > a {
         font-size: 18px;
+    }
+      elastic_slider li {
+        max-height: 700px;
+    }
+    .elastic_slider .elastislide-horizontal ul li {
+        min-width: 1100px;
+    }
+    li .desc h5{
+      /*  margin: 2px auto;
+        margin-left: 33%;*/
+        float: right;
     }
 }
       
