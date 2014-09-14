@@ -39,71 +39,22 @@
     color:#bf4015;
 }
 
-  /****** studio images @2x to display */
 .feature img{   
     width: 100%;
     height: auto;
     display: block;       
 }
-
-/*.elastislide-list ul {
-    position: relative;
-    display: block;
-    margin: auto;
-}
-.elastislide-list ul li { 
-     position: absolute;
-     display: block;   
-    
-    min-width: 100%;width: 100%;
-    top: 0;
-    left: 0;
-}
-.elastic_slider .carousel li{
-    width: 100%;
-}*/
-
 .elastislide-list ul{
     max-height:700px;
 }
 
 .desc {
-   /* position: absolute;
-     bottom: 0;
-     right: 0;*/
-     display: block;
+    display: block;
     text-align: right;
     padding: 3px;
-    background: #333;
-    background: rgba(0,0,0,0.40);
+
 
 }
-
-/* Navigation Arrows 
-
-.carousel-wrapper nav span {
-	position: absolute;
-	background: #000 url(../images/nav.png) no-repeat 4px 3px;
-	width: 23px;
-	height: 23px;
-	border-radius: 50%;
-	text-indent: -9000px;
-	cursor: pointer;
-	opacity: 0.8;
-	visibility:visible;
-}
-
-.carousel-horizontal nav span {
-	top: 50%;
-	left: 2px;
-	margin-top: -11px;
-}
-
-.carousel-horizontal nav span.carousel-next {
-	right: 2px;
-	left: auto;
-	background-position: 4px -17px;
-}*/
 
  @media only screen and (max-width: 479px) {
      ul.nav-tabs.plainTab > li > a {
@@ -117,7 +68,7 @@
         margin-bottom: 0!important; 
         padding-bottom: 0!important;
     }
-    li h4.desc {
+    .desc h5{
         font-size: 10px;
         font-weight: 500;
     }
@@ -127,28 +78,23 @@
         font-size: 14px;
         font-weight: bold;
     }
-    .bio-background .bar_content {
-        padding-left: 40px;
-    }
+    
     elastic_slider li {
         max-height: 600px;
+        min-width: 50%;
     }
     li .desc h5{
-      /*  margin: 2px auto;
-        margin-left: 33%;*/
         float: right;
     }
 }
  @media only screen and (min-width: 979px) {
-      ul.nav-tabs.plainTab > li > a {
+    ul.nav-tabs.plainTab > li > a {
         font-size: 18px;
     }
-      elastic_slider li {
-     max-height: 700px;
+    elastic_slider li {
+        max-height: 700px;
     }
     li .desc h5{
-      /*  margin: 2px auto;
-        margin-left: 33%;*/
         float: right;
     }
 }
