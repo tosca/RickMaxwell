@@ -45,70 +45,8 @@
     height: auto;
     display: block;       
 }
- /****** carousel images for hammer.js swipe **** 
 
-#carousel, #carousel ul, #carousel ul li {
-            min-height: 100%;
-            height: 100%;
-            padding: 0;
-            margin: 0;
-            position: relative;
-        }
-
-        #carousel, #carousel02, #carousel03  {
-            overflow: hidden;
-            width: 100%;
-            -webkit-backface-visibility: hidden;
-            -webkit-transform: translate3d(0,0,0) scale3d(1,1,1);
-            -webkit-transform-style: preserve-3d;
-        }
-
-        #carousel ul.animate, #carousel02 ul.animate,
-        #carousel03 ul.animate{
-            -webkit-transition: all .3s;
-            -moz-transition: all .3s;
-            -o-transition: all .3s;
-            transition: all .3s;
-        }
-
-       #carousel ul, #carousel02 ul, #carousel03 ul{
-            -webkit-transform: translate3d(0%,0,0) scale3d(1,1,1);
-            -moz-transform: translate3d(0%,0,0) scale3d(1,1,1);
-            -ms-transform: translate3d(0%,0,0) scale3d(1,1,1);
-            -o-transform: translate3d(0%,0,0) scale3d(1,1,1);
-            transform: translate3d(0%,0,0) scale3d(1,1,1);
-            overflow: hidden;
-            -webkit-backface-visibility: hidden;
-            -webkit-transform-style: preserve-3d;
-        }
-
-        #carousel ul, #carousel02 ul, #carousel03 ul{
-            -webkit-box-shadow: 0 0 20px rgba(0,0,0,.2);
-            box-shadow: 0 0 20px rgba(0,0,0,.2);
-            position: relative;
-        }
-
-        #carousel li, #carousel02 li, #carousel02{
-            float: left;
-            overflow: hidden;
-            -webkit-transform-style: preserve-3d;
-            -webkit-transform: translate3d(0,0,0);
-        }
-        
-        #carousel li h4,  #carousel02 li h4, #carousel03 li h4{
-            color: #fff;
-            font-size: 14px;
-            text-align: center;
-            position: absolute; 
-            bottom: 0;
-            width: 100%;
-            text-shadow: -1px -1px 0 rgba(0,0,0,.2);
-        }
-
-.pageNavigation {
-    top: 70%;
-}
-.elastislide-list ul {
+/*.elastislide-list ul {
     position: relative;
     display: block;
     margin: auto;
@@ -126,7 +64,7 @@
 }*/
 
 .elastislide-list ul{
-    max-height:730px;
+    max-height:700px;
 }
 
 .desc {
@@ -140,10 +78,8 @@
     background: rgba(0,0,0,0.40);
 
 }
-.carousel-caption {
-    position: relative;
-}
-/* Navigation Arrows */
+
+/* Navigation Arrows 
 
 .carousel-wrapper nav span {
 	position: absolute;
@@ -167,7 +103,7 @@
 	right: 2px;
 	left: auto;
 	background-position: 4px -17px;
-}
+}*/
 
  @media only screen and (max-width: 479px) {
      ul.nav-tabs.plainTab > li > a {
@@ -191,14 +127,12 @@
         font-size: 14px;
         font-weight: bold;
     }
-
     .bio-background .bar_content {
         padding-left: 40px;
     }
     elastic_slider li {
         max-height: 600px;
     }
-
     li .desc h5{
       /*  margin: 2px auto;
         margin-left: 33%;*/
@@ -210,10 +144,7 @@
         font-size: 18px;
     }
       elastic_slider li {
-        max-height: 650px;
-    }
-    .elastic_slider .elastislide-horizontal ul li {
-        margin: 0 auto !important;
+     max-height: 700px;
     }
     li .desc h5{
       /*  margin: 2px auto;
