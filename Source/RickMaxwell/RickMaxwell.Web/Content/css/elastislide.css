@@ -129,6 +129,7 @@
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
+    max-height: 100%;/*tosca*/
     margin-bottom: 100px;
 	-webkit-backface-visibility: hidden;
 	-webkit-transform: translateX(0px);
