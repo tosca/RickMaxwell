@@ -200,7 +200,7 @@
 		minItems : 1,
 		// index of the current item (left most item of the carousel)
 		start: 0,
-        imageW : 1000,
+        imageW : 300,
 		// click item callback
 		onClick : function( el, position, evt ) { return false; },
 		onReady : function() { return false; },
