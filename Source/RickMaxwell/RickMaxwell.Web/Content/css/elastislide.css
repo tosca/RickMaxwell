@@ -144,7 +144,7 @@
 }
 
 .elastislide-carousel ul li {
-    margin: 0;
+    margin: 0 auto;
 	-webkit-backface-visibility: hidden;
 }
 
@@ -154,13 +154,15 @@
 }
 
 .elastislide-carousel ul li {
-	display: inline-block;
+	display: inline-block; 
 }
 
 .elastislide-carousel ul li img	{
     display: block;
 	/*max-width: 100%;*/
   margin: 0 auto;
+  max-height:initial;
+ 
 }
 	
 /* Navigation Arrows */
@@ -218,7 +220,7 @@
     }
 .elastic_slider .elastislide-horizontal ul li img {
 	 display:block; 
-     width:auto !important; 
+ /*   width:auto !important; */ 
      margin: 0 auto !important;
  /* min-height:100% !important;*/	
 }
