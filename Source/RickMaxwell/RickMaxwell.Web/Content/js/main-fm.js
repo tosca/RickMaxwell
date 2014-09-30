@@ -236,11 +236,11 @@
 							  if(!self.mobile){
 								  $("#supersized").animate({"opacity":1}, 1500, "easeInOutQuart" );
 								  $("#superNav").fadeIn(1000, "easeInOutQuart" );								
-								  $(".supersized-nav").fadeIn(500, "easeInOutQuart" );
+								//  $(".supersized-nav").fadeIn(500, "easeInOutQuart" );
 							  }else{
 								  $("#supersized").show().css({"opacity":1});
 								  $("#superNav").show();					
-								  $(".supersized-nav").show();
+								//  $(".supersized-nav").show();
 							  }							
 							  if(self.superSlider && defaults.homeSliderThumbnail ){
 								  api.min_thumb();

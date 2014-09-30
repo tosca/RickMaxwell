@@ -1,23 +1,23 @@
 ﻿
-.bio-background {
+.bio {
     background-image: url("../images/background/image1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 10px;
-    padding: 20px;
+    margin: 5px;
+    padding: 10px;
     display: inline-block;
-    font-size: 14px;
-    line-height: 1.5em;   
+    font-size: 14px;  
 }
-.bio-background .row{
-    padding: 0 0 10px;
-    
+.bio .span1, .bio span11 {
+    margin: 0;
+    padding: 0;
 }
-.bio-background bar_content {
-    margin: 17px;
+.bio .row{
+    margin: 5px 0 0 10px;    
+}
+.bio .bar_content {
     padding: 10px;    
 }
-
  #ascrail2000 {
  background-color: rgb(220, 220, 220);
  opacity: 1;

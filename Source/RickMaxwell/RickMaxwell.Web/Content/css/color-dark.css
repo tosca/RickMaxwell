@@ -366,7 +366,7 @@
 /* supersized gallery */
 
 	#supersized li{ background-color: #111111; }	
-	.supersized-nav li a, .darkStyle .supersized-nav a { color:#ffffff;  background-color:#000000; background-color: rgba(0, 0, 0, .5); }
+	.supersized-nav li a, .darkStyle .supersized-nav a { display:none;color:#ffffff;  background-color:#000000; background-color: rgba(0, 0, 0, .5); }
 	.supersized-nav li a:hover, .darkStyle .supersized-nav li a:hover { background-color:#ffffff; color:#000000; }
 	.supersized-nav li a.active, .supersized-nav li a.active:hover,
 	.darkStyle .supersized-nav li a.active, .darkStyle .supersized-nav li a.active:hover { background-color:#bf4015; color:#000000; }
