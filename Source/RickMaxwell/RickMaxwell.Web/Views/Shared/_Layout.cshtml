@@ -38,8 +38,8 @@
     <link rel="stylesheet" type="text/css"  href="~/Content/css/color-dark.css"> 
     <link rel="stylesheet" type="text/css"  href="~/Content/css/color-light.css">
     <link rel="stylesheet" type="text/css"  href="~/Content/css/elastislide.css"> 
- <!--   <link rel="stylesheet" type="text/css"  href="~/Content/css/jquery.mCustomScrollbar.css" /> 
-    <link rel="stylesheet" type="text/css"  href="~/Content/css/flexslider.min.css" media="screen" />-->
+  <link rel="stylesheet" type="text/css"  href="~/Content/css/jquery.mCustomScrollbar.css" /> 
+    <link rel="stylesheet" type="text/css"  href="~/Content/css/flexslider.min.css" media="screen" />
     <link rel="stylesheet" type="text/css"  href="~/Content/css/supersized.min.css" media="screen" />
  <link rel="stylesheet" type="text/css"  href="~/Content/css/supersized.shutter.min.css" media="screen" /> 
     <link rel="stylesheet" type="text/css" href="~/Content/css/Site.css">
@@ -56,7 +56,7 @@
         <script src="~/Content/js/jquerypp.elastislide.custom.js" type="text/javascript"></script>
         <script src="~/Content/js/jquery.elastislide.js" type="text/javascript"></script>
         <script src="~/Content/js/jquery.nicescroll.min.js" type="text/javascript"></script>
-    <!--    <script src="~/Content/js/jquery.flexslider.min.js" type="text/javascript"></script> -->
+     <script src="~/Content/js/jquery.flexslider.min.js" type="text/javascript"></script> 
         <script src="~/Content/js/custom.min.js" type="text/javascript"></script>
         <script src="~/Content/js/main-fm.min.js" type="text/javascript"></script>
  </head>
@@ -165,14 +165,14 @@ Page navigation - Use to Scroll the page from section to section
 				$.supersized({
 					slideshow               :   1,			// Slideshow on/off
 					autoplay				:	1,			// Slideshow starts playing automatically
-					slide_interval          :   4000,		// Length between transitions				
+					slide_interval          :   3000,		// Length between transitions				
 			
 					slides 	:  	[	// Slideshow Images, image_small attribute is used to load the mobile version image, main_title attribute is used to add the image tile div
-									{ image: '../Content/images/home_slider/hyatt.jpg', image_small: '../Content/images/home_slider/hyatt-s.jpg', main_title: ".home_slider_title1", slide_interval: 3800 },
-                                    { image: '../Content/images/home_slider/table.jpg', image_small: '../Content/images/home_slider/table-s.jpg', slide_interval: 3200 },
-									{ image: '../Content/images/home_slider/wall6.jpg', image_small: '../Content/images/home_slider/wallrings-s.jpg', slide_interval: 3200 },
-									{ image: '../Content/images/home_slider/shadyoak.jpg', image_small: '../Content/images/home_slider/shadyoak-s.jpg', slide_interval: 3200 },
-									{ image: '../Content/images/home_slider/totem.jpg', image_small: '../Content/images/home_slider/totem-s.jpg', slide_interval: 3200 }
+									{ image: '../Content/images/home_slider/hyatt.jpg', image_small: '../Content/images/home_slider/hyatt-s.jpg', main_title: ".home_slider_title1", slide_interval: 3600 },
+                                    { image: '../Content/images/home_slider/table.jpg', image_small: '../Content/images/home_slider/table-s.jpg', slide_interval: 3000 },
+									{ image: '../Content/images/home_slider/wall6.jpg', image_small: '../Content/images/home_slider/wallrings-s.jpg', slide_interval: 3000 },
+									{ image: '../Content/images/home_slider/shadyoak.jpg', image_small: '../Content/images/home_slider/shadyoak-s.jpg', slide_interval: 3000 },
+									{ image: '../Content/images/home_slider/totem.jpg', image_small: '../Content/images/home_slider/totem-s.jpg', slide_interval: 3000 }
 								]
 				});
 			});	
