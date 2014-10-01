@@ -38,7 +38,7 @@
 	.carousel_preview.mini{
 		width:100%;
 		margin-left: 0px !important;
-      margin-right: 0px; /*tosca*/
+        margin-right: 0px; /*tosca*/
 		}
 	}
 
@@ -91,7 +91,6 @@
 
 .elastislide-carousel ul li {
 	min-width: 40px;
-    margin: 0;
 }
 
 .elastislide-wrapper {
@@ -114,7 +113,7 @@
 
 .elastislide-horizontal {
 	padding: 0px 40px;
-	margin-bottom:5px;
+	margin-bottom:10px;
 }
 
 .elastislide-carousel {
@@ -149,20 +148,18 @@
 }
 
 .elastislide-horizontal ul li {
-	/*height: 100%;*/
+	height: 100%;
 	display: inline-block;
 }
 
 .elastislide-carousel ul li {
-	display: inline-block; 
+	margin:0; 
 }
 
 .elastislide-carousel ul li img	{
     display: block;
-	/*max-width: 100%;*/
-  margin: 0 auto;
-  max-height:initial;
- 
+	max-width: 100%;
+  margin: 0 auto; 
 }
 	
 /* Navigation Arrows */
@@ -216,15 +213,14 @@
 .elastic_slider .elastislide-horizontal ul li {
         display: inline-block;
         vertical-align: middle;
-        max-height: 100%;
+       max-height: 100%; 
     }
 .elastic_slider .elastislide-horizontal ul li img {
 	 display:block; 
- /*   width:auto !important; */ 
-     margin: 0 auto !important;
- /* min-height:100% !important;*/	
+     max-height:100% !important;
+     width:auto !important;  
+     margin: 0 auto;     
 }
-
 .elastic_slider .elastislide-wrapper:before,
 .elastic_slider .elastislide-wrapper:after{
 	content: '';
@@ -247,6 +243,39 @@
 	transform: rotate(3deg);
 }
 
-
-
+/*  from site.css 
+.elastislide-list ul{
+    min-height:100%;
+}
+.elastic-slider .elastislide-horizontal ul li img {
+       height: 400px;
+    }
+.elastic_slider li {
+       max-height: 400px;
+}
+.elastic_slider li img {
+            height: 400px;
+}
+@media only screen and (min-width: 767px) {
+    .elastic-slider .elastislide-horizontal ul li img {
+       min-height: 700px;
+    }
+   .elastic_slider li {
+       max-height: 600px;
+    }
+     .elastic_slider li img {
+        max-height: 550px;
+        }
+}
+ @media only screen and (min-width: 979px) {
+    .elastic-slider .elastislide-horizontal ul li img {
+       max-height: 700px;
+    }*/
+ /*   .elastic_slider li {
+        max-height: 700px;
+    }
+    .elastic_slider li img {
+            height: 600px;
+        }*/
+}
 

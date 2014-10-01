@@ -514,6 +514,7 @@
     <Content Include="Content\js\custom.min.js" />
     <Content Include="Content\js\hammer.js" />
     <Content Include="Content\js\jflickrfeed.min.js" />
+    <Content Include="Content\js\jquery-1.11.1.min.js" />
     <Content Include="Content\js\jquery-1.8.2.min.js" />
     <Content Include="Content\js\jquery.elastislide.js" />
     <Content Include="Content\js\jquery.fitvids.js" />

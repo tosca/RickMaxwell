@@ -1,4 +1,14 @@
-﻿
+﻿ #ascrail2000 {
+ background-color: rgb(220, 220, 220);
+ opacity: 1;
+ width: 20px;
+ border-radius: 3px;
+}
+ .home_slider_title4 {
+    background-image: url("../images/bentwood/image10.jpg");
+    background-repeat: no-repeat;
+    display:block;
+}
 .bio {
     background-image: url("../images/background/image1.jpg");
     background-repeat: no-repeat;
@@ -18,18 +28,6 @@
 .bio .bar_content {
     padding: 10px;    
 }
- #ascrail2000 {
- background-color: rgb(220, 220, 220);
- opacity: 1;
- width: 20px;
- border-radius: 3px;
-}
-
-.home_slider_title4 {
-    background-image: url("../images/bentwood/image10.jpg");
-    background-repeat: no-repeat;
-    display:block;
-}
 .bottom_bar {
     height: 30px;
     padding-top: 50px;
@@ -38,30 +36,16 @@
     text-align:center;
     color:#bf4015;
 }
-
 .feature img{   
     width: 100%;
     height: auto;
     display: block;       
 }
-.elastislide-list ul{
-    min-height:100%;
-}
-/* .elastislide-carousel ul li img {
-       height: 400px;
-    }*/
-.elastic_slider li {
-       max-height: 400px;
-    }
-    .elastic_slider li img {
-            height: 370px;
-    }
 .desc {
     display: block;
     text-align: right;
     padding: 3px;
 }
-
  @media only screen and (max-width: 479px) {
      ul.nav-tabs.plainTab > li > a {
          font-size: 12px;
@@ -84,15 +68,6 @@
         font-size: 14px;
         font-weight: bold;
     } 
-     .elastislide-carousel ul li img {
-       height: 550px;
-    }
-     .elastic_slider li {
-       max-height: 600px;
-    }
-     .elastic_slider li img {
-        max-height: 550px;
-        }
     li .desc h5{
         float: right;
     }
@@ -101,15 +76,6 @@
     ul.nav-tabs.plainTab > li > a {
         font-size: 18px;
     }
-    .elastislide-carousel ul li img {
-       height: 700px;
-    }
-    .elastic_slider li {
-        max-height: 700px;
-    }
-    .elastic_slider li img {
-            height: 650px;
-        }
     li .desc h5{
         float: right;
     }
