@@ -464,9 +464,6 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\.DS_Store" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="bootstrap\css\bootstrap-theme.css.map" />
     <Content Include="bootstrap\css\bootstrap.css.map" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
