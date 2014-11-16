@@ -169,6 +169,8 @@
     <Content Include="images\artist\Rick-signature.jpg" />
     <Content Include="images\artist\RM-logo%402x.png" />
     <Content Include="images\artist\RM-logo.png" />
+    <Content Include="images\artist\RM-signature-%402x.png" />
+    <Content Include="images\artist\RM-signature.png" />
     <Content Include="images\artist\RMportrait%402x.jpg" />
     <Content Include="images\artist\RMportrait.jpg" />
     <Content Include="images\background\bending-1.jpg" />
