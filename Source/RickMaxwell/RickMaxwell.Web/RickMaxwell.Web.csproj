@@ -271,8 +271,14 @@
     <Content Include="images\favicon\favicon%402x.png" />
     <Content Include="images\favicon\favicon.ico" />
     <Content Include="images\favicon\favicon.png" />
+    <Content Include="images\home_slider\home%402x.jpg" />
+    <Content Include="images\home_slider\home.jpg" />
+    <Content Include="images\home_slider\hyatt%402x.jpg" />
+    <Content Include="images\home_slider\hyatt.jpg" />
     <Content Include="images\home_slider\shadyoak%402x.jpg" />
     <Content Include="images\home_slider\shadyoak.jpg" />
+    <Content Include="images\home_slider\table%402x.jpg" />
+    <Content Include="images\home_slider\table.jpg" />
     <Content Include="images\loader.gif" />
     <Content Include="images\logo%402x.png" />
     <Content Include="images\logo.png" />
