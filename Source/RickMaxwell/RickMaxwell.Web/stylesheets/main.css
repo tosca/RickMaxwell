@@ -250,7 +250,7 @@ h1,h2,h3,h4,h5,h6{
     border-bottom: solid 1px #ccc;
 }
 .main-nav-menu li a.main-nav-link{
-     font-weight: 200;
+     font-weight: 600;
      font-size: 14px;
      line-height: 21px;
      letter-spacing: 4px;
@@ -636,7 +636,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .works-item {
   margin: 0 !important;
-  padding: 1px !important;
+  padding: 10px !important;
   width: 33.3% !important;
 }
        .works-item a{
