@@ -147,7 +147,7 @@
     <Content Include="bootstrap\js\bootstrap.js" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
     <Content Include="contact.html" />
-    <Content Include="error404.html" />
+    <Content Include="error.html" />
     <Content Include="featured-single-old.html" />
     <Content Include="fonts\fonts.css" />
     <Content Include="Global.asax" />
@@ -165,8 +165,6 @@
     <Content Include="images\artist\image2.jpg" />
     <Content Include="images\artist\lisa%402x.jpg" />
     <Content Include="images\artist\lisa.jpg" />
-    <Content Include="images\artist\Rick-signature%402x.jpg" />
-    <Content Include="images\artist\Rick-signature.jpg" />
     <Content Include="images\artist\RM-logo%402x.png" />
     <Content Include="images\artist\RM-logo.png" />
     <Content Include="images\artist\RM-signature%402x.png" />
@@ -285,6 +283,8 @@
     <Content Include="images\logo%402x.png" />
     <Content Include="images\logo.png" />
     <Content Include="images\poster.jpg" />
+    <Content Include="images\RM-sig-side%402x.png" />
+    <Content Include="images\RM-sig-side.png" />
     <Content Include="images\sculpture2004\image1%402x.jpg" />
     <Content Include="images\sculpture2004\image1.jpg" />
     <Content Include="images\sculpture2004\image2%402x.jpg" />
