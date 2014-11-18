@@ -250,7 +250,7 @@ h1,h2,h3,h4,h5,h6{
     border-bottom: solid 1px #ccc;
 }
 .main-nav-menu li a.main-nav-link{
-     font-weight: 600;
+     font-weight: 500;
      font-size: 14px;
      line-height: 21px;
      letter-spacing: 4px;
@@ -623,7 +623,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .works-filter li a.active > span{
     background: #fff;
-    color: #000;
+    color: #c87432;
     padding-left: 9px;
 }
 .works-filter li:last-child:after{
@@ -766,7 +766,7 @@ h1,h2,h3,h4,h5,h6{
                     transition: all .4s ease-in-out;
 }
 .showcase-thumb-strip img {
-   padding: 1px;
+   padding-bottom: 25px;
 }
 
 /*CONTACT*/
