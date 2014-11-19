@@ -283,6 +283,8 @@
     <Content Include="images\logo%402x.png" />
     <Content Include="images\logo.png" />
     <Content Include="images\poster.jpg" />
+    <Content Include="images\RM-sig-name%402x.png" />
+    <Content Include="images\RM-sig-name.png" />
     <Content Include="images\RM-sig-side%402x.png" />
     <Content Include="images\RM-sig-side.png" />
     <Content Include="images\sculpture2004\image1%402x.jpg" />
