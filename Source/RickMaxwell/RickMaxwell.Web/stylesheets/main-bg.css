@@ -121,10 +121,11 @@
 .studio-bg {
 background-image: url('../images/background/cedars.jpg');
 background-repeat: no-repeat;
+background-position-x: center;
+background-position-y: top; 
 }
 /*ABOUT*/
 .about-bg{
 	background-color:#ebebeb;
  /*   background-color:#c87432;*/
-
-}::after
+}
