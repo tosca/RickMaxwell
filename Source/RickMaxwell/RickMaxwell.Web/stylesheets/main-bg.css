@@ -119,11 +119,12 @@
 }
 /*STUDIO*/
 .studio-bg {
-background-image: url('../images/background/bendwood.jpg');
+background-image: url('../images/background/cedars.jpg');
+background-repeat: no-repeat;
 }
 /*ABOUT*/
 .about-bg{
 	background-color:#ebebeb;
-    background-color:#c87432;
+ /*   background-color:#c87432;*/
 
-}
+}::after
