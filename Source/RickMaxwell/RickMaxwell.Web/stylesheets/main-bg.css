@@ -13,7 +13,7 @@
 /* INTRO / HOME VARIANTS */
 /*--------------------------------------------------------------*/
 
-/*INTRO-01*/
+/*INTRO-01
 .showcase-panel-bg-01{
 	background-image: url('http://placehold.it/2000x1250');
 }
@@ -28,24 +28,24 @@
 }
 .showcase-panel-bg-05{
 	background-image: url('http://placehold.it/2000x1250');
-}
+}*/
 
-/*INTRO-03*/
+/*INTRO-03
 .intro-03-bg{
 	background-image: url('http://placehold.it/2000x1250');
-}
+}*/
 
-/*INTRO-05*/
+/*INTRO-05
 .intro-05-bg{
 	background-image: url('http://placehold.it/2000x1250');
-}
+}*/
 
 
 /*--------------------------------------------------------------*/
 /* PAGES AND SECTIONS */
 /*--------------------------------------------------------------*/
 
-/*showcaseS*/
+/*showcaseS
 .showcase-01{
 	background-image: url('http://placehold.it/2000x1250');
 }
@@ -60,9 +60,9 @@
 }
 .showcase-05{
 	background-image: url('http://placehold.it/2000x1250');
-}
+}*/
 
-/*COVERFLOW*/
+/*COVERFLOW
 
 .coverflow-bg{
 	background-image: url('http://placehold.it/2000x1250');
@@ -111,7 +111,7 @@
 }
 .cover-15{
 	background-image: url('http://placehold.it/2000x1250');
-}
+}*/
 
 /*CONTACT
 .contact-bg{
