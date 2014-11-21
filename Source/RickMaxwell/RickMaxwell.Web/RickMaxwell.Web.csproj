@@ -393,6 +393,7 @@
     <Content Include="javascripts\custom\form-validation.js" />
     <Content Include="javascripts\custom\hamburger-init.js" />
     <Content Include="javascripts\custom\isotope-init.js" />
+    <Content Include="javascripts\custom\jquery.jgrowl.js" />
     <Content Include="javascripts\custom\main.js" />
     <Content Include="javascripts\custom\navmenu-init.js" />
     <Content Include="javascripts\custom\parallax-init.js" />
@@ -445,6 +446,7 @@
     <Content Include="stylesheets\hamburger.css" />
     <Content Include="stylesheets\isotope.css" />
     <Content Include="stylesheets\jquery.bxslider.css" />
+    <Content Include="stylesheets\jquery.jgrowl.css" />
     <Content Include="stylesheets\jquery.tweet.css" />
     <Content Include="stylesheets\kenburns.css" />
     <Content Include="stylesheets\main-bg.css" />

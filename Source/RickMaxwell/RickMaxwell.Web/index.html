@@ -21,6 +21,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="assets/touchicons/apple-touch-icon-144-precomposed" />
 
     <!-- Bootstrap CSS Files -->
+    <link href="stylesheets/jquery.jgrowl.css" rel="stylesheet" />
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <!-- Custom Fonts Setup via Font-face CSS3 -->
     <link href="fonts/fonts.css" rel="stylesheet">
@@ -29,6 +30,7 @@
     <link href="stylesheets/slimmenu.css" rel="stylesheet" />
     <link href="stylesheets/navmenu.css" rel="stylesheet">
     <link href="stylesheets/kenburns.css" rel="stylesheet">
+    
     <!-- Main Template Styles -->
     <link href="stylesheets/main.css" rel="stylesheet">
     <!-- Main Template BG Images -->
@@ -57,14 +59,14 @@
 
 
 <body>
-
+    
     <div class="sticky-panel sticky-panel-top white-bg"></div>
     <div class="sticky-panel sticky-panel-right white-bg"></div>
     <div class="sticky-panel sticky-panel-bottom white-bg"></div>
-
+    
 
     <header class="masthead visible-lg white-bg">
-
+        
         <!-- main logo -->
         <div class="main-logo-wrap">
             <img alt="Rick Maxwell- wood sculpture logo" title="Rick Maxwell- wood sculpture logo" src="images/RM-sig-name.png" />
@@ -137,7 +139,14 @@
 
 
     <div class="mastwrap fullheight">
-
+     <!--  <article>
+            <div class="trigger-button pull-right">
+                <a class="btn btn-eight btn-eight-dark" href="https://www.facebook.com/CedarsOpenStudios">
+                    <h5 class="font3 color">Cedars Open Studios - twelfth annual event - Nov 22, 2014 - Dallas, Texas</h5>
+                </a>
+            </div>
+        </article>--> 
+        <div id="jGrowl-1" class="jGrowl top-right"></div>
         <!-- Ken Burns Slideshow Holder -->
         <div id="kenburns-slideshow"></div>
 
@@ -173,6 +182,7 @@
     <!-- JS Custom Codes -->
     <script src="javascripts/custom/navmenu-init.js"></script>
     <script src="javascripts/custom/equalheights-init.js"></script>
+    <script src="javascripts/custom/jquery.jgrowl.js"></script>
     <script src="javascripts/custom/main.js"></script>
 
     <script type="text/javascript">
@@ -201,5 +211,12 @@
             });
         });
     </script>
+    <script type="text/javascript">
+        $('#jGrowl-1').jGrowl('<a href="https://www.facebook.com/CedarsOpenStudios">Cedars Open Studios, 12th Annual Event -Nov 22, 2014, Dallas, Texas</a>');
+        $('#jGrowl-1').sticky('true');
+        $('#jGrowl-1').life('10000');
+        $('#jGrowl-1').trigger("close.jGrowl");
+    </script>
+   
 </body>
 </html>
