@@ -148,7 +148,6 @@
     <Content Include="bootstrap\js\bootstrap.min.js" />
     <Content Include="contact.html" />
     <Content Include="error.html" />
-    <Content Include="featured-single-old.html" />
     <Content Include="fonts\fonts.css" />
     <Content Include="Global.asax" />
     <Content Include="images\apple-touch-icon-114x114.png" />
