@@ -189,6 +189,8 @@
     <Content Include="images\bentwood\image12.jpg" />
     <Content Include="images\bentwood\image13%402x.jpg" />
     <Content Include="images\bentwood\image13.jpg" />
+    <Content Include="images\bentwood\image14%402x.jpg" />
+    <Content Include="images\bentwood\image14.jpg" />
     <Content Include="images\bentwood\image2%402x.jpg" />
     <Content Include="images\bentwood\image2.jpg" />
     <Content Include="images\bentwood\image3%402x.jpg" />
@@ -209,9 +211,6 @@
     <Content Include="images\bxslider\next.png" />
     <Content Include="images\bxslider\prev%402x.png" />
     <Content Include="images\bxslider\prev.png" />
-    <Content Include="images\bx_loader.gif" />
-    <Content Include="images\drag%402x.png" />
-    <Content Include="images\drag.png" />
     <Content Include="images\drawing2009\image1%402x.jpg" />
     <Content Include="images\drawing2009\image1.jpg" />
     <Content Include="images\drawing2009\image2%402x.jpg" />
@@ -282,13 +281,18 @@
     <Content Include="images\loader.gif" />
     <Content Include="images\logo%402x.png" />
     <Content Include="images\logo.png" />
-    <Content Include="images\poster.jpg" />
     <Content Include="images\RM-sig-name%402x.png" />
     <Content Include="images\RM-sig-name.png" />
     <Content Include="images\RM-sig-side%402x.png" />
     <Content Include="images\RM-sig-side.png" />
     <Content Include="images\sculpture2004\image1%402x.jpg" />
+    <Content Include="images\sculpture2004\image1-1%402x.jpg" />
+    <Content Include="images\sculpture2004\image1-1.jpg" />
+    <Content Include="images\sculpture2004\image1-2%402x.jpg" />
+    <Content Include="images\sculpture2004\image1-2.jpg" />
     <Content Include="images\sculpture2004\image1.jpg" />
+    <Content Include="images\sculpture2004\image10%402x.jpg" />
+    <Content Include="images\sculpture2004\image10.jpg" />
     <Content Include="images\sculpture2004\image2%402x.jpg" />
     <Content Include="images\sculpture2004\image2.jpg" />
     <Content Include="images\sculpture2004\image3%402x.jpg" />
@@ -299,6 +303,12 @@
     <Content Include="images\sculpture2004\image5.jpg" />
     <Content Include="images\sculpture2004\image6%402x.jpg" />
     <Content Include="images\sculpture2004\image6.jpg" />
+    <Content Include="images\sculpture2004\image7%402x.jpg" />
+    <Content Include="images\sculpture2004\image7.jpg" />
+    <Content Include="images\sculpture2004\image8%402x.jpg" />
+    <Content Include="images\sculpture2004\image8.jpg" />
+    <Content Include="images\sculpture2004\image9%402x.jpg" />
+    <Content Include="images\sculpture2004\image9.jpg" />
     <Content Include="images\sculpture2010\image1%402x.jpg" />
     <Content Include="images\sculpture2010\image1.jpg" />
     <Content Include="images\sculpture2010\image10%402x.jpg" />
@@ -324,6 +334,8 @@
     <Content Include="images\background\cedars.jpg" />
     <Content Include="images\studio\rick-work%402x.jpg" />
     <Content Include="images\studio\rick-work.jpg" />
+    <Content Include="images\background\studio-shot%402x.jpg" />
+    <Content Include="images\background\studio-shot.jpg" />
     <Content Include="images\studio\studio-tall1%402x.jpg" />
     <Content Include="images\studio\studio-tall1.jpg" />
     <Content Include="images\studio\studio-tall2%402x.jpg" />
@@ -350,8 +362,6 @@
     <Content Include="images\touchicon\apple-touch-icon-144-precomposed.png" />
     <Content Include="images\touchicon\apple-touch-icon-57-precomposed.png" />
     <Content Include="images\touchicon\apple-touch-icon-72-precomposed.png" />
-    <Content Include="images\twitter%402x.png" />
-    <Content Include="images\twitter.png" />
     <Content Include="images\venobox\close.gif" />
     <Content Include="images\venobox\next.gif" />
     <Content Include="images\venobox\preload-circle.png" />
@@ -359,8 +369,10 @@
     <Content Include="images\venobox\preload-ios.png" />
     <Content Include="images\venobox\preload-quads.png" />
     <Content Include="images\venobox\prev.gif" />
-    <Content Include="images\view%402x.png" />
-    <Content Include="images\view.png" />
+    <Content Include="images\wall\wall0%402x.jpg" />
+    <Content Include="images\wall\wall0-1%402x.jpg" />
+    <Content Include="images\wall\wall0-1.jpg" />
+    <Content Include="images\wall\wall0.jpg" />
     <Content Include="images\wall\wall1%402x.jpg" />
     <Content Include="images\wall\wall1.jpg" />
     <Content Include="images\wall\wall2%402x.jpg" />
@@ -489,7 +501,6 @@
     <Content Include="less\fonts.less" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="NewFolder2\" />
     <Folder Include="Views\Home\" />
     <Folder Include="Views\Shared\" />
   </ItemGroup>

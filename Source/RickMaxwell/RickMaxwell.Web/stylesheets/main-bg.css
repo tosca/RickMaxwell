@@ -122,7 +122,15 @@
 background-image: url('../images/background/cedars.jpg');
 background-repeat: no-repeat;
 background-position-x: center;
-background-position-y: top; 
+background-position-y: top;
+background-size: 100%; 
+}
+.studio-shot-bg {
+background-image: url('../images/background/bending-1.jpg');
+background-repeat: no-repeat;
+background-position-x: center;
+background-position-y: top;
+background-size: 35%; 
 }
 /*ABOUT*/
 .about-bg{
