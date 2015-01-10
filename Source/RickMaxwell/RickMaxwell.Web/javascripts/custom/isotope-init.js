@@ -19,7 +19,8 @@ $(function ($) {
         $container.isotope({
           // options
           itemSelector: '.works-item',
-          layoutMode: 'masonry'
+          layoutMode: 'masonry',
+            filter: '.bentwood'
         });
 
 
@@ -37,10 +38,15 @@ $(function ($) {
              $container.isotope({
               // options
               itemSelector: '.works-item',
-              layoutMode: 'masonry'
+              layoutMode: 'masonry',
             });
 
         });
+
+        var isotopeInstance = $('.works-item').data('isotope');
+        isotopeInstance.$allAtoms = isotopeInstance.$allAtoms.not(
+        $content);
+        $content.remove();
 
     });
 
