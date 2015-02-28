@@ -42,16 +42,16 @@ $(function ($) {
             });
 
         });
+        
+       
+      //  var isotopeInstance = $('.works-container').data('isotope');
+      //  isotopeInstance.$allAtoms = isotopeInstance.$allAtoms.not(
 
-        var isotopeInstance = $('.works-item').data('isotope');
-        isotopeInstance.$allAtoms = isotopeInstance.$allAtoms.not(
-        $content);
-        $content.remove();
+      // $content);
+      // $content.remove();
 
     });
-
-      
-        
+       
    
 });
 // $(function ($)  : ends
