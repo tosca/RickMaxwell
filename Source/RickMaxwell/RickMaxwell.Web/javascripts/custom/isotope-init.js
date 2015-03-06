@@ -20,7 +20,7 @@ $(function ($) {
           // options
           itemSelector: '.works-item',
           layoutMode: 'masonry',
-            filter: '.bentwood'
+          //  filter: '.bentwood'
         });
 
 
@@ -44,8 +44,8 @@ $(function ($) {
         });
         
        
-      //  var isotopeInstance = $('.works-container').data('isotope');
-      //  isotopeInstance.$allAtoms = isotopeInstance.$allAtoms.not(
+       // var isotopeInstance = $('.works-container').data('isotope');
+       // isotopeInstance.$allAtoms = isotopeInstance.$allAtoms.not(
 
       // $content);
       // $content.remove();
