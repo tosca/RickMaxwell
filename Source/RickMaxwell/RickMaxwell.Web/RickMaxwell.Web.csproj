@@ -185,8 +185,8 @@
     <Content Include="images\bentwood\image10.jpg" />
     <Content Include="images\bentwood\image11%402x.jpg" />
     <Content Include="images\bentwood\image11.jpg" />
-    <Content Include="images\bentwood\image12%402x.jpg" />
-    <Content Include="images\bentwood\image12.jpg" />
+    <Content Include="images\studio\image12%402x.jpg" />
+    <Content Include="images\studio\image12.jpg" />
     <Content Include="images\bentwood\image13%402x.jpg" />
     <Content Include="images\bentwood\image13.jpg" />
     <Content Include="images\bentwood\image14%402x.jpg" />
@@ -201,10 +201,10 @@
     <Content Include="images\bentwood\image5.jpg" />
     <Content Include="images\bentwood\image6%402x.jpg" />
     <Content Include="images\bentwood\image6.jpg" />
-    <Content Include="images\bentwood\image7%402x.jpg" />
-    <Content Include="images\bentwood\image7.jpg" />
-    <Content Include="images\bentwood\image8%402x.jpg" />
-    <Content Include="images\bentwood\image8.jpg" />
+    <Content Include="images\studio\image7%402x.jpg" />
+    <Content Include="images\studio\image7.jpg" />
+    <Content Include="images\studio\image8%402x.jpg" />
+    <Content Include="images\studio\image8.jpg" />
     <Content Include="images\bentwood\image9%402x.jpg" />
     <Content Include="images\bentwood\image9.jpg" />
     <Content Include="images\bxslider\next%402x.png" />

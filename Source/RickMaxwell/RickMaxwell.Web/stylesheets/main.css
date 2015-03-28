@@ -344,6 +344,16 @@ h1,h2,h3,h4,h5,h6{
 /* 03 - COMMON ELEMENTS & TYPOGRAPHY */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
+.page-heading{
+	font-size: 38px;
+	line-height: 42px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	font-weight: 100;
+    margin-top: 10px;
+	margin-bottom: 20px;
+    text-align:center;
+}
 .sub-heading{
 	font-size: 18px;
 	line-height: 25px;

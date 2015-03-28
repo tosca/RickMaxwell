@@ -2,7 +2,7 @@
 /*global $:false */
 /*global window: false */
 
-(function(){
+$(function(){
   "use strict";
 
 
@@ -19,8 +19,11 @@ $(function ($) {
         $container.isotope({
           // options
           itemSelector: '.works-item',
-          layoutMode: 'masonry',
-          //  filter: '.bentwood'
+          layoutMode: 'masonry',          
+        });
+        $container.isotope({
+            //make .bentwood show only bentwood images upon page load
+          filter: '.bentwood',       
         });
 
 
@@ -43,12 +46,6 @@ $(function ($) {
 
         });
         
-       
-       // var isotopeInstance = $('.works-container').data('isotope');
-       // isotopeInstance.$allAtoms = isotopeInstance.$allAtoms.not(
-
-      // $content);
-      // $content.remove();
 
     });
        
@@ -56,7 +53,7 @@ $(function ($) {
 });
 // $(function ($)  : ends
 
-})();
+});
 //  JSHint wrapper $(function ($)  : ends
 
 
