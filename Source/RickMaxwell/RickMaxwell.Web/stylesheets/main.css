@@ -708,7 +708,7 @@ h1,h2,h3,h4,h5,h6{
             padding: 7px;
         }
 
-/*showcaseS*/
+/*showcases*/
 .showcase-single-item-wrap{
 	padding: 50px;
 }
@@ -784,10 +784,14 @@ h1,h2,h3,h4,h5,h6{
 	background-position: center center;
 	background-size: cover;
 }
+.contact h1 {
+    color:silver;
+}
 .contact .promo-caps{
 	font-size: 20px;
 	line-height: 30px;
 	font-weight: 200;
+    color: silver;
 }
 .email-wrap{
     padding-top: 20px;
