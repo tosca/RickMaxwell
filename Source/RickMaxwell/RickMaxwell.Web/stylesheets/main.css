@@ -172,9 +172,6 @@ h1,h2,h3,h4,h5,h6{
 	height: 20px;
 }
 
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/* 02 - HEADER, INTRO & NAVIGATION */
-/*-------------------------------------------------------------------------------------------------------------------------------*/
 .masthead{
 	position: fixed;
 	width: 400px;
@@ -340,10 +337,6 @@ h1,h2,h3,h4,h5,h6{
 	line-height: 19px;
 }
 
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/* 03 - COMMON ELEMENTS & TYPOGRAPHY */
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-
 .page-heading{
 	font-size: 42px;
 	line-height: 48px;
@@ -363,7 +356,6 @@ h1,h2,h3,h4,h5,h6{
 	margin-bottom: 10px;
 }
 
-/*Buttons*/
 .btn-eight{
 	border-radius: 0px;
 	text-decoration: none;
@@ -409,7 +401,6 @@ h1,h2,h3,h4,h5,h6{
 	background: #fff;
 	color: #000;
 }
-
 .btn-eight-dark{
 	border:solid 2px #000;
 	background: transparent;
@@ -420,19 +411,12 @@ h1,h2,h3,h4,h5,h6{
 	background: #000;
 	color: #fff;
 }
-
 .btn-eight-color{
 	background: transparent;
 }
 .btn-eight-color:hover{
 	color: #fff;
 }
-
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/* 04 - PAGES & SECTIONS SETUP */
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-
-/*showcaseS*/
 .showcase-carousel{
 	cursor: url("../images/drag.png") 40 40, crosshair;
     -webkit-transition: all .4s ease-in-out;
@@ -483,14 +467,11 @@ h1,h2,h3,h4,h5,h6{
 	border:solid 5px;
 	padding: 15px 15px 15px 23px;
 }
-
-/*ABOUT*/
 .about-bg{
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
-
 .about .promo-caps{
 	font-size: 28px;
 	line-height: 38px;
@@ -525,16 +506,6 @@ h1,h2,h3,h4,h5,h6{
 .twitter-panel{
 	padding: 50px;	
 }
-.stats-block{
-	padding: 50px;
-}
-.stats-count{
-	font-size: 48px;
-	line-height: 55px;
-	font-weight: 800;
-}
-
-/*NEWS*/
 .news-content{
 	padding-top: 20px;
 	padding-bottom: 20px;
