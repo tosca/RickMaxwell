@@ -606,6 +606,10 @@
 	.page-section, .separator-section{
 		padding: 40px 0;
 	}
+    .page-heading {
+        font-size: 32px;
+        line-height: 38px;
+    }
 	img.img-responsive{
 		display: inline-block;
 	}
