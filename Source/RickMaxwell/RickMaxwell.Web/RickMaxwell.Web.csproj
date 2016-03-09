@@ -23,6 +23,7 @@
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
     <WebGreaseLibPath>..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -149,7 +150,6 @@
     <Content Include="bootstrap\js\bootstrap.min.js" />
     <Content Include="contact.html" />
     <Content Include="error.html" />
-    <Content Include="fonts\fonts.css" />
     <Content Include="Global.asax" />
     <Content Include="images\apple-touch-icon-114x114.png" />
     <Content Include="images\apple-touch-icon-72x72.png" />
@@ -185,6 +185,14 @@
     <Content Include="images\bentwood\image10.jpg" />
     <Content Include="images\bentwood\image11%402x.jpg" />
     <Content Include="images\bentwood\image11.jpg" />
+    <Content Include="images\bentwood\image15%402x.jpg" />
+    <Content Include="images\bentwood\image15.jpg" />
+    <Content Include="images\bentwood\image16%402x.jpg" />
+    <Content Include="images\bentwood\image16.jpg" />
+    <Content Include="images\bentwood\image17%402x.jpg" />
+    <Content Include="images\bentwood\image17.jpg" />
+    <Content Include="images\wall\wall17%402x.jpg" />
+    <Content Include="images\wall\wall17.jpg" />
     <Content Include="images\studio\image12%402x.jpg" />
     <Content Include="images\studio\image12.jpg" />
     <Content Include="images\bentwood\image13%402x.jpg" />
@@ -342,8 +350,20 @@
     <Content Include="images\studio\studio-tall2.jpg" />
     <Content Include="images\studio\studio-tall3%402x.jpg" />
     <Content Include="images\studio\studio-tall3.jpg" />
+    <Content Include="images\studio\studio-tall4%402x.jpg" />
+    <Content Include="images\studio\studio-tall4.jpg" />
+    <Content Include="images\studio\studio-tall5%402x.jpg" />
+    <Content Include="images\studio\studio-tall5.jpg" />
+    <Content Include="images\studio\studio-tall6.jpg" />
+    <Content Include="images\studio\studio-tall6%402x.jpg" />
+    <Content Include="images\studio\studio-tall7%402x.jpg" />
+    <Content Include="images\studio\studio-tall7.jpg" />
     <Content Include="images\studio\studio1%402x.jpg" />
     <Content Include="images\studio\studio1.jpg" />
+    <Content Include="images\studio\studio10%402x.jpg" />
+    <Content Include="images\studio\studio10.jpg" />
+    <Content Include="images\studio\studio11%402x.jpg" />
+    <Content Include="images\studio\studio11.jpg" />
     <Content Include="images\studio\studio2%402x.jpg" />
     <Content Include="images\studio\studio2.jpg" />
     <Content Include="images\studio\studio3%402x.jpg" />
@@ -375,6 +395,8 @@
     <Content Include="images\wall\wall0.jpg" />
     <Content Include="images\wall\wall1%402x.jpg" />
     <Content Include="images\wall\wall1.jpg" />
+    <Content Include="images\wall\wall10%402x.jpg" />
+    <Content Include="images\wall\wall10.jpg" />
     <Content Include="images\wall\wall2%402x.jpg" />
     <Content Include="images\wall\wall2.jpg" />
     <Content Include="images\wall\wall3%402x.jpg" />
@@ -385,6 +407,12 @@
     <Content Include="images\wall\wall5.jpg" />
     <Content Include="images\wall\wall6%402x.jpg" />
     <Content Include="images\wall\wall6.jpg" />
+    <Content Include="images\wall\wall7%402x.jpg" />
+    <Content Include="images\wall\wall7.jpg" />
+    <Content Include="images\wall\wall8%402x.jpg" />
+    <Content Include="images\wall\wall8.jpg" />
+    <Content Include="images\wall\wall9%402x.jpg" />
+    <Content Include="images\wall\wall9.jpg" />
     <Content Include="images\works\image0%402x.jpg" />
     <Content Include="images\works\image0.jpg" />
     <Content Include="images\works\image2%402x.jpg" />
