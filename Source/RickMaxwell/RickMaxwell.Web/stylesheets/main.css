@@ -765,6 +765,9 @@ h1,h2,h3,h4,h5,h6{
 .contact-item{
     padding: 0px;
 }
+iframe, object, embed {
+        max-width: 100%;
+}
 .address-heading{
     padding: 0px;
     margin-bottom: 0;
