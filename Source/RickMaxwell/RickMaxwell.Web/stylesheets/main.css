@@ -735,6 +735,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .showcase-thumb-strip img {
    padding-bottom: 25px;
+   margin: 0 auto;
 }
 /*CONTACT*/
 .contact-bg{
