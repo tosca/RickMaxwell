@@ -68,7 +68,7 @@ body{
      to { background-position: -576px; }
 }
 /* IOS preloader */
-/*
+
 .vbox-preloader{
     position:fixed; 
     width:32px; 
@@ -107,9 +107,9 @@ body{
    from { background-position:    0px; }
      to { background-position: -384px; }
 }
-*/
+
 /* dots preloader */
-/*
+
 .vbox-preloader{
     position:fixed; 
     width:32px; 
@@ -148,9 +148,9 @@ body{
    from { background-position:    0px; }
      to { background-position: -768px; }
 }
-*/
+
 /* quads preloader */
-/*
+
 .vbox-preloader{
     position:fixed; 
     width:32px; 
@@ -188,7 +188,7 @@ body{
    from { background-position:    0px; }
      to { background-position: -384px; }
 }
-*/
+
 /* ----- navigation ----- */
 .vbox-close{
     cursor: pointer;
