@@ -31,7 +31,7 @@
 }
 
 .menu h1.sm-logo{
-	font-family: 'Montserrat', sans-serif; font-weight: 700;
+	font-family: 'Open Sans', sans-serif; font-weight: 700;
 	font-size: 24px;
 	letter-spacing: 0.15em;
 	line-height: 40px;
@@ -51,7 +51,7 @@
 	margin-bottom: 2px;
 	color: #777;
 	display: block;    
-	font-family: 'Montserrat', sans-serif; font-weight:400;
+	font-family: 'Open Sans', sans-serif; font-weight:400;
     font-size: 12px;
     line-height: 19px;
     text-transform: uppercase;
@@ -59,7 +59,7 @@
 	padding: 10px 20px;
 	-webkit-transition: all .4s ease-in-out;
 	   -moz-transition: all .4s ease-in-out;
-		-ms-transition: all .4s ease-in-out;
+		
 		 -o-transition: all .4s ease-in-out;
 			transition: all .4s ease-in-out;
 }

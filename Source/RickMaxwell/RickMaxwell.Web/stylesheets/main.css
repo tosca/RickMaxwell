@@ -52,6 +52,7 @@ p{
 	font-weight:300;
 	font-size: 14px;
 	line-height:21px;
+    letter-spacing: 1px;
 }
 h1,h2,h3,h4,h5,h6{
 	margin-top: 0;
@@ -170,24 +171,21 @@ h1,h2,h3,h4,h5,h6{
 	background-size: cover;
 	-webkit-transition: all 1.2s ease-in-out;
 	   -moz-transition: all 1.2s ease-in-out;
-		-ms-transition: all 1.2s ease-in-out;
-		 -o-transition: all 1.2s ease-in-out;
+				 -o-transition: all 1.2s ease-in-out;
 			transition: all 1.2s ease-in-out;
 }
 .masthead.revealed{
 	left: 0px;
 	-webkit-transition: all 0.5s ease-in-out;
 	   -moz-transition: all 0.5s ease-in-out;
-		-ms-transition: all 0.5s ease-in-out;
-		 -o-transition: all 0.5s ease-in-out;
+			 -o-transition: all 0.5s ease-in-out;
 			transition: all 0.5s ease-in-out;
 }
 .masthead.revealed .main-logo-wrap{
 	top: -150px;
 	-webkit-transition: all 1.5s ease-in-out;
 	   -moz-transition: all 1.5s ease-in-out;
-		-ms-transition: all 1.5s ease-in-out;
-		 -o-transition: all 1.5s ease-in-out;
+				 -o-transition: all 1.5s ease-in-out;
 			transition: all 1.5s ease-in-out;
 }
 .main-logo-wrap{
@@ -196,8 +194,7 @@ h1,h2,h3,h4,h5,h6{
 	top: 20px;
 	-webkit-transition: all 1.5s ease-in-out;
 	   -moz-transition: all 1.5s ease-in-out;
-		-ms-transition: all 1.5s ease-in-out;
-		 -o-transition: all 1.5s ease-in-out;
+			 -o-transition: all 1.5s ease-in-out;
 			transition: all 1.5s ease-in-out;
 }
 .side-logo{
@@ -242,14 +239,12 @@ h1,h2,h3,h4,h5,h6{
      text-transform: uppercase;
     -webkit-transition: all .8s linear;
        -moz-transition: all .8s linear;
-        -ms-transition: all .8s linear;
          -o-transition: all .8s linear;
             transition: all .8s linear;
 }
 .main-nav-menu li a.main-nav-link:hover{
     -webkit-transition: all .8s linear;
        -moz-transition: all .8s linear;
-        -ms-transition: all .8s linear;
          -o-transition: all .8s linear;
             transition: all .8s linear;
 }
@@ -266,14 +261,12 @@ h1,h2,h3,h4,h5,h6{
      text-decoration: none;
 	-webkit-transition: all 0.5s ease-in-out;
 	   -moz-transition: all 0.5s ease-in-out;
-		-ms-transition: all 0.5s ease-in-out;
 		 -o-transition: all 0.5s ease-in-out;
 			transition: all 0.5s ease-in-out;
 }
 .sub-nav a:hover{
 	-webkit-transition: all 0.5s ease-in-out;
 	   -moz-transition: all 0.5s ease-in-out;
-		-ms-transition: all 0.5s ease-in-out;
 		 -o-transition: all 0.5s ease-in-out;
 			transition: all 0.5s ease-in-out;
 }
@@ -302,16 +295,14 @@ h1,h2,h3,h4,h5,h6{
     opacity: 0.2;
     -webkit-transition: all .4s ease-in-out;
        -moz-transition: all .4s ease-in-out;
-        -ms-transition: all .4s ease-in-out;
-         -o-transition: all .4s ease-in-out;
+          -o-transition: all .4s ease-in-out;
             transition: all .4s ease-in-out;
 }
 .social-wrap li a:hover > img{
     opacity: 1;
     -webkit-transition: all .4s ease-in-out;
        -moz-transition: all .4s ease-in-out;
-        -ms-transition: all .4s ease-in-out;
-         -o-transition: all .4s ease-in-out;
+             -o-transition: all .4s ease-in-out;
             transition: all .4s ease-in-out;
 }
 .credit-text{
@@ -353,7 +344,6 @@ h1,h2,h3,h4,h5,h6{
 	letter-spacing: 1px;
 	-webkit-transition: all .4s ease-in-out;
 	   -moz-transition: all .4s ease-in-out;
-		-ms-transition: all .4s ease-in-out;
 		 -o-transition: all .4s ease-in-out;
 			transition: all .4s ease-in-out;
 }
@@ -560,14 +550,13 @@ h1,h2,h3,h4,h5,h6{
     display: inline-block;
     -webkit-transition: all .8s ease-in-out;
        -moz-transition: all .8s ease-in-out;
-        -ms-transition: all .8s ease-in-out;
          -o-transition: all .8s ease-in-out;
             transition: all .8s ease-in-out;
 }
 .works-filter li a > span{
     font-size: 12px;
     font-weight: 600;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     line-height: 28px;
     text-transform: uppercase;
     padding: 5px;
@@ -577,12 +566,11 @@ h1,h2,h3,h4,h5,h6{
     opacity: 0.4;
     -webkit-transition: all .8s ease-in-out;
        -moz-transition: all .8s ease-in-out;
-        -ms-transition: all .8s ease-in-out;
          -o-transition: all .8s ease-in-out;
             transition: all .8s ease-in-out;
 }
 .works-filter li:after{
-    content: "/";
+   /* content: "|";*/
     font-size: 16px;
     font-weight: 200;
     line-height: 23px;
@@ -620,7 +608,6 @@ h1,h2,h3,h4,h5,h6{
             text-align: center;
             -webkit-transition: all .4s ease-in-out;
                -moz-transition: all .4s ease-in-out;
-                -ms-transition: all .4s ease-in-out;
                  -o-transition: all .4s ease-in-out;
                     transition: all .4s ease-in-out;
         }
@@ -628,7 +615,6 @@ h1,h2,h3,h4,h5,h6{
             opacity:1;
             -webkit-transition: all .4s ease-in-out;
                -moz-transition: all .4s ease-in-out;
-                -ms-transition: all .4s ease-in-out;
                  -o-transition: all .4s ease-in-out;
                     transition: all .4s ease-in-out;
         }
@@ -636,7 +622,6 @@ h1,h2,h3,h4,h5,h6{
             cursor: url("../images/plus.png") 40 40, crosshair;
             -webkit-transition: all .4s ease-in-out;
                -moz-transition: all .4s ease-in-out;
-                -ms-transition: all .4s ease-in-out;
                  -o-transition: all .4s ease-in-out;
                     transition: all .4s ease-in-out;
         }
@@ -644,7 +629,6 @@ h1,h2,h3,h4,h5,h6{
             cursor: url("../images/zoom.png") 40 40, crosshair;
             -webkit-transition: all .4s ease-in-out;
                -moz-transition: all .4s ease-in-out;
-                -ms-transition: all .4s ease-in-out;
                  -o-transition: all .4s ease-in-out;
                     transition: all .4s ease-in-out;
         }
@@ -802,7 +786,6 @@ input {
     width: 100%;
     -webkit-transition: all .8s linear;
        -moz-transition: all .8s linear;
-        -ms-transition: all .8s linear;
          -o-transition: all .8s linear;
             transition: all .8s linear;
 }
@@ -812,7 +795,6 @@ input:focus, textarea:focus {
     background: #f2f2f2 !important;
     -webkit-transition: all .8s linear;
        -moz-transition: all .8s linear;
-        -ms-transition: all .8s linear;
          -o-transition: all .8s linear;
             transition: all .8s linear;
 }
@@ -832,7 +814,6 @@ textarea {
     width: 100%;
     -webkit-transition: all .8s linear;
        -moz-transition: all .8s linear;
-        -ms-transition: all .8s linear;
          -o-transition: all .8s linear;
             transition: all .8s linear;
 }
@@ -905,7 +886,6 @@ fieldset h1 {
     padding: 0px;
     -webkit-transition: all .8s linear;
        -moz-transition: all .8s linear;
-        -ms-transition: all .8s linear;
          -o-transition: all .8s linear;
             transition: all .8s linear;
 }
