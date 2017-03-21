@@ -165,8 +165,6 @@
     <Content Include="images\artist\image2.jpg" />
     <Content Include="images\artist\lisa%402x.jpg" />
     <Content Include="images\artist\lisa.jpg" />
-    <Content Include="images\artist\RM-logo%402x.png" />
-    <Content Include="images\artist\RM-logo.png" />
     <Content Include="images\artist\RM-signature%402x.png" />
     <Content Include="images\artist\RM-signature.png" />
     <Content Include="images\artist\RMportrait%402x.jpg" />
