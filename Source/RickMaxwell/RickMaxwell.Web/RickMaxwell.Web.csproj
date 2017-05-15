@@ -189,6 +189,12 @@
     <Content Include="images\bentwood\image16.jpg" />
     <Content Include="images\bentwood\image17%402x.jpg" />
     <Content Include="images\bentwood\image17.jpg" />
+    <Content Include="images\drawing2014\image01%402x.jpg" />
+    <Content Include="images\drawing2014\image01.jpg" />
+    <Content Include="images\drawing2014\image02%402x.jpg" />
+    <Content Include="images\drawing2014\image02.jpg" />
+    <Content Include="images\drawing2014\image03%402x.jpg" />
+    <Content Include="images\drawing2014\image03.jpg" />
     <Content Include="images\home_slider\redtree%402x.jpg" />
     <Content Include="images\home_slider\redtree.jpg" />
     <Content Include="images\studio\studio-tall10%402x.jpg" />
@@ -301,8 +307,6 @@
     <Content Include="images\home_slider\table%402x.jpg" />
     <Content Include="images\home_slider\table.jpg" />
     <Content Include="images\loader.gif" />
-    <Content Include="images\logo%402x.png" />
-    <Content Include="images\logo.png" />
     <Content Include="images\RM-sig-name%402x.png" />
     <Content Include="images\RM-sig-name.png" />
     <Content Include="images\RM-sig-side%402x.png" />
@@ -352,7 +356,6 @@
     <Content Include="images\sculpture2010\image9%402x.jpg" />
     <Content Include="images\sculpture2010\image9.jpg" />
     <Content Include="images\side-logo%402x.png" />
-    <Content Include="images\side-logo.png" />
     <Content Include="images\background\cedars.jpg" />
     <Content Include="images\studio\rick-work%402x.jpg" />
     <Content Include="images\studio\rick-work.jpg" />
