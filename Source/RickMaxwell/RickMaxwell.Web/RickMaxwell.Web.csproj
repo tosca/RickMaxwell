@@ -190,8 +190,11 @@
     <Content Include="images\bentwood\image17%402x.jpg" />
     <Content Include="images\bentwood\image17.jpg" />
     <Content Include="images\bentwood\image18%402x.jpg" />
+    <Content Include="images\bentwood\image18.jpg" />
     <Content Include="images\bentwood\image19%402x.jpg" />
+    <Content Include="images\bentwood\image19.jpg" />
     <Content Include="images\bentwood\image20%402x.jpg" />
+    <Content Include="images\bentwood\image20.jpg" />
     <Content Include="images\drawing2014\image01%402x.jpg" />
     <Content Include="images\drawing2014\image01.jpg" />
     <Content Include="images\drawing2014\image02%402x.jpg" />
@@ -306,8 +309,6 @@
     <Content Include="images\home_slider\aspen.jpg" />
     <Content Include="images\home_slider\hyatt%402x.jpg" />
     <Content Include="images\home_slider\hyatt.jpg" />
-    <Content Include="images\home_slider\shadyoak%402x.jpg" />
-    <Content Include="images\home_slider\shadyoak.jpg" />
     <Content Include="images\home_slider\table%402x.jpg" />
     <Content Include="images\home_slider\table.jpg" />
     <Content Include="images\loader.gif" />
@@ -459,8 +460,6 @@
     <Content Include="javascripts\custom\showcase-init.js" />
     <Content Include="javascripts\custom\twitter-init.js" />
     <Content Include="javascripts\custom\venobox-init.js" />
-    <Content Include="javascripts\libs\bgvimeo-init.js" />
-    <Content Include="javascripts\libs\bgyoutube-init.js" />
     <Content Include="javascripts\libs\classie.js" />
     <Content Include="javascripts\libs\device.min.js" />
     <Content Include="javascripts\libs\equalheights.js" />
@@ -474,21 +473,17 @@
     <Content Include="javascripts\libs\jquery.parallax-1.1.3.js" />
     <Content Include="javascripts\libs\jquery.slimmenu.min.js" />
     <Content Include="javascripts\libs\jquery.touchSwipe.js" />
-    <Content Include="javascripts\libs\jquery.tweet.js" />
     <Content Include="javascripts\libs\kenburns.js" />
     <Content Include="javascripts\libs\mb.bgndGallery.effects.js" />
     <Content Include="javascripts\libs\mb.bgndGallery.js" />
     <Content Include="javascripts\libs\nova.parallax.js" />
     <Content Include="javascripts\libs\okvideo.js" />
-    <Content Include="javascripts\libs\owl.carousel.js" />
-    <Content Include="javascripts\libs\owl.carousel.min.js" />
     <Content Include="javascripts\libs\pace.preload.min.js" />
     <Content Include="javascripts\libs\retina.js" />
     <Content Include="javascripts\libs\sly.min.js" />
     <Content Include="javascripts\libs\smooth-scroll.js" />
     <Content Include="javascripts\libs\venobox.min.js" />
     <Content Include="javascripts\libs\waypoints.min.js" />
-    <Content Include="javascripts\libs\wow.js" />
     <Content Include="less\less-2.0.0.min.js" />
     <Content Include="Mail\mail.php" />
     <Content Include="Mail\mime.php" />
@@ -511,6 +506,7 @@
     <Content Include="stylesheets\parallax.css" />
     <Content Include="stylesheets\slidingmenu.css" />
     <Content Include="stylesheets\slimmenu.css" />
+    <Content Include="stylesheets\venobox.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
