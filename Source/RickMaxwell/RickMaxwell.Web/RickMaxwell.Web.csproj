@@ -189,6 +189,9 @@
     <Content Include="images\bentwood\image16.jpg" />
     <Content Include="images\bentwood\image17%402x.jpg" />
     <Content Include="images\bentwood\image17.jpg" />
+    <Content Include="images\bentwood\image18%402x.jpg" />
+    <Content Include="images\bentwood\image19%402x.jpg" />
+    <Content Include="images\bentwood\image20%402x.jpg" />
     <Content Include="images\drawing2014\image01%402x.jpg" />
     <Content Include="images\drawing2014\image01.jpg" />
     <Content Include="images\drawing2014\image02%402x.jpg" />
@@ -211,6 +214,7 @@
     <Content Include="images\studio\studio12.jpg" />
     <Content Include="images\studio\studio13%402x.jpg" />
     <Content Include="images\studio\studio13.jpg" />
+    <Content Include="images\wall\wall%402x.jpg" />
     <Content Include="images\wall\wall17%402x.jpg" />
     <Content Include="images\wall\wall17.jpg" />
     <Content Include="images\studio\image12%402x.jpg" />
@@ -395,10 +399,6 @@
     <Content Include="images\studio\studio8.jpg" />
     <Content Include="images\studio\studio9%402x.jpg" />
     <Content Include="images\studio\studio9.jpg" />
-    <Content Include="images\touchicon\apple-touch-icon-114-precomposed.png" />
-    <Content Include="images\touchicon\apple-touch-icon-144-precomposed.png" />
-    <Content Include="images\touchicon\apple-touch-icon-57-precomposed.png" />
-    <Content Include="images\touchicon\apple-touch-icon-72-precomposed.png" />
     <Content Include="images\venobox\close.gif" />
     <Content Include="images\venobox\next.gif" />
     <Content Include="images\venobox\preload-circle.png" />
@@ -416,6 +416,8 @@
     <Content Include="images\wall\wall10.jpg" />
     <Content Include="images\wall\wall2%402x.jpg" />
     <Content Include="images\wall\wall2.jpg" />
+    <Content Include="images\wall\wall20%402x.jpg" />
+    <Content Include="images\wall\wall20.jpg" />
     <Content Include="images\wall\wall3%402x.jpg" />
     <Content Include="images\wall\wall3.jpg" />
     <Content Include="images\wall\wall4%402x.jpg" />
@@ -497,28 +499,18 @@
     <Content Include="Mail\sendmail.php" />
     <Content Include="Mail\smtp.php" />
     <Content Include="studio.html" />
-    <Content Include="stylesheets\animate.css" />
-    <Content Include="stylesheets\coverflow.css" />
-    <Content Include="stylesheets\drag.png" />
     <Content Include="stylesheets\hamburger.css" />
     <Content Include="stylesheets\isotope.css" />
-    <Content Include="stylesheets\jquery.bxslider.css" />
-    <Content Include="stylesheets\jquery.jgrowl.css" />
-    <Content Include="stylesheets\jquery.tweet.css" />
     <Content Include="stylesheets\kenburns.css" />
-    <Content Include="stylesheets\main-bg.css" />
     <Content Include="stylesheets\main-responsive.css" />
     <Content Include="stylesheets\main-retina.css" />
     <Content Include="stylesheets\main.css" />
     <Content Include="stylesheets\navmenu.css" />
     <Content Include="stylesheets\onepage-scroll.css" />
-    <Content Include="stylesheets\owl.carousel.css" />
     <Content Include="stylesheets\pace.preload.css" />
     <Content Include="stylesheets\parallax.css" />
-    <Content Include="stylesheets\simpletextrotator.css" />
     <Content Include="stylesheets\slidingmenu.css" />
     <Content Include="stylesheets\slimmenu.css" />
-    <Content Include="stylesheets\venobox.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -545,13 +537,7 @@
     <Content Include="less\color.less" />
     <Content Include="less\fonts.less" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Views\Home\" />
-    <Folder Include="Views\Shared\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Web.config" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
