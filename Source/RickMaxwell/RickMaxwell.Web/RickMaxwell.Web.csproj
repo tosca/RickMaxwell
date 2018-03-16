@@ -24,6 +24,7 @@
     <RestorePackages>true</RestorePackages>
     <WebGreaseLibPath>..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -195,6 +196,12 @@
     <Content Include="images\bentwood\image19.jpg" />
     <Content Include="images\bentwood\image20%402x.jpg" />
     <Content Include="images\bentwood\image20.jpg" />
+    <Content Include="images\bentwood\image22%402x.jpg" />
+    <Content Include="images\bentwood\image22.jpg" />
+    <Content Include="images\bentwood\image23%402x.jpg" />
+    <Content Include="images\bentwood\image23.jpg" />
+    <Content Include="images\bentwood\image24%402x.jpg" />
+    <Content Include="images\bentwood\image24.jpg" />
     <Content Include="images\drawing2014\image01%402x.jpg" />
     <Content Include="images\drawing2014\image01.jpg" />
     <Content Include="images\drawing2014\image02%402x.jpg" />
