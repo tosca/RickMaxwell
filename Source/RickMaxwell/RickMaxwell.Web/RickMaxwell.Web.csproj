@@ -208,6 +208,12 @@
     <Content Include="images\drawing2014\image02.jpg" />
     <Content Include="images\drawing2014\image03%402x.jpg" />
     <Content Include="images\drawing2014\image03.jpg" />
+    <Content Include="images\drawing2018\image001%402x.jpg" />
+    <Content Include="images\drawing2018\image001.jpg" />
+    <Content Include="images\drawing2018\image002%402x.jpg" />
+    <Content Include="images\drawing2018\image002.jpg" />
+    <Content Include="images\drawing2018\image003%402x.jpg" />
+    <Content Include="images\drawing2018\image003.jpg" />
     <Content Include="images\home_slider\lorenzo%402x.jpg" />
     <Content Include="images\home_slider\lorenzo.jpg" />
     <Content Include="images\home_slider\redtree%402x.jpg" />
