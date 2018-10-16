@@ -510,14 +510,6 @@
     <Content Include="javascripts\libs\venobox.min.js" />
     <Content Include="javascripts\libs\waypoints.min.js" />
     <Content Include="less\less-2.0.0.min.js" />
-    <Content Include="Mail\mail.php" />
-    <Content Include="Mail\mime.php" />
-    <Content Include="Mail\mimeDecode.php" />
-    <Content Include="Mail\mimePart.php" />
-    <Content Include="Mail\null.php" />
-    <Content Include="Mail\RFC822.php" />
-    <Content Include="Mail\sendmail.php" />
-    <Content Include="Mail\smtp.php" />
     <Content Include="studio.html" />
     <Content Include="stylesheets\hamburger.css" />
     <Content Include="stylesheets\isotope.css" />
@@ -529,7 +521,6 @@
     <Content Include="stylesheets\onepage-scroll.css" />
     <Content Include="stylesheets\pace.preload.css" />
     <Content Include="stylesheets\parallax.css" />
-    <Content Include="stylesheets\slidingmenu.css" />
     <Content Include="stylesheets\slimmenu.css" />
     <Content Include="stylesheets\venobox.css" />
     <Content Include="Web.config" />
