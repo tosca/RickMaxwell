@@ -2,6 +2,10 @@
 .contact-bg {
     background-image: url(../images/background/bending-3.jpg);
 }
+.showcase-panel-bg-01 {
+    background-image: url(../images/background/bending-3.jpg);
+    background-image: url(http://placehold.it/2000x1250);
+}
 /*STUDIO*/
 .studio-bg {
 background-image: url('../images/background/cedars.jpg');
