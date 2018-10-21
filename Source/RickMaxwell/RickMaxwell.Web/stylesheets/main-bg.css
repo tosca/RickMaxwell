@@ -1,11 +1,40 @@
-/*CONTACT*/
-.contact-bg {
-    background-image: url(../images/background/bending-3.jpg);
-}
+
 .showcase-panel-bg-01 {
-    background-image: url(../images/background/bending-3.jpg);
-    background-image: url(http://placehold.it/2000x1250);
+   /*background-image: url(../images/bentwood/image0.jpg);
+    background-image: url(../images/bentwood/image2.jpg);*/ 
+   background-color:#9d9992;
+   background-color:#9b9996;
 }
+.showcase-panel-bg-02 {
+    /*background-image: url(../images/bentwood/image20.jpg); 
+    background-image: url(../images/home_slider/redtree.jpg);*/
+    background-color: #a89f96;
+    background-image: url(../images/homepg/home-panel-02.jpg);
+}
+.showcase-panel-bg-03 {
+    background-image: url(../images/homepg/home-panel-03.jpg);
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: stretch;
+    width: 100%;
+    height: 100vh;
+    border: 1px black solid;
+    margin: 0 auto;
+}
+.flex-container > * {
+    flex: 1 100%;
+}
+.flex-item {
+        width: 100%;
+        min-height: 300px;
+        height: 100%;
+        margin: auto;       
+}
+
 /*STUDIO*/
 .studio-bg {
 background-image: url('../images/background/cedars.jpg');
@@ -25,4 +54,8 @@ background-size: 35%;
 .about-bg{
 	background-color:#ebebeb;
  /*   background-color:#c87432;*/
+}
+/*CONTACT*/
+.contact-bg {
+    background-image: url(../images/background/bending-3.jpg);
 }

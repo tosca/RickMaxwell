@@ -10,18 +10,17 @@
 .showcase-panel-overlay{
 	-webkit-transition: all 1s ease-in-out;
 	   -moz-transition: all 1s ease-in-out;
-		-ms-transition: all 1s ease-in-out;
 		 -o-transition: all 1s ease-in-out;
 			transition: all 1s ease-in-out;
 }
-.showcase-panel-overlay:hover{
-	background-color: rgba(0,0,0,0.7);
-	-webkit-transition: all 1s ease-in-out;
-	   -moz-transition: all 1s ease-in-out;
-		-ms-transition: all 1s ease-in-out;
-		 -o-transition: all 1s ease-in-out;
-			transition: all 1s ease-in-out;
-}
+    .showcase-panel-overlay:hover {
+        background-color: rgba(0,0,0,0.7);
+        background-color: rgba(255, 255, 255, .15);
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+    }
 .showcase-panel h1{
 	margin-bottom: 40px;
 }
@@ -31,8 +30,10 @@
 	font-weight: 200;
 	text-transform: uppercase;
 	letter-spacing: 8px;
-	border:solid 5px;
+	border:solid 2px #a29494;
 	padding: 15px 15px 15px 23px;
+    background-color:rgba(128, 128, 128, 0.30)
+  
 }
 .showcase-panel h2{
 	font-size: 48px;

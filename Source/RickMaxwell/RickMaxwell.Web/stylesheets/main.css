@@ -16,7 +16,7 @@ body
     overflow-x: hidden; 
 }
 body{
-	font-weight:300;
+	font-weight:400;
 	/*overflow-x:hidden !important; */
 }
 
@@ -123,7 +123,8 @@ h1,h2,h3,h4,h5,h6{
 .valign{
 	position: relative;
   	top: 50%;
-  	-webkit-transform: translateY(-50%);
+    z-index: 100;
+	-webkit-transform: translateY(-50%);
   	-ms-transform: translateY(-50%);
   	transform: translateY(-50%);
 }
@@ -158,19 +159,20 @@ h1,h2,h3,h4,h5,h6{
 	height: 20px;
 }
 
-.masthead{
-	position: fixed;
-	width: 400px;
-	height: 100%;
-	left: -330px;
-	top: 0;
-	z-index: 1000;
-	background-position: center center;
-	background-size: cover;
-	-webkit-transition: all 1.2s ease-in-out;
-	   -moz-transition: all 1.2s ease-in-out;
-				 -o-transition: all 1.2s ease-in-out;
-			transition: all 1.2s ease-in-out;
+.masthead {
+    position: fixed;
+    width: 400px;
+    height: 100%;
+    left: -330px;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(256, 256, 256, 0.10);
+    background-position: center center;
+    background-size: cover;
+    -webkit-transition: all 1.2s ease-in-out;
+    -moz-transition: all 1.2s ease-in-out;
+    -o-transition: all 1.2s ease-in-out;
+    transition: all 1.2s ease-in-out;
 }
 .masthead.revealed{
 	left: 0px;
@@ -209,6 +211,7 @@ h1,h2,h3,h4,h5,h6{
 	line-height: 26px;
 	letter-spacing: 2px;
 	padding: 1px;
+    color: ghostwhite;
 }
 .nav-item-wrap{
 	margin-top: 40px;
@@ -230,7 +233,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .main-nav-menu li a.main-nav-link{
      font-weight: 500;
-     font-size: 14px;
+     font-size: 16px;
      line-height: 21px;
      letter-spacing: 4px;
      text-decoration: none;
