@@ -192,15 +192,16 @@ h1,h2,h3,h4,h5,h6{
 	position: absolute;
 	right: -270px;
     padding: 10px;
-    background-color:rgba(255,255,255,0.16);
+    top: 0;
+   /*background-color:rgba(255,255,255,0.10);*/ 
 	-webkit-transition: all 1.5s ease-in-out;
 	   -moz-transition: all 1.5s ease-in-out;
 			 -o-transition: all 1.5s ease-in-out;
 			transition: all 1.5s ease-in-out;
 }
 .side-logo{
-	margin-top: 80px;
-	margin-left: 30px;
+	margin-top: 30px;
+	margin-left: 40px;
 }
 .nav-bio{
 	margin-top: 20px;
@@ -661,10 +662,12 @@ h1,h2,h3,h4,h5,h6{
    margin: 0 auto;
 }
 /*CONTACT*/
-.contact-bg{
-  	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
+.contact-bg {
+    background-image: url(../images/background/bending-03.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: 100%;
 }
 .contact h1 {
     color:silver;
@@ -683,6 +686,9 @@ h1,h2,h3,h4,h5,h6{
     line-height: 25px;font-weight:300;
     color: #fff;
 }
+    .contact-mail h4 a:hover {
+        color: #c87432;
+    }
 #contactForm{
 	margin-top: 20px;
 }
@@ -717,53 +723,21 @@ iframe, object, embed {
     margin-left: 1%;
 }
 
-
-.alert{
-    margin-top: 0px;
-    border-radius: 0px;
-    padding: 0px;
-    -webkit-transition: all .8s linear;
-       -moz-transition: all .8s linear;
-         -o-transition: all .8s linear;
-            transition: all .8s linear;
+.showcase-panel-bg-01 {
+    background-image: url(../images/homepg/home-panel-01.jpg);
 }
 
-.alert > p{
-    padding: 5px;
-    text-shadow:none;
-    font-size: 14px;
-    line-height: 21px;
+.showcase-panel-bg-02 {
+    background-image: url(../images/homepg/home-panel-02.jpg);
 }
 
-.contact-bg {
-    background-image: url(../images/background/bending-3.jpg);
-}
-.table-bg {
-    background-image: url('../images/table.jpg');
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: top;
-    background-size: 100%;
-}
-.studio-bg {
-background-image: url('../images/background/cedars.jpg');
-background-repeat: no-repeat;
-background-position-x: center;
-background-position-y: top;
-background-size: 100%; 
-}
-.studio-shot-bg {
-background-image: url('../images/background/bending-1.jpg');
-background-repeat: no-repeat;
-background-position-x: center;
-background-position-y: top;
-background-size: 35%; 
+.showcase-panel-bg-03 {
+    background-image: url(../images/homepg/home-panel-03.jpg);
 }
 
 /*ABOUT*/
-.about-bg{
-	background-color:#ebebeb;
- /*   background-color:#c87432;*/
+.about-bg {
+    background-color: #ebebeb;
 }
 
 

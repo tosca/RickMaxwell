@@ -9,27 +9,8 @@
 .showcase-panel-bg-03 {
     background-image: url(../images/homepg/home-panel-03.jpg);
 }
-/*CONTACT*/
-.contact-bg {
-     background-image: url(../images/artist/bentwood-03.png);
-}
-/*STUDIO*/
-.studio-bg {
-background-image: url('../images/background/cedars.jpg');
-background-repeat: no-repeat;
-background-position-x: center;
-background-position-y: top;
-background-size: 100%; 
-}
-.studio-shot-bg {
-background-image: url('../images/background/bending-1.jpg');
-background-repeat: no-repeat;
-background-position-x: center;
-background-position-y: top;
-background-size: 35%; 
-}
+
 /*ABOUT*/
 .about-bg{
 	background-color:#ebebeb;
- /*   background-color:#c87432;*/
 }
