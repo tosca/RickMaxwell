@@ -190,8 +190,9 @@ h1,h2,h3,h4,h5,h6{
 }
 .main-logo-wrap{
 	position: absolute;
-	right: -150px;
-	top: 20px;
+	right: -270px;
+    padding: 10px;
+    background-color:rgba(255,255,255,0.16);
 	-webkit-transition: all 1.5s ease-in-out;
 	   -moz-transition: all 1.5s ease-in-out;
 			 -o-transition: all 1.5s ease-in-out;
@@ -211,7 +212,7 @@ h1,h2,h3,h4,h5,h6{
 	line-height: 26px;
 	letter-spacing: 2px;
 	padding: 1px;
-    color: ghostwhite;
+    color: #c87432;
 }
 .nav-item-wrap{
 	margin-top: 40px;

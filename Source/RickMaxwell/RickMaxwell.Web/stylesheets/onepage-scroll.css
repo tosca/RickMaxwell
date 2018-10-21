@@ -42,20 +42,16 @@ body, .onepage-wrapper, html {
   text-align: center;
 }
     .onepage-pagination li a {
-        padding: 10px;
-        width: 4px;
-        height: 4px;
-        width: 10px;
-        height: 10px;
+        padding: 15px;
+        width: 15px;
+        height: 15px;
         display: block;
     }
         .onepage-pagination li a:before {
             content: '';
             position: absolute;
-            width: 4px;
-            height: 4px;
-            width: 10px;
-            height: 10px;
+            width: 15px;
+            height: 15px;
             background: rgba(255,255,255,0.85);
             border-radius: 10px;
             -webkit-border-radius: 10px;
@@ -66,12 +62,12 @@ body, .onepage-wrapper, html {
         }
 
 .onepage-pagination li a.active:before{
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   background: none;
   border: 2px solid #fff;
   margin-top: -2px;
-  left: 10px;
+  left: 15px;
 }
 
 .disabled-onepage-scroll, .disabled-onepage-scroll .wrapper {
