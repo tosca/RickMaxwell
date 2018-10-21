@@ -1,14 +1,9 @@
 
 .showcase-panel-bg-01 {
-   /*background-image: url(../images/bentwood/image0.jpg);
-    background-image: url(../images/bentwood/image2.jpg);*/ 
-   background-color:#9d9992;
-   background-color:#9b9996;
+    background-image: url(../images/homepg/home-panel-01.jpg);
+
 }
 .showcase-panel-bg-02 {
-    /*background-image: url(../images/bentwood/image20.jpg); 
-    background-image: url(../images/home_slider/redtree.jpg);*/
-    background-color: #a89f96;
     background-image: url(../images/homepg/home-panel-02.jpg);
 }
 .showcase-panel-bg-03 {
