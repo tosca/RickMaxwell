@@ -667,7 +667,7 @@ h1,h2,h3,h4,h5,h6{
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: top;
-    background-size: 100%;
+    background-size: cover;
 }
 .contact h1 {
     color:silver;
@@ -676,24 +676,31 @@ h1,h2,h3,h4,h5,h6{
 	font-size: 20px;
 	line-height: 30px;
 	font-weight: 200;
-    color: silver;
+    color: #c87432;
 }
 .email-wrap{
-    padding-top: 20px;
+    padding-top: 10px;
+    color:#ccc;
 }
-.contact-mail{
-    font-size: 18px;
-    line-height: 25px;font-weight:300;
-    color: #fff;
+.email-wrap a{
+    color: #c87432;
 }
-    .contact-mail h4 a:hover {
-        color: #c87432;
+    .email-wrap a:hover{
+        color: #ccc;
     }
+.contact-mail {
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #c87432;
+}
+
 #contactForm{
-	margin-top: 20px;
+	margin-top: 30px;
 }
 .contact-item{
-    padding: 0px;
+    padding: 10px;
 }
 iframe, object, embed {
         max-width: 100%;
