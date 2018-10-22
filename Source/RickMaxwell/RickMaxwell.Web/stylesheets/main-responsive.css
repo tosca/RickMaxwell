@@ -782,12 +782,14 @@
 
 /*iPhone Landscape Mode and Mediium Smart Phones*/
 @media screen and (max-width: 480px) {
-	
-	.container{
-	    max-width: 440px;
-	    padding-left: 20px;
-	    padding-right: 20px;
-	}
+
+    .container {
+        max-width: 440px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-left: 0px;
+        padding-right:0px
+    }
 	.add-top-half{
 		padding-top: 35px;
 	}
@@ -1018,7 +1020,7 @@
 		display: inline-block;
 	}
 	.common-pad{
-		padding: 60px 0px;
+		padding: 0px 0px;
 	}
 	.mastwrap{
 		padding-top: 48px;

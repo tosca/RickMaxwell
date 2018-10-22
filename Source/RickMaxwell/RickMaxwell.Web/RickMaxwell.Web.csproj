@@ -322,7 +322,6 @@
     <Content Include="javascripts\libs\venobox.min.js" />
     <Content Include="javascripts\libs\waypoints.min.js" />
     <Content Include="less\less-2.0.0.min.js" />
-    <Content Include="studio.html" />
     <Content Include="stylesheets\hamburger.css" />
     <Content Include="stylesheets\intro01.css" />
     <Content Include="stylesheets\isotope.css" />
