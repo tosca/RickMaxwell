@@ -87,15 +87,6 @@
 	.add-bottom-half{
 		padding-bottom: 35px;
 	}
-	.mob-center{
-		text-align: center;
-	}
-	.mob-add-top{
-		margin-top: 30px;
-	}
-	.mob-add-bottom{
-		margin-bottom:30px;
-	}
 	.text-left, .text-right, p, h1, h2, h3, h4, h5{
 		text-align: center;
 	}
@@ -127,33 +118,22 @@
 	    letter-spacing: normal;
 	    line-height: 29px;
 	}
-	.intro-04 .promo-caps, .intro-07 .promo-caps, .intro-06 .promo-caps {
-	    font-size: 24px;
-	    letter-spacing: 2px;
-	    line-height: 31px;
-	    text-align: center;
-	}
-	.intro-04 .promo-caps > span{
-		border-left: none;
-	}
 	#slide-title {
 	    font-size: 22px;
 	    letter-spacing: 2px;
 	    line-height: 29px;
 	}
-	.intro-02-wrap{
-		margin: 0;
-	}
-	.intro-02-wrap .works-item {
-	    margin: 0.2% !important;
-	    padding: 0 !important;
-	    width: 49.6% !important;
-	}
-	.works-item-inner h3, .works-item-inner p > span{
+	.works-item-inner h3 {
 	    font-size: 20px;
 	    letter-spacing: normal;
 	    line-height: 27px;
 	}
+    .works-item-inner p > span {
+        font-size: 16px;
+        letter-spacing: normal;
+        line-height: 24px;
+        padding: 7px;
+    }
 	.sub-heading, .intro-03 .promo-caps,.about .promo-caps, .intro-05 .promo-caps, .news-item h2, .showcase-single-item p > span,
 	.intro-05 h1, .showcase-single-item h2, .news-item h1, .news-item p > span, .contact .promo-caps{
 	    font-size: 24px;
@@ -166,10 +146,6 @@
 	}
 	.works-item{
 		width: 50% !important;
-	}
-	.social-wrap{
-		margin-left: 10px;
-		margin-right: 10px;
 	}
 }
 
@@ -523,11 +499,6 @@
 	    letter-spacing: 2px;
 	    line-height: 27px;
 	}
-	.explore-link a {
-	    font-size: 18px;
-	    letter-spacing: normal;
-	    line-height: 25px;
-	}
 	.intro-04 .promo-caps, .intro-07 .promo-caps, .intro-06 .promo-caps {
 	    font-size: 20px;
 	    letter-spacing: 2px;
@@ -568,10 +539,6 @@
 	.works-item{
 		width: 50% !important;
 	}
-	.social-wrap{
-		margin-left: 10px;
-		margin-right: 10px;
-	}
 }
 
 /*Medium Smart Phones v2*/
@@ -587,15 +554,6 @@
 	}
 	.add-bottom-half{
 		padding-bottom: 35px;
-	}
-	.mob-center{
-		text-align: center;
-	}
-	.mob-add-top{
-		margin-top: 30px;
-	}
-	.mob-add-bottom{
-		margin-bottom:30px;
 	}
 	.text-left, .text-right, p, h1, h2, h3, h4, h5{
 		text-align: center;

@@ -47,7 +47,8 @@ $(function ($) {
 // $(function ($)  : ends
 
 })();
-//  JSHint wrapper $(function ($)  : ends
+
+//  toggle for touch screen  
 
 
 
