@@ -52,12 +52,11 @@
 	.common-pad{
 		padding: 80px 20px;
 	}
-	.mastwrap{
-		padding-top: 48px;
-	}
+	
 	.sticky-panel{
 		display: none;
 	}
+
 }
 
 /*iPad Landscape Mode and Large Tablets */
@@ -65,9 +64,7 @@
 	.common-pad{
 		padding: 80px 20px;
 	}
-	.mastwrap{
-		padding-top: 48px;
-	}
+   
 	.sticky-panel{
 		display: none;
 	}
@@ -102,10 +99,10 @@
 	.common-pad{
 		padding: 80px 20px;
 	}
-	.mastwrap{
-		padding-top: 48px;
-	}
-	.sticky-panel{
+    .mastwrap {
+        margin-top: 40px;
+    }
+        .sticky-panel{
 		display: none;
 	}
 	.showcase-panel h1 > span {
@@ -163,15 +160,7 @@
 	.add-bottom-half{
 		padding-bottom: 35px;
 	}
-	.mob-center{
-		text-align: center;
-	}
-	.mob-add-top{
-		margin-top: 30px;
-	}
-	.mob-add-bottom{
-		margin-bottom:30px;
-	}
+	
 	.text-left, .text-right, p, h1, h2, h3, h4, h5{
 		text-align: center;
 	}
@@ -187,9 +176,7 @@
 	.common-pad{
 		padding: 80px 20px;
 	}
-	.mastwrap{
-		padding-top: 48px;
-	}
+    
 	.sticky-panel{
 		display: none;
 	}
@@ -264,15 +251,7 @@
 	.add-bottom-half{
 		padding-bottom: 35px;
 	}
-	.mob-center{
-		text-align: center;
-	}
-	.mob-add-top{
-		margin-top: 30px;
-	}
-	.mob-add-bottom{
-		margin-bottom:30px;
-	}
+	
 	.text-left, .text-right, p, h1, h2, h3, h4, h5{
 		text-align: center;
 	}
@@ -288,9 +267,7 @@
 	.common-pad{
 		padding: 80px 20px;
 	}
-	.mastwrap{
-		padding-top: 48px;
-	}
+   
 	.sticky-panel{
 		display: none;
 	}
@@ -367,12 +344,7 @@
 	.mob-center{
 		text-align: center;
 	}
-	.mob-add-top{
-		margin-top: 30px;
-	}
-	.mob-add-bottom{
-		margin-bottom:30px;
-	}
+	
 	.text-left, .text-right, p, h1, h2, h3, h4, h5{
 		text-align: center;
 	}
@@ -388,9 +360,7 @@
 	.common-pad{
 		padding: 60px 0px;
 	}
-	.mastwrap{
-		padding-top: 48px;
-	}
+   
 	.sticky-panel{
 		display: none;
 	}
@@ -464,15 +434,7 @@
 	.add-bottom-half{
 		padding-bottom: 35px;
 	}
-	.mob-center{
-		text-align: center;
-	}
-	.mob-add-top{
-		margin-top: 30px;
-	}
-	.mob-add-bottom{
-		margin-bottom:30px;
-	}
+	
 	.text-left, .text-right, p, h1, h2, h3, h4, h5{
 		text-align: center;
 	}
@@ -488,9 +450,7 @@
 	.common-pad{
 		padding: 60px 0px;
 	}
-	.mastwrap{
-		padding-top: 48px;
-	}
+   
 	.sticky-panel{
 		display: none;
 	}
@@ -574,9 +534,7 @@
 	.common-pad{
 		padding: 60px 0px;
 	}
-	.mastwrap{
-		padding-top: 48px;
-	}
+   
 	.sticky-panel{
 		display: none;
 	}
@@ -675,9 +633,7 @@
 	.common-pad{
 		padding: 60px 0px;
 	}
-	.mastwrap{
-		padding-top: 48px;
-	}
+   
 	.sticky-panel{
 		display: none;
 	}
@@ -778,9 +734,7 @@
 	.common-pad{
 		padding: 60px 20px;
 	}
-	.mastwrap{
-		padding-top: 48px;
-	}
+   
 	.sticky-panel{
 		display: none;
 	}
@@ -879,9 +833,7 @@
 	.common-pad{
 		padding: 80px 0px;
 	}
-	.mastwrap{
-		padding-top: 48px;
-	}
+   
 	.sticky-panel{
 		display: none;
 	}
@@ -980,9 +932,7 @@
 	.common-pad{
 		padding: 0px 0px;
 	}
-	.mastwrap{
-		padding-top: 48px;
-	}
+   
 	.sticky-panel{
 		display: none;
 	}
@@ -996,15 +946,7 @@
 	    letter-spacing: normal;
 	    line-height: 19px;
 	}
-	.intro-04 .promo-caps, .intro-07 .promo-caps, .intro-06 .promo-caps {
-	    font-size: 14px;
-	    letter-spacing: 2px;
-	    line-height: 21px;
-	    text-align: center;
-	}
-	.intro-04 .promo-caps > span{
-		border-left: none;
-	}
+	
 	#slide-title {
 	    font-size: 20px;
 	    letter-spacing: 2px;
@@ -1013,11 +955,7 @@
 	.intro-02-wrap{
 		margin: 0;
 	}
-	.intro-02-wrap .works-item {
-	    margin: 0.2% !important;
-	    padding: 0 !important;
-	    width: 49.6% !important;
-	}
+	
 	.works-item-inner h3, .works-item-inner p > span{
 	    font-size: 10px;
 	    letter-spacing: normal;
@@ -1080,9 +1018,7 @@
 	.common-pad{
 		padding: 60px 0px;
 	}
-	.mastwrap{
-		padding-top: 48px;
-	}
+   
 	.sticky-panel{
 		display: none;
 	}
@@ -1096,28 +1032,13 @@
 	    letter-spacing: normal;
 	    line-height: 19px;
 	}
-	.intro-04 .promo-caps, .intro-07 .promo-caps, .intro-06 .promo-caps {
-	    font-size: 14px;
-	    letter-spacing: 2px;
-	    line-height: 21px;
-	    text-align: center;
-	}
-	.intro-04 .promo-caps > span{
-		border-left: none;
-	}
+
 	#slide-title {
 	    font-size: 20px;
 	    letter-spacing: 2px;
 	    line-height: 19px;
 	}
-	.intro-02-wrap{
-		margin: 0;
-	}
-	.intro-02-wrap .works-item {
-	    margin: 0.2% !important;
-	    padding: 0 !important;
-	    width: 49.6% !important;
-	}
+
 	.works-item-inner h3, .works-item-inner p > span{
 	    font-size: 10px;
 	    letter-spacing: normal;
@@ -1136,10 +1057,7 @@
 	.works-item{
 		width: 100% !important;
 	}
-	.social-wrap{
-		margin-left: 10px;
-		margin-right: 10px;
-	}
+	
 }
 
 /*iPhone (5S, 5, 4S and 4) Portrait Mode and Very Small Mobile Phones*/
@@ -1180,9 +1098,7 @@
 	.common-pad{
 		padding: 60px 0px;
 	}
-	.mastwrap{
-		padding-top: 48px;
-	}
+  
 	.sticky-panel{
 		display: none;
 	}
@@ -1241,6 +1157,5 @@
 		margin-right: 10px;
 	}
 }
-
 
 

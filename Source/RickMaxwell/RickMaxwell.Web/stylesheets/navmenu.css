@@ -1,4 +1,6 @@
 
+
+
 .open-nav .mobile-toggle {
   transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
@@ -7,8 +9,6 @@
      -o-transition: all .4s ease-in-out;
       transition: all .4s ease-in-out;
 }
-
-
 
 .mobile-toggle {
   cursor: pointer;
@@ -22,10 +22,11 @@
      -o-transition: all .4s ease-in-out;
       transition: all .4s ease-in-out;
 }
-.mobile-toggle span {
-  width: 30px;
-  height: 2px;
-  margin-bottom: 6px;
-  background: #121214;
-  display: block;
-}
+    .mobile-toggle span {
+        width: 30px;
+        height: 2px;
+        margin-bottom: 7px;
+        background: #121214;
+        display: block;
+        display: none;
+    }
