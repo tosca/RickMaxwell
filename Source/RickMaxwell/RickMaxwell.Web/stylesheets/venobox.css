@@ -252,6 +252,11 @@ body{
     top: -1px;
     left: 0;
 }
+@media (max-width: 480px) {
+   vbox-title{
+      font-size:18px;            
+   } 
+}
 /* ------- inline window ------ */
 .vbox-inline{
     width: 420px;
