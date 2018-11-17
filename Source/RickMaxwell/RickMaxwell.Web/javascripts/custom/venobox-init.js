@@ -8,7 +8,8 @@ $(function ($) {
 
 
    $('.venobox, .image-lightbox-link').venobox({
-    numeratio: true
+       numeratio: true
+       
     }); 
 
 
