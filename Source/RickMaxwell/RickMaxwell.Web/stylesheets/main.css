@@ -502,12 +502,12 @@ nav {
                  -o-transition: all .4s ease-in-out;
                     transition: all .4s ease-in-out;
         }
-        .works-item a:hover{
-            opacity:1;
+        .works-item a:hover, .works-item a:focus {
+            opacity: 1;
             -webkit-transition: all .4s ease-in-out;
-               -moz-transition: all .4s ease-in-out;
-                 -o-transition: all .4s ease-in-out;
-                    transition: all .4s ease-in-out;
+            -moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
         }
         .info a:hover{
             cursor: url("../images/plus.png") 40 40, crosshair;
@@ -516,13 +516,13 @@ nav {
                  -o-transition: all .4s ease-in-out;
                     transition: all .4s ease-in-out;
         }
-        .zoom a:hover{
-            cursor: url("../images/zoom.png") 40 40, crosshair;
-            -webkit-transition: all .4s ease-in-out;
-               -moz-transition: all .4s ease-in-out;
-                 -o-transition: all .4s ease-in-out;
-                    transition: all .4s ease-in-out;
-        }
+.zoom a:hover, .zoom a:focus {
+    cursor: url("../images/zoom.png") 40 40, crosshair;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
         .works-item-inner{
             text-align: center;
         }
