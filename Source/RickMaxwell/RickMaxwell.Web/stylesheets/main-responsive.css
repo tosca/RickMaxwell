@@ -696,7 +696,6 @@
 
 /*iPhone Landscape Mode and Mediium Smart Phones*/
 @media screen and (max-width: 480px) {
-    .
     .container {
         max-width: 440px;
         padding-left: 20px;
@@ -719,7 +718,7 @@
 	.mob-add-bottom{
 		margin-bottom:30px;
 	}
-	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+	.text-left, .text-right, h1, h2, h3, h4, h5{
 		text-align: center;
 	}
 	.btn{
@@ -818,7 +817,7 @@
 	.mob-add-bottom{
 		margin-bottom:30px;
 	}
-	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+	.text-left, .text-right, h1, h2, h3, h4, h5{
 		text-align: center;
 	}
 	.btn{
@@ -847,15 +846,7 @@
 	    letter-spacing: normal;
 	    line-height: 21px;
 	}
-	.intro-04 .promo-caps, .intro-07 .promo-caps, .intro-06 .promo-caps {
-	    font-size: 16px;
-	    letter-spacing: 2px;
-	    line-height: 23px;
-	    text-align: center;
-	}
-	.intro-04 .promo-caps > span{
-		border-left: none;
-	}
+	
 	#slide-title {
 	    font-size:20px;
 	    letter-spacing: 2px;
@@ -917,7 +908,7 @@
 	.mob-add-bottom{
 		margin-bottom:30px;
 	}
-	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+	.text-left, .text-right, h1, h2, h3, h4, h5{
 		text-align: center;
 	}
 	.btn{
@@ -1003,7 +994,7 @@
 	.mob-add-bottom{
 		margin-bottom:30px;
 	}
-	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+	.text-left, .text-right, h1, h2, h3, h4, h5{
 		text-align: center;
 	}
 	.btn{
@@ -1083,7 +1074,7 @@
 	.mob-add-bottom{
 		margin-bottom:30px;
 	}
-	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+	.text-left, .text-right, h1, h2, h3, h4, h5{
 		text-align: center;
 	}
 	.btn{
@@ -1112,15 +1103,7 @@
 	    letter-spacing: normal;
 	    line-height: 19px;
 	}
-	.intro-04 .promo-caps, .intro-07 .promo-caps, .intro-06 .promo-caps {
-	    font-size: 14px;
-	    letter-spacing: 2px;
-	    line-height: 21px;
-	    text-align: center;
-	}
-	.intro-04 .promo-caps > span{
-		border-left: none;
-	}
+	
 	#slide-title {
 	    font-size: 20px;
 	    letter-spacing: 2px;
