@@ -204,9 +204,6 @@
     <Content Include="images\drawing2018\image007.jpg" />
     <Content Include="images\drawing2018\image008%402x.jpg" />
     <Content Include="images\drawing2018\image008.jpg" />
-    <Content Include="images\homepg\home-panel-01.jpg" />
-    <Content Include="images\homepg\home-panel-02.jpg" />
-    <Content Include="images\homepg\home-panel-03.jpg" />
     <Content Include="images\homepg\home-panel-04.jpg" />
     <Content Include="images\logo%402x.png" />
     <Content Include="images\logo.png" />
@@ -252,8 +249,6 @@
     <Content Include="images\favicon\favicon.png" />
     <Content Include="images\RM-sig-name%402x.png" />
     <Content Include="images\RM-sig-name.png" />
-    <Content Include="images\RM-sig-side%402x.png" />
-    <Content Include="images\RM-sig-side.png" />
     <Content Include="images\venobox\close.gif" />
     <Content Include="images\venobox\next.gif" />
     <Content Include="images\venobox\preload-circle.png" />

@@ -177,7 +177,7 @@ color:#CCCCCC;
 }
 
 .bg-img {
-    background-image: url(../images/homepg/home-panel-03.jpg);
+    background-image: url(../images/homepg/home-panel-04.jpg);
     height: 600px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -620,41 +620,31 @@ nav {
 /*CONTACT*/
 .contact-bg {
     background-image: url(../images/background/bending-03.png);
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: top;
-    background-size: cover;
+    height: 100%;
+     background-position: center top;
+     background-repeat: no-repeat; 
+     background-size: cover;
 }
 .contact h1 {
     color:silver;
 }
 .contact .promo-caps{
-	font-size: 20px;
-	line-height: 30px;
-	font-weight: 200;
+	font-size: 28px;
+    letter-spacing: 4px;
+	line-height: 34px;
     color: #c87432;
 }
-.email-wrap{
-    padding-top: 10px;
-    color:#ccc;
+.contact-info{
+    padding-top: 20px;
+    color:#d2d2d2;
 }
-.email-wrap a{
+.contact-info  a{
     color: #c87432;
 }
-    .email-wrap a:hover{
-        color: #ccc;
+    .contact-info a:hover, .contact-info a:focus {
+        color: #444;
     }
-.contact-mail {
-    padding-top: 40px;
-    font-size: 18px;
-    line-height: 25px;
-    font-weight: 400;
-   color: #c87432;
-}
 
-#contactForm{
-	margin-top: 30px;
-}
 .contact-item{
     padding: 10px;
 }
@@ -662,23 +652,19 @@ iframe, object, embed {
         max-width: 100%;
 }
 .address-heading{
-    padding: 0px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 6px;
-    line-height: 21px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 32px;
     text-transform: uppercase;
 }
-.email-heading{
-    font-size: 20px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    line-height: 27px;
-    margin-bottom: 0;
-    padding: 0;
+.address-heading a {
+    color: #d2d2d2;
 }
-
+    .address-heading a:hover, .address-heading a:focus {
+        color: #c87432;
+    }
 .btn-wrap{
     margin-top: 60px;
 }
@@ -726,7 +712,8 @@ iframe, object, embed {
     text-align: left;
 }
 .page-heading {
-    font-weight: 400;
+    font-size: 38px;
+    letter-spacing: 4px;
     text-align: center;
     padding-top: 20px;    
     color: #c87432;
