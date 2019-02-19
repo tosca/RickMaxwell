@@ -207,6 +207,8 @@
     <Content Include="images\homepg\home-panel-04.jpg" />
     <Content Include="images\logo%402x.png" />
     <Content Include="images\logo.png" />
+    <Content Include="images\RM-sig-side%402x.png" />
+    <Content Include="images\RM-sig-side.png" />
     <Content Include="images\rmlogo-04%402x.png" />
     <Content Include="images\rmlogo-04.png" />
     <Content Include="images\wall\wall%402x.jpg" />
@@ -320,6 +322,7 @@
     <Content Include="javascripts\libs\waypoints.min.js" />
     <Content Include="less\less-2.0.0.min.js" />
     <Content Include="rm-favicon%402x.png" />
+    <Content Include="RM-favicon.png" />
     <Content Include="stylesheets\intro01.css" />
     <Content Include="stylesheets\isotope.css" />
     <Content Include="stylesheets\jquery.bxslider.css" />
