@@ -242,7 +242,7 @@ body{
     float: left;
     text-align: center;
     line-height: 28px;
-  /*  font-size: 20px;*/
+  font-size: 20px;
     color: #c87432;
     padding: 8px 10px;
     overflow: hidden;
@@ -254,7 +254,7 @@ body{
 }
 @media (max-width: 480px) {
    vbox-title{
-      font-size:18px;            
+      font-size:14px;            
    } 
 }
 /* ------- inline window ------ */
