@@ -541,12 +541,15 @@ nav {
             text-transform: uppercase;
             margin-bottom: 10px;
         }
-        .works-item-inner p > span{  
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 21px;
-            padding: 7px;
-        }
+            .works-item-inner p {
+                text-align: center;
+            }  
+            .works-item-inner p > span {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+                padding: 7px;
+            }
 
 /*showcases*/
 .showcase-single-item-wrap{
