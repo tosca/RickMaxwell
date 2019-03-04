@@ -204,6 +204,16 @@
     <Content Include="images\drawing2018\image007.jpg" />
     <Content Include="images\drawing2018\image008%402x.jpg" />
     <Content Include="images\drawing2018\image008.jpg" />
+    <Content Include="images\drawing2019\char01%402x.jpg" />
+    <Content Include="images\drawing2019\char01.jpg" />
+    <Content Include="images\drawing2019\char02%402x.jpg" />
+    <Content Include="images\drawing2019\char02.jpg" />
+    <Content Include="images\drawing2019\char03%402x.jpg" />
+    <Content Include="images\drawing2019\char03.jpg" />
+    <Content Include="images\drawing2019\char04%402x.jpg" />
+    <Content Include="images\drawing2019\char04.jpg" />
+    <Content Include="images\drawing2019\char05%402x.jpg" />
+    <Content Include="images\drawing2019\char05.jpg" />
     <Content Include="images\homepg\home-panel-04.jpg" />
     <Content Include="images\logo%402x.png" />
     <Content Include="images\logo.png" />
