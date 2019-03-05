@@ -189,15 +189,14 @@ body{
 .vbox-close{
     cursor: pointer;
     position: fixed;
-    top: -1px;
-    right: 0;
-    width: 46px;
-    height: 38px;
+    top: 8px;
+    right: 6px;
+    width: 38px;
+    height: 20px;
     padding: 8px;
     display: block;
     background: url(../images/venobox/close.gif) no-repeat #d2d2d2;
     background-position:10px center;
-    
     text-indent: -100px;
     overflow: hidden;
 }
@@ -229,9 +228,9 @@ body{
     display: block;
     color: #121212;
     overflow: hidden;
-    line-height: 22px;
-    font-size: 18px;
-    padding: 8px 8px;
+  /* line-height: 22px;*/ 
+    font-size: 16px;
+    padding: 9px 8px;
     background: #d2d2d2;
     display: none;
     font-weight: 200;
@@ -241,8 +240,8 @@ body{
     height: 40px;
     float: left;
     text-align: center;
-    line-height: 28px;
-  font-size: 20px;
+    line-height: 24px;
+  font-size: 18px;
     color: #c87432;
     padding: 8px 10px;
     overflow: hidden;

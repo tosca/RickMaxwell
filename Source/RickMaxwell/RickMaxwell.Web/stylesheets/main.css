@@ -437,7 +437,7 @@ nav {
 /* WORKS*/
 
 .works-filter-wrap{
-	padding: 40px 0;
+	padding: 30px 0;
 }
 .works-filter{
     list-style: none;
@@ -704,7 +704,7 @@ iframe, object, embed {
 
 /*ABOUT*/
 
-.mastwrap .artist{
+.mastwrap .artist, .mastwrap .contact {
     padding-top: 40px;
 }
 .about-bg {
