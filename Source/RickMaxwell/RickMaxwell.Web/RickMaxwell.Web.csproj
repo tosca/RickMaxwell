@@ -133,7 +133,6 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -185,6 +184,7 @@
     <Content Include="images\drawing2019\lg-char-03.jpg" />
     <Content Include="images\drawing2019\lg-char-04.jpg" />
     <Content Include="images\drawing2019\lg-char-05.jpg" />
+    <Content Include="images\homepg\home-panel-04.jpg" />
     <Content Include="images\wall\relief-sculpt-10.jpg" />
     <Content Include="images\wall\relief-sculpt-11.jpg" />
     <Content Include="images\wall\relief-sculpt-12.jpg" />
@@ -195,7 +195,6 @@
     <Content Include="images\favicon\apple-touch-icon-144x144.jpg" />
     <Content Include="images\favicon\apple-touch-icon-228x228.jpg" />
     <Content Include="images\favicon\apple-touch-icon-72x72.png" />
-    <Content Include="images\homepg\home-panel-04.jpg" />
     <Content Include="images\RM-sig-side.png" />
     <Content Include="images\rmlogo-04.png" />
     <Content Include="images\wall\wall17.jpg" />
@@ -240,6 +239,7 @@
     <Content Include="images\wall\wall8.jpg" />
     <Content Include="images\wall\wall9.jpg" />
     <Content Include="images\zoom.png" />
+    <Content Include="index-old.html" />
     <Content Include="index.html" />
     <Content Include="javascripts\custom\bgslider-zoom-init.js" />
     <Content Include="javascripts\custom\coverflow-init.js" />
@@ -273,13 +273,12 @@
     <Content Include="javascripts\libs\smooth-scroll.js" />
     <Content Include="javascripts\libs\venobox.min.js" />
     <Content Include="javascripts\libs\waypoints.min.js" />
-    <Content Include="less\less-2.0.0.min.js" />
-    <Content Include="stylesheets\main-responsive.css" />
-    <Content Include="stylesheets\main.css" />
-    <Content Include="stylesheets\navmenu.css" />
-    <Content Include="stylesheets\onepage-scroll.css" />
-    <Content Include="stylesheets\slimmenu.css" />
-    <Content Include="stylesheets\venobox.css" />
+    <Content Include="css\main-responsive.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\navmenu.css" />
+    <Content Include="css\onepage-scroll.css" />
+    <Content Include="css\slimmenu.css" />
+    <Content Include="css\venobox.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -301,10 +300,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".htaccess" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="less\color.less" />
-    <Content Include="less\fonts.less" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
