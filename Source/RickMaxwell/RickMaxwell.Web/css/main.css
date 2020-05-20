@@ -1,28 +1,26 @@
-body, html {
-    width: 100%;
-    height: 100%;
+body, html { 
+    margin: 0; 
+    overflow: hidden;
+    -webkit-transition: opacity 400ms; 
+    -moz-transition: opacity 400ms;
+    transition: opacity 400ms; 
 }
 html { box-sizing: border-box; }
 *, *:before, *:after { box-sizing: inherit; }
 
-body { font-family: 'Open Sans', sans-serif;
+body, .page-wrap, html { 
+    display: block;
+    position: static;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    overflow-x: hidden !important; 
-   /*-webkit-overflow-scrolling: touch;*/ 
-    background-color: #e6e6e6;
-    /*  background-color: #E0E0E0;*/ 
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    background-color: #e6e6e6; 
 }
-.baner-top { position: sticky;
-background-color: #4a525f;
-top: 0;
-border-top: 5px ridge #c87432;
-width: 100%;
-height: auto; z-index: 500; }
-.container {
-    padding-right: 0;
-    padding-left: 0;
-    max-width: 100%;
-}
+
 img {
     width:100%;
     height: auto;
@@ -35,20 +33,7 @@ a:focus {  outline: none;
 .animated{
 	visibility: hidden;
 }
-.navbar-light .navbar-toggler:active { 
-    color: rgba(0,0,0,.5); 
-    border-color: #c87432; 
-}
-
-.nav-container { position: fixed;
-    top: 0;
-    left:0;
-    background-color: #4
-    z-index: 1000;
-    -webkit-transition: all 1.2s ease-in-out;
-    transition: all 1.2s ease-in-out;
-
-}
+.nav-container { position: fixed; top: 5px; left: -5px; background-color: #4a525f; z-index: 1000; -webkit-transition: all 1.2s ease-in-out; transition: all 1.2s ease-in-out; }
 
 .w-30 {
 width: 30%;
@@ -72,7 +57,6 @@ width: 30%;
 p {
     color: #121214;
     font-weight: 400;
-   /*font-size: 15px;*/ 
     line-height: 21px;
     letter-spacing: 1px;
     text-align: left;
@@ -80,47 +64,83 @@ p {
 .bg { 
     background-repeat: no-repeat; 
     background-position: center center; 
-    background-size: cover;
+    background-size: cover; 
 }
-.color {
-    color: #c87432;
-}
-
-.colorRGBA{
-color:rgba(200,116,50,0.7);
-}                        
-.softwhite{
-color:#FAFAFA;
-}
-.whitegray-bg{
-color:#EBEBEB;
-}
-.gray {
-color: #bdbdbd;
-}
-.silver{
-color:#CCCCCC;
-}
-.dark{
-    color:#888888;
-}
-.black{
-    color:#121214;
-}
-.text-muted { 
-    color: #888888;
-}
+.color { color: #c87432; }
+.colorRGBA{ color:rgba(200,116,50,0.7); }                        
+.softwhite{ color:#FAFAFA;  }
+.whitegray-bg{ color:#ebebeb; }
+.gray {color: #bdbdbd; }
+.silver { color: #dddada; }
+.dark{color:#888888; }
+.black{ color:#121214; }
 .mob-center > .img-responsive{
-	display: inline-block;
+	display: inline-block; }
+
+/****  page begins   ****
+.baner-top { position: sticky; 
+    top: 0; 
+    border-top: 5px ridge #c87432; 
+    background-color: #353b46;  
+    height: auto;
+    width: 100%;
+    max-width: 100%; }*/
+.home-heading { 
+    position: relative;
+    font-size: 1.5rem; 
+    letter-spacing: 7px; 
+    text-align: center; 
+    color: #c87432;  
+    padding-top: 0.7rem; 
+    padding-bottom: 0.9rem; }
+/****  navbar  ***/
+.navbar-toggler {
+   padding: 0;
+   width: 1.7rem;
+   height: 1.7em;
+   border: none;
+}
+.navbar-dark .navbar-brand { 
+    color: #c87432;
+    text-align: center;
+    font-size: 1.7rem;
+}
+.navbar-dark .navbar-toggler:active { 
+    color: rgba(0,0,0,.5); 
+    border-color: none;  }
+.page-wrap {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+.page-wrap .section {
+    width: 100%;
+    height: 100%;
+}
+.container {
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+}
+.home-container { 
+    background-image:  url("../images/homepg/home-panel-04.jpg");
+    height: 100%;
+    min-height: 480px;/*height: 500px; animation for sliding*/
+   
+
+}
+.home-msg { 
+  text-align: center;
+      
 }
 .page-heading, .sub-heading {
-    font-size: 22px;
     font-size: 1.5rem;
-    letter-spacing: 4px;
+    letter-spacing: 7px;
     text-align: center;    
     color: #c87432;
-    padding-top: 2rem;
-    margin-bottom: 1rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.9rem;
 }
 .sub-heading{
     font-size: 2rem;
@@ -152,24 +172,6 @@ color:#CCCCCC;
 	background:url(../images/poster.jpg) center center no-repeat !important;
 	background-size: cover !important;
 }*/
-.mastwrap { 
-    width: 100%;
-    height: auto;
-    display: block;
-    overflow-x: hidden;
-}
-.home-img {
-    background-image: url(../images/homepg/home-panel-04.jpg);
-    height: 600px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  /* min-height: 100%;
-    min-width: 1024px;
-    width: 100%;
-    overflow: hidden;*/ 
-}
-
 /***   works wrap    ****/
 .works-wrap {
     position: relative;
@@ -178,7 +180,7 @@ color:#CCCCCC;
     padding-bottom: 50px;
 
 }
-.works-desc, .home-msg { 
+.works-desc { 
     position: relative;
     background-color:rgba(210, 210, 210, 0.5);
     padding: 30px;
@@ -187,12 +189,7 @@ color:#CCCCCC;
     -moz-transition: all 0.55s ease-out; 
     transition: all 0.55s ease-out; 
 }
-.home-msg {
-position: absolute;
-    right: 0;
-    bottom: 6%;
-    z-index: 1050;
-}
+
 .works-img-wrap {
     top: -4rem;
 }
@@ -572,15 +569,6 @@ iframe, object, embed {
 .space-left{
     margin-left: 1%;
 }
-
-.onepage-wrapper {
-    width: 100%;
-    height: 100%;
-    display: block;
-    position: relative;
-    padding: 0;
-    -webkit-transform-style: preserve-3d;
-}
 /*ABOUT*/
 .about-bg {
     background-color: #ebebeb;
@@ -594,12 +582,17 @@ iframe, object, embed {
     body { background-color: aqua; }
 }
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { body { background-color: blueviolet; }
-    .col-md-8 { max-width: 100%; }
+@media (min-width: 768px) {
+    body { background-color: blueviolet; }
+    .home-heading, .page-heading, .sub-heading { font-size: 2rem;    
+    }
 }
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 922px) { body { background-color: darksalmon; }
+@media (min-width: 922px) { 
+    body { background-color: darksalmon; }
 }
 /* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { body { background-color: navajowhite; }
+@media (min-width: 1200px) { 
+    body { background-color: navajowhite; }
 }
+* { outline: 1px solid red; }
