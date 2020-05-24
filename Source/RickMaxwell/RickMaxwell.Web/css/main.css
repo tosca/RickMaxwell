@@ -107,6 +107,11 @@ p {
     color: rgba(0,0,0,.5); 
     border-color: none;  
 }
+
+.nav-link a {
+    color: #c87432;    
+}
+.nav-link a:hover { color: #4a525f; }
 .collapse.show { 
     text-align: right;
     background-color: none;
@@ -134,7 +139,7 @@ p {
     background-size: contain;
     background-position: center 20%;
     height: 100%;
-    min-height: 150px; /*height: 500px; animation for sliding*/ }
+    min-height: 250px; }
 
 .page-heading, .sub-heading {
     font-size: 1.5rem;
@@ -563,4 +568,4 @@ iframe, object, embed {
     body { background-color: navajowhite; }
     .home-container {min-height: 400px; }
 }
-* { outline: 1px solid red; }
+/* * { outline: 1px solid red; }*/
