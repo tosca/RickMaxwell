@@ -90,7 +90,7 @@ p {
 .navbar, .page-item { 
     border-top: 4px solid #c87432;
  }
-.navbar-dark .navbar-brand { color: #c87432; font-size: 1.7rem; text-align: center; letter-spacing: .4rem; }
+.navbar-dark .navbar-brand { color: #c87432; font-size: 1.7rem; text-align: center; letter-spacing: .4rem; padding: 0 10px }
     .navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover { color: #a5622e; }
 .navbar-dark .navbar-toggler:active { 
     color: rgba(0,0,0,.5); 
@@ -293,7 +293,7 @@ iframe, object, embed {
 }
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 922px) { 
-   .home-container { min-height: 27rem; }
+   .home-container { min-height: 20rem; }
 }
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
