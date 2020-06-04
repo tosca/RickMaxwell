@@ -228,12 +228,18 @@ p {
 	display: block;
 }
 /*CONTACT*/
+.no-bg { 
+    background-color: transparent;
+}
 .contact-bg {
     background-image: url(../images/background/bending-03.png);
      background-position: 30% top;
      background-repeat: no-repeat; 
      background-size: cover;
      background-attachment: fixed;
+     width: 100vw;
+     height: 100vh;
+     z-index: -10;
 }
 .contact h1 {
     color:silver;
