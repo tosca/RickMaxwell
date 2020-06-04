@@ -270,9 +270,7 @@ iframe, object, embed {
     line-height: 32px;
     text-transform: uppercase;
 }
-.address-heading a {
-    color: #d2d2d2;
-}
+    .address-heading a { color: #d2d2d2; color: #795548; }
     .address-heading a:hover, .address-heading a:focus {
         color: #c87432;
     }
