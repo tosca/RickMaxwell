@@ -53,12 +53,8 @@ p {
 .small { 
     font-size: 60%;
 }
-    
-.bg { 
-    background-repeat: no-repeat; 
-    background-position: center center; 
-    background-size: cover; 
-}
+
+.bg { overflow: hidden; background-repeat: no-repeat; background-position: center center; background-attachment: scroll; background-size: cover; }
 .bg-collapse { 
     background-color: rgba(210, 210, 210, 1);
 }
@@ -250,10 +246,7 @@ p {
 	line-height: 34px;
     color: #c87432;
 }
-.contact-info{
-    padding-top: 20px;
-    color:#d2d2d2;
-}
+.contact-info { padding-top: 20px; color: #d2d2d2; z-index: 55; backface-visibility: hidden; }
 .contact-info a { color: #c87432; }
     .contact-info a:hover, .contact-info a:focus {
         color: #444;
@@ -270,7 +263,7 @@ iframe, object, embed {
     line-height: 32px;
     text-transform: uppercase;
 }
-    .address-heading a { color: #d2d2d2; color: #795548; }
+    .address-heading a { color: #d2d2d2; }
     .address-heading a:hover, .address-heading a:focus {
         color: #c87432;
     }
