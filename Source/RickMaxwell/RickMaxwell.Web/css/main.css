@@ -6,7 +6,6 @@ html { box-sizing: border-box; }
 /**, *:before, *:after { box-sizing: inherit; }*/
 
 body, .page-wrap, html { display: block; position: static; padding: 0; width: 100%; height: 100%; font-family: 'Open Sans', sans-serif; font-weight: 400; overflow-x: hidden; -webkit-overflow-scrolling: touch; background-color: #dad7d7; }
-
 .row {
     margin-left: -15px;
     margin-right: -15px;
@@ -15,15 +14,11 @@ img {
     width:100%;
     height: auto;
 }
-.selector-for-some-widget { box-sizing: content-box; }
 
 a, a:hover, a:focus { text-decoration: none; }
-a:focus {  outline: none; 
-}
+a:focus {  outline: none; }
 .animated{
-	visibility: hidden;
-}
-
+	visibility: hidden;}
 .w-30 {
 width: 30%;
 }
@@ -51,10 +46,9 @@ p {
     text-align: left;
 }
 .small { 
-    font-size: 60%;
+    font-size: 55%;
 }
-
-.bg { overflow: hidden; background-repeat: no-repeat; background-position: center center; background-attachment: scroll; background-size: cover; }
+.bg { overflow: hidden; background-repeat: no-repeat; background-position: center 15%; background-attachment: fixed; background-size: contain; min-height: 140px;}
 .bg-collapse { 
     background-color: rgba(210, 210, 210, 1);
 }
@@ -107,9 +101,8 @@ p {
     clear: both;
 }
 .page-wrap {
-    margin-top: 110px;
-  /*  padding: 50px 0 0 0;*/
- position: relative; 
+    margin-top: 80px; 
+    position: relative; 
 }
 .page-wrap .section { position: relative !important; top: auto !important; left: auto !important; }
 .home-page {
@@ -163,7 +156,6 @@ p {
     width: 100%;
     display: inline-block;
     padding-bottom: 50px;
-
 }
 .works-desc { position: relative; background-color: rgb(52, 58, 64); padding: 17px; top: 17%; /*-webkit-transform: translateY(-10%); -ms-transform: translateY(-10%); transform: translateY(-10%);*/ }
     .works-desc p { color: rgba(255,255,255,.7); }
@@ -186,14 +178,6 @@ p {
 	font-weight: 200;
 	bottom: 1rem;
 }
-.showcase-carousel{
-	cursor: url("../images/drag.png") 40 40, crosshair;
-    -webkit-transition: all .4s ease-in-out;
-       -moz-transition: all .4s ease-in-out;
-         -o-transition: all .4s ease-in-out;
-            transition: all .4s ease-in-out;
-}
-
 .about-bg{
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -223,18 +207,12 @@ p {
 .profile-list li a{
 	display: block;
 }
-/*CONTACT*/
-.no-bg { 
-    background-color: transparent;
-}
 .contact-bg {
     background-image: url(../images/background/bending-03.png);
      background-position: 30% top;
      background-repeat: no-repeat; 
      background-size: cover;
      background-attachment: fixed;
-     width: 100vw;
-     height: 100vh;
      z-index: -10;
 }
 .contact h1 {
@@ -280,21 +258,21 @@ iframe, object, embed {
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-
+    .home-container, .bg { min-height: 19rem; }
 }
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    .home-container { background-position: center 20%; min-height: 19rem; }
+    .home-container, .bg { background-position: center 15%; min-height: 20rem; }
     .home-heading, .page-heading { font-size: 2rem;}
     .sub-heading { font-size: 1.5rem;} 
 }
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 922px) { 
-   .home-container { min-height: 20rem; }
+   .home-container, .bg { min-height: 22rem; }
 }
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-    .home-container { background-position: center 30%;  min-height: 28rem; }
+    .home-container, .bg { background-position: center 30%;  min-height: 34rem; }
     .statement { line-height: 26px; text-align: left; padding: 60px 60px 30px 60px; }
 }
 /* * { outline: 1px solid red; }*/
