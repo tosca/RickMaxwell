@@ -258,21 +258,27 @@ iframe, object, embed {
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-    .home-container, .bg { min-height: 19rem; }
+    .home-container, .bg { min-height: 19rem; background-attachment: initial; }
+    .bg { background-attachment: initial; }
+    .contact-bg { background-attachment: initial; }
 }
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
     .home-container, .bg { background-position: center 15%; min-height: 20rem; }
+    .bg { background-attachment: initial; }
     .home-heading, .page-heading { font-size: 2rem;}
-    .sub-heading { font-size: 1.5rem;} 
+    .sub-heading { font-size: 1.5rem;}
+    .contact-bg { background-attachment: initial;}
 }
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 922px) { 
-   .home-container, .bg { min-height: 22rem; }
+@media (min-width: 922px) {
+    .home-container, .bg { min-height: 22rem; background-attachment: fixed; }
+    .contact-bg { background-attachment: fixed; }
 }
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-    .home-container, .bg { background-position: center 30%;  min-height: 34rem; }
+    .home-container, .bg { background-position: center 30%; min-height: 34rem; background-attachment: fixed; }
     .statement { line-height: 26px; text-align: left; padding: 60px 60px 30px 60px; }
+    .contact-bg { background-attachment: fixed; }
 }
 /* * { outline: 1px solid red; }*/
