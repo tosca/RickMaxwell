@@ -211,7 +211,7 @@ p {
     background-image: url(../images/background/bending-03.png);
      background-position: 30% top;
      background-repeat: no-repeat; 
-     background-size: cover;
+     background-size: contain;
   /*  background-attachment: fixed;*/ 
      background-color: transparent !important; 
      min-height: inherit;
