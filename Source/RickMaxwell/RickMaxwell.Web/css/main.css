@@ -213,7 +213,7 @@ p {
      background-repeat: no-repeat; 
      background-size: cover;
      background-attachment: fixed;
-     z-index: -10;
+     background-color: transparent !important; 
 }
 .contact h1 {
     color:silver;
