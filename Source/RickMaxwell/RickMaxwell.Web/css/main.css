@@ -206,7 +206,7 @@ p {
     background-image: url(../images/background/bending-03.png);
      background-position: 30% top;
      background-repeat: no-repeat; 
-     background-size: contain;
+     background-size: cover;
   /*  background-attachment: fixed;*/ 
      background-color: transparent !important; 
      min-height: inherit;
@@ -238,21 +238,15 @@ iframe, object, embed {
     line-height: 32px;
     text-transform: uppercase;
 }
-    .address-heading a { color: #d2d2d2; }
-    .address-heading a:hover, .address-heading a:focus {
-        color: #c87432;
-    }
+    .address-heading a { color: #a29a9a; }
+        .address-heading a:hover, .address-heading a:focus { color: #c87432; }
 .btn-wrap{
     margin-top: 60px;
-}
-.space-left{
-    margin-left: 1%;
 }
 /*ABOUT*/
 .about-bg {
     background-color: #ebebeb;
 }
-
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
     .home-container { background-position: center 15%; min-height: 25rem; background-attachment: initial; }
