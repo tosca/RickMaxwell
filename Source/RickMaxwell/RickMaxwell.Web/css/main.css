@@ -78,7 +78,7 @@ p {
 .navbar, .page-item { 
     border-top: 4px solid #c87432;
  }
-.navbar-dark .navbar-brand { color: #c87432; font-size: 1.7rem; text-align: center; letter-spacing: .4rem; padding: 0 10px }
+.navbar-dark .navbar-brand { color: #c87432; font-size: 1.7rem; text-align: center; letter-spacing: .4rem; line-height: 1.1; padding: 0 10px }
     .navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover { color: #a5622e; }
 .navbar-dark .navbar-toggler:active { 
     color: rgba(0,0,0,.5); 
@@ -111,13 +111,13 @@ p {
     width: 100%;
 }
 .home-container { 
-    background-image: url("../images/homepg/home-panel-portrait.jpg");
+    background-image: url("../images/homepg/home-panel-portrait2.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center 18%;
     height: 100%;
-    min-height: 11rem; }
+    min-height: 16rem; }
 
 .page-heading, .sub-heading {
     font-size: 1.5rem;
@@ -207,7 +207,7 @@ p {
      background-position: 30% top;
      background-repeat: no-repeat; 
      background-size: cover;
-  /*  background-attachment: fixed;*/ 
+  background-attachment: initial;
      background-color: transparent !important; 
      min-height: inherit;
      height: 100%;
@@ -265,7 +265,7 @@ iframe, object, embed {
 } 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-    .home-container { background-position: center 50%; min-height: 42rem; }
+    .home-container { background-position: center 50%; min-height: 43rem; }
     .statement { line-height: 26px; text-align: left; padding: 60px 60px 30px 60px; }   
 }
 /* * { outline: 1px solid red; }*/
