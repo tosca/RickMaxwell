@@ -45,9 +45,7 @@ p {
     letter-spacing: 1px;
     text-align: left;
 }
-.small { 
-    font-size: 55%;
-}
+
 .bg { overflow: hidden; background-repeat: no-repeat; background-position: center 15%; background-attachment: fixed; background-size: contain; min-height: 140px;}
 .bg-collapse { 
     background-color: rgba(210, 210, 210, 1);
@@ -101,14 +99,11 @@ p {
     clear: both;
 }
 .page-wrap {
-    margin-top: 80px; 
+    padding-top: 90px; 
     position: relative; 
 }
-.page-wrap .section { position: relative !important; top: auto !important; left: auto !important; }
-.home-page {
-    margin-top: 0;
-}
-.page-item { padding: 75px 0 0 0; display: block; overflow: hidden; position: relative; width: 100%; }
+/*.page-wrap .section { position: relative; top: auto; left: auto; }*/
+.page-item { padding: 70px 0 0 0; display: block; overflow: hidden; position: relative; width: 100%; }
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -116,13 +111,13 @@ p {
     width: 100%;
 }
 .home-container { 
-    background-image: url("../images/homepg/home-panel-10.jpg");
+    background-image: url("../images/homepg/home-panel-portrait.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center 30%;
+    background-position: center 18%;
     height: 100%;
-    min-height: 19rem; }
+    min-height: 11rem; }
 
 .page-heading, .sub-heading {
     font-size: 1.5rem;
@@ -260,27 +255,23 @@ iframe, object, embed {
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-    .home-container, .bg { min-height: 19rem; background-attachment: initial; }
-    .bg { background-attachment: initial; }
+    .home-container { background-position: center 15%; min-height: 25rem; background-attachment: initial; }
     .contact-bg { background-attachment: initial; }
 }
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    .home-container, .bg { background-position: center 15%; min-height: 20rem; }
-    .bg { background-attachment: initial; }
+    .home-container { min-height: 25rem; }
     .home-heading, .page-heading { font-size: 2rem;}
     .sub-heading { font-size: 1.5rem;}
-    .contact-bg { background-attachment: initial;}
 }
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 922px) {
-    .home-container, .bg { min-height: 22rem; background-attachment: fixed; }
+    .home-container { background-image: url("../images/homepg/home-panel-10.jpg"); background-position: center 30%; background-attachment: fixed; min-height: 22rem; }
     .contact-bg { background-attachment: fixed; }
-}
+} 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-    .home-container, .bg { background-position: center 30%; min-height: 34rem; background-attachment: fixed; }
-    .statement { line-height: 26px; text-align: left; padding: 60px 60px 30px 60px; }
-    .contact-bg { background-attachment: fixed; }
+    .home-container { background-position: center 50%; min-height: 42rem; }
+    .statement { line-height: 26px; text-align: left; padding: 60px 60px 30px 60px; }   
 }
 /* * { outline: 1px solid red; }*/
