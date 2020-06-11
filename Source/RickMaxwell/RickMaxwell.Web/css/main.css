@@ -14,8 +14,7 @@ img {
     width:100%;
     height: auto;
 }
-
-a, a:hover, a:focus { text-decoration: none; }
+.btn-group-lg > .btn, .btn-lg { padding: .5rem 1rem; font-size: 1.1rem; }
 a:focus {  outline: none; }
 .animated{
 	visibility: hidden;}
