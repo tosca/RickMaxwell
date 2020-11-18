@@ -34,13 +34,7 @@ width: 30%;
 	display: block;
 	display: inline-block;
 }
-p {
-    color: #121214;
-    font-weight: 400;
-    line-height: 21px;
-    letter-spacing: 1px;
-    text-align: left;
-}
+
 
 .bg { overflow: hidden; background-repeat: no-repeat; background-position: center 15%; background-attachment: fixed; background-size: contain; min-height: 140px;}
 .bg-collapse { 
@@ -67,7 +61,7 @@ p {
 .navbar-dark .navbar-toggler:active { 
     color: rgba(0,0,0,.5); 
     border-color: none;  
-}
+} 
 .navbar-dark .navbar-nav .nav-link { color: rgba(255,255,255,.7); }
 
 .navbar-nav li {
@@ -111,7 +105,15 @@ p {
 .statement{
     line-height: 26px;
     text-align: left;
-    padding: 17px 17px;
+    padding: 17px;
+}
+.black-box { 
+    background-color: black;
+    padding:17px;
+}
+.black-box p{
+     color: rgba(255,255,255,.7);
+     line-height: 21px;
 }
 .signature img{ 
     position: absolute;
@@ -132,6 +134,17 @@ p {
     display: inline-block;
     padding-bottom: 50px;
 }
+.scrap-box { 
+background-color: rgba(255,255,255,.7);
+padding: 2%; 
+margin: 5%; 
+}
+.scrap-box h6 {
+    font-weight: 400;
+    line-height: 1.9rem;
+    letter-spacing: 2px;
+    text-align: left;
+}
 .works-desc { 
     position: relative; 
     background-color: rgb(52, 58, 64); 
@@ -139,7 +152,7 @@ p {
     top: 17%;
     margin-bottom: 17%;
 }
-.works-desc p { color: rgba(255,255,255,.7); }
+.works-desc p, .black-box h6 { color: rgba(255,255,255,.7); }
 .works-item {
     position: relative;
     padding-bottom: 60px;
@@ -255,6 +268,5 @@ iframe, object, embed {
 } 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-    .statement { line-height: 26px; text-align: left; padding: 60px 60px 30px 60px; }   
+    .statement { line-height: 28px; padding: 60px 60px 30px 60px; }   
 }
-/* * { outline: 1px solid red; }*/
