@@ -136,9 +136,9 @@ width: 30%;
 }
 .scrap-box { 
     background-color: rgba(204,201,197,.7); 
-    border: 3px solid #c87432;
+    border: 2px solid #c87432;
     padding: 4%; 
-    padding-bottom: 10%;
+    padding-bottom: 15%;
     margin: 20px 0;
 }
 .scrap-box h5, .scrap-box h6 {
@@ -159,7 +159,9 @@ width: 30%;
     position: relative;
     padding-bottom: 60px;
 }
-.works-item img { border: 0 0 5px 1px #888888; }
+.works-item img { 
+    padding: 0 20px;
+}
 #header{
     position:static;
     top: 0px;
