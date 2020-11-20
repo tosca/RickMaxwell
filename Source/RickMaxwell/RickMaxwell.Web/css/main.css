@@ -135,8 +135,7 @@ width: 30%;
     padding-bottom: 50px;
 }
 .scrap-box { 
-    background-color: rgba(204,201,197,.7); 
-    border: 2px solid #c87432;
+    border-top: 2px solid #c87432;
     padding: 4%; 
     padding-bottom: 15%;
     margin: 20px 0;
@@ -160,7 +159,6 @@ width: 30%;
     padding-bottom: 60px;
 }
 .works-item img { 
-    padding: 0 20px;
 }
 #header{
     position:static;
@@ -238,7 +236,7 @@ iframe, object, embed {
 .address-heading{
     padding: 10px;
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 2px;
     line-height: 32px;
     text-transform: uppercase;
@@ -268,7 +266,7 @@ iframe, object, embed {
 @media (min-width: 922px) {
     .contact-bg { background-attachment: fixed; }
     .home-container { background: url(../images/homepg/home-panel-10.jpg); background-position: 45% center; background-repeat: no-repeat; width: 100%; height: 600px; }
-   .works-item img { max-width: 80%; }
+   .works-item img { max-width: 65%; }
 } 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
