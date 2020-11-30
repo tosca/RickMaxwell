@@ -241,6 +241,7 @@
     <Content Include="images\wall\wall7.jpg" />
     <Content Include="images\wall\wall8.jpg" />
     <Content Include="images\wall\wall9.jpg" />
+    <Content Include="index - Copy.html" />
     <Content Include="index.html" />
     <Content Include="css\main.css" />
     <Content Include="Web.config" />
